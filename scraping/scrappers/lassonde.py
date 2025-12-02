@@ -1,294 +1,266 @@
 import json
 import re
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, Tag
 from typing import List, Dict, Any
 import html
+from pathlib import Path
 
-def parse_instructors(instructor_text: str) -> List[str]:
-    """
-    Parse instructor text and return a list of instructors.
-    Handles cases with <br> tags and other separators.
-    """
-    if not instructor_text or instructor_text.strip() == "":
+
+def norm_text(s: str) -> str:
+    if s is None:
+        return ""
+    s = html.unescape(s)
+    s = re.sub(r"\s+", " ", s)
+    return s.strip()
+
+
+def cell_text(el) -> str:
+    if el is None:
+        return ""
+    txt = el.get_text(" ", strip=True)
+    txt = txt.replace("\xa0", " ")
+    return norm_text(txt)
+
+
+def get_section_type(text: str) -> str:
+    t = norm_text(text).upper()
+    t_compact = re.sub(r"[^A-Z]", "", t)
+    mappings = [
+        ("LECT", "LECT"), ("LEC", "LECT"),
+        ("LAB", "LAB"),
+        ("TUTR", "TUTR"), ("TUT", "TUTR"),
+        ("SEMR", "SEMR"), ("SEMINAR", "SEMR"), ("SEM", "SEMR"),
+        ("WRKS", "WRKS"), ("WRK", "WRKS"), ("WORKSHOP", "WRKS"),
+        ("PRAC", "PRAC"), ("PRA", "PRAC"),
+        ("BLEN", "BLEN"), ("BLENDED", "BLEN"),
+        ("ONLN", "ONLN"), ("ONLINE", "ONLN"), ("ONL", "ONLN"),
+        ("COOP", "COOP"), ("COOPTERM", "COOP"), ("COOPWORKTERM", "COOP"),
+        ("ISTY", "ISTY"), ("INDEPENDENTSTUDY", "ISTY"), ("INDSTUDY", "ISTY"),
+        ("FDEX", "FDEX"), ("FIELDEXERCISE", "FDEX"),
+        ("INSP", "INSP"), ("INTERNSHIP", "INSP"),
+        ("RESP", "RESP"), ("RESEARCH", "RESP"),
+        ("STUDIO", "STUDIO"),
+        ("CLIN", "CLIN"), ("CLINICAL", "CLIN"),
+    ]
+    for pat, norm in mappings:
+        if pat in t_compact:
+            return norm
+    return ""
+
+
+def parse_instructors(instructor_html: str) -> List[str]:
+    if not instructor_html:
         return []
-    
-    # Replace <br> tags with a delimiter
-    instructor_text = re.sub(r'<br\s*/?>', '|', instructor_text, flags=re.IGNORECASE)
-    
-    # Split by common delimiters and clean up
-    instructors = re.split(r'[|,;&]', instructor_text)
-    
-    # Clean up each instructor name
-    cleaned_instructors = []
-    for instructor in instructors:
-        # Remove HTML tags
-        clean_instructor = re.sub(r'<[^>]+>', '', instructor)
-        
-        # Decode HTML entities (like &nbsp;, &amp;, etc.)
-        clean_instructor = html.unescape(clean_instructor)
-        
-        # Remove common HTML entities that might not be decoded
-        clean_instructor = re.sub(r'&nbsp;?', '', clean_instructor, flags=re.IGNORECASE)
-        clean_instructor = re.sub(r'&amp;?', '', clean_instructor, flags=re.IGNORECASE)
-        clean_instructor = re.sub(r'&lt;?', '', clean_instructor, flags=re.IGNORECASE)
-        clean_instructor = re.sub(r'&gt;?', '', clean_instructor, flags=re.IGNORECASE)
-        
-        # Remove extra whitespace and normalize
-        clean_instructor = re.sub(r'\s+', ' ', clean_instructor).strip()
-        
-        # Only add if it's not empty and not just "nbsp" or similar artifacts
-        if clean_instructor and clean_instructor.lower() not in ['nbsp', 'amp', 'lt', 'gt', '&', '<', '>']:
-            cleaned_instructors.append(clean_instructor)
-    
-    return cleaned_instructors
+    text = re.sub(r"<br\s*/?>", "|", instructor_html, flags=re.IGNORECASE)
+    text = re.sub(r"<[^>]+>", " ", text)
+    text = html.unescape(text)
+    parts = re.split(r"[|,;&]", text)
+    out: List[str] = []
+    for p in parts:
+        name = norm_text(p)
+        if name and name.lower() not in {"nbsp", "amp", "lt", "gt"}:
+            out.append(name)
+    return out
+
+
+def parse_notes(notes_html: str) -> str:
+    if not notes_html:
+        return ""
+    s = re.sub(r"<br\s*/?>", " | ", notes_html, flags=re.IGNORECASE)
+    s = re.sub(r"<[^>]+>", " ", s)
+    s = html.unescape(s)
+    s = re.sub(r"\s+", " ", s)
+    return s.strip(" |")
+
 
 def clean_room(room_text: str) -> str:
-    """
-    Clean room text by removing HTML entities and extra whitespace.
-    Returns empty string if room is just nbsp or similar artifacts.
-    """
-    if not room_text:
-        return ""
-    
-    # Decode HTML entities
-    clean_room = html.unescape(room_text)
-    
-    # Remove common HTML entities that might not be decoded
-    clean_room = re.sub(r'&nbsp;?', '', clean_room, flags=re.IGNORECASE)
-    clean_room = re.sub(r'&amp;?', '', clean_room, flags=re.IGNORECASE)
-    clean_room = re.sub(r'&lt;?', '', clean_room, flags=re.IGNORECASE)
-    clean_room = re.sub(r'&gt;?', '', clean_room, flags=re.IGNORECASE)
-    
-    # Remove HTML tags
-    clean_room = re.sub(r'<[^>]+>', '', clean_room)
-    
-    # Normalize whitespace
-    clean_room = re.sub(r'\s+', ' ', clean_room).strip()
-    
-    # Return empty string if it's just artifacts or meaningless content
-    if clean_room.lower() in ['nbsp', 'amp', 'lt', 'gt', '&', '<', '>', '']:
-        return ""
-    
-    return clean_room
+    s = norm_text(room_text)
+    return s
 
-def parse_notes(notes_text: str) -> str:
-    """
-    Parse and clean notes text, preserving links but removing extra HTML.
-    """
-    if not notes_text:
-        return ""
-    
-    # Decode HTML entities
-    notes_text = html.unescape(notes_text)
-    
-    # Clean up but preserve links
-    # Remove &nbsp; but keep other content
-    notes_text = re.sub(r'&nbsp;', ' ', notes_text)
-    notes_text = re.sub(r'<br\s*/?>', ' ', notes_text, flags=re.IGNORECASE)
-    
-    # Normalize whitespace
-    notes_text = re.sub(r'\s+', ' ', notes_text).strip()
-    
-    return notes_text
 
 def parse_course_timetable_html(html_content: str) -> Dict[str, Any]:
-    """
-    Parse York University course timetable HTML into structured JSON.
-    Handles multiple courses and multiple course variants within the same course.
-    """
-    # Extract metadata using regex
-    title_match = re.search(r'<font color=\'#CC0000\'>(.*?)</font>', html_content)
-    title = title_match.group(1) if title_match else ""
+    soup = BeautifulSoup(html_content, "html.parser")
+
+    title = cell_text(soup.select_one("p.heading"))
+    last_updated = ""
+    for p in soup.select("p.bodytext"):
+        strong = p.find("strong")
+        if strong:
+            last_updated = cell_text(strong)
+            break
+
+    table = soup.find("table")
+    if not table:
+        return {"metadata": {"title": title, "lastUpdated": last_updated, "source": "York University"}, "courses": []}
+
+    # A header row has 4 bodytext TDs and the 4th has colspan
+    def is_header_row(tr) -> bool:
+        tds_body = tr.find_all("td", class_="bodytext", recursive=False)
+        return len(tds_body) >= 4 and tds_body[3].has_attr("colspan")
+
+    courses: List[Dict[str, Any]] = []
     
-    updated_match = re.search(r'last updated on <strong>(.*?)</strong>', html_content)
-    last_updated = updated_match.group(1) if updated_match else ""
-    
-    courses = []
-    
-    # Find all course headers using regex
-    course_header_pattern = r'<td class=\'bodytext\'><strong>(\w+)</strong></td>\s*<td class=\'bodytext\'><strong>(\w+)\s*</strong></td>\s*<td class=\'bodytext\'><strong>(\w+)\s*</strong></td>\s*<td colspan=\'8\' class=\'bodytext\'><strong>(.*?)</strong></td>'
-    course_headers = re.findall(course_header_pattern, html_content)
-    
-    # Split HTML content by course headers to process each course separately
-    course_sections = re.split(course_header_pattern, html_content)
-    
-    # Process each course
-    for i in range(len(course_headers)):
-        faculty, department, term, course_title = course_headers[i]
-        
-        # Get the HTML section for this course
-        course_content_index = (i * 5) + 5
-        if course_content_index < len(course_sections):
-            course_html = course_sections[course_content_index]
-        else:
-            continue
-        
-        # Find all course variants (different modes) within this course
-        course_variant_pattern = r'<td class=\'smallbodytext\'>(\d+)\s+&nbsp;([\d.]+)&nbsp;(\w+)&nbsp;</td>'
-        course_variants = re.findall(course_variant_pattern, course_html)
-        
-        if not course_variants:
-            continue
-        
-        # For courses with multiple variants, we'll create separate entries or combine them
-        # Let's combine them into one course with multiple section groups
-        
-        course = {
-            "faculty": faculty,
-            "department": department,
-            "term": term.strip(),
-            "courseTitle": course_title,
-            "courseId": course_variants[0][0],  # Use the first course ID
-            "credits": course_variants[0][1],   # Use the first credits
-            "modes": list(set([variant[2] for variant in course_variants])),  # All unique modes
+    # Collect all header rows across the table (handles imperfect HTML nesting)
+    header_rows = [tr for tr in table.find_all("tr") if is_header_row(tr)]
+
+    for header in header_rows:
+        header_tds = header.find_all("td", class_="bodytext", recursive=False)
+        course: Dict[str, Any] = {
+            "faculty": cell_text(header_tds[0]),
+            "department": cell_text(header_tds[1]),
+            "term": cell_text(header_tds[2]),
+            "courseTitle": cell_text(header_tds[3]),
+            "courseId": "",
+            "credits": "",
+            "section": "",
             "languageOfInstruction": "",
-            "sections": []
+            "sections": [],
         }
-        
-        # Extract language of instruction
-        loi_pattern = r'<td class=\'smallbodytext\'>(\w+)</td>'
-        loi_match = re.search(loi_pattern, course_html)
-        if loi_match:
-            course["languageOfInstruction"] = loi_match.group(1)
-        
-        # Extract all sections (LECT, TUTR, LAB, SEMR)
-        section_patterns = [
-            (r'<td class=\'smallbodytext\'>LECT&nbsp;</td>\s*<td class=\'smallbodytext\'>(\d+)&nbsp;</td>\s*<td class=\'smallbodytext\'>(.*?)&nbsp;</td>', 'LECT'),
-            (r'<td class=\'smallbodytext\'>TUTR&nbsp;</td>\s*<td class=\'smallbodytext\'>(\d+)&nbsp;</td>\s*<td class=\'smallbodytext\'>(.*?)&nbsp;</td>', 'TUTR'),
-            (r'<td class=\'smallbodytext\'>LAB\s*&nbsp;</td>\s*<td class=\'smallbodytext\'>(\d+)&nbsp;</td>\s*<td class=\'smallbodytext\'>(.*?)&nbsp;</td>', 'LAB'),
-            (r'<td class=\'smallbodytext\'>SEMR&nbsp;</td>\s*<td class=\'smallbodytext\'>(\d+)&nbsp;</td>\s*<td class=\'smallbodytext\'>(.*?)&nbsp;</td>', 'SEMR'),
-            (r'<td class=\'smallbodytext\'>ONLN&nbsp;</td>\s*<td class=\'smallbodytext\'>(\d+)&nbsp;</td>\s*<td class=\'smallbodytext\'>(.*?)&nbsp;</td>', 'ONLN')
-        ]
-        
-        # Extract all schedule entries
-        schedule_pattern = r'<td class=\'smallbodytext\' width=10%>([MTWRF])</td><td class=\'smallbodytext\' width=25%>([\d:]+)</td><td class=\'smallbodytext\' width=20%>(\d+)</td><td class=\'smallbodytext\' width=10%>(\w+)</td><td class=\'smallbodytext\' width=35%>(.*?)\s*</td>'
-        all_schedules = re.findall(schedule_pattern, course_html)
-        
-        # Extract instructor information
-        instructor_pattern = r'<td width=\'10%\' class=\'smallbodytext\'>(.*?)</td>'
-        instructor_matches = re.findall(instructor_pattern, course_html, re.DOTALL)
-        
-        # Extract notes information
-        notes_pattern = r'<td class=\'smallbodytext\'>(.*?)</td></tr>'
-        notes_matches = re.findall(notes_pattern, course_html, re.DOTALL)
-        
-        schedule_index = 0
-        instructor_index = 0
-        notes_index = 0
-        
-        # Process each section type
-        for pattern, section_type in section_patterns:
-            section_matches = re.findall(pattern, course_html)
-            
-            for meet_num, cat_num in section_matches:
-                # Determine how many schedule entries this section has
-                if section_type in ['LECT']:
-                    # Lectures typically have 1 schedule entry for this course
-                    schedule_count = 1
-                elif section_type in ['TUTR', 'LAB', 'SEMR']:
-                    # Tutorials, labs, seminars typically have 1 schedule entry
-                    schedule_count = 1
-                else:
-                    schedule_count = 1
-                
-                # Extract schedule for this section
-                section_schedule = []
-                for j in range(schedule_count):
-                    if schedule_index + j < len(all_schedules):
-                        day, time, duration, campus, room = all_schedules[schedule_index + j]
-                        cleaned_room = clean_room(room)  # Clean the room field
-                        section_schedule.append({
-                            "day": day,
-                            "time": time,
-                            "duration": duration,
-                            "campus": campus,
-                            "room": cleaned_room
-                        })
-                
-                schedule_index += schedule_count
-                
-                # Get instructors for this section
-                instructors = []
-                if section_type in ['LECT', 'SEMR'] and instructor_index < len(instructor_matches):
-                    instructor_text = instructor_matches[instructor_index]
-                    instructors = parse_instructors(instructor_text)
-                    instructor_index += 1
-                
-                # Get notes for this section
-                notes = ""
-                # Look for notes that contain meaningful content (not just empty or backup)
-                for note_match in notes_matches:
-                    if any(keyword in note_match.lower() for keyword in ['section', 'program', 'apply', 'backup']):
-                        notes = parse_notes(note_match)
+        allowed_section_types = ["LECT", "SEMR", "ONLN", "BLEN", "COOP", "ISTY"]
+
+        # Walk forward in document order until the next header row.
+        # This tolerates malformed HTML where section rows aren't proper siblings.
+        for el in header.next_elements:
+            if not isinstance(el, Tag):
+                continue
+            if el is header:
+                continue
+            if el.name != "tr":
+                continue
+            if is_header_row(el):
+                break
+
+            tds = el.find_all("td", recursive=False)
+            if not tds:
+                continue
+
+            type_idx = None
+            for idx, td in enumerate(tds):
+                if get_section_type(cell_text(td)):
+                    type_idx = idx
+                    break
+            if type_idx is None:
+                continue
+
+            # Capture summary and LOI if present to the left of type
+            if not course["courseId"] or not course["credits"] or not course["section"]:
+                summary_re = re.compile(r"(\d{3,4})\s+([0-9]+\.[0-9]{2})\s*([A-Z0-9]?)")
+                for j in range(type_idx - 1, -1, -1):
+                    m = summary_re.search(cell_text(tds[j]))
+                    if m:
+                        cid, credits, mode = m.group(1), m.group(2), m.group(3)
+                        if cid and not course["courseId"]:
+                            course["courseId"] = cid
+                        if credits and not course["credits"]:
+                            course["credits"] = credits
+                        if mode and not course["section"]:
+                            course["section"] = mode
                         break
+
+            if not course["languageOfInstruction"]:
+                for j in range(type_idx - 1, -1, -1):
+                    tok = cell_text(tds[j])
+                    if 1 < len(tok) <= 3 and tok.isupper() and tok.isalpha():
+                        course["languageOfInstruction"] = tok
+                        break
+
+            section_type = get_section_type(cell_text(tds[type_idx]))
+            # Build a detail object for the current row
+            def build_detail():
+                schedule: List[Dict[str, str]] = []
+                catalog_cell = tds[type_idx + 2] if len(tds) > type_idx + 2 else None
+                schedule_cell = tds[type_idx + 3] if len(tds) > type_idx + 3 else None
+                instructors: List[str] = []
+                notes = ""
                 
-                # Add section
-                section = {
-                    "type": section_type,
-                    "meetNumber": meet_num,
-                    "catalogNumber": cat_num.strip(),
-                    "schedule": section_schedule,
-                    "instructors": instructors,
-                    "notes": notes
-                }
-                course["sections"].append(section)
-        
+                catalog_num = cell_text(catalog_cell) if catalog_cell else ""
+                is_cancelled = catalog_num.lower() == "cancelled"
+                
+                if schedule_cell is not None:
+                    inner = schedule_cell.find("table")
+                    if inner:
+                        for s_tr in inner.find_all("tr"):
+                            s_tds = s_tr.find_all("td")
+                            if len(s_tds) >= 5:
+                                entry = {
+                                    "day": cell_text(s_tds[0]),
+                                    "time": cell_text(s_tds[1]),
+                                    "duration": cell_text(s_tds[2]),
+                                    "campus": cell_text(s_tds[3]),
+                                    "room": clean_room(cell_text(s_tds[4])),
+                                }
+                                if any(entry.values()):
+                                    schedule.append(entry)
+                    else:
+                        txt = cell_text(schedule_cell)
+                        if txt and txt.lower() != "cancelled":
+                            schedule.append({"day": "", "time": txt, "duration": "", "campus": "", "room": ""})
+                    
+                    # Due to malformed HTML, instructor and notes TDs are nested inside schedule_cell
+                    nested_tds = schedule_cell.find_all("td", recursive=False)
+                    if len(nested_tds) >= 1:
+                        instructors = parse_instructors(nested_tds[0].decode_contents())
+                    if len(nested_tds) >= 2:
+                        notes = parse_notes(nested_tds[1].decode_contents())
+                
+                # For cancelled entries, notes may be in a separate TD after schedule_cell
+                # The HTML has malformed structure where instructor and notes TDs may be siblings
+                if is_cancelled and not notes:
+                    # Try multiple positions as the HTML structure varies
+                    for offset in [4, 5]:
+                        if len(tds) > type_idx + offset:
+                            potential_notes = parse_notes(tds[type_idx + offset].decode_contents())
+                            if potential_notes and potential_notes.strip():
+                                notes = potential_notes
+                                break
+
+                return schedule, instructors, notes
+
+            # All section types go into sections array
+            schedule, instructors, notes = build_detail()
+            detail = {
+                "type": section_type,
+                "meetNumber": cell_text(tds[type_idx + 1]) if len(tds) > type_idx + 1 else "",
+                "catalogNumber": cell_text(tds[type_idx + 2]) if len(tds) > type_idx + 2 else "",
+                "schedule": schedule,
+                "instructors": instructors,
+                "notes": notes,
+            }
+            if section_type or detail["meetNumber"] or detail["catalogNumber"] or detail["schedule"] or detail["instructors"] or detail["notes"]:
+                course["sections"].append(detail)
+
         courses.append(course)
-    
+
     return {
-        "metadata": {
-            "title": title,
-            "lastUpdated": last_updated,
-            "source": "York University"
-        },
-        "courses": courses
+        "metadata": {"title": title, "lastUpdated": last_updated, "source": "York University"},
+        "courses": courses,
     }
 
+
 def main():
-    """
-    Main function to read HTML file and output JSON.
-    """
-    # Read HTML file
+    scraping_dir = Path(__file__).resolve().parents[1]
+    html_path = scraping_dir / "page_source" / "lassonde.html"
+    data_path = scraping_dir / "data" / "lassonde.json"
+
     try:
-        with open('scraping/page_source/lassonde.html', 'r', encoding='utf-8') as file:
-            html_content = file.read()
-    except FileNotFoundError:
-        print("Error: lassonde.html file not found")
-        print("Please save your HTML content to a file named 'lassonde.html'")
-        return
+        html_content = html_path.read_text(encoding="utf-8", errors="ignore")
     except Exception as e:
-        print(f"Error reading file: {e}")
+        print(f"Error reading HTML: {e}")
         return
-    
-    # Parse HTML
+
     try:
         result = parse_course_timetable_html(html_content)
-        
-        # Output JSON
-        json_output = json.dumps(result, indent=2, ensure_ascii=False)
-        
-        # Save to lassonde.json
-        with open('scraping/data/lassonde.json', 'w', encoding='utf-8') as file:
-            file.write(json_output)
-        
-        print("Successfully parsed HTML and saved to lassonde.json")
-        print(f"Found {len(result.get('courses', []))} courses")
-        
-        # Print course summary
-        for i, course in enumerate(result.get('courses', []), 1):
-            modes_str = ', '.join(course.get('modes', []))
-            print(f"{i}. {course['courseId']} - {course['courseTitle']} (Modes: {modes_str}) ({len(course['sections'])} sections)")
-            
-            # Print instructor info for each section
-            for section in course['sections']:
-                if section['instructors']:
-                    instructors_str = ', '.join(section['instructors'])
-                    print(f"   {section['type']} {section['meetNumber']}: {instructors_str}")
-        
+        data_path.parent.mkdir(parents=True, exist_ok=True)
+        data_path.write_text(json.dumps(result, indent=2, ensure_ascii=False), encoding="utf-8")
+        print(f"Saved: {data_path}")
+        print(f"Courses: {len(result.get('courses', []))}")
+        for i, c in enumerate(result.get('courses', []), 1):
+            print(f"{i}. {c.get('courseId','')} - {c.get('courseTitle','')} (Section: {c.get('section','')})")
     except Exception as e:
         print(f"Error parsing HTML: {e}")
         import traceback
         traceback.print_exc()
+
 
 if __name__ == "__main__":
     main()
