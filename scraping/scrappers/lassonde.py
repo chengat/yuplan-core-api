@@ -22,6 +22,16 @@ def cell_text(element) -> str:
     return norm_text(text)
 
 
+def html_to_text(html_fragment: str, br_separator: str = "|") -> str:
+    if not html_fragment:
+        return ""
+    text = re.sub(r"<br\s*/?>", br_separator, html_fragment, flags=re.IGNORECASE)
+    text = re.sub(r"<[^>]+>", " ", text)
+    text = html.unescape(text)
+    text = re.sub(r"\s+", " ", text)
+    return text.strip()
+
+
 def get_section_type(text: str) -> str:
     normalized_text = norm_text(text).upper()
     compact_text = re.sub(r"[^A-Z]", "", normalized_text)
@@ -51,9 +61,7 @@ def get_section_type(text: str) -> str:
 def parse_instructors(instructor_html: str) -> List[str]:
     if not instructor_html:
         return []
-    text = re.sub(r"<br\s*/?>", "|", instructor_html, flags=re.IGNORECASE)
-    text = re.sub(r"<[^>]+>", " ", text)
-    text = html.unescape(text)
+    text = html_to_text(instructor_html, br_separator="|")
     parts = re.split(r"[|,;&]", text)
     instructors_list: List[str] = []
     for part in parts:
@@ -66,10 +74,7 @@ def parse_instructors(instructor_html: str) -> List[str]:
 def parse_notes(notes_html: str) -> str:
     if not notes_html:
         return ""
-    text = re.sub(r"<br\s*/?>", " | ", notes_html, flags=re.IGNORECASE)
-    text = re.sub(r"<[^>]+>", " ", text)
-    text = html.unescape(text)
-    text = re.sub(r"\s+", " ", text)
+    text = html_to_text(notes_html, br_separator=" | ")
     return text.strip(" |")
 
 
