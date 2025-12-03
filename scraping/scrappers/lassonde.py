@@ -25,7 +25,7 @@ def cell_text(element) -> str:
 def get_section_type(text: str) -> str:
     normalized_text = norm_text(text).upper()
     compact_text = re.sub(r"[^A-Z]", "", normalized_text)
-    mappings = [
+    section_types = [
         ("LECT", "LECT"), ("LEC", "LECT"),
         ("LAB", "LAB"),
         ("TUTR", "TUTR"), ("TUT", "TUTR"),
@@ -42,7 +42,7 @@ def get_section_type(text: str) -> str:
         ("STUDIO", "STUDIO"),
         ("CLIN", "CLIN"), ("CLINICAL", "CLIN"),
     ]
-    for pattern, normalized_type in mappings:
+    for pattern, normalized_type in section_types:
         if pattern in compact_text:
             return normalized_type
     return ""
