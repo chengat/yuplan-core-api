@@ -7,6 +7,7 @@ from pathlib import Path
 
 
 def norm_text(text: str) -> str:
+    """Normalize text by unescaping HTML entities, collapsing whitespace, and trimming."""
     if text is None:
         return ""
     text = html.unescape(text)
@@ -15,6 +16,7 @@ def norm_text(text: str) -> str:
 
 
 def cell_text(element) -> str:
+    """Extract text from a BeautifulSoup element with normalized spacing and trimming."""
     if element is None:
         return ""
     text = element.get_text(" ", strip=True)
@@ -23,6 +25,12 @@ def cell_text(element) -> str:
 
 
 def html_to_text(html_fragment: str, br_separator: str = "|") -> str:
+    """Convert an HTML fragment to plain text.
+    - Replaces <br> with the given separator
+    - Strips all HTML tags
+    - Unescapes HTML entities
+    - Collapses whitespace and trims
+    """
     if not html_fragment:
         return ""
     text = re.sub(r"<br\s*/?>", br_separator, html_fragment, flags=re.IGNORECASE)
@@ -85,6 +93,7 @@ def parse_section_row(row_cells: List[Tag], course: Dict[str, Any]) -> Dict[str,
 
 
 def find_section_type_index(row_cells: List[Tag]) -> int | None:
+    """Return the index of the cell containing the section type, or None if absent."""
     for index, cell in enumerate(row_cells):
         if get_section_type(cell_text(cell)):
             return index
@@ -92,6 +101,7 @@ def find_section_type_index(row_cells: List[Tag]) -> int | None:
 
 
 def fill_course_summary_and_loi(row_cells: List[Tag], section_type_index: int, course: Dict[str, Any]) -> None:
+    """Populate courseId, credits, section letter, and language of instruction by scanning left of section type."""
     if not course["courseId"] or not course["credits"] or not course["section"]:
         summary_pattern = re.compile(r"(\d{3,4})\s+([0-9]+\.[0-9]{2})\s*([A-Z0-9]?)")
         for j in range(section_type_index - 1, -1, -1):
@@ -112,6 +122,7 @@ def fill_course_summary_and_loi(row_cells: List[Tag], section_type_index: int, c
 
 
 def build_details(row_cells: List[Tag], section_type_index: int) -> tuple[List[Dict[str, str]], List[str], str, str, bool]:
+    """Construct schedule, instructors, notes, catalog_number and is_cancelled for a section row."""
     schedule: List[Dict[str, str]] = []
     catalog_cell = row_cells[section_type_index + 2] if len(row_cells) > section_type_index + 2 else None
     schedule_cell = row_cells[section_type_index + 3] if len(row_cells) > section_type_index + 3 else None
@@ -151,6 +162,7 @@ def build_details(row_cells: List[Tag], section_type_index: int) -> tuple[List[D
 
 
 def maybe_extract_cancelled_notes(row_cells: List[Tag], section_type_index: int, notes: str) -> str:
+    """For cancelled rows, attempt to read notes from sibling TDs at offsets 4 and 5."""
     for offset in [4, 5]:
         if len(row_cells) > section_type_index + offset:
             potential_notes = parse_notes(row_cells[section_type_index + offset].decode_contents())
@@ -160,6 +172,7 @@ def maybe_extract_cancelled_notes(row_cells: List[Tag], section_type_index: int,
 
 
 def make_section_detail(row_cells: List[Tag], section_type_index: int, section_type: str, catalog_number: str, schedule: List[Dict[str, str]], instructors: List[str], notes: str) -> Dict[str, Any]:
+    """Build the final section detail dictionary from parsed components."""
     return {
         "type": section_type,
         "meetNumber": cell_text(row_cells[section_type_index + 1]) if len(row_cells) > section_type_index + 1 else "",
@@ -171,6 +184,7 @@ def make_section_detail(row_cells: List[Tag], section_type_index: int, section_t
 
 
 def get_section_type(text: str) -> str:
+    """Normalize a raw section type token to a canonical type (e.g., 'LECT', 'LAB')."""
     normalized_text = norm_text(text).upper()
     compact_text = re.sub(r"[^A-Z]", "", normalized_text)
     section_types = [
@@ -197,6 +211,7 @@ def get_section_type(text: str) -> str:
 
 
 def parse_instructors(instructor_html: str) -> List[str]:
+    """Parse instructor HTML into a list of instructor names, handling separators and HTML artifacts."""
     if not instructor_html:
         return []
     text = html_to_text(instructor_html, br_separator="|")
@@ -210,6 +225,7 @@ def parse_instructors(instructor_html: str) -> List[str]:
 
 
 def parse_notes(notes_html: str) -> str:
+    """Parse notes HTML into a single normalized string, preserving line breaks via ' | '."""
     if not notes_html:
         return ""
     text = html_to_text(notes_html, br_separator=" | ")
@@ -217,6 +233,7 @@ def parse_notes(notes_html: str) -> str:
 
 
 def clean_room(room_text: str) -> str:
+    """Normalize room text. Placeholder for future room-specific cleaning rules."""
     cleaned_text = norm_text(room_text)
     return cleaned_text
 
