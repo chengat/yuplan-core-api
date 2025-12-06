@@ -33,9 +33,9 @@ def html_to_text(html_fragment: str, br_separator: str = "|") -> str:
     """
     if not html_fragment:
         return ""
-    text = re.sub(r"<br\s*/?>", br_separator, html_fragment, flags=re.IGNORECASE)
+    text = html.unescape(html_fragment)
+    text = re.sub(r"<br\s*/?>", br_separator, text, flags=re.IGNORECASE)
     text = re.sub(r"<[^>]+>", " ", text)
-    text = html.unescape(text)
     text = re.sub(r"\s+", " ", text)
     return text.strip()
 
