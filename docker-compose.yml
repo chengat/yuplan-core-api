@@ -7,7 +7,7 @@ services:
             POSTGRES_USER: yuplan_core_api_user
             POSTGRES_PASSWORD: yuplan_core_api_password
         ports:
-            - "5432:5432"
+            - "5433:5432"
         volumes:
           - yuplan_core_api_data:/var/lib/postgresql/data
         healthcheck:
@@ -30,8 +30,8 @@ services:
        - ./:/app
       command: go run cmd/api/main.go
 
-    volumes:
-      yuplan_core_api
+volumes:
+  yuplan_core_api_data:
 
 
 
