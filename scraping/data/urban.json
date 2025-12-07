@@ -1203,11 +1203,30 @@
       "department": "ENVS",
       "term": "F",
       "courseTitle": "Community Arts for Social Change",
-      "courseId": "",
-      "credits": "",
-      "section": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "2122",
+      "credits": "3.00",
+      "section": "A",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "WKSP",
+          "meetNumber": "01",
+          "catalogNumber": "Q75E01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "HNE 140"
+            }
+          ],
+          "instructors": [
+            "Lisa Myers"
+          ],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "EU",
@@ -2470,9 +2489,9 @@
       "department": "ENVS",
       "term": "W",
       "courseTitle": "Digital Worlds and Urban Futures: Cities, Technology, and Justice",
-      "courseId": "",
-      "credits": "",
-      "section": "",
+      "courseId": "3800C",
+      "credits": "3.00",
+      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
@@ -3477,9 +3496,9 @@
       "department": "ENVS",
       "term": "F",
       "courseTitle": "Land and Urban Development",
-      "courseId": "",
-      "credits": "",
-      "section": "",
+      "courseId": "4800Q",
+      "credits": "3.00",
+      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
@@ -3507,9 +3526,9 @@
       "department": "ENVS",
       "term": "O3",
       "courseTitle": "Advanced Topics in Environment and Health",
-      "courseId": "",
-      "credits": "",
-      "section": "",
+      "courseId": "4800A",
+      "credits": "3.00",
+      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
