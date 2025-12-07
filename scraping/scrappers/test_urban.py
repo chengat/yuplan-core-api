@@ -3,9 +3,9 @@ import runpy
 import shutil
 import tempfile
 import unittest
+import unittest.mock as mock
 from contextlib import redirect_stdout, redirect_stderr
 from pathlib import Path
-from unittest import mock
 
 from bs4 import BeautifulSoup
 
