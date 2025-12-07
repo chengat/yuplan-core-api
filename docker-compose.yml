@@ -16,6 +16,19 @@ services:
           timeout: 5s
           retries: 5
 
+    migrate:
+      build: ./
+      container_name: yuplan_core_api_migrate
+      environment:
+        - DATABASE_URL=postgres://yuplan_core_api_user:yuplan_core_api_password@postgres:5432/yuplan_core_api_db?sslmode=disable
+      depends_on:
+        postgres:
+          condition: service_healthy
+      volumes:
+        - ./:/app
+      command: bash ./scripts/init-db.sh
+      restart: "no"
+
     core_api:
       build: ./
       container_name: yuplan_core_api
@@ -26,14 +39,11 @@ services:
       depends_on:
         postgres:
           condition: service_healthy
+        migrate:
+          condition: service_completed_successfully
       volumes:
        - ./:/app
       command: go run cmd/api/main.go
 
 volumes:
   yuplan_core_api_data:
-
-
-
-
-        

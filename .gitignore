@@ -2,3 +2,4 @@
 .DS_Store
 .coverage
 /scraping/scrappers/__pycache__
+/scripts/__pycache__
