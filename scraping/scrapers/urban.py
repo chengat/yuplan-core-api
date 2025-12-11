@@ -59,7 +59,6 @@ def parse_course_header(header_row: Tag) -> Dict[str, Any]:
         "courseTitle": cell_text(cells[3]),
         "courseId": "",
         "credits": "",
-        "section": "",
         "languageOfInstruction": "",
         "sections": [],
     }
@@ -74,8 +73,8 @@ def parse_section_row(row_cells: List[Tag], course: Dict[str, Any]) -> Dict[str,
     if section_type_index is None:
         return None
 
-    # 2) Update course summary (courseId/credits/section) and LOI
-    fill_course_summary_and_loi(row_cells, section_type_index, course)
+    # 2) Update course summary (courseId/credits) and LOI
+    section_letter = fill_course_summary_and_loi(row_cells, section_type_index, course)
 
     # 3) Determine section type
     section_type = get_section_type(cell_text(row_cells[section_type_index]))
@@ -87,7 +86,7 @@ def parse_section_row(row_cells: List[Tag], course: Dict[str, Any]) -> Dict[str,
     notes = maybe_extract_cancelled_notes(row_cells, section_type_index, notes) if is_cancelled and not notes else notes
 
     # 6) Build section detail and return if non-empty
-    section_detail = make_section_detail(row_cells, section_type_index, section_type, catalog_number, schedule, instructors, notes)
+    section_detail = make_section_detail(row_cells, section_type_index, section_type, section_letter, catalog_number, schedule, instructors, notes)
     has_content = any([
         bool(section_type),
         bool(section_detail.get("meetNumber")),
@@ -109,25 +108,29 @@ def find_section_type_index(row_cells: List[Tag]) -> int | None:
     return None
 
 
-def fill_course_summary_and_loi(row_cells: List[Tag], section_type_index: int, course: Dict[str, Any]) -> None:
-    """Populate courseId, credits, section letter, and language of instruction by scanning left of section type."""
-    if not course["courseId"] or not course["credits"] or not course["section"]:
-        summary_pattern = re.compile(r"(\d{3,4}[A-Z]?)\s+([0-9]+\.[0-9]{2})\s*([A-Z0-9]?)")
-        for j in range(section_type_index - 1, -1, -1):
-            match = summary_pattern.search(cell_text(row_cells[j]))
-            if match:
-                course_id, credits, section_letter = match.group(1), match.group(2), match.group(3)
-                course["courseId"] = course_id or course["courseId"]
-                course["credits"] = credits or course["credits"]
-                course["section"] = section_letter or course["section"]
-                break
+def fill_course_summary_and_loi(row_cells: List[Tag], section_type_index: int, course: Dict[str, Any]) -> str:
+    """Populate courseId, credits, language of instruction, and return section letter."""
+    section_letter = ""
 
-    if not course["languageOfInstruction"]:
+    summary_pattern = re.compile(r"(\d{3,4})\s+([0-9]+\.[0-9]{2})\s*([A-Z0-9]?)")
+    for j in range(section_type_index - 1, -1, -1):
+        match = summary_pattern.search(cell_text(row_cells[j]))
+        if match:
+            course_id, credits, section_letter = match.group(1), match.group(2), match.group(3)
+            if not course.get("courseId"):
+                course["courseId"] = course_id
+            if not course.get("credits"):
+                course["credits"] = credits
+            break
+
+    if not course.get("languageOfInstruction"):
         for j in range(section_type_index - 1, -1, -1):
             token = cell_text(row_cells[j])
             if 1 < len(token) <= 3 and token.isupper() and token.isalpha():
                 course["languageOfInstruction"] = token
                 break
+
+    return section_letter
 
 
 def build_details(row_cells: List[Tag], section_type_index: int) -> tuple[List[Dict[str, str]], List[str], str, str, bool]:
@@ -174,16 +177,22 @@ def maybe_extract_cancelled_notes(row_cells: List[Tag], section_type_index: int,
     return notes
 
 
-def make_section_detail(row_cells: List[Tag], section_type_index: int, section_type: str, catalog_number: str, schedule: List[Dict[str, str]], instructors: List[str], notes: str) -> Dict[str, Any]:
+def make_section_detail(row_cells: List[Tag], section_type_index: int, section_type: str, section_letter: str, catalog_number: str, schedule: List[Dict[str, str]], instructors: List[str], notes: str) -> Dict[str, Any]:
     """Build the final section detail dictionary from parsed components."""
-    return {
+    section_detail: Dict[str, Any] = {
         "type": section_type,
         "meetNumber": cell_text(row_cells[section_type_index + 1]) if len(row_cells) > section_type_index + 1 else "",
+    }
+    if section_letter:
+        section_detail["section"] = section_letter
+
+    section_detail.update({
         "catalogNumber": catalog_number,
         "schedule": schedule,
         "instructors": instructors,
         "notes": notes,
-    }
+    })
+    return section_detail
 
 
 def get_section_type(text: str) -> str:
@@ -196,12 +205,12 @@ def parse_instructors(instructor_html: str) -> List[str]:
     if not instructor_html:
         return []
     text = html_to_text(instructor_html, br_separator="|")
-    instructor_parts = re.split(r"[|,;&]", text)
+    parts = re.split(r"[|,;&]", text)
     instructors_list: List[str] = []
-    for instructor_part in instructor_parts:
-        instructor_name = norm_text(instructor_part)
-        if instructor_name and instructor_name.lower() not in {"nbsp", "amp", "lt", "gt"}:
-            instructors_list.append(instructor_name)
+    for part in parts:
+        name = norm_text(part)
+        if name and name.lower() not in {"nbsp", "amp", "lt", "gt"}:
+            instructors_list.append(name)
     return instructors_list
 
 
@@ -218,7 +227,6 @@ def clean_room(room_text: str) -> str:
     cleaned_text = norm_text(room_text)
     return cleaned_text
 
-
 def parse_schedule_entry(schedule_cells: List[Tag]) -> Dict[str, str]:
     """Parse a schedule table row into a schedule entry dict."""
     return {
@@ -229,13 +237,9 @@ def parse_schedule_entry(schedule_cells: List[Tag]) -> Dict[str, str]:
         "room": clean_room(cell_text(schedule_cells[4])),
     }
 
-
 def parse_course_timetable_html(html_content: str) -> Dict[str, Any]:
     """Parse Urban timetable HTML into structured course data."""
     soup = BeautifulSoup(html_content, "html.parser")
-
-    for body_paragraph in soup.select("p.bodytext"):
-        strong = body_paragraph.find("strong")
         
     table = soup.find("table")
     if not table:
@@ -284,7 +288,9 @@ def main():
         print(f"Saved: {data_path}")
         print(f"Courses: {len(result.get('courses', []))}")
         for index, course in enumerate(result.get('courses', []), 1):
-            print(f"{index}. {course.get('courseId','')} - {course.get('courseTitle','')} (Section: {course.get('section','')})")
+            section_letters = sorted({section.get('section', '') for section in course.get('sections', []) if section.get('section')})
+            section_display = ",".join(section_letters)
+            print(f"{index}. {course.get('courseId','')} - {course.get('courseTitle','')} (Section: {section_display})")
     except Exception as error:
         print(f"Error parsing HTML: {error}")
         import traceback

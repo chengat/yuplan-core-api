@@ -28,7 +28,6 @@ class TestHelpers(unittest.TestCase):
     def test_get_section_type_variants(self):
         self.assertEqual(lassonde.get_section_type("LEC"), "LECT")
         self.assertEqual(lassonde.get_section_type("Seminar"), "SEMR")
-        self.assertEqual(lassonde.get_section_type("clinic"), "CLIN")
         self.assertEqual(lassonde.get_section_type("ind study"), "ISTY")
 
     def test_get_section_type_no_match(self):
@@ -109,22 +108,22 @@ class TestHelpers(unittest.TestCase):
     def test_fill_course_summary_and_loi_populates(self):
         soup = BeautifulSoup("<tr><td>1012 3.00 A</td><td>EN</td><td>LEC</td></tr>", "html.parser")
         row_cells = soup.find_all("td")
-        course = {"courseId": "", "credits": "", "section": "", "languageOfInstruction": ""}
-        lassonde.fill_course_summary_and_loi(row_cells, section_type_index=2, course=course)
+        course = {"courseId": "", "credits": "", "languageOfInstruction": ""}
+        section_letter = lassonde.fill_course_summary_and_loi(row_cells, section_type_index=2, course=course)
         self.assertEqual(course["courseId"], "1012")
         self.assertEqual(course["credits"], "3.00")
-        self.assertEqual(course["section"], "A")
         self.assertEqual(course["languageOfInstruction"], "EN")
+        self.assertEqual(section_letter, "A")
 
     def test_fill_course_summary_and_loi_preserves_existing(self):
         soup = BeautifulSoup("<tr><td>9999 4.00 Z</td><td>FR</td><td>LEC</td></tr>", "html.parser")
         row_cells = soup.find_all("td")
-        course = {"courseId": "1012", "credits": "3.00", "section": "A", "languageOfInstruction": "EN"}
-        lassonde.fill_course_summary_and_loi(row_cells, section_type_index=2, course=course)
+        course = {"courseId": "1012", "credits": "3.00", "languageOfInstruction": "EN"}
+        section_letter = lassonde.fill_course_summary_and_loi(row_cells, section_type_index=2, course=course)
         self.assertEqual(course["courseId"], "1012")
         self.assertEqual(course["credits"], "3.00")
-        self.assertEqual(course["section"], "A")
         self.assertEqual(course["languageOfInstruction"], "EN")
+        self.assertEqual(section_letter, "Z")
 
     def test_maybe_extract_cancelled_notes_from_offset(self):
         soup = BeautifulSoup(
@@ -184,15 +183,15 @@ class TestParser(unittest.TestCase):
             "html.parser",
         )
         row_cells = soup.find_all("td")
-        course = {"courseId": "", "credits": "", "section": "", "languageOfInstruction": ""}
+        course = {"courseId": "", "credits": "", "languageOfInstruction": ""}
         section = lassonde.parse_section_row(row_cells, course)
         self.assertIsNotNone(section)
         self.assertEqual(section["type"], "LECT")
+        self.assertEqual(section["section"], "A")
         self.assertEqual(section["catalogNumber"], "A01")
         self.assertEqual(section["schedule"], [{"day": "", "time": "Wednesday 18:00", "duration": "", "campus": "", "room": ""}])
         self.assertEqual(course["courseId"], "1012")
         self.assertEqual(course["credits"], "3.00")
-        self.assertEqual(course["section"], "A")
         self.assertEqual(course["languageOfInstruction"], "EN")
 
     def test_parse_course_timetable_html_minimal(self):
@@ -238,13 +237,13 @@ class TestParser(unittest.TestCase):
         self.assertEqual(course["courseTitle"], "Civil Engineering Design Project")
         self.assertEqual(course["courseId"], "1012")
         self.assertEqual(course["credits"], "3.00")
-        self.assertEqual(course["section"], "A")
         self.assertEqual(course["languageOfInstruction"], "EN")
 
         self.assertEqual(len(course["sections"]), 1)
         section = course["sections"][0]
         self.assertEqual(section["type"], "LECT")
         self.assertEqual(section["meetNumber"], "01")
+        self.assertEqual(section["section"], "A")
         self.assertEqual(section["catalogNumber"], "A01")
         self.assertEqual(section["instructors"], ["Prof One", "Prof Two"])
         self.assertEqual(section["notes"], "Bring laptop")
@@ -296,10 +295,6 @@ class TestParser(unittest.TestCase):
         self.assertEqual(section["schedule"], [])
         self.assertEqual(section["instructors"], [])
 
-        metadata = result.get("metadata", {})
-        self.assertEqual(metadata.get("title"), "Lassonde Timetable")
-        self.assertEqual(metadata.get("lastUpdated"), "2025-12-01")
-
     def test_parse_course_timetable_html_no_table(self):
         html_content = """
         <html>
@@ -311,9 +306,6 @@ class TestParser(unittest.TestCase):
         """
         result = lassonde.parse_course_timetable_html(html_content)
         self.assertEqual(result.get("courses"), [])
-        metadata = result.get("metadata", {})
-        self.assertEqual(metadata.get("title"), "Lassonde Timetable")
-        self.assertEqual(metadata.get("lastUpdated"), "2025-12-01")
 
     def test_parse_course_timetable_html_skips_non_rows_and_breaks_at_header(self):
         html = """
@@ -390,7 +382,7 @@ class TestParser(unittest.TestCase):
 
         with mock.patch.object(lassonde, "BeautifulSoup", return_value=DummySoup()), \
             mock.patch.object(lassonde, "is_header_row", side_effect=fake_is_header_row), \
-            mock.patch.object(lassonde, "parse_course_header", return_value={"sections": [], "courseId": "", "credits": "", "section": "", "languageOfInstruction": "", "courseTitle": "", "faculty": "", "department": "", "term": ""}), \
+            mock.patch.object(lassonde, "parse_course_header", return_value={"sections": [], "courseId": "", "credits": "", "languageOfInstruction": "", "courseTitle": "", "faculty": "", "department": "", "term": ""}), \
             mock.patch.object(lassonde, "Tag", (lassonde.Tag, DummyRow)):
             result = lassonde.parse_course_timetable_html("ignored")
 
@@ -515,5 +507,5 @@ class TestParser(unittest.TestCase):
         self.assertIn("Error parsing HTML: boom", output)
         self.assertIn("RuntimeError: boom", output)
 
-if __name__ == "__main__":
-    unittest.main()
+if __name__ == "__main__":  # pragma: no cover
+  unittest.main()

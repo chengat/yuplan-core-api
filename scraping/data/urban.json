@@ -7,12 +7,12 @@
       "courseTitle": "Co-op Professional Development",
       "courseId": "2001",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "ONLN",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "P37Z01",
           "schedule": [
             {
@@ -37,12 +37,12 @@
       "courseTitle": "Co-op Professional Development",
       "courseId": "2001",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "ONLN",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "X84A01",
           "schedule": [
             {
@@ -67,12 +67,12 @@
       "courseTitle": "EUC Co-op Work Term",
       "courseId": "2109",
       "credits": "0.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "ONLN",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "S49C01",
           "schedule": [
             {
@@ -97,12 +97,12 @@
       "courseTitle": "EUC Co-op Work Term",
       "courseId": "2109",
       "credits": "0.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "ONLN",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "Y96Y01",
           "schedule": [
             {
@@ -127,12 +127,12 @@
       "courseTitle": "EUC Co-op Work Term",
       "courseId": "3109",
       "credits": "0.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "ONLN",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "F43U01",
           "schedule": [
             {
@@ -157,12 +157,12 @@
       "courseTitle": "EUC Co-op Work Term",
       "courseId": "3109",
       "credits": "0.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "ONLN",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "V90F01",
           "schedule": [
             {
@@ -187,12 +187,12 @@
       "courseTitle": "Introduction to Environmental Documentaries",
       "courseId": "1010",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "TUTR",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "X48P02",
           "schedule": [
             {
@@ -361,12 +361,12 @@
       "courseTitle": "Introduction to Environmental Documentaries",
       "courseId": "1010",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "TUTR",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "B95B02",
           "schedule": [
             {
@@ -535,12 +535,12 @@
       "courseTitle": "The land we're on: Treaties, Art and Environment",
       "courseId": "1100",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -709,12 +709,12 @@
       "courseTitle": "Artists and writers who change the world: Introduction to Environmental Arts and Humanities",
       "courseId": "1122",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -775,12 +775,12 @@
       "courseTitle": "Cities,Regions and Planning in a Globalizing World",
       "courseId": "1210",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -913,12 +913,12 @@
       "courseTitle": "Environmental Politics and Justice",
       "courseId": "1300",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -979,12 +979,12 @@
       "courseTitle": "Foundations of Environmental Management: Policy, Resources and Conservation",
       "courseId": "1400",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -1098,12 +1098,12 @@
       "courseTitle": "Introduction to Environmental Science",
       "courseId": "1500",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "BLEN",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -1200,12 +1200,12 @@
       "courseTitle": "Community Arts for Social Change",
       "courseId": "2122",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "WKSP",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "Q75E01",
           "schedule": [
             {
@@ -1230,12 +1230,12 @@
       "courseTitle": "Popular Education for Environmental and Social Justice",
       "courseId": "2125",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "SEMR",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "K22N01",
           "schedule": [
             {
@@ -1260,12 +1260,12 @@
       "courseTitle": "Foundations of Planning and Politics",
       "courseId": "2200",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -1362,12 +1362,12 @@
       "courseTitle": "Foundations of Urban Political Ecology",
       "courseId": "2201",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -1464,12 +1464,12 @@
       "courseTitle": "In/Humanities: Critical Perspectives on Environmental Justice",
       "courseId": "2327",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "SEMR",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "W70Y01",
           "schedule": [
             {
@@ -1494,12 +1494,12 @@
       "courseTitle": "Solutions: Sustainability, Justice, Transitions",
       "courseId": "2403",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "TUTR",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "W41T02",
           "schedule": [
             {
@@ -1614,12 +1614,12 @@
       "courseTitle": "Environmental Governance and Policy: Ideas, Interests and Institutions",
       "courseId": "2410",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -1716,12 +1716,12 @@
       "courseTitle": "Ecology and Conservation Science",
       "courseId": "2420",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -1818,12 +1818,12 @@
       "courseTitle": "Economics for the Anthropocene",
       "courseId": "2510",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -1920,12 +1920,12 @@
       "courseTitle": "Qualitative Methods",
       "courseId": "3010",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "TUTR",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "T87P02",
           "schedule": [
             {
@@ -2022,12 +2022,12 @@
       "courseTitle": "Environmental Arts and Media: Skills, Methods, and Action",
       "courseId": "3100",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "SEMR",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "U16H01",
           "schedule": [
             {
@@ -2052,12 +2052,12 @@
       "courseTitle": "Environmental History",
       "courseId": "3120",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "SEMR",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "E49F01",
           "schedule": [
             {
@@ -2082,12 +2082,12 @@
       "courseTitle": "Energy and the Environment in Canada",
       "courseId": "3130",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "SEMR",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "C02R01",
           "schedule": [
             {
@@ -2113,12 +2113,12 @@
       "courseTitle": "Race/Racism and Environmental Justice",
       "courseId": "3160",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "ONLN",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "Z43W01",
           "schedule": [
             {
@@ -2143,12 +2143,12 @@
       "courseTitle": "Urban and Regional Infrastructures: A Critical Introduction",
       "courseId": "3222",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "SEMR",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "H10C01",
           "schedule": [
             {
@@ -2173,12 +2173,12 @@
       "courseTitle": "Urban planning and politics in the Global South",
       "courseId": "3227",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "SEMR",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "G23D01",
           "schedule": [
             {
@@ -2203,12 +2203,12 @@
       "courseTitle": "Doing Urban Research: Theory and Practice",
       "courseId": "3228",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "SEMR",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "Q46M01",
           "schedule": [
             {
@@ -2234,12 +2234,12 @@
       "courseTitle": "Global Environmental Politics",
       "courseId": "3340",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "SEMR",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "H90X01",
           "schedule": [
             {
@@ -2264,12 +2264,12 @@
       "courseTitle": "Introduction to Climate Change Science and Policy",
       "courseId": "3400",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -2330,12 +2330,12 @@
       "courseTitle": "The Science of Pollution: Impacts on the Environment and Human Health",
       "courseId": "3401",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "SEMR",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "R04T01",
           "schedule": [
             {
@@ -2367,12 +2367,12 @@
       "courseTitle": "Ecosystem Services",
       "courseId": "3405",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "ONLN",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "J35Z01",
           "schedule": [
             {
@@ -2398,12 +2398,12 @@
       "courseTitle": "Environmental Assessment",
       "courseId": "3430",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "SEMR",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "E78U01",
           "schedule": [
             {
@@ -2428,12 +2428,12 @@
       "courseTitle": "Business and Sustainability: Issues and Strategies",
       "courseId": "3505",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "SEMR",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "X19A01",
           "schedule": [
             {
@@ -2456,12 +2456,12 @@
       "courseTitle": "Ecological Economics",
       "courseId": "3511",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "SEMR",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "K51F01",
           "schedule": [
             {
@@ -2484,9 +2484,8 @@
       "department": "ENVS",
       "term": "W",
       "courseTitle": "Digital Worlds and Urban Futures: Cities, Technology, and Justice",
-      "courseId": "3800C",
-      "credits": "3.00",
-      "section": "M",
+      "courseId": "",
+      "credits": "",
       "languageOfInstruction": "EN",
       "sections": [
         {
@@ -2516,12 +2515,12 @@
       "courseTitle": "The Right to the City",
       "courseId": "3800",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "SEMR",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -2536,12 +2535,12 @@
       "courseTitle": "The Nature of Cities: The History of Urban Environments in North America",
       "courseId": "3891",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "P34K01 (AP HIST) V87B01 (EU ENVS)",
           "schedule": [
             {
@@ -2566,12 +2565,12 @@
       "courseTitle": "Directed Reading",
       "courseId": "3900",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "DIRD",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "D98Z01",
           "schedule": [
             {
@@ -2594,12 +2593,12 @@
       "courseTitle": "Directed Reading",
       "courseId": "3900",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "DIRD",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "U45W01",
           "schedule": [
             {
@@ -2622,12 +2621,12 @@
       "courseTitle": "Directed Reading",
       "courseId": "3900",
       "credits": "6.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "DIRD",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "N92X01",
           "schedule": [
             {
@@ -2650,12 +2649,12 @@
       "courseTitle": "Senior Honours Work Seminar",
       "courseId": "4000",
       "credits": "6.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "THES",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "H39R01",
           "schedule": [
             {
@@ -2678,12 +2677,12 @@
       "courseTitle": "Field Placement Course",
       "courseId": "4001",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "INSP",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "A86D01 (EU ENVS) J42H01 (EU GEOG)",
           "schedule": [
             {
@@ -2708,12 +2707,12 @@
       "courseTitle": "Field Placement Course",
       "courseId": "4001",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "INSP",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "R33Y01 (EU ENVS) C89Q01 (EU GEOG)",
           "schedule": [
             {
@@ -2738,12 +2737,12 @@
       "courseTitle": "Field Placement Course",
       "courseId": "4001",
       "credits": "6.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "INSP",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "K80U01 (EU ENVS) P95V01 (EU GEOG)",
           "schedule": [
             {
@@ -2768,12 +2767,12 @@
       "courseTitle": "Inter-disciplinary Capstone Project (C4)",
       "courseId": "4003",
       "credits": "6.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "SEMR",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "Y23V01",
           "schedule": [
             {
@@ -2796,12 +2795,12 @@
       "courseTitle": "Inter-disciplinary Capstone Project (C4)",
       "courseId": "4003",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "SEMR",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "B29E01",
           "schedule": [
             {
@@ -2824,12 +2823,12 @@
       "courseTitle": "Inter-disciplinary Capstone Project (C4)",
       "courseId": "4003",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "SEMR",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "R76M01",
           "schedule": [
             {
@@ -2852,12 +2851,12 @@
       "courseTitle": "Food, Land and Culture",
       "courseId": "4011",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "SEMR",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "Y31Y01",
           "schedule": [
             {
@@ -2882,12 +2881,12 @@
       "courseTitle": "Biodiversity",
       "courseId": "4111",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -2991,12 +2990,12 @@
       "courseTitle": "Nature and Culture: Environmental Thought",
       "courseId": "4140",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "SEMR",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "T29X01",
           "schedule": [
             {
@@ -3021,12 +3020,12 @@
       "courseTitle": "Urbanization in the Global South",
       "courseId": "4220",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "SEMR",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "Q17U01",
           "schedule": [
             {
@@ -3051,12 +3050,12 @@
       "courseTitle": "Urban Consulting Practice",
       "courseId": "4221",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "SEMR",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "D11P01",
           "schedule": [
             {
@@ -3081,12 +3080,12 @@
       "courseTitle": "Global Cities",
       "courseId": "4223",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "SEMR",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "V25F01",
           "schedule": [
             {
@@ -3111,12 +3110,12 @@
       "courseTitle": "Designing Sustainable Cities",
       "courseId": "4225",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "SEMR",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "E27G01",
           "schedule": [
             {
@@ -3141,12 +3140,12 @@
       "courseTitle": "Urban Environmental Risk and Resilience",
       "courseId": "4227",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "SEMR",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "G52S01",
           "schedule": [
             {
@@ -3171,12 +3170,12 @@
       "courseTitle": "Queer of Colour Art and Activism in the City",
       "courseId": "4300",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "ONLN",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "A28T01",
           "schedule": [
             {
@@ -3201,12 +3200,12 @@
       "courseTitle": "Indigenous Environmental Justice",
       "courseId": "4311",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "SEMR",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "S71B01",
           "schedule": [
             {
@@ -3231,12 +3230,12 @@
       "courseTitle": "Arts and Culture in Cities",
       "courseId": "4326",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "SEMR",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "M18K01",
           "schedule": [
             {
@@ -3261,12 +3260,12 @@
       "courseTitle": "Climate Justice",
       "courseId": "4350",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "SEMR",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "V61N01",
           "schedule": [
             {
@@ -3292,12 +3291,12 @@
       "courseTitle": "Peasant Studies in the Global South: Peasants, Food, Nature and Wellbeing",
       "courseId": "4351",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "ONLN",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "N05J01",
           "schedule": [
             {
@@ -3322,12 +3321,12 @@
       "courseTitle": "Principles of renewable energy: theory, policy and practice",
       "courseId": "4400",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "SEMR",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "F14F01",
           "schedule": [
             {
@@ -3353,12 +3352,12 @@
       "courseTitle": "Climate Change Mitigation",
       "courseId": "4402",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "FIEL",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "P01G01",
           "schedule": [
             {
@@ -3384,12 +3383,12 @@
       "courseTitle": "Impact Assessment Process & Practice",
       "courseId": "4430",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "SEMR",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "U96N01",
           "schedule": [
             {
@@ -3414,12 +3413,12 @@
       "courseTitle": "Environmental Disasters",
       "courseId": "4440",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "B37R01",
           "schedule": [
             {
@@ -3444,12 +3443,12 @@
       "courseTitle": "Northern Ecosystems: A Natural History of Arctic Regions",
       "courseId": "4447",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "SEMR",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "U74Z01",
           "schedule": [
             {
@@ -3474,12 +3473,12 @@
       "courseTitle": "Systems Thinking: How everything is connected to everything else, and what to do about it",
       "courseId": "4523",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "SEMR",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "X55X01",
           "schedule": [
             {
@@ -3502,9 +3501,8 @@
       "department": "ENVS",
       "term": "F",
       "courseTitle": "Land and Urban Development",
-      "courseId": "4800Q",
-      "credits": "3.00",
-      "section": "A",
+      "courseId": "",
+      "credits": "",
       "languageOfInstruction": "EN",
       "sections": [
         {
@@ -3532,9 +3530,8 @@
       "department": "ENVS",
       "term": "O3",
       "courseTitle": "Advanced Topics in Environment and Health",
-      "courseId": "4800A",
-      "credits": "3.00",
-      "section": "M",
+      "courseId": "",
+      "credits": "",
       "languageOfInstruction": "EN",
       "sections": [
         {
@@ -3564,12 +3561,12 @@
       "courseTitle": "Directed Study",
       "courseId": "4900",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "DIRD",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "R55K01",
           "schedule": [
             {
@@ -3592,12 +3589,12 @@
       "courseTitle": "Directed Study",
       "courseId": "4900",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "DIRD",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "Y02T01",
           "schedule": [
             {
@@ -3620,12 +3617,12 @@
       "courseTitle": "Directed Study",
       "courseId": "4900",
       "credits": "6.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "DIRD",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "Z72Z01",
           "schedule": [
             {
@@ -3648,12 +3645,12 @@
       "courseTitle": "The World Today: An Introduction to World Geography",
       "courseId": "1000",
       "credits": "6.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "TUTR",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "B66J02",
           "schedule": [
             {
@@ -3934,12 +3931,12 @@
       "courseTitle": "Physical Geography: Weather and Climate",
       "courseId": "1401",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -4077,12 +4074,12 @@
       "courseTitle": "Physical Geography: The Dynamic Earth",
       "courseId": "1402",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -4220,12 +4217,12 @@
       "courseTitle": "The End of the Earth as We Know It: Global Environmental Change",
       "courseId": "2030",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -4322,12 +4319,12 @@
       "courseTitle": "Geographies of Global Political Economy and Power",
       "courseId": "2110",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -4424,12 +4421,12 @@
       "courseTitle": "Global Urban Geography",
       "courseId": "2220",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -4533,12 +4530,12 @@
       "courseTitle": "Migration and Displacement",
       "courseId": "2320",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "TUTR",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "P59N02",
           "schedule": [
             {
@@ -4635,12 +4632,12 @@
       "courseTitle": "Introduction to Geomatics",
       "courseId": "2340",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -4719,12 +4716,12 @@
       "courseTitle": "Hydrosphere I",
       "courseId": "2401",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -4774,12 +4771,12 @@
       "courseTitle": "Quantitative Methods",
       "courseId": "2420",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -4876,12 +4873,12 @@
       "courseTitle": "Introduction to Vegetation and Soils",
       "courseId": "2500",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -4924,12 +4921,12 @@
       "courseTitle": "Geomorphology I",
       "courseId": "2600",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -4972,12 +4969,12 @@
       "courseTitle": "Gender, Population,and Migration",
       "courseId": "3070",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "SEMR",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "S42J01",
           "schedule": [
             {
@@ -5002,12 +4999,12 @@
       "courseTitle": "The Global Economy",
       "courseId": "3130",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "SEMR",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "F07M01",
           "schedule": [
             {
@@ -5032,12 +5029,12 @@
       "courseTitle": "Geographic Thought",
       "courseId": "3330",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "SEMR",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "J06W01",
           "schedule": [
             {
@@ -5062,12 +5059,12 @@
       "courseTitle": "Fundamentals of Geographic Information Systems (GIS)",
       "courseId": "3340",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -5126,12 +5123,12 @@
       "courseTitle": "Urban Social Analysis",
       "courseId": "3380",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "SEMR",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "C53X01",
           "schedule": [
             {
@@ -5157,12 +5154,12 @@
       "courseTitle": "Remote Sensing for Earth Observation",
       "courseId": "3440",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -5221,12 +5218,12 @@
       "courseTitle": "Biogeography",
       "courseId": "3500",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -5305,12 +5302,12 @@
       "courseTitle": "Designing and Conducting Research in Geography",
       "courseId": "3520",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "SEMR",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "X51H01",
           "schedule": [
             {
@@ -5335,12 +5332,12 @@
       "courseTitle": "Field Studies in Physical Geography",
       "courseId": "3540",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "FIEL",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "Z50P01 (EU GEOG) D18X01 (SC GEOG)",
           "schedule": [
             {
@@ -5365,12 +5362,12 @@
       "courseTitle": "Black Geographies",
       "courseId": "3610",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "SEMR",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "W99D01",
           "schedule": [
             {
@@ -5395,12 +5392,12 @@
       "courseTitle": "City Challenges, City Opportunities in a 21st Century Toronto",
       "courseId": "3620",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "SEMR",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "J93V01",
           "schedule": [
             {
@@ -5425,12 +5422,12 @@
       "courseTitle": "Disaster! The Earth's Extreme Natural Events",
       "courseId": "3700",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "SEMR",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "H97B01 (EU GEOG) T65Q01 (SC GEOG)",
           "schedule": [
             {
@@ -5456,12 +5453,12 @@
       "courseTitle": "Society, Space and Environment in South Asia",
       "courseId": "3710",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "SEMR",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "B44K01",
           "schedule": [
             {
@@ -5486,12 +5483,12 @@
       "courseTitle": "Asia-Pacific Development: Geographies of Regional Transformation",
       "courseId": "3780",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "SEMR",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "G81K01",
           "schedule": [
             {
@@ -5516,12 +5513,12 @@
       "courseTitle": "Geographies of Work",
       "courseId": "3800",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "SEMR",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "S13R01",
           "schedule": [
             {
@@ -5546,12 +5543,12 @@
       "courseTitle": "Physical Geography of the City",
       "courseId": "3900",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "ONLN",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "B08C01 (EU GEOG) F72M01 (SC GEOG)",
           "schedule": [
             {
@@ -5579,12 +5576,12 @@
       "courseTitle": "Honours Thesis",
       "courseId": "4000",
       "credits": "6.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "THES",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "Y60D01 (EU GEOG) W19U01 (SC GEOG)",
           "schedule": [
             {
@@ -5607,12 +5604,12 @@
       "courseTitle": "Field Placement Course",
       "courseId": "4001",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "INSP",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "A86D01 (EU ENVS) J42H01 (EU GEOG)",
           "schedule": [
             {
@@ -5637,12 +5634,12 @@
       "courseTitle": "Field Placement Course",
       "courseId": "4001",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "INSP",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "R33Y01 (EU ENVS) C89Q01 (EU GEOG)",
           "schedule": [
             {
@@ -5667,12 +5664,12 @@
       "courseTitle": "Field Placement Course",
       "courseId": "4001",
       "credits": "6.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "INSP",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "K80U01 (EU ENVS) P95V01 (EU GEOG)",
           "schedule": [
             {
@@ -5697,12 +5694,12 @@
       "courseTitle": "Planning Suburbs",
       "courseId": "4130",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "SEMR",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "R91S01 (EU GEOG) T36B01 (AP URST)",
           "schedule": [
             {
@@ -5727,12 +5724,12 @@
       "courseTitle": "Geographic Perspectives on Immigration, Ethnicity and Race in Modern Cities",
       "courseId": "4170",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "SEMR",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "Y38E01",
           "schedule": [
             {
@@ -5757,12 +5754,12 @@
       "courseTitle": "Water Quality and Stream Ecosystems",
       "courseId": "4200",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -5805,12 +5802,12 @@
       "courseTitle": "Directed Reading",
       "courseId": "4290",
       "credits": "6.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "DIRD",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "V32V01 (EU GEOG) Q53F01 (SC GEOG)",
           "schedule": [
             {
@@ -5833,12 +5830,12 @@
       "courseTitle": "Directed Reading",
       "courseId": "4290",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "DIRD",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "Z79H01 (EU GEOG) G59Y01 (SC GEOG)",
           "schedule": [
             {
@@ -5861,12 +5858,12 @@
       "courseTitle": "Directed Reading",
       "courseId": "4290",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "DIRD",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "X26Q01 (EU GEOG) A06U01 (SC GEOG)",
           "schedule": [
             {
@@ -5889,12 +5886,12 @@
       "courseTitle": "Spatial analysis and problem solving with Geographic Information Systems (GIS)",
       "courseId": "4340",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -5937,12 +5934,12 @@
       "courseTitle": "Processing and Analysis of Earth Observation",
       "courseId": "4440",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -5985,12 +5982,12 @@
       "courseTitle": "Rivers: Environment and Process",
       "courseId": "4600",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -6033,12 +6030,12 @@
       "courseTitle": "The Critical Geographies of Education",
       "courseId": "4700",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "ONLN",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "S20K01",
           "schedule": [
             {
@@ -6063,12 +6060,12 @@
       "courseTitle": "Environmental Science Capstone",
       "courseId": "4800",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "SEMR",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "D40H01 (EU GEOG) M54S01 (SC BIOL)",
           "schedule": [
             {

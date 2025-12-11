@@ -1,9 +1,4 @@
 {
-  "metadata": {
-    "title": "View Active Course Timetables by Faculty",
-    "lastUpdated": "Mon, 1 Dec 2025 at 03:31:07 AM",
-    "source": "York University"
-  },
   "courses": [
     {
       "faculty": "LE",
@@ -12,12 +7,12 @@
       "courseTitle": "Civil Engineering Design Project",
       "courseId": "2000",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -145,12 +140,12 @@
       "courseTitle": "Civil Engineering Materials",
       "courseId": "2120",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -307,12 +302,12 @@
       "courseTitle": "Civil Engineering Graphics",
       "courseId": "2150",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -452,12 +447,12 @@
       "courseTitle": "Geological Processes",
       "courseId": "2160",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -599,12 +594,12 @@
       "courseTitle": "Fluid Mechanics",
       "courseId": "2210",
       "credits": "4.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -732,12 +727,12 @@
       "courseTitle": "Mechanics of Materials",
       "courseId": "2220",
       "credits": "4.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -881,12 +876,12 @@
       "courseTitle": "Introduction to Environmental Engineering",
       "courseId": "2240",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -1014,12 +1009,12 @@
       "courseTitle": "Soil Mechanics",
       "courseId": "3110",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -1122,12 +1117,12 @@
       "courseTitle": "Hydraulics",
       "courseId": "3120",
       "credits": "4.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -1246,12 +1241,12 @@
       "courseTitle": "Structural Analysis",
       "courseId": "3130",
       "credits": "4.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -1372,12 +1367,12 @@
       "courseTitle": "Civil Engineering Computational Methods",
       "courseId": "3140",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -1481,12 +1476,12 @@
       "courseTitle": "Transportation Engineering",
       "courseId": "3160",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -1539,12 +1534,12 @@
       "courseTitle": "Geotechnical Engineering",
       "courseId": "3210",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -1656,12 +1651,12 @@
       "courseTitle": "Hydrology",
       "courseId": "3220",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -1773,12 +1768,12 @@
       "courseTitle": "Introduction to Structural Design",
       "courseId": "3230",
       "credits": "4.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -1906,12 +1901,12 @@
       "courseTitle": "Sanitary and Environmental Engineering",
       "courseId": "3240",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -2032,12 +2027,12 @@
       "courseTitle": "Transportation Planning and Evaluation",
       "courseId": "3260",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -2117,12 +2112,12 @@
       "courseTitle": "Civil Engineering Capstone Design Project",
       "courseId": "4000",
       "credits": "6.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -2185,12 +2180,12 @@
       "courseTitle": "Advanced Structural Analysis",
       "courseId": "4001",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -2240,12 +2235,12 @@
       "courseTitle": "Reinforced Concrete Design",
       "courseId": "4002",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -2295,12 +2290,12 @@
       "courseTitle": "Structural Steel Design",
       "courseId": "4003",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -2348,12 +2343,12 @@
       "courseTitle": "Geotechnical Modelling",
       "courseId": "4011",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -2403,12 +2398,12 @@
       "courseTitle": "Hydrogeology",
       "courseId": "4013",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -2474,12 +2469,12 @@
       "courseTitle": "Frozen Ground Engineering",
       "courseId": "4015",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -2502,12 +2497,12 @@
       "courseTitle": "Geological Engineering and Design",
       "courseId": "4016",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -2530,12 +2525,12 @@
       "courseTitle": "Hydraulic Structures",
       "courseId": "4021",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -2585,12 +2580,12 @@
       "courseTitle": "Water Resources Engineering",
       "courseId": "4022",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -2621,12 +2616,12 @@
       "courseTitle": "Drinking Water Engineering and Management",
       "courseId": "4025",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -2690,12 +2685,12 @@
       "courseTitle": "Pavement Materials and Design",
       "courseId": "4031",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -2759,12 +2754,12 @@
       "courseTitle": "Freight Transportation",
       "courseId": "4034",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -2830,12 +2825,12 @@
       "courseTitle": "Landfill Design",
       "courseId": "4041",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -2883,12 +2878,12 @@
       "courseTitle": "Environmental Impact Assessment and Sustainability",
       "courseId": "4042",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -2952,12 +2947,12 @@
       "courseTitle": "Advanced Sanitary and Environmental Engineering",
       "courseId": "4043",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -3016,12 +3011,12 @@
       "courseTitle": "Environmental Geotechnics",
       "courseId": "4044",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -3044,12 +3039,12 @@
       "courseTitle": "Building Science Principles and Applications",
       "courseId": "4051",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -3097,12 +3092,12 @@
       "courseTitle": "Civil Engineering Project Management",
       "courseId": "4110",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -3155,12 +3150,12 @@
       "courseTitle": "Civil Engineering for a Sustainable Future",
       "courseId": "4210",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -3208,12 +3203,12 @@
       "courseTitle": "Professional Development for Co-Op Students",
       "courseId": "2100",
       "credits": "2.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "ONLN",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "X20E01",
           "schedule": [
             {
@@ -3238,12 +3233,12 @@
       "courseTitle": "Professional Development for Co-Op Students",
       "courseId": "2100",
       "credits": "2.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "ONLN",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "B67N01",
           "schedule": [
             {
@@ -3268,12 +3263,12 @@
       "courseTitle": "Lassonde Co-op Work-term",
       "courseId": "2109",
       "credits": "0.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "COOP",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -3288,12 +3283,12 @@
       "courseTitle": "Lassonde Co-op Work-term",
       "courseId": "2109",
       "credits": "0.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "COOP",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -3308,12 +3303,12 @@
       "courseTitle": "Lassonde Co-op Work-term",
       "courseId": "2109",
       "credits": "0.00",
-      "section": "B",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "COOP",
           "meetNumber": "01",
+          "section": "B",
           "catalogNumber": "B68Z01",
           "schedule": [
             {
@@ -3336,12 +3331,12 @@
       "courseTitle": "Lassonde Co-op Work-term",
       "courseId": "2109",
       "credits": "0.00",
-      "section": "N",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "COOP",
           "meetNumber": "01",
+          "section": "N",
           "catalogNumber": "S15W01",
           "schedule": [
             {
@@ -3364,12 +3359,12 @@
       "courseTitle": "Critical Reflection on Work Experience using Professional Portfolios",
       "courseId": "3100",
       "credits": "2.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "ONLN",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "U10S01",
           "schedule": [
             {
@@ -3394,12 +3389,12 @@
       "courseTitle": "Critical Reflection on Work Experience using Professional Portfolios",
       "courseId": "3100",
       "credits": "2.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "ONLN",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "N57E01",
           "schedule": [
             {
@@ -3424,12 +3419,12 @@
       "courseTitle": "Lassonde Co-op Work-term",
       "courseId": "3109",
       "credits": "0.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "COOP",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -3444,12 +3439,12 @@
       "courseTitle": "Lassonde Co-op Work-term",
       "courseId": "3109",
       "credits": "0.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "COOP",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -3464,12 +3459,12 @@
       "courseTitle": "Lassonde Co-op Work-term",
       "courseId": "3109",
       "credits": "0.00",
-      "section": "B",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "COOP",
           "meetNumber": "01",
+          "section": "B",
           "catalogNumber": "Y62X01",
           "schedule": [
             {
@@ -3492,12 +3487,12 @@
       "courseTitle": "Lassonde Co-op Work-term",
       "courseId": "3109",
       "credits": "0.00",
-      "section": "N",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "COOP",
           "meetNumber": "01",
+          "section": "N",
           "catalogNumber": "F09R01",
           "schedule": [
             {
@@ -3520,12 +3515,12 @@
       "courseTitle": "Introduction to Computer Programming (CS0)",
       "courseId": "1050",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "BLEN",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -3582,12 +3577,12 @@
       "courseTitle": "Coding through Biology (CS1 A)",
       "courseId": "1101",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -3668,12 +3663,12 @@
       "courseTitle": "Coding through Chemistry (CS1 B)",
       "courseId": "1102",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -3754,12 +3749,12 @@
       "courseTitle": "Teamwork and Communication in Software Development",
       "courseId": "1161",
       "credits": "2.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -3832,12 +3827,12 @@
       "courseTitle": "Coding with Objects (CS2)",
       "courseId": "1201",
       "credits": "4.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -3910,12 +3905,12 @@
       "courseTitle": "Web-Centric Programming",
       "courseId": "1202",
       "credits": "4.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -3988,12 +3983,12 @@
       "courseTitle": "Logic and Computing",
       "courseId": "1203",
       "credits": "4.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -4066,12 +4061,12 @@
       "courseTitle": "Preparation for the Workplace",
       "courseId": "2061",
       "credits": "1.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "C96B01",
           "schedule": [
             {
@@ -4096,12 +4091,12 @@
       "courseTitle": "Preparation for the Workplace",
       "courseId": "2061",
       "credits": "1.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "Y28M01",
           "schedule": [
             {
@@ -4126,12 +4121,12 @@
       "courseTitle": "Object-Oriented Programming",
       "courseId": "2101",
       "credits": "4.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -4204,12 +4199,12 @@
       "courseTitle": "Data Structures & Algorithms",
       "courseId": "2102",
       "credits": "4.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -4289,12 +4284,12 @@
       "courseTitle": "Shell Scripting",
       "courseId": "2103",
       "credits": "0.50",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -4395,12 +4390,12 @@
       "courseTitle": "Programming in C",
       "courseId": "2104",
       "credits": "2.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -4501,12 +4496,12 @@
       "courseTitle": "Programming in Assembly",
       "courseId": "2105",
       "credits": "1.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -4607,12 +4602,12 @@
       "courseTitle": "Testing, Debugging & Profiling C Code",
       "courseId": "2106",
       "credits": "0.50",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -4713,12 +4708,12 @@
       "courseTitle": "Design and Analysis of Algorithms",
       "courseId": "2202",
       "credits": "4.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -4798,12 +4793,12 @@
       "courseTitle": "Software Design",
       "courseId": "2203",
       "credits": "4.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -4904,12 +4899,12 @@
       "courseTitle": "Introduction to Cloud Computing",
       "courseId": "2211",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -4982,12 +4977,12 @@
       "courseTitle": "Introduction to Security",
       "courseId": "2221",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -5060,12 +5055,12 @@
       "courseTitle": "Introduction to Data Science & Application",
       "courseId": "2231",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -5138,12 +5133,12 @@
       "courseTitle": "Professionalism, Systems Thinking & Meaningful Impact in Technology",
       "courseId": "2261",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -5216,12 +5211,12 @@
       "courseTitle": "User Interface Development",
       "courseId": "2401",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -5294,12 +5289,12 @@
       "courseTitle": "Introduction to Computational Problem Solving",
       "courseId": "1101",
       "credits": "4.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "BLEN",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -5375,12 +5370,12 @@
       "courseTitle": "Teamwork and Communication in Software Development",
       "courseId": "1161",
       "credits": "2.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "BLEN",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -5435,12 +5430,12 @@
       "courseTitle": "Being a Digital Citizen",
       "courseId": "1172",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "SEMR",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "P23P01",
           "schedule": [
             {
@@ -5459,6 +5454,7 @@
         {
           "type": "SEMR",
           "meetNumber": "01",
+          "section": "B",
           "catalogNumber": "X70B01",
           "schedule": [
             {
@@ -5475,6 +5471,7 @@
         {
           "type": "BLEN",
           "meetNumber": "01",
+          "section": "C",
           "catalogNumber": "P28F01",
           "schedule": [
             {
@@ -5499,12 +5496,12 @@
       "courseTitle": "Object-Oriented Problem Solving",
       "courseId": "1201",
       "credits": "8.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "BLEN",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -5573,12 +5570,12 @@
       "courseTitle": "Technology Leadership & Professional Reflection 1",
       "courseId": "1271",
       "credits": "1.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "BLEN",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "C46C01",
           "schedule": [
             {
@@ -5603,12 +5600,12 @@
       "courseTitle": "Mobilizing Digital Citizenship",
       "courseId": "1272",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "SEMR",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "S93K01",
           "schedule": [
             {
@@ -5627,6 +5624,7 @@
         {
           "type": "SEMR",
           "meetNumber": "01",
+          "section": "N",
           "catalogNumber": "M40T01",
           "schedule": [
             {
@@ -5643,6 +5641,7 @@
         {
           "type": "BLEN",
           "meetNumber": "01",
+          "section": "O",
           "catalogNumber": "X75Z01",
           "schedule": [
             {
@@ -5667,12 +5666,12 @@
       "courseTitle": "Data Structures, Algorithms & Analysis",
       "courseId": "2102",
       "credits": "8.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "BLEN",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -5734,12 +5733,12 @@
       "courseTitle": "Introduction to Computer Organization & Systems",
       "courseId": "2103",
       "credits": "4.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "BLEN",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -5794,12 +5793,12 @@
       "courseTitle": "Practice of Software Development",
       "courseId": "2107",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "BLEN",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -5847,12 +5846,12 @@
       "courseTitle": "Introduction to Data Science",
       "courseId": "2201",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "BLEN",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -5914,12 +5913,12 @@
       "courseTitle": "Computer Networks",
       "courseId": "2206",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "BLEN",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -5974,12 +5973,12 @@
       "courseTitle": "Technology Leadership & Professional Reflection 2",
       "courseId": "2271",
       "credits": "1.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "BLEN",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "P52H01",
           "schedule": [
             {
@@ -6004,12 +6003,12 @@
       "courseTitle": "Software Development Lifecycle",
       "courseId": "3101",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "BLEN",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -6064,12 +6063,12 @@
       "courseTitle": "Data Management Systems",
       "courseId": "3107",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "BLEN",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -6131,12 +6130,12 @@
       "courseTitle": "Network Security",
       "courseId": "3121",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "BLEN",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -6198,12 +6197,12 @@
       "courseTitle": "Introduction to Machine Learning I",
       "courseId": "3131",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "BLEN",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -6265,12 +6264,12 @@
       "courseTitle": "Software I: Software Design and Architecture",
       "courseId": "3141",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "BLEN",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -6332,12 +6331,12 @@
       "courseTitle": "Digital Technologies Project",
       "courseId": "3171",
       "credits": "9.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "BLEN",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "B88S01",
           "schedule": [
             {
@@ -6362,12 +6361,12 @@
       "courseTitle": "Distributed Systems",
       "courseId": "3203",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "BLEN",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -6422,12 +6421,12 @@
       "courseTitle": "Security and Privacy: Awareness and Governance",
       "courseId": "3206",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "BLEN",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -6489,12 +6488,12 @@
       "courseTitle": "Security by Design",
       "courseId": "3221",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "BLEN",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -6556,12 +6555,12 @@
       "courseTitle": "Introduction to Machine Learning II",
       "courseId": "3231",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "BLEN",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -6623,12 +6622,12 @@
       "courseTitle": "Software II: Software Testing and Quality Assurance",
       "courseId": "3241",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "BLEN",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -6690,12 +6689,12 @@
       "courseTitle": "Technology Leadership & Professional Reflection 3",
       "courseId": "3271",
       "credits": "1.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "BLEN",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "X99Q01",
           "schedule": [
             {
@@ -6720,12 +6719,12 @@
       "courseTitle": "Research Directions in Computing",
       "courseId": "1001",
       "credits": "1.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "X49C01",
           "schedule": [
             {
@@ -6745,6 +6744,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "B",
           "catalogNumber": "B96Y01",
           "schedule": [
             {
@@ -6770,12 +6770,12 @@
       "courseTitle": "Computational Thinking Through Procedural Programming and Mechatronics",
       "courseId": "1011",
       "credits": "3.00",
-      "section": "E",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "BLEN",
           "meetNumber": "01",
+          "section": "E",
           "catalogNumber": "",
           "schedule": [
             {
@@ -6881,6 +6881,7 @@
         {
           "type": "BLEN",
           "meetNumber": "01",
+          "section": "F",
           "catalogNumber": "",
           "schedule": [
             {
@@ -6986,6 +6987,7 @@
         {
           "type": "BLEN",
           "meetNumber": "01",
+          "section": "G",
           "catalogNumber": "",
           "schedule": [
             {
@@ -7091,6 +7093,7 @@
         {
           "type": "BLEN",
           "meetNumber": "01",
+          "section": "H",
           "catalogNumber": "",
           "schedule": [
             {
@@ -7189,6 +7192,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "I",
           "catalogNumber": "",
           "schedule": [
             {
@@ -7300,12 +7304,12 @@
       "courseTitle": "Computational Thinking Through Procedural Programming and Mechatronics",
       "courseId": "1011",
       "credits": "3.00",
-      "section": "G",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "BLEN",
           "meetNumber": "01",
+          "section": "G",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -7322,6 +7326,7 @@
         {
           "type": "BLEN",
           "meetNumber": "01",
+          "section": "J",
           "catalogNumber": "",
           "schedule": [
             {
@@ -7441,12 +7446,12 @@
       "courseTitle": "Computational Thinking Through Procedural Programming and Mechatronics",
       "courseId": "1011",
       "credits": "3.00",
-      "section": "Z",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "BLEN",
           "meetNumber": "01",
+          "section": "Z",
           "catalogNumber": "",
           "schedule": [
             {
@@ -7542,12 +7547,12 @@
       "courseTitle": "Computational Thinking Through Procedural Programming and Mechatronics",
       "courseId": "1011",
       "credits": "3.00",
-      "section": "Z",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "BLEN",
           "meetNumber": "01",
+          "section": "Z",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -7594,12 +7599,12 @@
       "courseTitle": "Introduction to Computing: A Net-centric Approach",
       "courseId": "1012",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -7674,6 +7679,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "B",
           "catalogNumber": "",
           "schedule": [
             {
@@ -7754,12 +7760,12 @@
       "courseTitle": "Introduction to Computing: A Net-centric Approach",
       "courseId": "1012",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -7839,12 +7845,12 @@
       "courseTitle": "Introduction to Computing: A Net-centric Approach",
       "courseId": "1012",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -7891,12 +7897,12 @@
       "courseTitle": "Introduction to Computer Science and Programming",
       "courseId": "1015",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -7979,6 +7985,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "B",
           "catalogNumber": "",
           "schedule": [
             {
@@ -8061,6 +8068,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "D",
           "catalogNumber": "",
           "schedule": [
             {
@@ -8149,12 +8157,12 @@
       "courseTitle": "Introduction to Computer Science and Programming",
       "courseId": "1015",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -8243,12 +8251,12 @@
       "courseTitle": "Discrete Mathematics for Computer Science",
       "courseId": "1019",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "H54N01 (SC MATH) F00J01 (LE EECS)",
           "schedule": [
             {
@@ -8274,6 +8282,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "B",
           "catalogNumber": "G81T01 (SC MATH) V10X01 (LE EECS)",
           "schedule": [
             {
@@ -8299,6 +8308,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "C",
           "catalogNumber": "A28F01 (SC MATH) Z57R01 (LE EECS)",
           "schedule": [
             {
@@ -8324,6 +8334,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "D",
           "catalogNumber": "Q75N01 (SC MATH) X04D01 (LE EECS)",
           "schedule": [
             {
@@ -8349,6 +8360,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "E",
           "catalogNumber": "K22W01 (SC MATH) B51M01 (LE EECS)",
           "schedule": [
             {
@@ -8381,6 +8393,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "F",
           "catalogNumber": "D69X01 (SC MATH) R98U01 (LE EECS)",
           "schedule": [
             {
@@ -8417,12 +8430,12 @@
       "courseTitle": "Discrete Mathematics for Computer Science",
       "courseId": "1019",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "W04G01 (SC MATH) P51P01 (LE EECS)",
           "schedule": [
             {
@@ -8448,6 +8461,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "N",
           "catalogNumber": "U16Q01 (SC MATH) Y45G01 (LE EECS)",
           "schedule": [
             {
@@ -8473,6 +8487,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "O",
           "catalogNumber": "N63C01 (SC MATH) E92P01 (LE EECS)",
           "schedule": [
             {
@@ -8498,6 +8513,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "P",
           "catalogNumber": "H10Y01 (SC MATH) V39A01 (LE EECS)",
           "schedule": [
             {
@@ -8527,12 +8543,12 @@
       "courseTitle": "Discrete Mathematics for Computer Science",
       "courseId": "1019",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -8547,12 +8563,12 @@
       "courseTitle": "Object-Oriented Programming & Telemetry as Engineering Cornerstones",
       "courseId": "1021",
       "credits": "3.00",
-      "section": "U",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "BLEN",
           "meetNumber": "01",
+          "section": "U",
           "catalogNumber": "",
           "schedule": [
             {
@@ -8635,6 +8651,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "V",
           "catalogNumber": "",
           "schedule": [
             {
@@ -8740,6 +8757,7 @@
         {
           "type": "BLEN",
           "meetNumber": "01",
+          "section": "W",
           "catalogNumber": "",
           "schedule": [
             {
@@ -8845,6 +8863,7 @@
         {
           "type": "BLEN",
           "meetNumber": "01",
+          "section": "X",
           "catalogNumber": "",
           "schedule": [
             {
@@ -8950,6 +8969,7 @@
         {
           "type": "BLEN",
           "meetNumber": "01",
+          "section": "Y",
           "catalogNumber": "",
           "schedule": [
             {
@@ -9055,6 +9075,7 @@
         {
           "type": "BLEN",
           "meetNumber": "01",
+          "section": "Z",
           "catalogNumber": "",
           "schedule": [
             {
@@ -9166,12 +9187,12 @@
       "courseTitle": "Introduction to Object Oriented Programming",
       "courseId": "1022",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -9260,12 +9281,12 @@
       "courseTitle": "Introduction to Object Oriented Programming",
       "courseId": "1022",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -9348,6 +9369,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "N",
           "catalogNumber": "",
           "schedule": [
             {
@@ -9430,6 +9452,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "O",
           "catalogNumber": "",
           "schedule": [
             {
@@ -9510,12 +9533,12 @@
       "courseTitle": "Discrete Mathematics for Engineers",
       "courseId": "1028",
       "credits": "3.00",
-      "section": "E",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "E",
           "catalogNumber": "",
           "schedule": [
             {
@@ -9618,12 +9641,12 @@
       "courseTitle": "Discrete Mathematics for Engineers",
       "courseId": "1028",
       "credits": "3.00",
-      "section": "V",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "V",
           "catalogNumber": "",
           "schedule": [
             {
@@ -9680,6 +9703,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "X",
           "catalogNumber": "",
           "schedule": [
             {
@@ -9753,6 +9777,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "Z",
           "catalogNumber": "",
           "schedule": [
             {
@@ -9839,12 +9864,12 @@
       "courseTitle": "Object Oriented Design and Principles using Python",
       "courseId": "1516",
       "credits": "3.00",
-      "section": "S",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "S",
           "catalogNumber": "",
           "schedule": [
             {
@@ -9901,12 +9926,12 @@
       "courseTitle": "Computer Use: Fundamentals",
       "courseId": "1520",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "Y97V01",
           "schedule": [
             {
@@ -9939,6 +9964,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "B",
           "catalogNumber": "F44H01",
           "schedule": [
             {
@@ -9964,6 +9990,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "C",
           "catalogNumber": "V91P01",
           "schedule": [
             {
@@ -9989,6 +10016,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "D",
           "catalogNumber": "P38B01",
           "schedule": [
             {
@@ -10014,6 +10042,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "H",
           "catalogNumber": "X85K01",
           "schedule": [
             {
@@ -10045,12 +10074,12 @@
       "courseTitle": "Computer Use: Fundamentals",
       "courseId": "1520",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "C32T01",
           "schedule": [
             {
@@ -10076,6 +10105,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "N",
           "catalogNumber": "S79E01",
           "schedule": [
             {
@@ -10094,6 +10124,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "O",
           "catalogNumber": "M26N01",
           "schedule": [
             {
@@ -10119,6 +10150,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "P",
           "catalogNumber": "F73W01",
           "schedule": [
             {
@@ -10144,6 +10176,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "Q",
           "catalogNumber": "W20H01",
           "schedule": [
             {
@@ -10176,6 +10209,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "R",
           "catalogNumber": "K27T01",
           "schedule": [
             {
@@ -10207,12 +10241,12 @@
       "courseTitle": "Computer Use for the Natural Sciences",
       "courseId": "1540",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "G82U01",
           "schedule": [
             {
@@ -10244,12 +10278,12 @@
       "courseTitle": "Computer Use for the Natural Sciences",
       "courseId": "1540",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "A29G01",
           "schedule": [
             {
@@ -10281,12 +10315,12 @@
       "courseTitle": "Introduction to Computing for the Physical Sciences",
       "courseId": "1541",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -10366,12 +10400,12 @@
       "courseTitle": "Introduction to Computing for Mathematics and Statistics",
       "courseId": "1560",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -10435,12 +10469,12 @@
       "courseTitle": "Introduction to Computing for Mathematics and Statistics",
       "courseId": "1560",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -10513,12 +10547,12 @@
       "courseTitle": "Introduction to Computing for Psychology",
       "courseId": "1570",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "C54S01",
           "schedule": [
             {
@@ -10550,12 +10584,12 @@
       "courseTitle": "Introduction to Computing & Programming",
       "courseId": "1580",
       "credits": "3.00",
-      "section": "N",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "N",
           "catalogNumber": "K35C01 (GL CORE) G86J01 (LE EECS)",
           "schedule": [
             {
@@ -10579,6 +10613,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "O",
           "catalogNumber": "D82Y01 (GL CORE) A33S01 (LE EECS)",
           "schedule": [
             {
@@ -10604,6 +10639,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "P",
           "catalogNumber": "U29T01 (GL CORE) Q80D01 (LE EECS)",
           "schedule": [
             {
@@ -10627,6 +10663,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "Q",
           "catalogNumber": "N76F01 (GL CORE) K27M01 (LE EECS)",
           "schedule": [
             {
@@ -10656,12 +10693,12 @@
       "courseTitle": "Introduction à l'informatique et à la programmation",
       "courseId": "1580",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "FR",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "H23Z01 (GL CORE) N39A01 (LE EECS)",
           "schedule": [
             {
@@ -10693,12 +10730,12 @@
       "courseTitle": "Programming for Digital Media",
       "courseId": "1710",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -10802,12 +10839,12 @@
       "courseTitle": "Programming for Digital Media",
       "courseId": "1710",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -10871,12 +10908,12 @@
       "courseTitle": "Building Interactive Systems",
       "courseId": "1720",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -10932,12 +10969,12 @@
       "courseTitle": "Building Interactive Systems",
       "courseId": "1720",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -11049,12 +11086,12 @@
       "courseTitle": "Introduction to the Theory of Computation",
       "courseId": "2001",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -11096,6 +11133,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "B",
           "catalogNumber": "",
           "schedule": [
             {
@@ -11137,6 +11175,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "C",
           "catalogNumber": "",
           "schedule": [
             {
@@ -11184,12 +11223,12 @@
       "courseTitle": "Introduction to the Theory of Computation",
       "courseId": "2001",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -11231,6 +11270,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "N",
           "catalogNumber": "",
           "schedule": [
             {
@@ -11272,6 +11312,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "O",
           "catalogNumber": "",
           "schedule": [
             {
@@ -11319,12 +11360,12 @@
       "courseTitle": "Computer Organization",
       "courseId": "2021",
       "credits": "4.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -11382,6 +11423,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "B",
           "catalogNumber": "",
           "schedule": [
             {
@@ -11439,6 +11481,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "C",
           "catalogNumber": "",
           "schedule": [
             {
@@ -11560,6 +11603,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "E",
           "catalogNumber": "",
           "schedule": [
             {
@@ -11617,6 +11661,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "F",
           "catalogNumber": "",
           "schedule": [
             {
@@ -11680,12 +11725,12 @@
       "courseTitle": "Computer Organization",
       "courseId": "2021",
       "credits": "4.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -11743,6 +11788,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "N",
           "catalogNumber": "",
           "schedule": [
             {
@@ -11800,6 +11846,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "Z",
           "catalogNumber": "",
           "schedule": [
             {
@@ -11863,12 +11910,12 @@
       "courseTitle": "Advanced Object Oriented Programming",
       "courseId": "2030",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -11942,6 +11989,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "B",
           "catalogNumber": "",
           "schedule": [
             {
@@ -12015,6 +12063,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "C",
           "catalogNumber": "",
           "schedule": [
             {
@@ -12088,6 +12137,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "E",
           "catalogNumber": "",
           "schedule": [
             {
@@ -12161,6 +12211,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "F",
           "catalogNumber": "",
           "schedule": [
             {
@@ -12234,6 +12285,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "G",
           "catalogNumber": "",
           "schedule": [
             {
@@ -12313,12 +12365,12 @@
       "courseTitle": "Advanced Object Oriented Programming",
       "courseId": "2030",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -12392,6 +12444,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "N",
           "catalogNumber": "",
           "schedule": [
             {
@@ -12465,6 +12518,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "Z",
           "catalogNumber": "",
           "schedule": [
             {
@@ -12521,12 +12575,12 @@
       "courseTitle": "Software Tools",
       "courseId": "2031",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -12577,6 +12631,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "B",
           "catalogNumber": "",
           "schedule": [
             {
@@ -12627,6 +12682,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "C",
           "catalogNumber": "",
           "schedule": [
             {
@@ -12683,12 +12739,12 @@
       "courseTitle": "Software Tools",
       "courseId": "2031",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -12739,6 +12795,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "N",
           "catalogNumber": "",
           "schedule": [
             {
@@ -12789,6 +12846,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "O",
           "catalogNumber": "",
           "schedule": [
             {
@@ -12877,12 +12935,12 @@
       "courseTitle": "Introduction to Embedded Systems",
       "courseId": "2032",
       "credits": "4.00",
-      "section": "E",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "E",
           "catalogNumber": "",
           "schedule": [
             {
@@ -12940,6 +12998,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "F",
           "catalogNumber": "",
           "schedule": [
             {
@@ -13003,12 +13062,12 @@
       "courseTitle": "Introduction to Embedded Systems",
       "courseId": "2032",
       "credits": "4.00",
-      "section": "X",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "X",
           "catalogNumber": "",
           "schedule": [
             {
@@ -13066,6 +13125,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "Z",
           "catalogNumber": "",
           "schedule": [
             {
@@ -13129,12 +13189,12 @@
       "courseTitle": "Fundamentals of Data Structures",
       "courseId": "2101",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "V08K01",
           "schedule": [
             {
@@ -13160,6 +13220,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "E",
           "catalogNumber": "Z55T01",
           "schedule": [
             {
@@ -13191,12 +13252,12 @@
       "courseTitle": "Fundamentals of Data Structures",
       "courseId": "2101",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "X02F01",
           "schedule": [
             {
@@ -13222,6 +13283,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "N",
           "catalogNumber": "B49Z01",
           "schedule": [
             {
@@ -13247,6 +13309,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "X",
           "catalogNumber": "R96W01",
           "schedule": [
             {
@@ -13272,6 +13335,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "Z",
           "catalogNumber": "Y43X01",
           "schedule": [
             {
@@ -13303,12 +13367,12 @@
       "courseTitle": "Electrical Circuits",
       "courseId": "2200",
       "credits": "3.00",
-      "section": "E",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "E",
           "catalogNumber": "",
           "schedule": [
             {
@@ -13398,6 +13462,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "F",
           "catalogNumber": "",
           "schedule": [
             {
@@ -13493,12 +13558,12 @@
       "courseTitle": "Electrical Circuits",
       "courseId": "2200",
       "credits": "3.00",
-      "section": "Z",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "Z",
           "catalogNumber": "",
           "schedule": [
             {
@@ -13610,12 +13675,12 @@
       "courseTitle": "Electronic Circuits and Devices",
       "courseId": "2210",
       "credits": "3.00",
-      "section": "E",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "E",
           "catalogNumber": "",
           "schedule": [
             {
@@ -13711,12 +13776,12 @@
       "courseTitle": "Electronic Circuits and Devices",
       "courseId": "2210",
       "credits": "3.00",
-      "section": "Z",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "Z",
           "catalogNumber": "",
           "schedule": [
             {
@@ -13828,12 +13893,12 @@
       "courseTitle": "Software Development Project",
       "courseId": "2311",
       "credits": "3.00",
-      "section": "X",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "X",
           "catalogNumber": "",
           "schedule": [
             {
@@ -13884,6 +13949,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "Z",
           "catalogNumber": "",
           "schedule": [
             {
@@ -13940,12 +14006,12 @@
       "courseTitle": "Fortran and Scientific Computing",
       "courseId": "2501",
       "credits": "1.00",
-      "section": "E",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "E",
           "catalogNumber": "D41R01",
           "schedule": [
             {
@@ -13970,12 +14036,12 @@
       "courseTitle": "Data Structures for Data Science",
       "courseId": "2502",
       "credits": "3.00",
-      "section": "S",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "S",
           "catalogNumber": "",
           "schedule": [
             {
@@ -14039,12 +14105,12 @@
       "courseTitle": "Professional Practice in Computing",
       "courseId": "3000",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "Y46H01",
           "schedule": [
             {
@@ -14063,10 +14129,30 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "N",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
           "notes": "$5.00 - Course Materials"
+        },
+        {
+          "type": "ONCA",
+          "meetNumber": "01",
+          "section": "O",
+          "catalogNumber": "H22J01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "17:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [
+            "Melanie Baljko"
+          ],
+          "notes": "For information on Section M vs Section O, please see https://wiki.eecs.yorku.ca/dept/eecs3300/ ."
         }
       ]
     },
@@ -14077,12 +14163,12 @@
       "courseTitle": "Design and Analysis of Algorithms",
       "courseId": "3101",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -14124,6 +14210,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "B",
           "catalogNumber": "",
           "schedule": [
             {
@@ -14165,6 +14252,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "E",
           "catalogNumber": "",
           "schedule": [
             {
@@ -14212,12 +14300,12 @@
       "courseTitle": "Design and Analysis of Algorithms",
       "courseId": "3101",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -14259,6 +14347,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "N",
           "catalogNumber": "",
           "schedule": [
             {
@@ -14300,6 +14389,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "Z",
           "catalogNumber": "",
           "schedule": [
             {
@@ -14347,12 +14437,12 @@
       "courseTitle": "Numerical Methods I",
       "courseId": "3121",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "A65K01 (SC MATH) D47J01 (LE EECS)",
           "schedule": [
             {
@@ -14384,12 +14474,12 @@
       "courseTitle": "Numerical Methods II",
       "courseId": "3122",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "D77V01 (SC MATH) K00A01 (LE EECS)",
           "schedule": [
             {
@@ -14428,12 +14518,12 @@
       "courseTitle": "Digital Logic Design",
       "courseId": "3201",
       "credits": "4.00",
-      "section": "E",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "E",
           "catalogNumber": "",
           "schedule": [
             {
@@ -14523,6 +14613,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "F",
           "catalogNumber": "",
           "schedule": [
             {
@@ -14618,12 +14709,12 @@
       "courseTitle": "Digital Logic Design",
       "courseId": "3201",
       "credits": "4.00",
-      "section": "Z",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "Z",
           "catalogNumber": "",
           "schedule": [
             {
@@ -14719,12 +14810,12 @@
       "courseTitle": "Communication Networks",
       "courseId": "3213",
       "credits": "3.00",
-      "section": "E",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "E",
           "catalogNumber": "Q76Z01",
           "schedule": [
             {
@@ -14756,12 +14847,12 @@
       "courseTitle": "Communication Networks",
       "courseId": "3213",
       "credits": "3.00",
-      "section": "Z",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "Z",
           "catalogNumber": "K23A01",
           "schedule": [
             {
@@ -14793,12 +14884,12 @@
       "courseTitle": "Computer Network Protocols and Applications",
       "courseId": "3214",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "T44E01",
           "schedule": [
             {
@@ -14830,12 +14921,12 @@
       "courseTitle": "Computer Network Protocols and Applications",
       "courseId": "3214",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "M91N01",
           "schedule": [
             {
@@ -14867,12 +14958,12 @@
       "courseTitle": "Embedded Systems",
       "courseId": "3215",
       "credits": "4.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -14945,12 +15036,12 @@
       "courseTitle": "Digital Systems Engineering: Modeling, Implementation and Validation",
       "courseId": "3216",
       "credits": "3.00",
-      "section": "E",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "E",
           "catalogNumber": "",
           "schedule": [
             {
@@ -15023,12 +15114,12 @@
       "courseTitle": "Digital Systems Engineering: Modeling, Implementation and Validation",
       "courseId": "3216",
       "credits": "3.00",
-      "section": "Z",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "Z",
           "catalogNumber": "",
           "schedule": [
             {
@@ -15133,12 +15224,12 @@
       "courseTitle": "Operating System Fundamentals",
       "courseId": "3221",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "Q32Q01",
           "schedule": [
             {
@@ -15164,6 +15255,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "B",
           "catalogNumber": "J79C01",
           "schedule": [
             {
@@ -15189,6 +15281,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "E",
           "catalogNumber": "D26Y01",
           "schedule": [
             {
@@ -15220,12 +15313,12 @@
       "courseTitle": "Operating System Fundamentals",
       "courseId": "3221",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "T73T01",
           "schedule": [
             {
@@ -15251,6 +15344,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "N",
           "catalogNumber": "N20F01",
           "schedule": [
             {
@@ -15276,6 +15370,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "Z",
           "catalogNumber": "G67Z01",
           "schedule": [
             {
@@ -15307,12 +15402,12 @@
       "courseTitle": "Software Design",
       "courseId": "3311",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -15370,6 +15465,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "B",
           "catalogNumber": "",
           "schedule": [
             {
@@ -15427,6 +15523,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "E",
           "catalogNumber": "",
           "schedule": [
             {
@@ -15483,12 +15580,12 @@
       "courseTitle": "Software Design",
       "courseId": "3311",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -15539,6 +15636,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "N",
           "catalogNumber": "",
           "schedule": [
             {
@@ -15596,6 +15694,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "Z",
           "catalogNumber": "",
           "schedule": [
             {
@@ -15652,12 +15751,12 @@
       "courseTitle": "System Specification and Refinement",
       "courseId": "3342",
       "credits": "3.00",
-      "section": "E",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "E",
           "catalogNumber": "",
           "schedule": [
             {
@@ -15753,12 +15852,12 @@
       "courseTitle": "Introduction to Artificial Intelligence and Logic Programming",
       "courseId": "3401",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "V69Q01",
           "schedule": [
             {
@@ -15790,12 +15889,12 @@
       "courseTitle": "Introduction to Artificial Intelligence and Logic Programming",
       "courseId": "3401",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "P16C01",
           "schedule": [
             {
@@ -15827,12 +15926,12 @@
       "courseTitle": "Applied Machine Learning",
       "courseId": "3404",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "V37C01",
           "schedule": [
             {
@@ -15864,12 +15963,12 @@
       "courseTitle": "Fundamentals of Machine Learning",
       "courseId": "3405",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "Z84Y01",
           "schedule": [
             {
@@ -15901,12 +16000,12 @@
       "courseTitle": "Introduction to Database Systems",
       "courseId": "3421",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "D70J01",
           "schedule": [
             {
@@ -15932,6 +16031,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "B",
           "catalogNumber": "U17R01",
           "schedule": [
             {
@@ -15957,6 +16057,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "E",
           "catalogNumber": "V27A01",
           "schedule": [
             {
@@ -15988,12 +16089,12 @@
       "courseTitle": "Introduction to Database Systems",
       "courseId": "3421",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "H11M01",
           "schedule": [
             {
@@ -16019,6 +16120,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "Z",
           "catalogNumber": "Z74J01",
           "schedule": [
             {
@@ -16050,12 +16152,12 @@
       "courseTitle": "Introduction to 3D Computer Graphics",
       "courseId": "3431",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "G31G01",
           "schedule": [
             {
@@ -16087,12 +16189,12 @@
       "courseTitle": "Signals and Systems",
       "courseId": "3451",
       "credits": "4.00",
-      "section": "E",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "E",
           "catalogNumber": "",
           "schedule": [
             {
@@ -16204,12 +16306,12 @@
       "courseTitle": "Signals and Systems",
       "courseId": "3451",
       "credits": "4.00",
-      "section": "Z",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "Z",
           "catalogNumber": "",
           "schedule": [
             {
@@ -16321,12 +16423,12 @@
       "courseTitle": "Linear Control Systems",
       "courseId": "3452",
       "credits": "3.00",
-      "section": "E",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "E",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -16349,12 +16451,12 @@
       "courseTitle": "Linear Control Systems",
       "courseId": "3452",
       "credits": "3.00",
-      "section": "Z",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "Z",
           "catalogNumber": "",
           "schedule": [
             {
@@ -16402,12 +16504,12 @@
       "courseTitle": "User Interfaces",
       "courseId": "3461",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "R05G01",
           "schedule": [
             {
@@ -16439,12 +16541,12 @@
       "courseTitle": "User Interfaces",
       "courseId": "3461",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "K52P01",
           "schedule": [
             {
@@ -16470,6 +16572,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "N",
           "catalogNumber": "D99B01",
           "schedule": [
             {
@@ -16501,12 +16604,12 @@
       "courseTitle": "Applied Cryptography",
       "courseId": "3481",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "X63Y01",
           "schedule": [
             {
@@ -16538,12 +16641,12 @@
       "courseTitle": "Introduction to Computer Security",
       "courseId": "3482",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -16623,12 +16726,12 @@
       "courseTitle": "Introduction to Computer Security",
       "courseId": "3482",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -16724,12 +16827,12 @@
       "courseTitle": "Electrical Systems for Mechanical Engineers",
       "courseId": "3505",
       "credits": "3.00",
-      "section": "E",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "E",
           "catalogNumber": "",
           "schedule": [
             {
@@ -16841,12 +16944,12 @@
       "courseTitle": "Probability and Stochastic Processes in Communications and Signal Processing",
       "courseId": "3601",
       "credits": "4.00",
-      "section": "Z",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "Z",
           "catalogNumber": "",
           "schedule": [
             {
@@ -16910,12 +17013,12 @@
       "courseTitle": "Electromechanical Energy Conversion",
       "courseId": "3603",
       "credits": "4.00",
-      "section": "E",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "E",
           "catalogNumber": "",
           "schedule": [
             {
@@ -16995,12 +17098,12 @@
       "courseTitle": "Applied Electromagnetism",
       "courseId": "3604",
       "credits": "4.00",
-      "section": "Z",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "Z",
           "catalogNumber": "",
           "schedule": [
             {
@@ -17064,12 +17167,12 @@
       "courseTitle": "Semiconductor Physics and Devices",
       "courseId": "3610",
       "credits": "4.00",
-      "section": "E",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "E",
           "catalogNumber": "",
           "schedule": [
             {
@@ -17133,12 +17236,12 @@
       "courseTitle": "Analog Electronics",
       "courseId": "3611",
       "credits": "4.00",
-      "section": "Z",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "Z",
           "catalogNumber": "",
           "schedule": [
             {
@@ -17202,12 +17305,12 @@
       "courseTitle": "Introduction to Power Systems",
       "courseId": "3622",
       "credits": "4.00",
-      "section": "E",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "E",
           "catalogNumber": "",
           "schedule": [
             {
@@ -17287,12 +17390,12 @@
       "courseTitle": "Power System Analysis",
       "courseId": "3623",
       "credits": "4.00",
-      "section": "Z",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "Z",
           "catalogNumber": "",
           "schedule": [
             {
@@ -17356,12 +17459,12 @@
       "courseTitle": "Introduction to Medical Devices and Biological Instruments",
       "courseId": "3641",
       "credits": "4.00",
-      "section": "E",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "E",
           "catalogNumber": "",
           "schedule": [
             {
@@ -17425,12 +17528,12 @@
       "courseTitle": "Directed Studies",
       "courseId": "4070",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "ISTY",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "T88C01",
           "schedule": [
             {
@@ -17455,12 +17558,12 @@
       "courseTitle": "Directed Studies",
       "courseId": "4070",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "ISTY",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "N35Y01",
           "schedule": [
             {
@@ -17485,12 +17588,12 @@
       "courseTitle": "Computer Science Project",
       "courseId": "4080",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "ISTY",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "W71V01",
           "schedule": [
             {
@@ -17509,6 +17612,7 @@
         {
           "type": "ISTY",
           "meetNumber": "01",
+          "section": "B",
           "catalogNumber": "Y11D01",
           "schedule": [
             {
@@ -17531,12 +17635,12 @@
       "courseTitle": "Computer Science Project",
       "courseId": "4080",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "ISTY",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "Q18H01",
           "schedule": [
             {
@@ -17555,6 +17659,7 @@
         {
           "type": "ISTY",
           "meetNumber": "01",
+          "section": "N",
           "catalogNumber": "E58M01",
           "schedule": [
             {
@@ -17577,12 +17682,12 @@
       "courseTitle": "Computer Science Capstone Project",
       "courseId": "4088",
       "credits": "6.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "ISTY",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "D12C01",
           "schedule": [
             {
@@ -17601,6 +17706,7 @@
         {
           "type": "ISTY",
           "meetNumber": "01",
+          "section": "B",
           "catalogNumber": "V05U01",
           "schedule": [
             {
@@ -17623,12 +17729,12 @@
       "courseTitle": "Software Development Capstone Project",
       "courseId": "4090",
       "credits": "6.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "ISTY",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "V55H01",
           "schedule": [
             {
@@ -17647,6 +17753,7 @@
         {
           "type": "ISTY",
           "meetNumber": "01",
+          "section": "B",
           "catalogNumber": "Z52G01",
           "schedule": [
             {
@@ -17669,12 +17776,12 @@
       "courseTitle": "Advanced Data Structures",
       "courseId": "4101",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "U46J01",
           "schedule": [
             {
@@ -17706,12 +17813,12 @@
       "courseTitle": "Advanced Data Structures",
       "courseId": "4101",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "N93S01",
           "schedule": [
             {
@@ -17737,6 +17844,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "N",
           "catalogNumber": "H40E01",
           "schedule": [
             {
@@ -17768,12 +17876,12 @@
       "courseTitle": "Automata and Computability",
       "courseId": "4111",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -17788,12 +17896,12 @@
       "courseTitle": "Computational Complexity",
       "courseId": "4115",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "R34V01",
           "schedule": [
             {
@@ -17825,12 +17933,12 @@
       "courseTitle": "Introduction to Quantum Computing",
       "courseId": "4141",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "T37Y01",
           "schedule": [
             {
@@ -17862,12 +17970,12 @@
       "courseTitle": "Mathematics of Cryptography",
       "courseId": "4161",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "R63J01 (SC MATH) A06G01 (LE EECS)",
           "schedule": [
             {
@@ -17899,12 +18007,12 @@
       "courseTitle": "Advanced Topics in Algorithms",
       "courseId": "4171",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "U31D01",
           "schedule": [
             {
@@ -17936,12 +18044,12 @@
       "courseTitle": "Computer Architecture",
       "courseId": "4201",
       "credits": "3.00",
-      "section": "E",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "E",
           "catalogNumber": "N13M01",
           "schedule": [
             {
@@ -17973,12 +18081,12 @@
       "courseTitle": "Computer Architecture",
       "courseId": "4201",
       "credits": "3.00",
-      "section": "Z",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "Z",
           "catalogNumber": "G60V01",
           "schedule": [
             {
@@ -18010,12 +18118,12 @@
       "courseTitle": "Digital Communications",
       "courseId": "4214",
       "credits": "4.00",
-      "section": "E",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "E",
           "catalogNumber": "",
           "schedule": [
             {
@@ -18079,12 +18187,12 @@
       "courseTitle": "Digital Communications",
       "courseId": "4214",
       "credits": "4.00",
-      "section": "Z",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "Z",
           "catalogNumber": "",
           "schedule": [
             {
@@ -18148,12 +18256,12 @@
       "courseTitle": "Mobile Communications",
       "courseId": "4215",
       "credits": "3.00",
-      "section": "Z",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "Z",
           "catalogNumber": "",
           "schedule": [
             {
@@ -18217,12 +18325,12 @@
       "courseTitle": "Distributed Computing Systems",
       "courseId": "4222",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "P13D01",
           "schedule": [
             {
@@ -18252,12 +18360,12 @@
       "courseTitle": "Compilers and Interpreters",
       "courseId": "4302",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "C10U01",
           "schedule": [
             {
@@ -18287,12 +18395,12 @@
       "courseTitle": "Software Engineering Requirements",
       "courseId": "4312",
       "credits": "3.00",
-      "section": "E",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "E",
           "catalogNumber": "",
           "schedule": [
             {
@@ -18350,6 +18458,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "F",
           "catalogNumber": "",
           "schedule": [
             {
@@ -18413,12 +18522,12 @@
       "courseTitle": "Software Engineering Requirements",
       "courseId": "4312",
       "credits": "3.00",
-      "section": "X",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "X",
           "catalogNumber": "",
           "schedule": [
             {
@@ -18476,6 +18585,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "Z",
           "catalogNumber": "",
           "schedule": [
             {
@@ -18539,12 +18649,12 @@
       "courseTitle": "Software Engineering Testing",
       "courseId": "4313",
       "credits": "3.00",
-      "section": "E",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "E",
           "catalogNumber": "X60M01",
           "schedule": [
             {
@@ -18570,6 +18680,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "F",
           "catalogNumber": "C07V01",
           "schedule": [
             {
@@ -18601,12 +18712,12 @@
       "courseTitle": "Software Engineering Testing",
       "courseId": "4313",
       "credits": "3.00",
-      "section": "X",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "X",
           "catalogNumber": "S54G01",
           "schedule": [
             {
@@ -18632,6 +18743,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "Z",
           "catalogNumber": "M01P01",
           "schedule": [
             {
@@ -18663,12 +18775,12 @@
       "courseTitle": "Advanced Software Engineering",
       "courseId": "4314",
       "credits": "3.00",
-      "section": "E",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "E",
           "catalogNumber": "E57X01",
           "schedule": [
             {
@@ -18694,6 +18806,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "F",
           "catalogNumber": "V04Q01",
           "schedule": [
             {
@@ -18725,12 +18838,12 @@
       "courseTitle": "Advanced Software Engineering",
       "courseId": "4314",
       "credits": "3.00",
-      "section": "Z",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "Z",
           "catalogNumber": "Z51C01",
           "schedule": [
             {
@@ -18755,12 +18868,12 @@
       "courseTitle": "Mission-Critical Systems",
       "courseId": "4315",
       "credits": "3.00",
-      "section": "X",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "X",
           "catalogNumber": "",
           "schedule": [
             {
@@ -18818,6 +18931,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "Z",
           "catalogNumber": "",
           "schedule": [
             {
@@ -18881,12 +18995,12 @@
       "courseTitle": "Artificial Intelligence",
       "courseId": "4401",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "M55F01",
           "schedule": [
             {
@@ -18918,12 +19032,12 @@
       "courseTitle": "Artificial Intelligence",
       "courseId": "4401",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "G02Z01",
           "schedule": [
             {
@@ -18955,12 +19069,12 @@
       "courseTitle": "Advanced Machine Learning",
       "courseId": "4405",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "A43P01",
           "schedule": [
             {
@@ -18992,12 +19106,12 @@
       "courseTitle": "Database Management Systems",
       "courseId": "4411",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "S57F01",
           "schedule": [
             {
@@ -19029,12 +19143,12 @@
       "courseTitle": "Database Management Systems",
       "courseId": "4411",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "M04Z01",
           "schedule": [
             {
@@ -19060,6 +19174,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "N",
           "catalogNumber": "F51A01",
           "schedule": [
             {
@@ -19091,12 +19206,12 @@
       "courseTitle": "Data Mining",
       "courseId": "4412",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "R92F01",
           "schedule": [
             {
@@ -19122,6 +19237,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "B",
           "catalogNumber": "Y39Z01",
           "schedule": [
             {
@@ -19153,12 +19269,12 @@
       "courseTitle": "Data Mining",
       "courseId": "4412",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "E86A01",
           "schedule": [
             {
@@ -19184,6 +19300,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "N",
           "catalogNumber": "V33X01",
           "schedule": [
             {
@@ -19215,12 +19332,12 @@
       "courseTitle": "Building E-Commerce Systems",
       "courseId": "4413",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -19271,6 +19388,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "B",
           "catalogNumber": "",
           "schedule": [
             {
@@ -19321,6 +19439,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "E",
           "catalogNumber": "",
           "schedule": [
             {
@@ -19377,12 +19496,12 @@
       "courseTitle": "Building E-Commerce Systems",
       "courseId": "4413",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -19433,6 +19552,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "Z",
           "catalogNumber": "",
           "schedule": [
             {
@@ -19489,12 +19609,12 @@
       "courseTitle": "Information Networks",
       "courseId": "4414",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "S44E01",
           "schedule": [
             {
@@ -19519,12 +19639,12 @@
       "courseTitle": "Big Data Systems",
       "courseId": "4415",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "A36W01",
           "schedule": [
             {
@@ -19550,6 +19670,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "B",
           "catalogNumber": "Q83H01",
           "schedule": [
             {
@@ -19581,12 +19702,12 @@
       "courseTitle": "Big Data Systems",
       "courseId": "4415",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "K30Q01",
           "schedule": [
             {
@@ -19612,6 +19733,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "N",
           "catalogNumber": "D77C01",
           "schedule": [
             {
@@ -19643,12 +19765,12 @@
       "courseTitle": "Introduction to Robotics",
       "courseId": "4421",
       "credits": "3.00",
-      "section": "E",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "E",
           "catalogNumber": "",
           "schedule": [
             {
@@ -19712,12 +19834,12 @@
       "courseTitle": "Computer Vision",
       "courseId": "4422",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -19781,12 +19903,12 @@
       "courseTitle": "Computer Vision",
       "courseId": "4422",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -19850,12 +19972,12 @@
       "courseTitle": "Human-Computer Interaction",
       "courseId": "4441",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "F15P01",
           "schedule": [
             {
@@ -19887,12 +20009,12 @@
       "courseTitle": "Human-Computer Interaction",
       "courseId": "4441",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "V62A01",
           "schedule": [
             {
@@ -19924,12 +20046,12 @@
       "courseTitle": "Mobile User Interfaces",
       "courseId": "4443",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -19993,12 +20115,12 @@
       "courseTitle": "Mobile User Interfaces",
       "courseId": "4443",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -20062,12 +20184,12 @@
       "courseTitle": "Digital Signal Processing: Theory and Applications",
       "courseId": "4452",
       "credits": "3.00",
-      "section": "Z",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "Z",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -20082,12 +20204,12 @@
       "courseTitle": "Hypermedia and Multimedia Technology",
       "courseId": "4461",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "P09J01",
           "schedule": [
             {
@@ -20119,12 +20241,12 @@
       "courseTitle": "Hypermedia and Multimedia Technology",
       "courseId": "4461",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "X56S01",
           "schedule": [
             {
@@ -20156,12 +20278,12 @@
       "courseTitle": "Digital Audio",
       "courseId": "4462",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "J43R01",
           "schedule": [
             {
@@ -20193,12 +20315,12 @@
       "courseTitle": "Digital Audio",
       "courseId": "4462",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "C90D01",
           "schedule": [
             {
@@ -20230,12 +20352,12 @@
       "courseTitle": "Computer Security Project",
       "courseId": "4480",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "ISTY",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "T59K01",
           "schedule": [
             {
@@ -20260,12 +20382,12 @@
       "courseTitle": "Computer Security Project",
       "courseId": "4480",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "ISTY",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "N06T01",
           "schedule": [
             {
@@ -20290,12 +20412,12 @@
       "courseTitle": "Computer Security Laboratory",
       "courseId": "4481",
       "credits": "4.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -20359,12 +20481,12 @@
       "courseTitle": "Network Security and Forensics",
       "courseId": "4482",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "H76M01",
           "schedule": [
             {
@@ -20396,12 +20518,12 @@
       "courseTitle": "Malware Analysis",
       "courseId": "4484",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -20465,12 +20587,12 @@
       "courseTitle": "Digital Very Large Scale Integration",
       "courseId": "4612",
       "credits": "4.00",
-      "section": "E",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "E",
           "catalogNumber": "",
           "schedule": [
             {
@@ -20534,12 +20656,12 @@
       "courseTitle": "Electro-Optics",
       "courseId": "4614",
       "credits": "4.00",
-      "section": "E",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "E",
           "catalogNumber": "",
           "schedule": [
             {
@@ -20603,12 +20725,12 @@
       "courseTitle": "Biomedical Signal Analysis",
       "courseId": "4643",
       "credits": "4.00",
-      "section": "Z",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "Z",
           "catalogNumber": "",
           "schedule": [
             {
@@ -20672,12 +20794,12 @@
       "courseTitle": "Electric Vehicles",
       "courseId": "4646",
       "credits": "4.00",
-      "section": "E",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "E",
           "catalogNumber": "",
           "schedule": [
             {
@@ -20741,12 +20863,12 @@
       "courseTitle": "Digital Media Project",
       "courseId": "4700",
       "credits": "6.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "G53F01",
           "schedule": [
             {
@@ -20772,12 +20894,12 @@
       "courseTitle": "Industry Practicum",
       "courseId": "4910",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "ISTY",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "S15M01",
           "schedule": [
             {
@@ -20802,12 +20924,12 @@
       "courseTitle": "Industry Practicum",
       "courseId": "4911",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "ISTY",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "Y62V01",
           "schedule": [
             {
@@ -20832,12 +20954,12 @@
       "courseTitle": "Renaissance Engineer 1: Ethics, Communication & Problem Solving",
       "courseId": "1101",
       "credits": "4.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "TUTR",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "H91M02",
           "schedule": [
             {
@@ -20920,6 +21042,7 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
+          "section": "B",
           "catalogNumber": "B38V02",
           "schedule": [
             {
@@ -21002,6 +21125,7 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
+          "section": "C",
           "catalogNumber": "R85G02",
           "schedule": [
             {
@@ -21084,6 +21208,7 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
+          "section": "D",
           "catalogNumber": "Y32P02",
           "schedule": [
             {
@@ -21166,6 +21291,7 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
+          "section": "E",
           "catalogNumber": "E79B02",
           "schedule": [
             {
@@ -21216,6 +21342,7 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
+          "section": "F",
           "catalogNumber": "D82X02",
           "schedule": [
             {
@@ -21298,6 +21425,7 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
+          "section": "H",
           "catalogNumber": "R09C02",
           "schedule": [
             {
@@ -21386,12 +21514,12 @@
       "courseTitle": "Renaissance Engineer 1: Ethics, Communication & Problem Solving",
       "courseId": "1101",
       "credits": "4.00",
-      "section": "N",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "TUTR",
           "meetNumber": "01",
+          "section": "N",
           "catalogNumber": "W28W02",
           "schedule": [
             {
@@ -21494,12 +21622,12 @@
       "courseTitle": "Renaissance Engineer 1: Ethics, Communication & Problem Solving",
       "courseId": "1101",
       "credits": "4.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "TUTR",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -21546,12 +21674,12 @@
       "courseTitle": "Renaissance Engineer 2: Engineering Design Principles",
       "courseId": "1102",
       "credits": "4.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "TUTR",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "Q68D02",
           "schedule": [
             {
@@ -21698,6 +21826,7 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
+          "section": "N",
           "catalogNumber": "K15M02",
           "schedule": [
             {
@@ -21812,6 +21941,7 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
+          "section": "O",
           "catalogNumber": "D62V02",
           "schedule": [
             {
@@ -21926,6 +22056,7 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
+          "section": "P",
           "catalogNumber": "U09G02",
           "schedule": [
             {
@@ -22040,6 +22171,7 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
+          "section": "V",
           "catalogNumber": "N56P02",
           "schedule": [
             {
@@ -22128,12 +22260,12 @@
       "courseTitle": "Passion Project",
       "courseId": "1600",
       "credits": "1.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "FDEX",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "X15F01",
           "schedule": [
             {
@@ -22156,12 +22288,12 @@
       "courseTitle": "Engineering Projects: Management, Economics and Safety",
       "courseId": "2001",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "TUTR",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "F88W02",
           "schedule": [
             {
@@ -22292,6 +22424,7 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
+          "section": "B",
           "catalogNumber": "W35H02",
           "schedule": [
             {
@@ -22422,6 +22555,7 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
+          "section": "C",
           "catalogNumber": "P82Q02",
           "schedule": [
             {
@@ -22558,12 +22692,12 @@
       "courseTitle": "Effective Engineering Communication",
       "courseId": "2003",
       "credits": "3.00",
-      "section": "Z",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "SEMR",
           "meetNumber": "01",
+          "section": "Z",
           "catalogNumber": "A23J01",
           "schedule": [
             {
@@ -22586,12 +22720,12 @@
       "courseTitle": "Effective Engineering Communication",
       "courseId": "2003",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -22722,6 +22856,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "N",
           "catalogNumber": "",
           "schedule": [
             {
@@ -22850,6 +22985,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "O",
           "catalogNumber": "",
           "schedule": [
             {
@@ -22980,6 +23116,7 @@
         {
           "type": "SEMR",
           "meetNumber": "01",
+          "section": "Z",
           "catalogNumber": "D64M01",
           "schedule": [
             {
@@ -23002,12 +23139,12 @@
       "courseTitle": "Professional Engineering Practice",
       "courseId": "3000",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "U97R01",
           "schedule": [
             {
@@ -23039,12 +23176,12 @@
       "courseTitle": "Interdisciplinary Project Launchpad",
       "courseId": "3400",
       "credits": "3.00",
-      "section": "Z",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "SEMR",
           "meetNumber": "01",
+          "section": "Z",
           "catalogNumber": "Q70R01",
           "schedule": [
             {
@@ -23071,12 +23208,12 @@
       "courseTitle": "Interdisciplinary Project Launchpad",
       "courseId": "3400",
       "credits": "3.00",
-      "section": "Z",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "SEMR",
           "meetNumber": "01",
+          "section": "Z",
           "catalogNumber": "U11U01",
           "schedule": [
             {
@@ -23101,12 +23238,12 @@
       "courseTitle": "Engineering Project (Capstone)",
       "courseId": "4000",
       "credits": "6.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "SEMR",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "H04N01",
           "schedule": [
             {
@@ -23127,6 +23264,7 @@
         {
           "type": "SEMR",
           "meetNumber": "01",
+          "section": "Z",
           "catalogNumber": "H05P01",
           "schedule": [
             {
@@ -23149,12 +23287,12 @@
       "courseTitle": "Interdisciplinary Project Odyssey",
       "courseId": "4402",
       "credits": "6.00",
-      "section": "Z",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "SEMR",
           "meetNumber": "01",
+          "section": "Z",
           "catalogNumber": "A52B01",
           "schedule": [
             {
@@ -23181,12 +23319,12 @@
       "courseTitle": "Introduction to Control Systems",
       "courseId": "4550",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -23324,12 +23462,12 @@
       "courseTitle": "Introduction to Control Systems",
       "courseId": "4550",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -23467,12 +23605,12 @@
       "courseTitle": "Feedback Control Systems",
       "courseId": "4650",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -23495,12 +23633,12 @@
       "courseTitle": "The Dynamic Earth and Space Geodesy",
       "courseId": "1010",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -23582,12 +23720,12 @@
       "courseTitle": "Introduction to Atmospheric Science",
       "courseId": "1011",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -23620,6 +23758,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "B",
           "catalogNumber": "",
           "schedule": [
             {
@@ -23703,12 +23842,12 @@
       "courseTitle": "The Earth Environment",
       "courseId": "1012",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -23803,12 +23942,12 @@
       "courseTitle": "The Earth Environment",
       "courseId": "1012",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -24146,6 +24285,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "V",
           "catalogNumber": "",
           "schedule": [
             {
@@ -24244,12 +24384,12 @@
       "courseTitle": "Natural, Technological and Human-induced Disasters",
       "courseId": "1410",
       "credits": "6.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "J27K01",
           "schedule": [
             {
@@ -24274,12 +24414,12 @@
       "courseTitle": "Introductory Meteorology",
       "courseId": "2010",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -24336,12 +24476,12 @@
       "courseTitle": "Introduction to Climate Science",
       "courseId": "2020",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -24384,12 +24524,12 @@
       "courseTitle": "Planetary Geophysics",
       "courseId": "2030",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -24457,12 +24597,12 @@
       "courseTitle": "Engineering and the Environment",
       "courseId": "2210",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -24527,6 +24667,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "B",
           "catalogNumber": "C28P01",
           "schedule": [
             {
@@ -24558,12 +24699,12 @@
       "courseTitle": "Engineering and the Environment",
       "courseId": "2210",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -24628,6 +24769,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "N",
           "catalogNumber": "S75A01",
           "schedule": [
             {
@@ -24666,12 +24808,12 @@
       "courseTitle": "Computational Methods for Space Engineering",
       "courseId": "2220",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -24755,12 +24897,12 @@
       "courseTitle": "Space Systems Engineering",
       "courseId": "2361",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "D03Y01",
           "schedule": [
             {
@@ -24785,12 +24927,12 @@
       "courseTitle": "Introduction to Continuum Mechanics",
       "courseId": "2470",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -24854,12 +24996,12 @@
       "courseTitle": "Global Geophysics and Geodesy",
       "courseId": "3020",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "D32D01",
           "schedule": [
             {
@@ -24891,12 +25033,12 @@
       "courseTitle": "Atmospheric Radiation and Thermodynamics",
       "courseId": "3030",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "U87M01 (LE ESSE) Z77W01 (SC PHYS)",
           "schedule": [
             {
@@ -24928,12 +25070,12 @@
       "courseTitle": "Atmospheric Dynamics I",
       "courseId": "3040",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -24983,12 +25125,12 @@
       "courseTitle": "Introductory Atmospheric Chemistry",
       "courseId": "3130",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "N27R01 (SC CHEM) U23J01 (LE ESSE)",
           "schedule": [
             {
@@ -25027,12 +25169,12 @@
       "courseTitle": "Physics of the Space Environment",
       "courseId": "3280",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "F09S01 (SC PHYS) G25J01 (LE ESSE)",
           "schedule": [
             {
@@ -25064,12 +25206,12 @@
       "courseTitle": "Materials for Space Applications",
       "courseId": "3330",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -25117,12 +25259,12 @@
       "courseTitle": "Heat Transfer and Thermal Design",
       "courseId": "3360",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -25177,12 +25319,12 @@
       "courseTitle": "Fundamentals of Mechatronics",
       "courseId": "3380",
       "credits": "4.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -25241,12 +25383,12 @@
       "courseTitle": "Geographical Information Systems (GIS) and Spatial Analysis",
       "courseId": "3600",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -25305,12 +25447,12 @@
       "courseTitle": "Research Project",
       "courseId": "4000",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "RESP",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "E88P01",
           "schedule": [
             {
@@ -25333,12 +25475,12 @@
       "courseTitle": "Research Project",
       "courseId": "4000",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "RESP",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "V35A01",
           "schedule": [
             {
@@ -25361,12 +25503,12 @@
       "courseTitle": "Research Project",
       "courseId": "4000",
       "credits": "6.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "RESP",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "Z82J01",
           "schedule": [
             {
@@ -25389,12 +25531,12 @@
       "courseTitle": "Time Series and Spectral Analysis",
       "courseId": "4020",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -25460,12 +25602,12 @@
       "courseTitle": "Dynamics of Space Vehicles",
       "courseId": "4110",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "N91U01 (LE ESSE) Y36T01 (SC PHYS)",
           "schedule": [
             {
@@ -25497,12 +25639,12 @@
       "courseTitle": "Cloud Physics and Radar Meteorology",
       "courseId": "4120",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "N26U01",
           "schedule": [
             {
@@ -25541,12 +25683,12 @@
       "courseTitle": "Atmospheric Dynamics II",
       "courseId": "4130",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "G73G01",
           "schedule": [
             {
@@ -25585,12 +25727,12 @@
       "courseTitle": "Numerical Weather Prediction",
       "courseId": "4140",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -25640,12 +25782,12 @@
       "courseTitle": "Climate Variability and Climate Change",
       "courseId": "4160",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "R46J01",
           "schedule": [
             {
@@ -25670,12 +25812,12 @@
       "courseTitle": "Remote Sensing of the Earth's Surface",
       "courseId": "4220",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -25718,12 +25860,12 @@
       "courseTitle": "Remote Sensing of the Atmosphere",
       "courseId": "4230",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -25771,12 +25913,12 @@
       "courseTitle": "Storms and Weather Systems",
       "courseId": "4240",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "K14J01",
           "schedule": [
             {
@@ -25801,12 +25943,12 @@
       "courseTitle": "Space Hardware",
       "courseId": "4350",
       "credits": "6.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -25873,12 +26015,12 @@
       "courseTitle": "Payload Design",
       "courseId": "4360",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "T50T01",
           "schedule": [
             {
@@ -25910,12 +26052,12 @@
       "courseTitle": "Space Mission Design",
       "courseId": "4361",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "M97F01",
           "schedule": [
             {
@@ -25940,12 +26082,12 @@
       "courseTitle": "Finite Element Methods in Engineering Design",
       "courseId": "4370",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -25988,12 +26130,12 @@
       "courseTitle": "Geographical Information Systems (GIS) and Data Integration",
       "courseId": "4600",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -26034,12 +26176,12 @@
       "courseTitle": "Mechanical Engineering: Professionalism and Society",
       "courseId": "2112",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "TUTR",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "M56B02",
           "schedule": [
             {
@@ -26056,11 +26198,21 @@
           "notes": ""
         },
         {
-          "type": "LECT",
-          "meetNumber": "",
+          "type": "HYFX",
+          "meetNumber": "01",
           "catalogNumber": "",
-          "schedule": [],
-          "instructors": [],
+          "schedule": [
+            {
+              "day": "T",
+              "time": "12:30",
+              "duration": "110",
+              "campus": "Keele",
+              "room": "LSB 106"
+            }
+          ],
+          "instructors": [
+            "Solomon Boakye-Yiadom"
+          ],
           "notes": ""
         },
         {
@@ -26136,12 +26288,12 @@
       "courseTitle": "Thermodynamics",
       "courseId": "2201",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -26289,12 +26441,12 @@
       "courseTitle": "Heat and Flow Engineering Principles",
       "courseId": "2202",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -26429,12 +26581,12 @@
       "courseTitle": "Mechanics of Material 1",
       "courseId": "2301",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -26585,12 +26737,12 @@
       "courseTitle": "Dynamics",
       "courseId": "2302",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -26697,12 +26849,12 @@
       "courseTitle": "Dynamics",
       "courseId": "2302",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -26798,12 +26950,12 @@
       "courseTitle": "Engineering Graphics & CAD Modeling",
       "courseId": "2401",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -26970,12 +27122,12 @@
       "courseTitle": "Engineering Graphics & CAD Modeling",
       "courseId": "2401",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -27063,12 +27215,12 @@
       "courseTitle": "Mini Design Project 1",
       "courseId": "2412",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -27301,12 +27453,12 @@
       "courseTitle": "Modern Instrumentation and Measurement Techniques",
       "courseId": "2502",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -27388,12 +27540,12 @@
       "courseTitle": "Modern Instrumentation and Measurement Techniques",
       "courseId": "2502",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -27460,6 +27612,7 @@
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "N",
           "catalogNumber": "",
           "schedule": [
             {
@@ -27530,12 +27683,12 @@
       "courseTitle": "Engineering Thermodynamics",
       "courseId": "3201",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -27625,12 +27778,12 @@
       "courseTitle": "Fluid Dynamics",
       "courseId": "3202",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -27716,12 +27869,12 @@
       "courseTitle": "Heat Transfer",
       "courseId": "3203",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -27840,12 +27993,12 @@
       "courseTitle": "Mechanisms for Mechanical Systems",
       "courseId": "3302",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -27941,12 +28094,12 @@
       "courseTitle": "Mini Design Project 2",
       "courseId": "3401",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -28051,12 +28204,12 @@
       "courseTitle": "Machine Elements Design",
       "courseId": "3409",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -28143,12 +28296,12 @@
       "courseTitle": "Solid Mechanics and Materials Laboratory",
       "courseId": "3502",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -28287,12 +28440,12 @@
       "courseTitle": "Macro-and-Micro Manufacturing Methods",
       "courseId": "3503",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -28404,12 +28557,12 @@
       "courseTitle": "Thermofluid Laboratory",
       "courseId": "3504",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -28530,12 +28683,12 @@
       "courseTitle": "Transport Phenomena",
       "courseId": "4201",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -28599,12 +28752,12 @@
       "courseTitle": "Aerodynamics",
       "courseId": "4202",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -28668,12 +28821,12 @@
       "courseTitle": "Energy Conversion and Storage",
       "courseId": "4203",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -28737,12 +28890,12 @@
       "courseTitle": "Introduction to Composite Materials",
       "courseId": "4301",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -28806,12 +28959,12 @@
       "courseTitle": "Simulation Tools for Design & Analysis",
       "courseId": "4402",
       "credits": "4.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -28917,12 +29070,12 @@
       "courseTitle": "Artificial Intelligence and Generative Design for Mechanical Systems",
       "courseId": "4403",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -28984,12 +29137,12 @@
       "courseTitle": "Life Cycle and System Design",
       "courseId": "4411",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -29085,12 +29238,12 @@
       "courseTitle": "Vibrations",
       "courseId": "4502",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
@@ -29161,12 +29314,12 @@
       "courseTitle": "Advanced Mechanical Technologies",
       "courseId": "4510",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -29223,12 +29376,12 @@
       "courseTitle": "Principles of Bioengineering",
       "courseId": "4512",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -29259,12 +29412,12 @@
       "courseTitle": "Principles of Bioengineering",
       "courseId": "4512",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -29328,12 +29481,12 @@
       "courseTitle": "Disruptive Technology Innovation & Entrepreneurship",
       "courseId": "1000",
       "credits": "3.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "ONLN",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "S14V01",
           "schedule": [
             {
@@ -29358,12 +29511,12 @@
       "courseTitle": "Leadership and Teamwork I",
       "courseId": "1999",
       "credits": "0.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "FDEX",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -29378,12 +29531,12 @@
       "courseTitle": "Leadership and Teamwork I",
       "courseId": "1999",
       "credits": "0.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "FDEX",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "R13D01",
           "schedule": [
             {
@@ -29408,12 +29561,12 @@
       "courseTitle": "Mechatronics Work-Term I",
       "courseId": "2910",
       "credits": "0.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "INSP",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "G28W01",
           "schedule": [
             {
@@ -29436,12 +29589,12 @@
       "courseTitle": "Leadership and Teamwork II",
       "courseId": "2999",
       "credits": "0.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "FDEX",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -29456,12 +29609,12 @@
       "courseTitle": "Leadership and Teamwork II",
       "courseId": "2999",
       "credits": "0.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "FDEX",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "E07V01",
           "schedule": [
             {
@@ -29486,12 +29639,12 @@
       "courseTitle": "Legal Values: Commercializing IP",
       "courseId": "3091",
       "credits": "3.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "U28J01",
           "schedule": [
             {
@@ -29516,12 +29669,12 @@
       "courseTitle": "Leadership and Teamwork III",
       "courseId": "3999",
       "credits": "0.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "FDEX",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "Q08V01",
           "schedule": [
             {
@@ -29546,12 +29699,12 @@
       "courseTitle": "Management of Interdisciplinary Projects",
       "courseId": "4400",
       "credits": "3.00",
-      "section": "Z",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "TUTR",
           "meetNumber": "01",
+          "section": "Z",
           "catalogNumber": "",
           "schedule": [
             {
@@ -29590,12 +29743,12 @@
       "courseTitle": "Management of Interdisciplinary Projects",
       "courseId": "4400",
       "credits": "3.00",
-      "section": "Z",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "TUTR",
           "meetNumber": "01",
+          "section": "Z",
           "catalogNumber": "",
           "schedule": [
             {
@@ -29634,12 +29787,12 @@
       "courseTitle": "Leadership and Teamwork IV",
       "courseId": "4999",
       "credits": "0.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "FDEX",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "J55H01",
           "schedule": [
             {
@@ -29664,12 +29817,12 @@
       "courseTitle": "Mechatronics System Design and Implementation I",
       "courseId": "1000",
       "credits": "4.00",
-      "section": "M",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
             {
@@ -29729,12 +29882,12 @@
       "courseTitle": "Mechatronics System Design and Implementation II",
       "courseId": "2000",
       "credits": "4.00",
-      "section": "A",
       "languageOfInstruction": "EN",
       "sections": [
         {
           "type": "LECT",
           "meetNumber": "01",
+          "section": "A",
           "catalogNumber": "",
           "schedule": [
             {
