@@ -250,10 +250,7 @@ def parse_schedule_entry(schedule_cells: List[Tag]) -> Dict[str, str]:
 
 
 def parse_course_timetable_html(html_content: str) -> Dict[str, Any]:
-    """Parse the Urban timetable HTML into a structured JSON-friendly dict.
-    Relies on header rows to segment courses, then walks subsequent rows,
-    extracting section details with robust handling of malformed HTML.
-    """
+    """Parse Urban timetable HTML into structured course data."""
     soup = BeautifulSoup(html_content, "html.parser")
 
     for body_paragraph in soup.select("p.bodytext"):
