@@ -143,18 +143,12 @@ def build_details(row_cells: List[Tag], section_type_index: int) -> tuple[List[D
     if schedule_cell is not None:
         inner_table = schedule_cell.find("table")
         if inner_table:
-            for s_tr in inner_table.find_all("tr"):
-                s_tds = s_tr.find_all("td")
-                if len(s_tds) >= 5:
-                    entry = {
-                        "day": cell_text(s_tds[0]),
-                        "time": cell_text(s_tds[1]),
-                        "duration": cell_text(s_tds[2]),
-                        "campus": cell_text(s_tds[3]),
-                        "room": clean_room(cell_text(s_tds[4])),
-                    }
-                    if any(entry.values()):
-                        schedule.append(entry)
+            for schedule_row in inner_table.find_all("tr"):
+                schedule_cells = schedule_row.find_all("td")
+                if len(schedule_cells) >= 5:
+                    schedule_entry = parse_schedule_entry(schedule_cells)
+                    if any(schedule_entry.values()):
+                        schedule.append(schedule_entry)
         else:
             schedule_text = cell_text(schedule_cell)
             if schedule_text and schedule_text.lower() != "cancelled":
@@ -243,6 +237,15 @@ def clean_room(room_text: str) -> str:
     cleaned_text = norm_text(room_text)
     return cleaned_text
 
+def parse_schedule_entry(schedule_cells: List[Tag]) -> Dict[str, str]:
+    """Parse a schedule table row into a schedule entry dict."""
+    return {
+        "day": cell_text(schedule_cells[0]),
+        "time": cell_text(schedule_cells[1]),
+        "duration": cell_text(schedule_cells[2]),
+        "campus": cell_text(schedule_cells[3]),
+        "room": clean_room(cell_text(schedule_cells[4])),
+    }
 
 def parse_course_timetable_html(html_content: str) -> Dict[str, Any]:
     """Parse Lassonde timetable HTML into structured course data."""
