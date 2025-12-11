@@ -38,7 +38,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "V70S02",
           "schedule": [
             {
@@ -55,7 +54,6 @@
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "V70S03",
           "schedule": [
             {
@@ -72,7 +70,6 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "V70S04",
           "schedule": [
             {
@@ -89,7 +86,6 @@
         {
           "type": "TUTR",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "V70S05",
           "schedule": [
             {
@@ -106,7 +102,6 @@
         {
           "type": "TUTR",
           "meetNumber": "05",
-          "section": "",
           "catalogNumber": "V70S06",
           "schedule": [
             {
@@ -123,7 +118,6 @@
         {
           "type": "TUTR",
           "meetNumber": "06",
-          "section": "",
           "catalogNumber": "V70S07",
           "schedule": [
             {
@@ -177,7 +171,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "",
           "schedule": [
             {
@@ -194,7 +187,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "F23K03",
           "schedule": [
             {
@@ -213,7 +205,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "F23K04",
           "schedule": [
             {
@@ -232,7 +223,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "F23K05",
           "schedule": [
             {
@@ -251,7 +241,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "F23K06",
           "schedule": [
             {
@@ -270,7 +259,6 @@
         {
           "type": "LAB",
           "meetNumber": "05",
-          "section": "",
           "catalogNumber": "F23K07",
           "schedule": [
             {
@@ -289,7 +277,6 @@
         {
           "type": "LAB",
           "meetNumber": "06",
-          "section": "",
           "catalogNumber": "F23K08",
           "schedule": [
             {
@@ -346,7 +333,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "X64N02",
           "schedule": [
             {
@@ -365,7 +351,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "X64N03",
           "schedule": [
             {
@@ -384,7 +369,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "X64N04",
           "schedule": [
             {
@@ -403,7 +387,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "X64N05",
           "schedule": [
             {
@@ -422,7 +405,6 @@
         {
           "type": "LAB",
           "meetNumber": "05",
-          "section": "",
           "catalogNumber": "X64N06",
           "schedule": [
             {
@@ -441,7 +423,6 @@
         {
           "type": "LAB",
           "meetNumber": "06",
-          "section": "",
           "catalogNumber": "X64N07",
           "schedule": [
             {
@@ -497,7 +478,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "C11W02",
           "schedule": [
             {
@@ -516,7 +496,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "C11W03",
           "schedule": [
             {
@@ -535,7 +514,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "C11W04",
           "schedule": [
             {
@@ -554,7 +532,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "C11W05",
           "schedule": [
             {
@@ -573,7 +550,6 @@
         {
           "type": "LAB",
           "meetNumber": "05",
-          "section": "",
           "catalogNumber": "C11W06",
           "schedule": [
             {
@@ -592,7 +568,6 @@
         {
           "type": "LAB",
           "meetNumber": "06",
-          "section": "",
           "catalogNumber": "C11W07",
           "schedule": [
             {
@@ -650,7 +625,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "S58H02",
           "schedule": [
             {
@@ -667,7 +641,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "S58H03",
           "schedule": [
             {
@@ -684,7 +657,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "S58H04",
           "schedule": [
             {
@@ -701,7 +673,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "S58H05",
           "schedule": [
             {
@@ -718,7 +689,6 @@
         {
           "type": "LAB",
           "meetNumber": "05",
-          "section": "",
           "catalogNumber": "S58H06",
           "schedule": [
             {
@@ -735,7 +705,6 @@
         {
           "type": "LAB",
           "meetNumber": "06",
-          "section": "",
           "catalogNumber": "S58H07",
           "schedule": [
             {
@@ -789,7 +758,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "",
           "schedule": [
             {
@@ -806,7 +774,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "G32W03",
           "schedule": [
             {
@@ -823,7 +790,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "G32W04",
           "schedule": [
             {
@@ -840,7 +806,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "G32W05",
           "schedule": [
             {
@@ -857,7 +822,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "G32W06",
           "schedule": [
             {
@@ -874,7 +838,6 @@
         {
           "type": "LAB",
           "meetNumber": "05",
-          "section": "",
           "catalogNumber": "G32W07",
           "schedule": [
             {
@@ -891,7 +854,6 @@
         {
           "type": "LAB",
           "meetNumber": "06",
-          "section": "",
           "catalogNumber": "G32W08",
           "schedule": [
             {
@@ -945,7 +907,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "B82H02",
           "schedule": [
             {
@@ -962,7 +923,6 @@
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "B82H03",
           "schedule": [
             {
@@ -979,7 +939,6 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "B82H04",
           "schedule": [
             {
@@ -996,7 +955,6 @@
         {
           "type": "TUTR",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "B82H05",
           "schedule": [
             {
@@ -1013,7 +971,6 @@
         {
           "type": "TUTR",
           "meetNumber": "05",
-          "section": "",
           "catalogNumber": "B82H06",
           "schedule": [
             {
@@ -1030,7 +987,6 @@
         {
           "type": "TUTR",
           "meetNumber": "06",
-          "section": "",
           "catalogNumber": "B82H07",
           "schedule": [
             {
@@ -1084,7 +1040,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "F81R02",
           "schedule": [
             {
@@ -1104,7 +1059,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "F81R03",
           "schedule": [
             {
@@ -1123,7 +1077,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "F81R04",
           "schedule": [
             {
@@ -1142,7 +1095,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "F81R05",
           "schedule": [
             {
@@ -1196,7 +1148,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "",
           "schedule": [
             {
@@ -1213,7 +1164,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "M05Q03",
           "schedule": [
             {
@@ -1232,7 +1182,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "M05Q04",
           "schedule": [
             {
@@ -1251,7 +1200,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "M05Q05",
           "schedule": [
             {
@@ -1271,7 +1219,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "M05Q06",
           "schedule": [
             {
@@ -1325,7 +1272,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "V99K02",
           "schedule": [
             {
@@ -1344,7 +1290,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "V99K03",
           "schedule": [
             {
@@ -1364,7 +1309,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "V99K04",
           "schedule": [
             {
@@ -1383,7 +1327,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "V99K05",
           "schedule": [
             {
@@ -1402,7 +1345,6 @@
         {
           "type": "LAB",
           "meetNumber": "05",
-          "section": "",
           "catalogNumber": "V99K06",
           "schedule": [
             {
@@ -1456,7 +1398,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "X35V02",
           "schedule": [
             {
@@ -1475,7 +1416,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "X35V03",
           "schedule": [
             {
@@ -1494,7 +1434,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "X35V04",
           "schedule": [
             {
@@ -1513,7 +1452,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "X35V05",
           "schedule": [
             {
@@ -1569,7 +1507,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "C40Z02",
           "schedule": [
             {
@@ -1628,7 +1565,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "P68J02",
           "schedule": [
             {
@@ -1645,7 +1581,6 @@
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "P68J03",
           "schedule": [
             {
@@ -1662,7 +1597,6 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "P68J04",
           "schedule": [
             {
@@ -1679,7 +1613,6 @@
         {
           "type": "TUTR",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "P68J05",
           "schedule": [
             {
@@ -1696,7 +1629,6 @@
         {
           "type": "TUTR",
           "meetNumber": "05",
-          "section": "",
           "catalogNumber": "P68J06",
           "schedule": [
             {
@@ -1750,7 +1682,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "P17E02",
           "schedule": [
             {
@@ -1767,7 +1698,6 @@
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "P17E03",
           "schedule": [
             {
@@ -1784,7 +1714,6 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "P17E04",
           "schedule": [
             {
@@ -1801,7 +1730,6 @@
         {
           "type": "TUTR",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "P17E05",
           "schedule": [
             {
@@ -1818,7 +1746,6 @@
         {
           "type": "TUTR",
           "meetNumber": "05",
-          "section": "",
           "catalogNumber": "P17E06",
           "schedule": [
             {
@@ -1872,7 +1799,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "",
           "schedule": [
             {
@@ -1889,7 +1815,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "X93F03",
           "schedule": [
             {
@@ -1906,7 +1831,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "X93F04",
           "schedule": [
             {
@@ -1923,7 +1847,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "X93F05",
           "schedule": [
             {
@@ -1940,7 +1863,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "X93F06",
           "schedule": [
             {
@@ -1957,7 +1879,6 @@
         {
           "type": "LAB",
           "meetNumber": "05",
-          "section": "",
           "catalogNumber": "X93F07",
           "schedule": [
             {
@@ -2004,7 +1925,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "",
           "schedule": [
             {
@@ -2021,7 +1941,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "T09M03",
           "schedule": [
             {
@@ -2038,7 +1957,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "T09M04",
           "schedule": [
             {
@@ -2055,7 +1973,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "T09M05",
           "schedule": [
             {
@@ -2072,7 +1989,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "T09M06",
           "schedule": [
             {
@@ -2089,7 +2005,6 @@
         {
           "type": "LAB",
           "meetNumber": "05",
-          "section": "",
           "catalogNumber": "T09M07",
           "schedule": [
             {
@@ -2143,7 +2058,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "W79H02",
           "schedule": [
             {
@@ -2160,7 +2074,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "W79H03",
           "schedule": [
             {
@@ -2177,7 +2090,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "W79H04",
           "schedule": [
             {
@@ -2224,7 +2136,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "J73C02",
           "schedule": [
             {
@@ -2244,7 +2155,6 @@
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "J73C03",
           "schedule": [
             {
@@ -2301,7 +2211,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "T38E02",
           "schedule": [
             {
@@ -2357,7 +2266,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "M56V02",
           "schedule": [
             {
@@ -2413,7 +2321,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "G03H02",
           "schedule": [
             {
@@ -2467,7 +2374,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "P97B02",
           "schedule": [
             {
@@ -2523,7 +2429,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "J44K02",
           "schedule": [
             {
@@ -2542,7 +2447,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "J44K03",
           "schedule": [
             {
@@ -2579,7 +2483,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -2608,7 +2511,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -2654,7 +2556,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "Y35A02",
           "schedule": [
             {
@@ -2693,7 +2594,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -2702,7 +2602,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -2748,7 +2647,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "E82J02",
           "schedule": [
             {
@@ -2765,7 +2663,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "E82J03",
           "schedule": [
             {
@@ -2819,7 +2716,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "J15S02",
           "schedule": [
             {
@@ -2836,7 +2732,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "J15S03",
           "schedule": [
             {
@@ -2890,7 +2785,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "M34X02",
           "schedule": [
             {
@@ -2909,7 +2803,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "M34X03",
           "schedule": [
             {
@@ -2963,7 +2856,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "M85N02",
           "schedule": [
             {
@@ -3017,7 +2909,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "C91T02",
           "schedule": [
             {
@@ -3034,7 +2925,6 @@
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "C91T03",
           "schedule": [
             {
@@ -3081,7 +2971,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "",
           "schedule": [
             {
@@ -3098,7 +2987,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "Y76B03",
           "schedule": [
             {
@@ -3137,7 +3025,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -3183,7 +3070,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "V29R02",
           "schedule": [
             {
@@ -3237,7 +3123,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "C62E02",
           "schedule": [
             {
@@ -3296,7 +3181,6 @@
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "P46T02",
           "schedule": [
             {
@@ -3655,7 +3539,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "S68C02",
           "schedule": [
             {
@@ -3672,7 +3555,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "S68C03",
           "schedule": [
             {
@@ -3727,7 +3609,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "G08H02",
           "schedule": [
             {
@@ -3744,7 +3625,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "G08H03",
           "schedule": [
             {
@@ -3761,7 +3641,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "G08H04",
           "schedule": [
             {
@@ -3816,7 +3695,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "S95J02",
           "schedule": [
             {
@@ -3833,7 +3711,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "S95J03",
           "schedule": [
             {
@@ -3850,7 +3727,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "S95J04",
           "schedule": [
             {
@@ -3897,7 +3773,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "M03Z02",
           "schedule": [
             {
@@ -3914,7 +3789,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "M03Z03",
           "schedule": [
             {
@@ -3931,7 +3805,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "M03Z04",
           "schedule": [
             {
@@ -3978,7 +3851,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "V68Q02",
           "schedule": [
             {
@@ -3995,7 +3867,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "V68Q03",
           "schedule": [
             {
@@ -4012,7 +3883,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "V68Q04",
           "schedule": [
             {
@@ -4059,7 +3929,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "C09U02",
           "schedule": [
             {
@@ -4076,7 +3945,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "C09U03",
           "schedule": [
             {
@@ -4093,7 +3961,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "C09U04",
           "schedule": [
             {
@@ -4140,7 +4007,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "S56F02",
           "schedule": [
             {
@@ -4157,7 +4023,6 @@
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "S56F03",
           "schedule": [
             {
@@ -4174,7 +4039,6 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "S56F04",
           "schedule": [
             {
@@ -4281,7 +4145,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "V97X02",
           "schedule": [
             {
@@ -4298,7 +4161,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "V97X03",
           "schedule": [
             {
@@ -4315,7 +4177,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "V97X04",
           "schedule": [
             {
@@ -4369,7 +4230,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "F79P02",
           "schedule": [
             {
@@ -4386,7 +4246,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "F79P03",
           "schedule": [
             {
@@ -4403,7 +4262,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "F79P04",
           "schedule": [
             {
@@ -4457,7 +4315,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "P73J02",
           "schedule": [
             {
@@ -4481,7 +4338,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "P73J03",
           "schedule": [
             {
@@ -4505,7 +4361,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "P73J04",
           "schedule": [
             {
@@ -4566,7 +4421,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "J20S02",
           "schedule": [
             {
@@ -4590,7 +4444,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "J20S03",
           "schedule": [
             {
@@ -4614,7 +4467,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "J20S04",
           "schedule": [
             {
@@ -4675,7 +4527,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "C67E02",
           "schedule": [
             {
@@ -4699,7 +4550,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "C67E03",
           "schedule": [
             {
@@ -4723,7 +4573,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "C67E04",
           "schedule": [
             {
@@ -4784,7 +4633,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "T14M02",
           "schedule": [
             {
@@ -4808,7 +4656,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "T14M03",
           "schedule": [
             {
@@ -4832,7 +4679,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "T14M04",
           "schedule": [
             {
@@ -4893,7 +4739,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "W26A02",
           "schedule": [
             {
@@ -4910,7 +4755,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "W26A03",
           "schedule": [
             {
@@ -4927,7 +4771,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "W26A04",
           "schedule": [
             {
@@ -4981,7 +4824,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "P44R02",
           "schedule": [
             {
@@ -5005,7 +4847,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "P44R03",
           "schedule": [
             {
@@ -5029,7 +4870,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "P44R04",
           "schedule": [
             {
@@ -5083,7 +4923,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "X91D02",
           "schedule": [
             {
@@ -5100,7 +4939,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "X91D03",
           "schedule": [
             {
@@ -5117,7 +4955,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "X91D04",
           "schedule": [
             {
@@ -5164,7 +5001,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "C38M02",
           "schedule": [
             {
@@ -5181,7 +5017,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "C38M03",
           "schedule": [
             {
@@ -5198,7 +5033,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "C38M04",
           "schedule": [
             {
@@ -5245,7 +5079,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "M61V02",
           "schedule": [
             {
@@ -5262,7 +5095,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "M61V03",
           "schedule": [
             {
@@ -5279,7 +5111,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "M61V04",
           "schedule": [
             {
@@ -5326,7 +5157,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "S85U02",
           "schedule": [
             {
@@ -5343,7 +5173,6 @@
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "S85U03",
           "schedule": [
             {
@@ -5360,7 +5189,6 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "S85U04",
           "schedule": [
             {
@@ -5407,7 +5235,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "M32G02",
           "schedule": [
             {
@@ -5424,7 +5251,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "M32G03",
           "schedule": [
             {
@@ -5441,7 +5267,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "M32G04",
           "schedule": [
             {
@@ -5495,7 +5320,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "S35D02",
           "schedule": [
             {
@@ -5577,7 +5401,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "F29V02",
           "schedule": [
             {
@@ -5704,7 +5527,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "Y82M02",
           "schedule": [
             {
@@ -5875,7 +5697,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "S64S02",
           "schedule": [
             {
@@ -5943,7 +5764,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "V76G02",
           "schedule": [
             {
@@ -5997,7 +5817,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "M11E02",
           "schedule": [
             {
@@ -6058,7 +5877,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "F58N02",
           "schedule": [
             {
@@ -6126,7 +5944,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "W05V02",
           "schedule": [
             {
@@ -6210,7 +6027,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "J28X02",
           "schedule": [
             {
@@ -6278,7 +6094,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "C75R02",
           "schedule": [
             {
@@ -6346,7 +6161,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "M69Y02",
           "schedule": [
             {
@@ -6414,7 +6228,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "W34N02",
           "schedule": [
             {
@@ -6482,7 +6295,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "P81W02",
           "schedule": [
             {
@@ -6580,7 +6392,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "F48Y02",
           "schedule": [
             {
@@ -6641,7 +6452,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "T22C02",
           "schedule": [
             {
@@ -6709,7 +6519,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "G16U02",
           "schedule": [
             {
@@ -6777,7 +6586,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "W63F02",
           "schedule": [
             {
@@ -6845,7 +6653,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "Q10Z02",
           "schedule": [
             {
@@ -6994,7 +6801,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "X92D02",
           "schedule": [
             {
@@ -7011,7 +6817,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "X92D03",
           "schedule": [
             {
@@ -7028,7 +6833,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "X92D04",
           "schedule": [
             {
@@ -7045,7 +6849,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "X92D05",
           "schedule": [
             {
@@ -7062,7 +6865,6 @@
         {
           "type": "LAB",
           "meetNumber": "05",
-          "section": "",
           "catalogNumber": "X92D06",
           "schedule": [
             {
@@ -7105,7 +6907,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "C39M02",
           "schedule": [
             {
@@ -7122,7 +6923,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "C39M03",
           "schedule": [
             {
@@ -7139,7 +6939,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "C39M04",
           "schedule": [
             {
@@ -7156,7 +6955,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "C39M05",
           "schedule": [
             {
@@ -7173,7 +6971,6 @@
         {
           "type": "LAB",
           "meetNumber": "05",
-          "section": "",
           "catalogNumber": "C39M06",
           "schedule": [
             {
@@ -7216,7 +7013,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "S86U02",
           "schedule": [
             {
@@ -7233,7 +7029,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "S86U03",
           "schedule": [
             {
@@ -7250,7 +7045,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "S86U04",
           "schedule": [
             {
@@ -7267,7 +7061,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "S86U05",
           "schedule": [
             {
@@ -7284,7 +7077,6 @@
         {
           "type": "LAB",
           "meetNumber": "05",
-          "section": "",
           "catalogNumber": "S86U06",
           "schedule": [
             {
@@ -7320,7 +7112,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "X63C02",
           "schedule": [
             {
@@ -7337,7 +7128,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "X63C03",
           "schedule": [
             {
@@ -7354,7 +7144,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "X63C04",
           "schedule": [
             {
@@ -7371,7 +7160,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "X63C05",
           "schedule": [
             {
@@ -7388,7 +7176,6 @@
         {
           "type": "LAB",
           "meetNumber": "05",
-          "section": "",
           "catalogNumber": "X63C06",
           "schedule": [
             {
@@ -7431,7 +7218,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "P09Z02",
           "schedule": [
             {
@@ -7448,7 +7234,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "P09Z03",
           "schedule": [
             {
@@ -7465,7 +7250,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "P09Z04",
           "schedule": [
             {
@@ -7482,7 +7266,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "P09Z05",
           "schedule": [
             {
@@ -7499,7 +7282,6 @@
         {
           "type": "LAB",
           "meetNumber": "05",
-          "section": "",
           "catalogNumber": "P09Z06",
           "schedule": [
             {
@@ -7536,7 +7318,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -7585,7 +7366,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "V28H02",
           "schedule": [
             {
@@ -7623,7 +7403,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "V28H03",
           "schedule": [
             {
@@ -7698,7 +7477,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "M10M02",
           "schedule": [
             {
@@ -7715,7 +7493,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "M10M03",
           "schedule": [
             {
@@ -7732,7 +7509,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "M10M04",
           "schedule": [
             {
@@ -7749,7 +7525,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "M10M05",
           "schedule": [
             {
@@ -7786,7 +7561,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -7795,7 +7569,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -7804,7 +7577,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -7813,7 +7585,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -7852,7 +7623,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "F66G02",
           "schedule": [
             {
@@ -7869,7 +7639,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -7878,7 +7647,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "F66G04",
           "schedule": [
             {
@@ -7895,7 +7663,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "F66G05",
           "schedule": [
             {
@@ -7931,7 +7698,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -7940,7 +7706,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "W13Z03",
           "schedule": [
             {
@@ -7957,7 +7722,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "W13Z04",
           "schedule": [
             {
@@ -7974,7 +7738,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "W13Z05",
           "schedule": [
             {
@@ -8028,7 +7791,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "F57V02",
           "schedule": [
             {
@@ -8045,7 +7807,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "F57V03",
           "schedule": [
             {
@@ -8062,7 +7823,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "F57V04",
           "schedule": [
             {
@@ -8099,7 +7859,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -8108,7 +7867,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -8117,7 +7875,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -8126,7 +7883,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -8165,7 +7921,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "E06R02",
           "schedule": [
             {
@@ -8182,7 +7937,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "E06R03",
           "schedule": [
             {
@@ -8199,7 +7953,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "E06R04",
           "schedule": [
             {
@@ -8216,7 +7969,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "E06R05",
           "schedule": [
             {
@@ -8252,7 +8004,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "U53C02",
           "schedule": [
             {
@@ -8269,7 +8020,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "U53C03",
           "schedule": [
             {
@@ -8286,7 +8036,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "U53C04",
           "schedule": [
             {
@@ -8303,7 +8052,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "U53C05",
           "schedule": [
             {
@@ -8339,7 +8087,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "Z00Y02",
           "schedule": [
             {
@@ -8356,7 +8103,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "Z00Y03",
           "schedule": [
             {
@@ -8373,7 +8119,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "Z00Y04",
           "schedule": [
             {
@@ -8390,7 +8135,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "Z00Y05",
           "schedule": [
             {
@@ -8437,7 +8181,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "H47U02",
           "schedule": [
             {
@@ -8454,7 +8197,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "H47U03",
           "schedule": [
             {
@@ -8471,7 +8213,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "H47U04",
           "schedule": [
             {
@@ -8488,7 +8229,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "H47U05",
           "schedule": [
             {
@@ -8847,7 +8587,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "G48E02",
           "schedule": [
             {
@@ -8864,7 +8603,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "G48E03",
           "schedule": [
             {
@@ -8881,7 +8619,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "G48E04",
           "schedule": [
             {
@@ -8898,7 +8635,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "G48E05",
           "schedule": [
             {
@@ -8941,7 +8677,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "E03U02",
           "schedule": [
             {
@@ -8958,7 +8693,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "E03U03",
           "schedule": [
             {
@@ -8975,7 +8709,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "E03U04",
           "schedule": [
             {
@@ -8992,7 +8725,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "E03U05",
           "schedule": [
             {
@@ -9009,7 +8741,6 @@
         {
           "type": "LAB",
           "meetNumber": "05",
-          "section": "",
           "catalogNumber": "E03U06",
           "schedule": [
             {
@@ -9052,7 +8783,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "B39M02",
           "schedule": [
             {
@@ -9069,7 +8799,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "B39M03",
           "schedule": [
             {
@@ -9086,7 +8815,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "B39M04",
           "schedule": [
             {
@@ -9103,7 +8831,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "B39M05",
           "schedule": [
             {
@@ -9120,7 +8847,6 @@
         {
           "type": "LAB",
           "meetNumber": "05",
-          "section": "",
           "catalogNumber": "B39M06",
           "schedule": [
             {
@@ -9163,7 +8889,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "R86U02",
           "schedule": [
             {
@@ -9180,7 +8905,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "R86U03",
           "schedule": [
             {
@@ -9197,7 +8921,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "R86U04",
           "schedule": [
             {
@@ -9214,7 +8937,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "R86U05",
           "schedule": [
             {
@@ -9231,7 +8953,6 @@
         {
           "type": "LAB",
           "meetNumber": "05",
-          "section": "",
           "catalogNumber": "R86U06",
           "schedule": [
             {
@@ -9274,7 +8995,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "Y33G02",
           "schedule": [
             {
@@ -9291,7 +9011,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "Y33G03",
           "schedule": [
             {
@@ -9308,7 +9027,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "Y33G04",
           "schedule": [
             {
@@ -9325,7 +9043,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "Y33G05",
           "schedule": [
             {
@@ -9342,7 +9059,6 @@
         {
           "type": "LAB",
           "meetNumber": "05",
-          "section": "",
           "catalogNumber": "Y33G06",
           "schedule": [
             {
@@ -9385,7 +9101,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "E80P02",
           "schedule": [
             {
@@ -9402,7 +9117,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "E80P03",
           "schedule": [
             {
@@ -9419,7 +9133,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "E80P04",
           "schedule": [
             {
@@ -9436,7 +9149,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "E80P05",
           "schedule": [
             {
@@ -9453,7 +9165,6 @@
         {
           "type": "LAB",
           "meetNumber": "05",
-          "section": "",
           "catalogNumber": "E80P06",
           "schedule": [
             {
@@ -9500,7 +9211,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "Y17P02",
           "schedule": [
             {
@@ -9517,7 +9227,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "Y17P03",
           "schedule": [
             {
@@ -9534,7 +9243,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "Y17P04",
           "schedule": [
             {
@@ -9551,7 +9259,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "Y17P05",
           "schedule": [
             {
@@ -9598,7 +9305,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "E64B02",
           "schedule": [
             {
@@ -9615,7 +9321,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "E64B03",
           "schedule": [
             {
@@ -9632,7 +9337,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "E64B04",
           "schedule": [
             {
@@ -9649,7 +9353,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "E64B05",
           "schedule": [
             {
@@ -9685,7 +9388,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "V11J02",
           "schedule": [
             {
@@ -9702,7 +9404,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "V11J03",
           "schedule": [
             {
@@ -9719,7 +9420,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "V11J04",
           "schedule": [
             {
@@ -9736,7 +9436,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "V11J05",
           "schedule": [
             {
@@ -9772,7 +9471,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "Z58S02",
           "schedule": [
             {
@@ -9789,7 +9487,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "Z58S03",
           "schedule": [
             {
@@ -9806,7 +9503,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "Z58S04",
           "schedule": [
             {
@@ -9823,7 +9519,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -9876,7 +9571,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "P67Q02 (SC MATH) B59G02 (LE EECS)",
           "schedule": [
             {
@@ -9893,7 +9587,6 @@
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "P67Q03 (SC MATH) B59G03 (LE EECS)",
           "schedule": [
             {
@@ -9910,7 +9603,6 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "P67Q04 (SC MATH) B59G04 (LE EECS)",
           "schedule": [
             {
@@ -9927,7 +9619,6 @@
         {
           "type": "TUTR",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "P67Q05 (SC MATH) B59G05 (LE EECS)",
           "schedule": [
             {
@@ -9988,7 +9679,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "A62R02 (SC MATH) U50F02 (LE EECS)",
           "schedule": [
             {
@@ -10005,7 +9695,6 @@
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -10040,7 +9729,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "J14C02 (SC MATH) S06Z02 (LE EECS)",
           "schedule": [
             {
@@ -10057,7 +9745,6 @@
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "J14C03 (SC MATH) S06Z03 (LE EECS)",
           "schedule": [
             {
@@ -10074,7 +9761,6 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "J14C04 (SC MATH) S06Z04 (LE EECS)",
           "schedule": [
             {
@@ -10124,7 +9810,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "C61Y02 (SC MATH) Y53A02 (LE EECS)",
           "schedule": [
             {
@@ -10141,7 +9826,6 @@
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "C61Y03 (SC MATH) Y53A03 (LE EECS)",
           "schedule": [
             {
@@ -10158,7 +9842,6 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "C61Y04 (SC MATH) Y53A04 (LE EECS)",
           "schedule": [
             {
@@ -10205,7 +9888,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "X05E02",
           "schedule": [
             {
@@ -10222,7 +9904,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "X05E03",
           "schedule": [
             {
@@ -10665,7 +10346,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "J07J02",
           "schedule": [
             {
@@ -10682,7 +10362,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "J07J03",
           "schedule": [
             {
@@ -10699,7 +10378,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "J07J04",
           "schedule": [
             {
@@ -10753,7 +10431,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "X20K02",
           "schedule": [
             {
@@ -10770,7 +10447,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "X20K03",
           "schedule": [
             {
@@ -10817,7 +10493,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "B67T02",
           "schedule": [
             {
@@ -10834,7 +10509,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "B67T03",
           "schedule": [
             {
@@ -10851,7 +10525,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "B67T04",
           "schedule": [
             {
@@ -11088,7 +10761,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "T01D02",
           "schedule": [
             {
@@ -11105,7 +10777,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "T01D03",
           "schedule": [
             {
@@ -11122,7 +10793,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "T01D04",
           "schedule": [
             {
@@ -11139,7 +10809,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -11148,7 +10817,6 @@
         {
           "type": "LAB",
           "meetNumber": "05",
-          "section": "",
           "catalogNumber": "T01D06",
           "schedule": [
             {
@@ -11202,7 +10870,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "M48M02",
           "schedule": [
             {
@@ -11219,7 +10886,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "M48M03",
           "schedule": [
             {
@@ -11273,7 +10939,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "F95V02",
           "schedule": [
             {
@@ -11290,7 +10955,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -11336,7 +11000,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "W42G02",
           "schedule": [
             {
@@ -11353,7 +11016,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "W42G03",
           "schedule": [
             {
@@ -11370,7 +11032,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "W42G04",
           "schedule": [
             {
@@ -11387,7 +11048,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "W42G05",
           "schedule": [
             {
@@ -11404,7 +11064,6 @@
         {
           "type": "LAB",
           "meetNumber": "05",
-          "section": "",
           "catalogNumber": "W42G06",
           "schedule": [
             {
@@ -11458,7 +11117,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "P89P02",
           "schedule": [
             {
@@ -11501,7 +11159,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "J36B02",
           "schedule": [
             {
@@ -11544,7 +11201,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "C83K02",
           "schedule": [
             {
@@ -11598,7 +11254,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "T30S02",
           "schedule": [
             {
@@ -11641,7 +11296,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "M77E02",
           "schedule": [
             {
@@ -11684,7 +11338,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "G24N02",
           "schedule": [
             {
@@ -11738,7 +11391,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "K95Q02",
           "schedule": [
             {
@@ -11755,7 +11407,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "K95Q03",
           "schedule": [
             {
@@ -11798,7 +11449,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "E42C02",
           "schedule": [
             {
@@ -11815,7 +11465,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "E42C03",
           "schedule": [
             {
@@ -11858,7 +11507,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "U89K02",
           "schedule": [
             {
@@ -11875,7 +11523,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "U89K03",
           "schedule": [
             {
@@ -11892,7 +11539,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "U89K04",
           "schedule": [
             {
@@ -11909,7 +11555,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "U89K05",
           "schedule": [
             {
@@ -11926,7 +11571,6 @@
         {
           "type": "LAB",
           "meetNumber": "05",
-          "section": "",
           "catalogNumber": "U89K06",
           "schedule": [
             {
@@ -11943,7 +11587,6 @@
         {
           "type": "LAB",
           "meetNumber": "06",
-          "section": "",
           "catalogNumber": "U89K07",
           "schedule": [
             {
@@ -11986,7 +11629,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "Z36T02",
           "schedule": [
             {
@@ -12003,7 +11645,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "Z36T03",
           "schedule": [
             {
@@ -12046,7 +11687,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "H83F02",
           "schedule": [
             {
@@ -12063,7 +11703,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "H83F03",
           "schedule": [
             {
@@ -12117,7 +11756,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "B30Z02",
           "schedule": [
             {
@@ -12134,7 +11772,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "B30Z03",
           "schedule": [
             {
@@ -12177,7 +11814,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "R77W02",
           "schedule": [
             {
@@ -12194,7 +11830,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "R77W03",
           "schedule": [
             {
@@ -12237,7 +11872,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "Y24X02",
           "schedule": [
             {
@@ -12254,7 +11888,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "Y24X03",
           "schedule": [
             {
@@ -12308,7 +11941,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "S43T02",
           "schedule": [
             {
@@ -12325,7 +11957,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "S43T03",
           "schedule": [
             {
@@ -12342,7 +11973,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "S43T04",
           "schedule": [
             {
@@ -12385,7 +12015,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "Y90F02",
           "schedule": [
             {
@@ -12402,7 +12031,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "Y90F03",
           "schedule": [
             {
@@ -12419,7 +12047,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "Y90F04",
           "schedule": [
             {
@@ -12462,7 +12089,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "F37Z02",
           "schedule": [
             {
@@ -12479,7 +12105,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "F37Z03",
           "schedule": [
             {
@@ -12496,7 +12121,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "F37Z04",
           "schedule": [
             {
@@ -12539,7 +12163,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "V84W02",
           "schedule": [
             {
@@ -12556,7 +12179,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "V84W03",
           "schedule": [
             {
@@ -12573,7 +12195,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "V84W04",
           "schedule": [
             {
@@ -12616,7 +12237,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "P31X02",
           "schedule": [
             {
@@ -12633,7 +12253,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "P31X03",
           "schedule": [
             {
@@ -12650,7 +12269,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "P31X04",
           "schedule": [
             {
@@ -12693,7 +12311,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "X78R02",
           "schedule": [
             {
@@ -12710,7 +12327,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "X78R03",
           "schedule": [
             {
@@ -12727,7 +12343,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "X78R04",
           "schedule": [
             {
@@ -12781,7 +12396,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "C25D02",
           "schedule": [
             {
@@ -12798,7 +12412,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "C25D03",
           "schedule": [
             {
@@ -12815,7 +12428,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "C25D04",
           "schedule": [
             {
@@ -12858,7 +12470,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "S72Y02",
           "schedule": [
             {
@@ -12875,7 +12486,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "S72Y03",
           "schedule": [
             {
@@ -12892,7 +12502,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "S72Y04",
           "schedule": [
             {
@@ -12928,7 +12537,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "M19U02",
           "schedule": [
             {
@@ -12945,7 +12553,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "M19U03",
           "schedule": [
             {
@@ -12992,7 +12599,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "C68E02",
           "schedule": [
             {
@@ -13009,7 +12615,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "C68E03",
           "schedule": [
             {
@@ -13045,7 +12650,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "T15M02",
           "schedule": [
             {
@@ -13062,7 +12666,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "T15M03",
           "schedule": [
             {
@@ -13098,7 +12701,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "M62V02",
           "schedule": [
             {
@@ -13115,7 +12717,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "M62V03",
           "schedule": [
             {
@@ -13162,7 +12763,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "G09H02",
           "schedule": [
             {
@@ -13179,7 +12779,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "G09H03",
           "schedule": [
             {
@@ -13215,7 +12814,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "W56P02",
           "schedule": [
             {
@@ -13232,7 +12830,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "W56P03",
           "schedule": [
             {
@@ -13268,7 +12865,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "Q03B02",
           "schedule": [
             {
@@ -13285,7 +12881,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "Q03B03",
           "schedule": [
             {
@@ -13302,7 +12897,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "Q03B04",
           "schedule": [
             {
@@ -13319,7 +12913,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "Q03B05",
           "schedule": [
             {
@@ -13373,7 +12966,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "H18F02",
           "schedule": [
             {
@@ -13390,7 +12982,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "H18F03",
           "schedule": [
             {
@@ -13433,7 +13024,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "A65Z02",
           "schedule": [
             {
@@ -13450,7 +13040,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "A65Z03",
           "schedule": [
             {
@@ -13504,7 +13093,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "R12W02",
           "schedule": [
             {
@@ -13521,7 +13109,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "R12W03",
           "schedule": [
             {
@@ -13564,7 +13151,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "K59X02",
           "schedule": [
             {
@@ -13581,7 +13167,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "K59X03",
           "schedule": [
             {
@@ -13813,7 +13398,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "A00Z02",
           "schedule": [
             {
@@ -13830,7 +13414,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "A00Z03",
           "schedule": [
             {
@@ -13847,7 +13430,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "A00Z04",
           "schedule": [
             {
@@ -13864,7 +13446,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "A00Z05",
           "schedule": [
             {
@@ -13907,7 +13488,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "Q47W02",
           "schedule": [
             {
@@ -13924,7 +13504,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "Q47W03",
           "schedule": [
             {
@@ -13941,7 +13520,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "Q47W04",
           "schedule": [
             {
@@ -13958,7 +13536,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "Q47W05",
           "schedule": [
             {
@@ -14012,7 +13589,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "J94X02",
           "schedule": [
             {
@@ -14029,7 +13605,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "J94X03",
           "schedule": [
             {
@@ -14046,7 +13621,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "J94X04",
           "schedule": [
             {
@@ -14063,7 +13637,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "J94X05",
           "schedule": [
             {
@@ -14080,7 +13653,6 @@
         {
           "type": "LAB",
           "meetNumber": "05",
-          "section": "",
           "catalogNumber": "J94X06",
           "schedule": [
             {
@@ -14134,7 +13706,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "T95S02",
           "schedule": [
             {
@@ -14151,7 +13722,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "T95S03",
           "schedule": [
             {
@@ -14168,7 +13738,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "T95S04",
           "schedule": [
             {
@@ -14185,7 +13754,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "T95S05",
           "schedule": [
             {
@@ -14239,7 +13807,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "N42E02",
           "schedule": [
             {
@@ -14256,7 +13823,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "N42E03",
           "schedule": [
             {
@@ -14273,7 +13839,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "N42E04",
           "schedule": [
             {
@@ -14290,7 +13855,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "N42E05",
           "schedule": [
             {
@@ -14307,7 +13871,6 @@
         {
           "type": "LAB",
           "meetNumber": "05",
-          "section": "",
           "catalogNumber": "N42E06",
           "schedule": [
             {
@@ -14354,7 +13917,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "J50K02",
           "schedule": [
             {
@@ -14371,7 +13933,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "J50K03",
           "schedule": [
             {
@@ -14407,7 +13968,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "C97T02",
           "schedule": [
             {
@@ -14424,7 +13984,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "C97T03",
           "schedule": [
             {
@@ -14508,7 +14067,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "R48H02",
           "schedule": [
             {
@@ -14525,7 +14083,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "R48H03",
           "schedule": [
             {
@@ -14637,7 +14194,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "A14A02",
           "schedule": [
             {
@@ -14680,7 +14236,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "Q61X02",
           "schedule": [
             {
@@ -14723,7 +14278,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "K08R02",
           "schedule": [
             {
@@ -14777,7 +14331,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "D55D02",
           "schedule": [
             {
@@ -14820,7 +14373,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "U02Y02",
           "schedule": [
             {
@@ -14863,7 +14415,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "N49U02",
           "schedule": [
             {
@@ -14998,7 +14549,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "A94G02",
           "schedule": [
             {
@@ -15015,7 +14565,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "A94G03",
           "schedule": [
             {
@@ -15032,7 +14581,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "A94G04",
           "schedule": [
             {
@@ -15049,7 +14597,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "A94G05",
           "schedule": [
             {
@@ -15092,7 +14639,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "R41Z02",
           "schedule": [
             {
@@ -15109,7 +14655,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "R41Z03",
           "schedule": [
             {
@@ -15126,7 +14671,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "R41Z04",
           "schedule": [
             {
@@ -15143,7 +14687,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "R41Z05",
           "schedule": [
             {
@@ -15197,7 +14740,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "K88A02",
           "schedule": [
             {
@@ -15214,7 +14756,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "K88A03",
           "schedule": [
             {
@@ -15231,7 +14772,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "K88A04",
           "schedule": [
             {
@@ -15248,7 +14788,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "K88A05",
           "schedule": [
             {
@@ -15443,7 +14982,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "M84U02",
           "schedule": [
             {
@@ -15460,7 +14998,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "M84U03",
           "schedule": [
             {
@@ -15477,7 +15014,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "M84U04",
           "schedule": [
             {
@@ -15524,7 +15060,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "W49W02",
           "schedule": [
             {
@@ -15541,7 +15076,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "W49W03",
           "schedule": [
             {
@@ -15558,7 +15092,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "W49W04",
           "schedule": [
             {
@@ -15605,7 +15138,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "P96X02",
           "schedule": [
             {
@@ -15622,7 +15154,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "P96X03",
           "schedule": [
             {
@@ -15639,7 +15170,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "P96X04",
           "schedule": [
             {
@@ -15656,7 +15186,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "P96X05",
           "schedule": [
             {
@@ -15673,7 +15202,6 @@
         {
           "type": "LAB",
           "meetNumber": "05",
-          "section": "",
           "catalogNumber": "P96X06",
           "schedule": [
             {
@@ -15905,7 +15433,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "X31U02",
           "schedule": [
             {
@@ -15922,7 +15449,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "X31U03",
           "schedule": [
             {
@@ -15965,7 +15491,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "B78G02",
           "schedule": [
             {
@@ -15982,7 +15507,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "B78G03",
           "schedule": [
             {
@@ -16018,7 +15542,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "S25Z02",
           "schedule": [
             {
@@ -16035,7 +15558,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "S25Z03",
           "schedule": [
             {
@@ -16082,7 +15604,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "Y72A02",
           "schedule": [
             {
@@ -16099,7 +15620,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "Y72A03",
           "schedule": [
             {
@@ -16142,7 +15662,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "F19J02",
           "schedule": [
             {
@@ -16159,7 +15678,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "F19J03",
           "schedule": [
             {
@@ -16195,7 +15713,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "V66R02",
           "schedule": [
             {
@@ -16212,7 +15729,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "V66R03",
           "schedule": [
             {
@@ -16266,7 +15782,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "F22X02",
           "schedule": [
             {
@@ -16283,7 +15798,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "F22X03",
           "schedule": [
             {
@@ -16300,7 +15814,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "F22X04",
           "schedule": [
             {
@@ -16317,7 +15830,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "F22X05",
           "schedule": [
             {
@@ -16708,7 +16220,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "W78Z02",
           "schedule": [
             {
@@ -16725,7 +16236,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "W78Z03",
           "schedule": [
             {
@@ -16742,7 +16252,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "W78Z04",
           "schedule": [
             {
@@ -16759,7 +16268,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "W78Z05",
           "schedule": [
             {
@@ -16776,7 +16284,6 @@
         {
           "type": "LAB",
           "meetNumber": "05",
-          "section": "",
           "catalogNumber": "W78Z06",
           "schedule": [
             {
@@ -16830,7 +16337,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "J72J02",
           "schedule": [
             {
@@ -16847,7 +16353,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "J72J03",
           "schedule": [
             {
@@ -16864,7 +16369,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "J72J04",
           "schedule": [
             {
@@ -16881,7 +16385,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "J72J05",
           "schedule": [
             {
@@ -16898,7 +16401,6 @@
         {
           "type": "LAB",
           "meetNumber": "05",
-          "section": "",
           "catalogNumber": "J72J06",
           "schedule": [
             {
@@ -16935,7 +16437,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -16981,7 +16482,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "K37J02",
           "schedule": [
             {
@@ -17172,7 +16672,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -17181,7 +16680,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "G38W03",
           "schedule": [
             {
@@ -17198,7 +16696,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "G38W04",
           "schedule": [
             {
@@ -17215,7 +16712,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -17261,7 +16757,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "W85H02",
           "schedule": [
             {
@@ -17278,7 +16773,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "W85H03",
           "schedule": [
             {
@@ -17295,7 +16789,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "W85H04",
           "schedule": [
             {
@@ -17312,7 +16805,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "W85H05",
           "schedule": [
             {
@@ -17366,7 +16858,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "P02Q02",
           "schedule": [
             {
@@ -17383,7 +16874,6 @@
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "P02Q03",
           "schedule": [
             {
@@ -17400,7 +16890,6 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "P02Q04",
           "schedule": [
             {
@@ -17417,7 +16906,6 @@
         {
           "type": "TUTR",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "P02Q05",
           "schedule": [
             {
@@ -17434,7 +16922,6 @@
         {
           "type": "TUTR",
           "meetNumber": "05",
-          "section": "",
           "catalogNumber": "P02Q06",
           "schedule": [
             {
@@ -17488,7 +16975,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "U60S02",
           "schedule": [
             {
@@ -17505,7 +16991,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "U60S03",
           "schedule": [
             {
@@ -17559,7 +17044,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "D19S02",
           "schedule": [
             {
@@ -17576,7 +17060,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "D19S03",
           "schedule": [
             {
@@ -17593,7 +17076,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "D19S04",
           "schedule": [
             {
@@ -17647,7 +17129,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "D84S02",
           "schedule": [
             {
@@ -17664,7 +17145,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "D84S03",
           "schedule": [
             {
@@ -17718,7 +17198,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "B23V02",
           "schedule": [
             {
@@ -17735,7 +17214,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "B23V03",
           "schedule": [
             {
@@ -17789,7 +17267,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "T66D02",
           "schedule": [
             {
@@ -17806,7 +17283,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "T66D03",
           "schedule": [
             {
@@ -17860,7 +17336,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "E90R02",
           "schedule": [
             {
@@ -17877,7 +17352,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "E90R03",
           "schedule": [
             {
@@ -17894,7 +17368,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "E90R04",
           "schedule": [
             {
@@ -17948,7 +17421,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "S14E02",
           "schedule": [
             {
@@ -17965,7 +17437,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "S14E03",
           "schedule": [
             {
@@ -18019,7 +17490,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "U82R02",
           "schedule": [
             {
@@ -18036,7 +17506,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "U82R03",
           "schedule": [
             {
@@ -18680,7 +18149,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "Y61N02",
           "schedule": [
             {
@@ -18697,7 +18165,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "Y61N03",
           "schedule": [
             {
@@ -18751,7 +18218,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "F08W02",
           "schedule": [
             {
@@ -18768,7 +18234,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "F08W03",
           "schedule": [
             {
@@ -18822,7 +18287,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "T08T02",
           "schedule": [
             {
@@ -18839,7 +18303,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "T08T03",
           "schedule": [
             {
@@ -18963,7 +18426,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "K81H02",
           "schedule": [
             {
@@ -18980,7 +18442,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "K81H03",
           "schedule": [
             {
@@ -19023,7 +18484,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "E28Q02",
           "schedule": [
             {
@@ -19040,7 +18500,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "E28Q03",
           "schedule": [
             {
@@ -19094,7 +18553,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "U75B02",
           "schedule": [
             {
@@ -19111,7 +18569,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "U75B03",
           "schedule": [
             {
@@ -19154,7 +18611,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "Z22K02",
           "schedule": [
             {
@@ -19171,7 +18627,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "Z22K03",
           "schedule": [
             {
@@ -19444,7 +18899,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "H98Y02",
           "schedule": [
             {
@@ -19461,7 +18915,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "H98Y03",
           "schedule": [
             {
@@ -19504,7 +18957,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "B45U02",
           "schedule": [
             {
@@ -19521,7 +18973,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "B45U03",
           "schedule": [
             {
@@ -19905,7 +19356,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "Z80R02",
           "schedule": [
             {
@@ -19922,7 +19372,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "Z80R03",
           "schedule": [
             {
@@ -19958,7 +19407,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "X27D02",
           "schedule": [
             {
@@ -19975,7 +19423,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "X27D03",
           "schedule": [
             {
@@ -20011,7 +19458,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "B74M02",
           "schedule": [
             {
@@ -20028,7 +19474,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "B74M03",
           "schedule": [
             {
@@ -20075,7 +19520,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "S21U02",
           "schedule": [
             {
@@ -20092,7 +19536,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "S21U03",
           "schedule": [
             {
@@ -20128,7 +19571,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "Y68G02",
           "schedule": [
             {
@@ -20145,7 +19587,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "Y68G03",
           "schedule": [
             {
@@ -20355,7 +19796,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "A07H02",
           "schedule": [
             {
@@ -20372,7 +19812,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "A07H03",
           "schedule": [
             {
@@ -20426,7 +19865,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "Q54P02",
           "schedule": [
             {
@@ -20443,7 +19881,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "Q54P03",
           "schedule": [
             {
@@ -20497,7 +19934,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "K01B02",
           "schedule": [
             {
@@ -20514,7 +19950,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "K01B03",
           "schedule": [
             {
@@ -20642,7 +20077,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "U24K02",
           "schedule": [
             {
@@ -20659,7 +20093,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "U24K03",
           "schedule": [
             {
@@ -20713,7 +20146,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "N71T02",
           "schedule": [
             {
@@ -20730,7 +20162,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "N71T03",
           "schedule": [
             {
@@ -21012,7 +20443,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "C03E02",
           "schedule": [
             {
@@ -21029,7 +20459,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "C03E03",
           "schedule": [
             {
@@ -21120,7 +20549,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "V98X02",
           "schedule": [
             {
@@ -21137,7 +20565,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "V98X03",
           "schedule": [
             {
@@ -21191,7 +20618,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "G89N02",
           "schedule": [
             {
@@ -21208,7 +20634,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "G89N03",
           "schedule": [
             {
@@ -21262,7 +20687,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "D48K02",
           "schedule": [
             {
@@ -21279,7 +20703,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "D48K03",
           "schedule": [
             {
@@ -21333,7 +20756,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "P45R02",
           "schedule": [
             {
@@ -21350,7 +20772,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "P45R03",
           "schedule": [
             {
@@ -21404,7 +20825,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "B68E02",
           "schedule": [
             {
@@ -21421,7 +20841,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "B68E03",
           "schedule": [
             {
@@ -21557,7 +20976,6 @@
         {
           "type": "BLEN",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "",
           "schedule": [
             {
@@ -21576,7 +20994,6 @@
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "H91M03",
           "schedule": [
             {
@@ -21593,7 +21010,6 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "H91M04",
           "schedule": [
             {
@@ -21610,7 +21026,6 @@
         {
           "type": "TUTR",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "H91M05",
           "schedule": [
             {
@@ -21644,7 +21059,6 @@
         {
           "type": "BLEN",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "",
           "schedule": [
             {
@@ -21663,7 +21077,6 @@
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "B38V03",
           "schedule": [
             {
@@ -21680,7 +21093,6 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "B38V04",
           "schedule": [
             {
@@ -21697,7 +21109,6 @@
         {
           "type": "TUTR",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "B38V05",
           "schedule": [
             {
@@ -21731,7 +21142,6 @@
         {
           "type": "BLEN",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "",
           "schedule": [
             {
@@ -21750,7 +21160,6 @@
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "R85G03",
           "schedule": [
             {
@@ -21767,7 +21176,6 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "R85G04",
           "schedule": [
             {
@@ -21784,7 +21192,6 @@
         {
           "type": "TUTR",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "R85G05",
           "schedule": [
             {
@@ -21818,7 +21225,6 @@
         {
           "type": "BLEN",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "",
           "schedule": [
             {
@@ -21837,7 +21243,6 @@
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "Y32P03",
           "schedule": [
             {
@@ -21854,7 +21259,6 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "Y32P04",
           "schedule": [
             {
@@ -21871,7 +21275,6 @@
         {
           "type": "TUTR",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "Y32P05",
           "schedule": [
             {
@@ -21905,7 +21308,6 @@
         {
           "type": "BLEN",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "",
           "schedule": [
             {
@@ -21924,7 +21326,6 @@
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "E79B03",
           "schedule": [
             {
@@ -21958,7 +21359,6 @@
         {
           "type": "BLEN",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "",
           "schedule": [
             {
@@ -21977,7 +21377,6 @@
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "D82X03",
           "schedule": [
             {
@@ -21994,7 +21393,6 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "D82X04",
           "schedule": [
             {
@@ -22011,7 +21409,6 @@
         {
           "type": "TUTR",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "D82X05",
           "schedule": [
             {
@@ -22045,7 +21442,6 @@
         {
           "type": "BLEN",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "",
           "schedule": [
             {
@@ -22064,7 +21460,6 @@
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "R09C03",
           "schedule": [
             {
@@ -22081,7 +21476,6 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "R09C04",
           "schedule": [
             {
@@ -22098,7 +21492,6 @@
         {
           "type": "TUTR",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "R09C05",
           "schedule": [
             {
@@ -22143,7 +21536,6 @@
         {
           "type": "BLEN",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "",
           "schedule": [
             {
@@ -22160,7 +21552,6 @@
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "W28W03",
           "schedule": [
             {
@@ -22177,7 +21568,6 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "W28W04",
           "schedule": [
             {
@@ -22194,7 +21584,6 @@
         {
           "type": "TUTR",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "W28W05",
           "schedule": [
             {
@@ -22211,7 +21600,6 @@
         {
           "type": "TUTR",
           "meetNumber": "05",
-          "section": "",
           "catalogNumber": "W28W06",
           "schedule": [
             {
@@ -22248,7 +21636,6 @@
         {
           "type": "BLEN",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -22257,7 +21644,6 @@
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -22266,7 +21652,6 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -22275,7 +21660,6 @@
         {
           "type": "TUTR",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -22312,7 +21696,6 @@
         {
           "type": "BLEN",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "",
           "schedule": [
             {
@@ -22331,7 +21714,6 @@
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "Q68D03",
           "schedule": [
             {
@@ -22348,7 +21730,6 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "Q68D04",
           "schedule": [
             {
@@ -22365,7 +21746,6 @@
         {
           "type": "TUTR",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "Q68D05",
           "schedule": [
             {
@@ -22382,7 +21762,6 @@
         {
           "type": "TUTR",
           "meetNumber": "05",
-          "section": "",
           "catalogNumber": "Q68D06",
           "schedule": [
             {
@@ -22399,7 +21778,6 @@
         {
           "type": "TUTR",
           "meetNumber": "06",
-          "section": "",
           "catalogNumber": "Q68D07",
           "schedule": [
             {
@@ -22416,7 +21794,6 @@
         {
           "type": "TUTR",
           "meetNumber": "07",
-          "section": "",
           "catalogNumber": "Q68D08",
           "schedule": [
             {
@@ -22433,7 +21810,6 @@
         {
           "type": "TUTR",
           "meetNumber": "08",
-          "section": "",
           "catalogNumber": "Q68D09",
           "schedule": [
             {
@@ -22467,7 +21843,6 @@
         {
           "type": "BLEN",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "",
           "schedule": [
             {
@@ -22486,7 +21861,6 @@
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "K15M03",
           "schedule": [
             {
@@ -22503,7 +21877,6 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "K15M04",
           "schedule": [
             {
@@ -22520,7 +21893,6 @@
         {
           "type": "TUTR",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "K15M05",
           "schedule": [
             {
@@ -22537,7 +21909,6 @@
         {
           "type": "TUTR",
           "meetNumber": "05",
-          "section": "",
           "catalogNumber": "K15M06",
           "schedule": [
             {
@@ -22554,7 +21925,6 @@
         {
           "type": "TUTR",
           "meetNumber": "06",
-          "section": "",
           "catalogNumber": "K15M07",
           "schedule": [
             {
@@ -22588,7 +21958,6 @@
         {
           "type": "BLEN",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "",
           "schedule": [
             {
@@ -22607,7 +21976,6 @@
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "D62V03",
           "schedule": [
             {
@@ -22624,7 +21992,6 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "D62V04",
           "schedule": [
             {
@@ -22641,7 +22008,6 @@
         {
           "type": "TUTR",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "D62V05",
           "schedule": [
             {
@@ -22658,7 +22024,6 @@
         {
           "type": "TUTR",
           "meetNumber": "05",
-          "section": "",
           "catalogNumber": "D62V06",
           "schedule": [
             {
@@ -22675,7 +22040,6 @@
         {
           "type": "TUTR",
           "meetNumber": "06",
-          "section": "",
           "catalogNumber": "D62V07",
           "schedule": [
             {
@@ -22709,7 +22073,6 @@
         {
           "type": "BLEN",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "",
           "schedule": [
             {
@@ -22728,7 +22091,6 @@
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "U09G03",
           "schedule": [
             {
@@ -22745,7 +22107,6 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "U09G04",
           "schedule": [
             {
@@ -22762,7 +22123,6 @@
         {
           "type": "TUTR",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "U09G05",
           "schedule": [
             {
@@ -22779,7 +22139,6 @@
         {
           "type": "TUTR",
           "meetNumber": "05",
-          "section": "",
           "catalogNumber": "U09G06",
           "schedule": [
             {
@@ -22796,7 +22155,6 @@
         {
           "type": "TUTR",
           "meetNumber": "06",
-          "section": "",
           "catalogNumber": "U09G07",
           "schedule": [
             {
@@ -22830,7 +22188,6 @@
         {
           "type": "BLEN",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "",
           "schedule": [
             {
@@ -22849,7 +22206,6 @@
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "N56P03",
           "schedule": [
             {
@@ -22866,7 +22222,6 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "N56P04",
           "schedule": [
             {
@@ -22883,7 +22238,6 @@
         {
           "type": "TUTR",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "N56P05",
           "schedule": [
             {
@@ -22956,7 +22310,6 @@
         {
           "type": "BLEN",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "",
           "schedule": [
             {
@@ -22975,7 +22328,6 @@
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "F88W03",
           "schedule": [
             {
@@ -22992,7 +22344,6 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "F88W04",
           "schedule": [
             {
@@ -23009,7 +22360,6 @@
         {
           "type": "TUTR",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "F88W05",
           "schedule": [
             {
@@ -23026,7 +22376,6 @@
         {
           "type": "TUTR",
           "meetNumber": "05",
-          "section": "",
           "catalogNumber": "F88W06",
           "schedule": [
             {
@@ -23043,7 +22392,6 @@
         {
           "type": "TUTR",
           "meetNumber": "06",
-          "section": "",
           "catalogNumber": "F88W07",
           "schedule": [
             {
@@ -23060,7 +22408,6 @@
         {
           "type": "TUTR",
           "meetNumber": "07",
-          "section": "",
           "catalogNumber": "F88W08",
           "schedule": [
             {
@@ -23094,7 +22441,6 @@
         {
           "type": "BLEN",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "",
           "schedule": [
             {
@@ -23113,7 +22459,6 @@
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "W35H03",
           "schedule": [
             {
@@ -23130,7 +22475,6 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "W35H04",
           "schedule": [
             {
@@ -23147,7 +22491,6 @@
         {
           "type": "TUTR",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "W35H05",
           "schedule": [
             {
@@ -23164,7 +22507,6 @@
         {
           "type": "TUTR",
           "meetNumber": "05",
-          "section": "",
           "catalogNumber": "W35H06",
           "schedule": [
             {
@@ -23181,7 +22523,6 @@
         {
           "type": "TUTR",
           "meetNumber": "06",
-          "section": "",
           "catalogNumber": "W35H07",
           "schedule": [
             {
@@ -23198,7 +22539,6 @@
         {
           "type": "TUTR",
           "meetNumber": "07",
-          "section": "",
           "catalogNumber": "W35H08",
           "schedule": [
             {
@@ -23232,7 +22572,6 @@
         {
           "type": "BLEN",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "",
           "schedule": [
             {
@@ -23251,7 +22590,6 @@
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "P82Q03",
           "schedule": [
             {
@@ -23268,7 +22606,6 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "P82Q04",
           "schedule": [
             {
@@ -23285,7 +22622,6 @@
         {
           "type": "TUTR",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "P82Q05",
           "schedule": [
             {
@@ -23302,7 +22638,6 @@
         {
           "type": "TUTR",
           "meetNumber": "05",
-          "section": "",
           "catalogNumber": "P82Q06",
           "schedule": [
             {
@@ -23319,7 +22654,6 @@
         {
           "type": "TUTR",
           "meetNumber": "06",
-          "section": "",
           "catalogNumber": "P82Q07",
           "schedule": [
             {
@@ -23336,7 +22670,6 @@
         {
           "type": "TUTR",
           "meetNumber": "07",
-          "section": "",
           "catalogNumber": "P82Q08",
           "schedule": [
             {
@@ -23411,7 +22744,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "R56Z02",
           "schedule": [
             {
@@ -23428,7 +22760,6 @@
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "R56Z03",
           "schedule": [
             {
@@ -23445,7 +22776,6 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "R56Z04",
           "schedule": [
             {
@@ -23462,7 +22792,6 @@
         {
           "type": "TUTR",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "R56Z05",
           "schedule": [
             {
@@ -23479,7 +22808,6 @@
         {
           "type": "TUTR",
           "meetNumber": "05",
-          "section": "",
           "catalogNumber": "R56Z06",
           "schedule": [
             {
@@ -23496,7 +22824,6 @@
         {
           "type": "TUTR",
           "meetNumber": "06",
-          "section": "",
           "catalogNumber": "R56Z07",
           "schedule": [
             {
@@ -23513,7 +22840,6 @@
         {
           "type": "TUTR",
           "meetNumber": "07",
-          "section": "",
           "catalogNumber": "R56Z08",
           "schedule": [
             {
@@ -23547,7 +22873,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "Y03A02",
           "schedule": [
             {
@@ -23564,7 +22889,6 @@
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "Y03A03",
           "schedule": [
             {
@@ -23581,7 +22905,6 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "Y03A04",
           "schedule": [
             {
@@ -23598,7 +22921,6 @@
         {
           "type": "TUTR",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "Y03A05",
           "schedule": [
             {
@@ -23615,7 +22937,6 @@
         {
           "type": "TUTR",
           "meetNumber": "05",
-          "section": "",
           "catalogNumber": "Y03A06",
           "schedule": [
             {
@@ -23632,7 +22953,6 @@
         {
           "type": "TUTR",
           "meetNumber": "06",
-          "section": "",
           "catalogNumber": "Y03A07",
           "schedule": [
             {
@@ -23649,7 +22969,6 @@
         {
           "type": "TUTR",
           "meetNumber": "07",
-          "section": "",
           "catalogNumber": "Y03A08",
           "schedule": [
             {
@@ -23685,7 +23004,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "E50J02",
           "schedule": [
             {
@@ -23702,7 +23020,6 @@
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "E50J03",
           "schedule": [
             {
@@ -23719,7 +23036,6 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "E50J04",
           "schedule": [
             {
@@ -23736,7 +23052,6 @@
         {
           "type": "TUTR",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "E50J05",
           "schedule": [
             {
@@ -23753,7 +23068,6 @@
         {
           "type": "TUTR",
           "meetNumber": "05",
-          "section": "",
           "catalogNumber": "E50J06",
           "schedule": [
             {
@@ -23770,7 +23084,6 @@
         {
           "type": "TUTR",
           "meetNumber": "06",
-          "section": "",
           "catalogNumber": "E50J07",
           "schedule": [
             {
@@ -23787,7 +23100,6 @@
         {
           "type": "TUTR",
           "meetNumber": "07",
-          "section": "",
           "catalogNumber": "E50J08",
           "schedule": [
             {
@@ -24038,7 +23350,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "C74T02",
           "schedule": [
             {
@@ -24057,7 +23368,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "C74T03",
           "schedule": [
             {
@@ -24076,7 +23386,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "C74T04",
           "schedule": [
             {
@@ -24095,7 +23404,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "C74T05",
           "schedule": [
             {
@@ -24114,7 +23422,6 @@
         {
           "type": "LAB",
           "meetNumber": "05",
-          "section": "",
           "catalogNumber": "C74T06",
           "schedule": [
             {
@@ -24133,7 +23440,6 @@
         {
           "type": "LAB",
           "meetNumber": "06",
-          "section": "",
           "catalogNumber": "C74T07",
           "schedule": [
             {
@@ -24187,7 +23493,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "T21E02",
           "schedule": [
             {
@@ -24206,7 +23511,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "T21E03",
           "schedule": [
             {
@@ -24225,7 +23529,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "T21E04",
           "schedule": [
             {
@@ -24244,7 +23547,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "T21E05",
           "schedule": [
             {
@@ -24263,7 +23565,6 @@
         {
           "type": "LAB",
           "meetNumber": "05",
-          "section": "",
           "catalogNumber": "T21E06",
           "schedule": [
             {
@@ -24282,7 +23583,6 @@
         {
           "type": "LAB",
           "meetNumber": "06",
-          "section": "",
           "catalogNumber": "T21E07",
           "schedule": [
             {
@@ -24319,7 +23619,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -24365,7 +23664,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "Q38X02",
           "schedule": [
             {
@@ -24384,7 +23682,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "Q38X03",
           "schedule": [
             {
@@ -24401,7 +23698,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "Q38X04",
           "schedule": [
             {
@@ -24438,7 +23734,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -24447,7 +23742,6 @@
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -24456,7 +23750,6 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -24491,7 +23784,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "Q08C02",
           "schedule": [
             {
@@ -24510,7 +23802,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "Q08C03",
           "schedule": [
             {
@@ -24529,7 +23820,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "Q08C04",
           "schedule": [
             {
@@ -24566,7 +23856,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -24575,7 +23864,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -24584,7 +23872,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -24593,7 +23880,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -24602,7 +23888,6 @@
         {
           "type": "LAB",
           "meetNumber": "05",
-          "section": "",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -24611,7 +23896,6 @@
         {
           "type": "LAB",
           "meetNumber": "06",
-          "section": "",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -24620,7 +23904,6 @@
         {
           "type": "LAB",
           "meetNumber": "07",
-          "section": "",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -24629,7 +23912,6 @@
         {
           "type": "LAB",
           "meetNumber": "08",
-          "section": "",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -24638,7 +23920,6 @@
         {
           "type": "LAB",
           "meetNumber": "09",
-          "section": "",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -24647,7 +23928,6 @@
         {
           "type": "LAB",
           "meetNumber": "10",
-          "section": "",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -24701,7 +23981,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "K04D02",
           "schedule": [
             {
@@ -24720,7 +23999,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "K04D03",
           "schedule": [
             {
@@ -24739,7 +24017,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "K04D04",
           "schedule": [
             {
@@ -24758,7 +24035,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "K04D05",
           "schedule": [
             {
@@ -24775,7 +24051,6 @@
         {
           "type": "LAB",
           "meetNumber": "05",
-          "section": "",
           "catalogNumber": "K04D06",
           "schedule": [
             {
@@ -24792,7 +24067,6 @@
         {
           "type": "LAB",
           "meetNumber": "06",
-          "section": "",
           "catalogNumber": "K04D07",
           "schedule": [
             {
@@ -24809,7 +24083,6 @@
         {
           "type": "LAB",
           "meetNumber": "07",
-          "section": "",
           "catalogNumber": "K04D08",
           "schedule": [
             {
@@ -24828,7 +24101,6 @@
         {
           "type": "LAB",
           "meetNumber": "08",
-          "section": "",
           "catalogNumber": "K04D09",
           "schedule": [
             {
@@ -24847,7 +24119,6 @@
         {
           "type": "LAB",
           "meetNumber": "09",
-          "section": "",
           "catalogNumber": "K04D10",
           "schedule": [
             {
@@ -24866,7 +24137,6 @@
         {
           "type": "LAB",
           "meetNumber": "10",
-          "section": "",
           "catalogNumber": "K04D11",
           "schedule": [
             {
@@ -24883,7 +24153,6 @@
         {
           "type": "LAB",
           "meetNumber": "11",
-          "section": "",
           "catalogNumber": "K04D12",
           "schedule": [
             {
@@ -24900,7 +24169,6 @@
         {
           "type": "LAB",
           "meetNumber": "12",
-          "section": "",
           "catalogNumber": "K04D13",
           "schedule": [
             {
@@ -24917,7 +24185,6 @@
         {
           "type": "LAB",
           "meetNumber": "13",
-          "section": "",
           "catalogNumber": "K04D14",
           "schedule": [
             {
@@ -24936,7 +24203,6 @@
         {
           "type": "LAB",
           "meetNumber": "14",
-          "section": "",
           "catalogNumber": "K04D15",
           "schedule": [
             {
@@ -24953,7 +24219,6 @@
         {
           "type": "LAB",
           "meetNumber": "15",
-          "section": "",
           "catalogNumber": "K04D16",
           "schedule": [
             {
@@ -24970,7 +24235,6 @@
         {
           "type": "LAB",
           "meetNumber": "16",
-          "section": "",
           "catalogNumber": "K04D17",
           "schedule": [
             {
@@ -24989,7 +24253,6 @@
         {
           "type": "LAB",
           "meetNumber": "17",
-          "section": "",
           "catalogNumber": "K04D18",
           "schedule": [
             {
@@ -25006,7 +24269,6 @@
         {
           "type": "LAB",
           "meetNumber": "18",
-          "section": "",
           "catalogNumber": "K04D19",
           "schedule": [
             {
@@ -25056,7 +24318,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "H15X02",
           "schedule": [
             {
@@ -25075,7 +24336,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "H15X04",
           "schedule": [
             {
@@ -25092,7 +24352,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "H15X03",
           "schedule": [
             {
@@ -25111,7 +24370,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -25194,7 +24452,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "E40E02",
           "schedule": [
             {
@@ -25243,7 +24500,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "A99B02",
           "schedule": [
             {
@@ -25299,7 +24555,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "K93S02",
           "schedule": [
             {
@@ -25318,7 +24573,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "K93S03",
           "schedule": [
             {
@@ -25357,7 +24611,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -25366,7 +24619,6 @@
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -25375,7 +24627,6 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -25384,7 +24635,6 @@
         {
           "type": "TUTR",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -25393,7 +24643,6 @@
         {
           "type": "TUTR",
           "meetNumber": "05",
-          "section": "",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -25402,7 +24651,6 @@
         {
           "type": "TUTR",
           "meetNumber": "06",
-          "section": "",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -25411,7 +24659,6 @@
         {
           "type": "TUTR",
           "meetNumber": "07",
-          "section": "",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -25466,7 +24713,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -25475,7 +24721,6 @@
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -25484,7 +24729,6 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -25493,7 +24737,6 @@
         {
           "type": "TUTR",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -25502,7 +24745,6 @@
         {
           "type": "TUTR",
           "meetNumber": "05",
-          "section": "",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -25511,7 +24753,6 @@
         {
           "type": "TUTR",
           "meetNumber": "06",
-          "section": "",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -25520,7 +24761,6 @@
         {
           "type": "TUTR",
           "meetNumber": "07",
-          "section": "",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -25599,7 +24839,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "",
           "schedule": [
             {
@@ -25616,7 +24855,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "W63K03",
           "schedule": [
             {
@@ -25635,7 +24873,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "W63K04",
           "schedule": [
             {
@@ -25721,7 +24958,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "Z34V02",
           "schedule": [
             {
@@ -25738,7 +24974,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "Z34V03",
           "schedule": [
             {
@@ -25866,7 +25101,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "T79Y02",
           "schedule": [
             {
@@ -26003,7 +25237,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "B14H02 (LE ESSE) E83F02 (SC PHYS)",
           "schedule": [
             {
@@ -26064,7 +25297,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "K21C02",
           "schedule": [
             {
@@ -26111,7 +25343,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "Q10T02",
           "schedule": [
             {
@@ -26130,7 +25361,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "Q10T03",
           "schedule": [
             {
@@ -26177,7 +25407,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "F48B02",
           "schedule": [
             {
@@ -26196,7 +25425,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "F48B03",
           "schedule": [
             {
@@ -26334,7 +25562,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "M68N02 (LE ESSE) B13K02 (SC PHYS) R60S02 (SC MATH)",
           "schedule": [
             {
@@ -26353,7 +25580,6 @@
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "M68N03 (LE ESSE) B13K03 (SC PHYS) R60S03 (SC MATH)",
           "schedule": [
             {
@@ -26532,7 +25758,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "A20P02",
           "schedule": [
             {
@@ -26611,7 +25836,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "U82F02",
           "schedule": [
             {
@@ -26667,7 +25891,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "Q67A02",
           "schedule": [
             {
@@ -26751,7 +25974,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "R61P02 (LE ESSE) V30N02 (SC PHYS)",
           "schedule": [
             {
@@ -26768,7 +25990,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "R61P03 (LE ESSE) V30N03 (SC PHYS)",
           "schedule": [
             {
@@ -26885,7 +26106,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "J57F02",
           "schedule": [
             {
@@ -26934,7 +26154,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "D04Z02",
           "schedule": [
             {
@@ -26981,7 +26200,6 @@
         {
           "type": "HYFX",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "",
           "schedule": [
             {
@@ -27000,7 +26218,6 @@
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "M56B03",
           "schedule": [
             {
@@ -27017,7 +26234,6 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "M56B04",
           "schedule": [
             {
@@ -27034,7 +26250,6 @@
         {
           "type": "TUTR",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "M56B05",
           "schedule": [
             {
@@ -27051,7 +26266,6 @@
         {
           "type": "TUTR",
           "meetNumber": "05",
-          "section": "",
           "catalogNumber": "M56B06",
           "schedule": [
             {
@@ -27112,7 +26326,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "T67W02",
           "schedule": [
             {
@@ -27131,7 +26344,6 @@
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "T67W03",
           "schedule": [
             {
@@ -27150,7 +26362,6 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "T67W04",
           "schedule": [
             {
@@ -27169,7 +26380,6 @@
         {
           "type": "TUTR",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "T67W05",
           "schedule": [
             {
@@ -27188,7 +26398,6 @@
         {
           "type": "TUTR",
           "meetNumber": "05",
-          "section": "",
           "catalogNumber": "T67W06",
           "schedule": [
             {
@@ -27208,7 +26417,6 @@
         {
           "type": "TUTR",
           "meetNumber": "06",
-          "section": "",
           "catalogNumber": "T67W07",
           "schedule": [
             {
@@ -27271,7 +26479,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "Q26T02",
           "schedule": [
             {
@@ -27288,7 +26495,6 @@
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "Q26T03",
           "schedule": [
             {
@@ -27305,7 +26511,6 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "Q26T04",
           "schedule": [
             {
@@ -27322,7 +26527,6 @@
         {
           "type": "TUTR",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "Q26T05",
           "schedule": [
             {
@@ -27339,7 +26543,6 @@
         {
           "type": "TUTR",
           "meetNumber": "05",
-          "section": "",
           "catalogNumber": "Q26T06",
           "schedule": [
             {
@@ -27356,7 +26559,6 @@
         {
           "type": "TUTR",
           "meetNumber": "06",
-          "section": "",
           "catalogNumber": "Q26T07",
           "schedule": [
             {
@@ -27417,7 +26619,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "T96Z02",
           "schedule": [
             {
@@ -27437,7 +26638,6 @@
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "T96Z03",
           "schedule": [
             {
@@ -27457,7 +26657,6 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "T96Z04",
           "schedule": [
             {
@@ -27477,7 +26676,6 @@
         {
           "type": "TUTR",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "T96Z05",
           "schedule": [
             {
@@ -27497,7 +26695,6 @@
         {
           "type": "TUTR",
           "meetNumber": "05",
-          "section": "",
           "catalogNumber": "T96Z06",
           "schedule": [
             {
@@ -27516,7 +26713,6 @@
         {
           "type": "TUTR",
           "meetNumber": "06",
-          "section": "",
           "catalogNumber": "T96Z07",
           "schedule": [
             {
@@ -27572,7 +26768,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "H48Q02",
           "schedule": [
             {
@@ -27592,7 +26787,6 @@
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "H48Q03",
           "schedule": [
             {
@@ -27612,7 +26806,6 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "H48Q04",
           "schedule": [
             {
@@ -27632,7 +26825,6 @@
         {
           "type": "TUTR",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "H48Q05",
           "schedule": [
             {
@@ -27688,7 +26880,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "A95C02",
           "schedule": [
             {
@@ -27705,7 +26896,6 @@
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "A95C03",
           "schedule": [
             {
@@ -27722,7 +26912,6 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "A95C04",
           "schedule": [
             {
@@ -27739,7 +26928,6 @@
         {
           "type": "TUTR",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "A95C05",
           "schedule": [
             {
@@ -27793,7 +26981,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "G03K02",
           "schedule": [
             {
@@ -27812,7 +26999,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "G03K03",
           "schedule": [
             {
@@ -27831,7 +27017,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "G03K04",
           "schedule": [
             {
@@ -27850,7 +27035,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "G03K05",
           "schedule": [
             {
@@ -27869,7 +27053,6 @@
         {
           "type": "LAB",
           "meetNumber": "05",
-          "section": "",
           "catalogNumber": "G03K06",
           "schedule": [
             {
@@ -27889,7 +27072,6 @@
         {
           "type": "LAB",
           "meetNumber": "06",
-          "section": "",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -27898,7 +27080,6 @@
         {
           "type": "LAB",
           "meetNumber": "07",
-          "section": "",
           "catalogNumber": "G03K08",
           "schedule": [
             {
@@ -27917,7 +27098,6 @@
         {
           "type": "LAB",
           "meetNumber": "08",
-          "section": "",
           "catalogNumber": "G03K09",
           "schedule": [
             {
@@ -27973,7 +27153,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "U55H02",
           "schedule": [
             {
@@ -27990,7 +27169,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "U55H03",
           "schedule": [
             {
@@ -28007,7 +27185,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "U55H04",
           "schedule": [
             {
@@ -28024,7 +27201,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -28063,7 +27239,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "K89T02",
           "schedule": [
             {
@@ -28080,7 +27255,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "K89T03",
           "schedule": [
             {
@@ -28097,7 +27271,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "K89T04",
           "schedule": [
             {
@@ -28114,7 +27287,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "K89T05",
           "schedule": [
             {
@@ -28131,7 +27303,6 @@
         {
           "type": "LAB",
           "meetNumber": "05",
-          "section": "",
           "catalogNumber": "K89T06",
           "schedule": [
             {
@@ -28148,7 +27319,6 @@
         {
           "type": "LAB",
           "meetNumber": "06",
-          "section": "",
           "catalogNumber": "K89T07",
           "schedule": [
             {
@@ -28165,7 +27335,6 @@
         {
           "type": "LAB",
           "meetNumber": "07",
-          "section": "",
           "catalogNumber": "K89T08",
           "schedule": [
             {
@@ -28182,7 +27351,6 @@
         {
           "type": "LAB",
           "meetNumber": "08",
-          "section": "",
           "catalogNumber": "K89T09",
           "schedule": [
             {
@@ -28199,7 +27367,6 @@
         {
           "type": "LAB",
           "meetNumber": "09",
-          "section": "",
           "catalogNumber": "K89T10",
           "schedule": [
             {
@@ -28216,7 +27383,6 @@
         {
           "type": "LAB",
           "meetNumber": "10",
-          "section": "",
           "catalogNumber": "K89T11",
           "schedule": [
             {
@@ -28233,7 +27399,6 @@
         {
           "type": "LAB",
           "meetNumber": "11",
-          "section": "",
           "catalogNumber": "K89T12",
           "schedule": [
             {
@@ -28250,7 +27415,6 @@
         {
           "type": "LAB",
           "meetNumber": "12",
-          "section": "",
           "catalogNumber": "K89T13",
           "schedule": [
             {
@@ -28267,7 +27431,6 @@
         {
           "type": "LAB",
           "meetNumber": "13",
-          "section": "",
           "catalogNumber": "K89T14",
           "schedule": [
             {
@@ -28314,7 +27477,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "E36F02",
           "schedule": [
             {
@@ -28334,7 +27496,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "E36F03",
           "schedule": [
             {
@@ -28354,7 +27515,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "E36F04",
           "schedule": [
             {
@@ -28404,7 +27564,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "U83N02",
           "schedule": [
             {
@@ -28421,7 +27580,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "U83N03",
           "schedule": [
             {
@@ -28438,7 +27596,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "U83N04",
           "schedule": [
             {
@@ -28472,7 +27629,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "Z30W02",
           "schedule": [
             {
@@ -28489,7 +27645,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "Z30W03",
           "schedule": [
             {
@@ -28506,7 +27661,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "Z30W04",
           "schedule": [
             {
@@ -28560,7 +27714,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "T09P02",
           "schedule": [
             {
@@ -28581,7 +27734,6 @@
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "T09P03",
           "schedule": [
             {
@@ -28601,7 +27753,6 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "T09P04",
           "schedule": [
             {
@@ -28658,7 +27809,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "X86G02",
           "schedule": [
             {
@@ -28677,7 +27827,6 @@
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "X86G03",
           "schedule": [
             {
@@ -28696,7 +27845,6 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "X86G04",
           "schedule": [
             {
@@ -28759,7 +27907,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "G61R02",
           "schedule": [
             {
@@ -28776,7 +27923,6 @@
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "G61R03",
           "schedule": [
             {
@@ -28793,7 +27939,6 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "G61R04",
           "schedule": [
             {
@@ -28810,7 +27955,6 @@
         {
           "type": "TUTR",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "G61R05",
           "schedule": [
             {
@@ -28827,7 +27971,6 @@
         {
           "type": "TUTR",
           "meetNumber": "05",
-          "section": "",
           "catalogNumber": "G61R06",
           "schedule": [
             {
@@ -28881,7 +28024,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "P39U02",
           "schedule": [
             {
@@ -28898,7 +28040,6 @@
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "P39U03",
           "schedule": [
             {
@@ -28915,7 +28056,6 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "P39U04",
           "schedule": [
             {
@@ -28932,7 +28072,6 @@
         {
           "type": "TUTR",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "P39U05",
           "schedule": [
             {
@@ -28979,7 +28118,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "R71C02",
           "schedule": [
             {
@@ -28996,7 +28134,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "R71C03",
           "schedule": [
             {
@@ -29013,7 +28150,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "R71C04",
           "schedule": [
             {
@@ -29030,7 +28166,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "R71C05",
           "schedule": [
             {
@@ -29047,7 +28182,6 @@
         {
           "type": "LAB",
           "meetNumber": "05",
-          "section": "",
           "catalogNumber": "R71C06",
           "schedule": [
             {
@@ -29101,7 +28235,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "J15V02",
           "schedule": [
             {
@@ -29120,7 +28253,6 @@
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "J15V03",
           "schedule": [
             {
@@ -29140,7 +28272,6 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "J15V04",
           "schedule": [
             {
@@ -29189,7 +28320,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "H41A02",
           "schedule": [
             {
@@ -29209,7 +28339,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "H41A03",
           "schedule": [
             {
@@ -29229,7 +28358,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "H41A04",
           "schedule": [
             {
@@ -29249,7 +28377,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "H41A05",
           "schedule": [
             {
@@ -29269,7 +28396,6 @@
         {
           "type": "LAB",
           "meetNumber": "05",
-          "section": "",
           "catalogNumber": "H41A06",
           "schedule": [
             {
@@ -29289,7 +28415,6 @@
         {
           "type": "LAB",
           "meetNumber": "06",
-          "section": "",
           "catalogNumber": "H41A07",
           "schedule": [
             {
@@ -29346,7 +28471,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "J73F02",
           "schedule": [
             {
@@ -29363,7 +28487,6 @@
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "J73F03",
           "schedule": [
             {
@@ -29380,7 +28503,6 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "J73F04",
           "schedule": [
             {
@@ -29397,7 +28519,6 @@
         {
           "type": "TUTR",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "J73F05",
           "schedule": [
             {
@@ -29414,7 +28535,6 @@
         {
           "type": "TUTR",
           "meetNumber": "05",
-          "section": "",
           "catalogNumber": "J73F06",
           "schedule": [
             {
@@ -29461,7 +28581,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "A88J02",
           "schedule": [
             {
@@ -29478,7 +28597,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "A88J03",
           "schedule": [
             {
@@ -29495,7 +28613,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "A88J04",
           "schedule": [
             {
@@ -29512,7 +28629,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "A88J05",
           "schedule": [
             {
@@ -29529,7 +28645,6 @@
         {
           "type": "LAB",
           "meetNumber": "05",
-          "section": "",
           "catalogNumber": "A88J06",
           "schedule": [
             {
@@ -29546,7 +28661,6 @@
         {
           "type": "LAB",
           "meetNumber": "06",
-          "section": "",
           "catalogNumber": "A88J07",
           "schedule": [
             {
@@ -29600,7 +28714,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "X88D02",
           "schedule": [
             {
@@ -29617,7 +28730,6 @@
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "X88D03",
           "schedule": [
             {
@@ -29671,7 +28783,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "Q55Y02",
           "schedule": [
             {
@@ -29688,7 +28799,6 @@
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "Q55Y03",
           "schedule": [
             {
@@ -29742,7 +28852,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "K02U02",
           "schedule": [
             {
@@ -29759,7 +28868,6 @@
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "K02U03",
           "schedule": [
             {
@@ -29813,7 +28921,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "B24R02",
           "schedule": [
             {
@@ -29830,7 +28937,6 @@
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "B24R03",
           "schedule": [
             {
@@ -29884,7 +28990,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "N14X02",
           "schedule": [
             {
@@ -29903,7 +29008,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "N14X03",
           "schedule": [
             {
@@ -29923,7 +29027,6 @@
         {
           "type": "LAB",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "N14X04",
           "schedule": [
             {
@@ -29942,7 +29045,6 @@
         {
           "type": "LAB",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "N14X05",
           "schedule": [
             {
@@ -29992,7 +29094,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "E65U02",
           "schedule": [
             {
@@ -30011,7 +29112,6 @@
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "E65U03",
           "schedule": [
             {
@@ -30068,7 +29168,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "H77X02",
           "schedule": [
             {
@@ -30085,7 +29184,6 @@
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "H77X03",
           "schedule": [
             {
@@ -30102,7 +29200,6 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "section": "",
           "catalogNumber": "H77X04",
           "schedule": [
             {
@@ -30119,7 +29216,6 @@
         {
           "type": "TUTR",
           "meetNumber": "04",
-          "section": "",
           "catalogNumber": "H77X05",
           "schedule": [
             {
@@ -30173,7 +29269,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "T51W02",
           "schedule": [
             {
@@ -30193,7 +29288,6 @@
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "T51W03",
           "schedule": [
             {
@@ -30244,7 +29338,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "D49G02",
           "schedule": [
             {
@@ -30261,7 +29354,6 @@
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "D49G03",
           "schedule": [
             {
@@ -30298,7 +29390,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -30307,7 +29398,6 @@
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
@@ -30353,7 +29443,6 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "Y18T02",
           "schedule": [
             {
@@ -30370,7 +29459,6 @@
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "Y18T03",
           "schedule": [
             {
@@ -30633,7 +29721,6 @@
         {
           "type": "SEMR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "K17D01",
           "schedule": [
             {
@@ -30678,7 +29765,6 @@
         {
           "type": "SEMR",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "N58G01",
           "schedule": [
             {
@@ -30771,7 +29857,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "S27S02",
           "schedule": [
             {
@@ -30823,7 +29908,6 @@
         {
           "type": "LAB",
           "meetNumber": "01",
-          "section": "",
           "catalogNumber": "B80K02",
           "schedule": [
             {
@@ -30843,7 +29927,6 @@
         {
           "type": "LAB",
           "meetNumber": "02",
-          "section": "",
           "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
