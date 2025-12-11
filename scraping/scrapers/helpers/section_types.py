@@ -9,73 +9,82 @@ import re
 # Section type mappings
 # Format: (pattern, normalized_type)
 SECTION_TYPE_MAPPINGS = [
-    # Lecture
     ("LECT", "LECT"),
     ("LEC", "LECT"),
-    # Laboratory
     ("LAB", "LAB"),
-    # Tutorial
     ("TUTR", "TUTR"),
     ("TUT", "TUTR"),
-    # Seminar
     ("SEMR", "SEMR"),
     ("SEMINAR", "SEMR"),
     ("SEM", "SEMR"),
-    # Blended learning
+    ("STDO", "STDO"),
+    ("STUDIO", "STDO"),
     ("BLEN", "BLEN"),
     ("BLENDED", "BLEN"),
-    # Online
     ("ONLN", "ONLN"),
     ("ONLINE", "ONLN"),
     ("ONL", "ONLN"),
-    ("ONCA", "ONCA"),  # Online - Campus Assessment
-    # Co-op
+    ("ONCA", "ONCA"),
     ("COOP", "COOP"),
     ("COOPTERM", "COOP"),
     ("COOPWORKTERM", "COOP"),
-    # Independent study
     ("ISTY", "ISTY"),
     ("INDEPENDENTSTUDY", "ISTY"),
     ("INDSTUDY", "ISTY"),
-    ("DIRD", "DIRD"),  # Directed reading/study
+    ("DIRD", "DIRD"),
     ("DIRECTEDSTUDY", "DIRD"),
-    # Field experience
     ("FDEX", "FDEX"),
     ("FIELDEXERCISE", "FDEX"),
-    ("FIEL", "FIEL"),  # Fieldwork
+    ("FIEL", "FIEL"), 
     ("FIELDWORK", "FIEL"),
-    # Internship
     ("INSP", "INSP"),
     ("INTERNSHIP", "INSP"),
-    # Research
     ("RESP", "RESP"),
     ("RESEARCH", "RESP"),
-    ("REEV", "REEV"),  # Research evaluation
-    ("RESEARCH EVALUATION", "REEV"),
-    # Thesis
+    ("REEV", "REEV"),
+    ("RESEARCHEVALUATION", "REEV"),
     ("THES", "THES"),
     ("THESIS", "THES"),
-    # Workshop
+    ("WKSP", "WKSP"),
+    ("WORKSHOP", "WKSP"),
     ("WRKS", "WRKS"),
     ("WRK", "WRKS"),
-    ("WORKSHOP", "WRKS"),
-    ("WKSP", "WKSP"),  # Alternative workshop abbreviation
-    # Other
-    ("PRAC", "PRAC"),  # Practicum
+    ("PRAC", "PRAC"), 
     ("PRA", "PRAC"),
-    ("STUDIO", "STUDIO"),
-    ("CLIN", "CLIN"),  # Clinical
+    ("CLIN", "CLIN"),
     ("CLINICAL", "CLIN"),
-    ("HYFX", "HYFX"),  # Hybrid flex
+    ("HYFX", "HYFX"),
     ("HYBRIDFLEX", "HYFX"),
+
+    # Additional mappings
+    ("CORS", "CORS"), 
+    ("CORRESPONDENCE", "CORS"),
+    ("DISS", "DISS"),
+    ("DISSERTATION", "DISS"),
+    ("LGCL", "LGCL"),
+    ("LANGUAGECLASSES", "LGCL"),
+    ("PERF", "PERF"),
+    ("PERFORMANCE", "PERF"),
+    ("REMT", "REMT"),
+    ("REMOTE", "REMT"),
+    ("REVP", "REVP"),
+    ("REVIEWPAPER", "REVP"),
+    ("IDS", "IDS"),
+    ("INDIVIDUALDIRECTEDSTUDY", "IDS"),
 ]
 
 
 def get_section_type(text: str, norm_text_func) -> str:
+    """
+    Normalize a raw section type token to a canonical type (e.g., 'LECT', 'LAB').
+    """
     normalized_text = norm_text_func(text).upper()
     compact_text = re.sub(r"[^A-Z]", "", normalized_text)
     
-    for pattern, normalized_type in SECTION_TYPE_MAPPINGS:
+    # Sort patterns by length to match more specific first
+    sorted_mappings = sorted(SECTION_TYPE_MAPPINGS, key=lambda x: len(x[0]), reverse=True)
+    
+    for pattern, normalized_type in sorted_mappings:
         if pattern in compact_text:
             return normalized_type
     
