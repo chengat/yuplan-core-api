@@ -200,8 +200,6 @@ def get_section_type(text: str) -> str:
         ("LAB", "LAB"),
         ("TUTR", "TUTR"), ("TUT", "TUTR"),
         ("SEMR", "SEMR"), ("SEMINAR", "SEMR"), ("SEM", "SEMR"),
-        ("WRKS", "WRKS"), ("WRK", "WRKS"), ("WORKSHOP", "WRKS"),
-        ("PRAC", "PRAC"), ("PRA", "PRAC"),
         ("BLEN", "BLEN"), ("BLENDED", "BLEN"),
         ("ONLN", "ONLN"), ("ONLINE", "ONLN"), ("ONL", "ONLN"),
         ("COOP", "COOP"), ("COOPTERM", "COOP"), ("COOPWORKTERM", "COOP"),
@@ -209,7 +207,6 @@ def get_section_type(text: str) -> str:
         ("FDEX", "FDEX"), ("FIELDEXERCISE", "FDEX"),
         ("INSP", "INSP"), ("INTERNSHIP", "INSP"),
         ("RESP", "RESP"), ("RESEARCH", "RESP"),
-        ("STUDIO", "STUDIO"),
         ("HYFX", "HYFX"), ("HYBRIDFLEX", "HYFX"),
         ("CLIN", "CLIN"), ("CLINICAL", "CLIN"),
     ]
