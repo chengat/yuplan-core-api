@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup, Tag
 from typing import List, Dict, Any, Optional
 import html
 from pathlib import Path
+from helpers.section_types import get_section_type as get_section_type_helper
 
 
 def norm_text(text: str) -> str:
@@ -187,27 +188,7 @@ def make_section_detail(row_cells: List[Tag], section_type_index: int, section_t
 
 def get_section_type(text: str) -> str:
     """Normalize a raw section type token to a canonical type (e.g., 'LECT', 'LAB')."""
-    normalized_text = norm_text(text).upper()
-    compact_text = re.sub(r"[^A-Z]", "", normalized_text)
-    section_types = [
-        ("LECT", "LECT"), ("LEC", "LECT"),
-        ("LAB", "LAB"),
-        ("TUTR", "TUTR"), ("TUT", "TUTR"),
-        ("SEMR", "SEMR"), ("SEMINAR", "SEMR"), ("SEM", "SEMR"),
-        ("BLEN", "BLEN"), ("BLENDED", "BLEN"),
-        ("ONLN", "ONLN"), ("ONLINE", "ONLN"), ("ONL", "ONLN"),
-        ("COOP", "COOP"), ("COOPTERM", "COOP"), ("COOPWORKTERM", "COOP"),
-        ("FDEX", "FDEX"), ("FIELDEXERCISE", "FDEX"),
-        ("INSP", "INSP"), ("INTERNSHIP", "INSP"),
-        ("THES", "THES"), ("THESIS", "THES"),
-        ("DIRD", "DIRD"), ("DIRECTEDSTUDY", "DIRD"),
-        ("WKSP", "WKSP"), ("WORKSHOP", "WKSP"),
-        ("FIEL", "FIEL"), ("FIELDWORK", "FIEL"),
-    ]
-    for pattern, normalized_type in section_types:
-        if pattern in compact_text:
-            return normalized_type
-    return ""
+    return get_section_type_helper(text, norm_text)
 
 
 def parse_instructors(instructor_html: str) -> List[str]:
