@@ -7777,12 +7777,22 @@
       "languageOfInstruction": "EN",
       "sections": [
         {
-          "type": "FIEL",
-          "meetNumber": "",
+          "type": "STDO",
+          "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "",
-          "schedule": [],
-          "instructors": [],
+          "catalogNumber": "G38S01",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "13:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "ACW 103"
+            }
+          ],
+          "instructors": [
+            "Graham Wakefield"
+          ],
           "notes": ""
         }
       ]
@@ -7792,20 +7802,60 @@
       "department": "DIGM",
       "term": "W",
       "courseTitle": "Vertical Studio-Lab I",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "5020",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "STDO",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "W85D01",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "15:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [
+            "Douglas Van Nort"
+          ],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "GS",
       "department": "DIGM",
       "term": "F",
       "courseTitle": "Interactive Performance and the Electro-Acoustic Orchestra",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "5070",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "STDO",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "P89D01 (GS DIGM) J36M01 (GS MUSI)",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "ACW 103"
+            }
+          ],
+          "instructors": [
+            "Douglas Van Nort"
+          ],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "GS",
@@ -7817,12 +7867,22 @@
       "languageOfInstruction": "EN",
       "sections": [
         {
-          "type": "FIEL",
-          "meetNumber": "",
+          "type": "STDO",
+          "meetNumber": "01",
           "section": "M",
-          "catalogNumber": "",
-          "schedule": [],
-          "instructors": [],
+          "catalogNumber": "J79V01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [
+            "Graham Wakefield"
+          ],
           "notes": ""
         }
       ]
@@ -7888,10 +7948,30 @@
       "department": "DIGM",
       "term": "W",
       "courseTitle": "Vertical Studio-Lab II",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6020",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "STDO",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "Q32M01",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "15:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [
+            "Douglas Van Nort"
+          ],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "GS",
@@ -13753,20 +13833,56 @@
       "department": "ENVS",
       "term": "F",
       "courseTitle": "MES Research Proposal",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6102",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "IDS",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "H64E01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "GS",
       "department": "ENVS",
       "term": "W",
       "courseTitle": "MES Research Proposal",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6102",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "IDS",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "B11N01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "GS",
@@ -14304,66 +14420,24 @@
       "department": "ENVS",
       "term": "F",
       "courseTitle": "Individual Directed Study",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
-    },
-    {
-      "faculty": "GS",
-      "department": "ENVS",
-      "term": "W",
-      "courseTitle": "Individual Directed Study",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
-    },
-    {
-      "faculty": "GS",
-      "department": "ENVS",
-      "term": "F",
-      "courseTitle": "Individual Directed Study",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
-    },
-    {
-      "faculty": "GS",
-      "department": "ENVS",
-      "term": "W",
-      "courseTitle": "Individual Directed Study",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
-    },
-    {
-      "faculty": "GS",
-      "department": "ENVS",
-      "term": "F",
-      "courseTitle": "Individual Directed Study",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
-    },
-    {
-      "faculty": "GS",
-      "department": "ENVS",
-      "term": "W",
-      "courseTitle": "Individual Directed Study",
-      "courseId": "6599A",
+      "courseId": "6599",
       "credits": "3.00",
-      "languageOfInstruction": "IDS",
+      "languageOfInstruction": "EN",
       "sections": [
         {
-          "type": "FIEL",
-          "meetNumber": "",
-          "section": "M",
-          "catalogNumber": "",
-          "schedule": [],
+          "type": "IDS",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "E81X01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
           "instructors": [],
           "notes": ""
         }
@@ -14374,30 +14448,230 @@
       "department": "ENVS",
       "term": "W",
       "courseTitle": "Individual Directed Study",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6599",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "IDS",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "V28Q01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "GS",
       "department": "ENVS",
       "term": "F",
       "courseTitle": "Individual Directed Study",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6599",
+      "credits": "6.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "IDS",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "Z75C01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "GS",
       "department": "ENVS",
       "term": "W",
       "courseTitle": "Individual Directed Study",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6599",
+      "credits": "6.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "IDS",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "X22Y01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "GS",
+      "department": "ENVS",
+      "term": "F",
+      "courseTitle": "Individual Directed Study",
+      "courseId": "6599A",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "IDS",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "B69U01",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "9:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "HNE 105"
+            }
+          ],
+          "instructors": [
+            "Eric Miller"
+          ],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "GS",
+      "department": "ENVS",
+      "term": "W",
+      "courseTitle": "Individual Directed Study",
+      "courseId": "6599A",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "IDS",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "S16F01",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "9:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "HNE 102"
+            }
+          ],
+          "instructors": [
+            "Mark S Winfield"
+          ],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "GS",
+      "department": "ENVS",
+      "term": "W",
+      "courseTitle": "Individual Directed Study",
+      "courseId": "6599B",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "IDS",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "Y63Z01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "9:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "HNE 105"
+            }
+          ],
+          "instructors": [
+            "Eric Miller"
+          ],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "GS",
+      "department": "ENVS",
+      "term": "F",
+      "courseTitle": "Individual Directed Study",
+      "courseId": "6599O",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "IDS",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "F10A01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "GS",
+      "department": "ENVS",
+      "term": "W",
+      "courseTitle": "Individual Directed Study",
+      "courseId": "6599O",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "IDS",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "V57X01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "GS",
@@ -15001,10 +15275,28 @@
       "department": "ENVS",
       "term": "W",
       "courseTitle": "Individual PhD Research",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "8599",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "IDS",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "D88J01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "GS",
@@ -17142,12 +17434,22 @@
       "languageOfInstruction": "EN",
       "sections": [
         {
-          "type": "LECT",
-          "meetNumber": "",
+          "type": "STDO",
+          "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "",
-          "schedule": [],
-          "instructors": [],
+          "catalogNumber": "H33F01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "10:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "CFT 239"
+            }
+          ],
+          "instructors": [
+            "Brenda Longfellow"
+          ],
           "notes": ""
         }
       ]
@@ -17162,10 +17464,41 @@
       "languageOfInstruction": "EN",
       "sections": [
         {
-          "type": "LECT",
-          "meetNumber": "",
+          "type": "STDO",
+          "meetNumber": "01",
           "section": "M",
-          "catalogNumber": "",
+          "catalogNumber": "D05D01",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "CFT 135B"
+            }
+          ],
+          "instructors": [
+            "Philip J Hoffman",
+            "Francisca Duran"
+          ],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "GS",
+      "department": "FILM",
+      "term": "W",
+      "courseTitle": "Documentary Workshop",
+      "courseId": "5050",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "STDO",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "Cancelled",
           "schedule": [],
           "instructors": [],
           "notes": ""
@@ -17176,21 +17509,21 @@
       "faculty": "GS",
       "department": "FILM",
       "term": "W",
-      "courseTitle": "Documentary Workshop",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
-    },
-    {
-      "faculty": "GS",
-      "department": "FILM",
-      "term": "W",
       "courseTitle": "Hybrid Fiction",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "5070",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "STDO",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "GS",
@@ -17202,12 +17535,22 @@
       "languageOfInstruction": "EN",
       "sections": [
         {
-          "type": "LECT",
-          "meetNumber": "",
+          "type": "STDO",
+          "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "",
-          "schedule": [],
-          "instructors": [],
+          "catalogNumber": "T52Y01",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "15:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "CFT 135B"
+            }
+          ],
+          "instructors": [
+            "Tereza Barta"
+          ],
           "notes": ""
         }
       ]
@@ -17222,12 +17565,22 @@
       "languageOfInstruction": "EN",
       "sections": [
         {
-          "type": "LECT",
-          "meetNumber": "",
+          "type": "STDO",
+          "meetNumber": "01",
           "section": "M",
-          "catalogNumber": "",
-          "schedule": [],
-          "instructors": [],
+          "catalogNumber": "Z15Y01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "CFT 135B"
+            }
+          ],
+          "instructors": [
+            "Moussa Djigo"
+          ],
           "notes": ""
         }
       ]
@@ -17272,13 +17625,38 @@
       "languageOfInstruction": "EN",
       "sections": [
         {
-          "type": "LECT",
-          "meetNumber": "",
+          "type": "STDO",
+          "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "",
-          "schedule": [],
+          "catalogNumber": "V26J01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "CFT 239"
+            }
+          ],
           "instructors": [],
           "notes": ""
+        },
+        {
+          "type": "STDO",
+          "meetNumber": "01",
+          "section": "B",
+          "catalogNumber": "Z73S01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "9:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "(Backup)"
         }
       ]
     },
@@ -17292,13 +17670,40 @@
       "languageOfInstruction": "EN",
       "sections": [
         {
-          "type": "LECT",
-          "meetNumber": "",
+          "type": "STDO",
+          "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "",
-          "schedule": [],
-          "instructors": [],
+          "catalogNumber": "E21R01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "9:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "CFT 239"
+            }
+          ],
+          "instructors": [
+            "Alyson Richards"
+          ],
           "notes": ""
+        },
+        {
+          "type": "STDO",
+          "meetNumber": "01",
+          "section": "B",
+          "catalogNumber": "U68C01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "(Backup)"
         }
       ]
     },
@@ -29095,130 +29500,366 @@
       "department": "MUSI",
       "term": "F",
       "courseTitle": "Private Lessons in Composition I",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "5006A",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "PERF",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "V68P01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "GS",
       "department": "MUSI",
       "term": "W",
       "courseTitle": "Private Lessons in Composition I",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "5006A",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "PERF",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "P15B01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "GS",
       "department": "MUSI",
       "term": "F",
       "courseTitle": "Private Lessons in Composition II",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "5006B",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "PERF",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "X62K01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "GS",
       "department": "MUSI",
       "term": "W",
       "courseTitle": "Private Lessons in Composition II",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "5006B",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "PERF",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "C09T01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "GS",
       "department": "MUSI",
       "term": "F",
       "courseTitle": "Interactive Performance and the Electro-Acoustic Orchestra",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "5070",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "STDO",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "P89D01 (GS DIGM) J36M01 (GS MUSI)",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "ACW 103"
+            }
+          ],
+          "instructors": [
+            "Douglas Van Nort"
+          ],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "GS",
       "department": "MUSI",
       "term": "F",
       "courseTitle": "Performance Option",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "5410",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "PERF",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "R25H01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "GS",
       "department": "MUSI",
       "term": "W",
       "courseTitle": "Performance Option",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "5410",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "PERF",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "K72Q01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "GS",
       "department": "MUSI",
       "term": "F",
       "courseTitle": "Performance Studio",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "5500",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "PERF",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "H38G01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "GS",
       "department": "MUSI",
       "term": "W",
       "courseTitle": "Performance Studio",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "5500",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "PERF",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "A85P01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "GS",
       "department": "MUSI",
       "term": "F",
       "courseTitle": "Recital",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "5550",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "PERF",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "G37V01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "GS",
       "department": "MUSI",
       "term": "W",
       "courseTitle": "Recital",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "5550",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "PERF",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "W84G01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "GS",
       "department": "MUSI",
       "term": "F",
       "courseTitle": "Ensemble",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "5551",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "PERF",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "Q31P01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "GS",
       "department": "MUSI",
       "term": "W",
       "courseTitle": "Ensemble",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "5551",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "PERF",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "J78B01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "GS",
@@ -43894,10 +44535,30 @@
       "department": "THEA",
       "term": "F",
       "courseTitle": "Graduate One Directing",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "5041",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "STDO",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "V63E01",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "8:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "ACE 209"
+            }
+          ],
+          "instructors": [
+            "Jamie Robinson"
+          ],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "GS",
@@ -43909,12 +44570,22 @@
       "languageOfInstruction": "EN",
       "sections": [
         {
-          "type": "LECT",
-          "meetNumber": "",
+          "type": "STDO",
+          "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "",
-          "schedule": [],
-          "instructors": [],
+          "catalogNumber": "G88A01",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "12:30",
+              "duration": "320",
+              "campus": "Keele",
+              "room": "CFT 142"
+            }
+          ],
+          "instructors": [
+            "Erika Batdorf"
+          ],
           "notes": ""
         }
       ]
