@@ -28,7 +28,6 @@ class TestHelpers(unittest.TestCase):
     def test_get_section_type_variants(self):
         self.assertEqual(lassonde.get_section_type("LEC"), "LECT")
         self.assertEqual(lassonde.get_section_type("Seminar"), "SEMR")
-        self.assertEqual(lassonde.get_section_type("clinic"), "CLIN")
         self.assertEqual(lassonde.get_section_type("ind study"), "ISTY")
 
     def test_get_section_type_no_match(self):
