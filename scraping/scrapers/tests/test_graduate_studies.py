@@ -3,6 +3,8 @@ import runpy
 import shutil
 import tempfile
 import unittest
+
+from unittest import mock
 from contextlib import redirect_stdout, redirect_stderr
 from pathlib import Path
 

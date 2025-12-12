@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup, Tag
 from typing import List, Dict, Any, Optional
 import html
 from pathlib import Path
-from helpers.section_types import get_section_type as get_section_type_helper
+from scraping.scrapers.helpers.section_types import get_section_type as get_section_type_helper
 
 
 def norm_text(text: str) -> str:
