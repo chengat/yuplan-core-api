@@ -9,7 +9,7 @@ from unittest import mock
 
 from bs4 import BeautifulSoup
 
-from scraping.scrappers import lassonde
+from scraping.scrapers import lassonde
 
 
 class TestHelpers(unittest.TestCase):
@@ -393,10 +393,10 @@ class TestParser(unittest.TestCase):
         try:
             # Recreate expected layout: scraping/page_source/lassonde.html
             scraping_dir = Path(tmpdir) / "scraping"
-            scrappers_dir = scraping_dir / "scrappers"
+            scrapers_dir = scraping_dir / "scrapers"
             page_source = scraping_dir / "page_source"
             data_dir = scraping_dir / "data"
-            scrappers_dir.mkdir(parents=True, exist_ok=True)
+            scrapers_dir.mkdir(parents=True, exist_ok=True)
             page_source.mkdir(parents=True, exist_ok=True)
             data_dir.mkdir(parents=True, exist_ok=True)
 
@@ -424,7 +424,7 @@ class TestParser(unittest.TestCase):
             )
 
             original_file = lassonde.__file__ if hasattr(lassonde, "__file__") else None
-            lassonde.__file__ = str(scrappers_dir / "lassonde.py")
+            lassonde.__file__ = str(scrapers_dir / "lassonde.py")
             buf = io.StringIO()
             with redirect_stdout(buf):
                 lassonde.main()
@@ -443,10 +443,10 @@ class TestParser(unittest.TestCase):
         tmpdir = tempfile.mkdtemp()
         try:
             scraping_dir = Path(tmpdir) / "scraping"
-            scrappers_dir = scraping_dir / "scrappers"
-            scrappers_dir.mkdir(parents=True, exist_ok=True)
+            scrapers_dir = scraping_dir / "scrapers"
+            scrapers_dir.mkdir(parents=True, exist_ok=True)
             original_file = lassonde.__file__ if hasattr(lassonde, "__file__") else None
-            lassonde.__file__ = str(scrappers_dir / "lassonde.py")
+            lassonde.__file__ = str(scrapers_dir / "lassonde.py")
             buf = io.StringIO()
             with redirect_stdout(buf):
                 lassonde.main()
