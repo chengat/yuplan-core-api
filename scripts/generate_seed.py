@@ -60,7 +60,13 @@ def collect_courses_and_instructors(courses: List[Dict]) -> Tuple[Dict[str, Tupl
         
         # Only create course if does not exist yet
         if course_code not in course_code_to_uuid:
-            credits = float(course.get('credits', '0.00'))
+            credits_str = course.get('credits', '0.00')
+            # Handle empty strings or invalid credit values
+            try:
+                credits = float(credits_str) if credits_str else 0.0
+            except (ValueError, TypeError):
+                credits = 0.0
+            
             description = course.get('notes', '')
             
             course_uuid = str(uuid.uuid4())
@@ -285,18 +291,62 @@ def generate_junction_table_sql(instructor_course_links: List[Tuple[str, str]],
     
     return sql_lines
 
-def generate_seed_sql(json_file: str, output_file: str):
-    """Generate seed.sql from lassonde.json"""
+def generate_seed_sql(json_files: list[str], output_file: str):
+    """Generate seed.sql for all generated JSON data"""
+
+    # Initialize collections
+    all_instructors_map = {}
+    all_courses_list = []
+    all_course_code_to_uuid = {}
+    all_course_code_to_index = {}
+    all_labs_list = []
+    all_tutorials_list = []
+    all_sections_list = []
+    all_instructor_course_links = []
     
-    # Read JSON file
-    with open(json_file, 'r', encoding='utf-8') as f:
-        data = json.load(f)
-    
-    courses = data.get('courses', [])
-    
-    # Collect data from JSON
-    instructors_map, courses_list, course_code_to_uuid, course_code_to_index = collect_courses_and_instructors(courses)
-    labs_list, tutorials_list, sections_list, instructor_course_links = process_sections(courses, course_code_to_index)
+    # Process each JSON file
+    for json_file in json_files:
+        print(f"Processing {json_file}...")
+        
+        with open(json_file, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        
+        courses = data.get('courses', [])
+        
+        # Collect data from JSON
+        instructors_map, courses_list, course_code_to_uuid, course_code_to_index = collect_courses_and_instructors(courses)
+        labs_list, tutorials_list, sections_list, instructor_course_links = process_sections(courses, course_code_to_index)
+        
+        # Merge instructors (deduplicate by name)
+        all_instructors_map.update(instructors_map)
+        
+        # Adjust course indices to avoid collisions
+        offset = len(all_courses_list)
+        for course in courses_list:
+            all_courses_list.append(course)
+        
+        # Update course mappings with offset
+        for code, uuid_val in course_code_to_uuid.items():
+            all_course_code_to_uuid[code] = uuid_val
+        
+        for code, idx in course_code_to_index.items():
+            all_course_code_to_index[code] = idx + offset
+        
+        # Merge sections, labs, tutorials with adjusted indices
+        for lab in labs_list:
+            lab['course_idx'] = lab['course_idx'] + offset
+            all_labs_list.append(lab)
+        
+        for tutorial in tutorials_list:
+            tutorial['course_idx'] = tutorial['course_idx'] + offset
+            all_tutorials_list.append(tutorial)
+        
+        for section in sections_list:
+            section['course_idx'] = section['course_idx'] + offset
+            all_sections_list.append(section)
+        
+        # Merge instructor links
+        all_instructor_course_links.extend(instructor_course_links)
     
     # Generate SQL statements
     sql_lines = [
@@ -307,15 +357,15 @@ def generate_seed_sql(json_file: str, output_file: str):
         ""
     ]
     
-    # Generate SQL for each table
-    instructor_sql, instructor_name_to_uuid = generate_instructor_sql(instructors_map)
+    # Generate SQL for each table using ALL merged data
+    instructor_sql, instructor_name_to_uuid = generate_instructor_sql(all_instructors_map)
     sql_lines.extend(instructor_sql)
     
-    sql_lines.extend(generate_course_sql(courses_list))
-    sql_lines.extend(generate_lab_sql(labs_list, courses_list))
-    sql_lines.extend(generate_tutorial_sql(tutorials_list, courses_list))
-    sql_lines.extend(generate_section_sql(sections_list, courses_list))
-    sql_lines.extend(generate_junction_table_sql(instructor_course_links, instructor_name_to_uuid, course_code_to_uuid))
+    sql_lines.extend(generate_course_sql(all_courses_list))
+    sql_lines.extend(generate_lab_sql(all_labs_list, all_courses_list))
+    sql_lines.extend(generate_tutorial_sql(all_tutorials_list, all_courses_list))
+    sql_lines.extend(generate_section_sql(all_sections_list, all_courses_list))
+    sql_lines.extend(generate_junction_table_sql(all_instructor_course_links, instructor_name_to_uuid, all_course_code_to_uuid))
     
     sql_lines.append("COMMIT;")
     sql_lines.append("")
@@ -324,23 +374,34 @@ def generate_seed_sql(json_file: str, output_file: str):
     with open(output_file, 'w', encoding='utf-8') as f:
         f.write('\n'.join(sql_lines))
     
-    print(f" Generated {output_file}")
-    print(f"   - {len(instructors_map)} instructors")
-    print(f"   - {len(courses_list)} courses")
-    print(f"   - {len(labs_list)} labs")
-    print(f"   - {len(tutorials_list)} tutorials")
-    print(f"   - {len(sections_list)} sections")
+    print(f"\n✓ Generated {output_file}")
+    print(f"   - {len(all_instructors_map)} instructors")
+    print(f"   - {len(all_courses_list)} courses")
+    print(f"   - {len(all_labs_list)} labs")
+    print(f"   - {len(all_tutorials_list)} tutorials")
+    print(f"   - {len(all_sections_list)} sections")
 
 if __name__ == '__main__':
     import sys
+    import os
+    import glob
     
-    json_file = 'scraping/data/lassonde.json'
+    data_dir = 'scraping/data'
     output_file = 'db/seed.sql'
     
     if len(sys.argv) > 1:
-        json_file = sys.argv[1]
+        data_dir = sys.argv[1]
     if len(sys.argv) > 2:
         output_file = sys.argv[2]
-    
-    generate_seed_sql(json_file, output_file)
 
+    json_files = glob.glob(os.path.join(data_dir, '*.json'))
+
+    if not json_files:
+        print(f"No JSON files found in {data_dir}")
+        sys.exit(1)
+
+    print(f"Found {len(json_files)} JSON file(s) to process:")  # Fixed!
+    for json_file in json_files:
+        print(f"  - {json_file}")
+    
+    generate_seed_sql(json_files, output_file)
