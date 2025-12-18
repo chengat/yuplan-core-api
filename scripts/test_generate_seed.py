@@ -617,14 +617,14 @@ class TestGenerateSeedSQLIntegration(unittest.TestCase):
     """Integration test for generate_seed_sql function"""
     
     def setUp(self):
-        self.test_json = {
+        self.test_json_1 = {
             'courses': [
                 {
-                    'courseTitle': 'Test Course',
+                    'courseTitle': 'Test Course 1',
                     'department': 'TEST',
                     'courseId': '1000',
                     'credits': '3.00',
-                    'notes': 'Test description',
+                    'notes': 'Test description 1',
                     'sections': [
                         {
                             'type': 'LECT',
@@ -637,18 +637,42 @@ class TestGenerateSeedSQLIntegration(unittest.TestCase):
                 }
             ]
         }
+        self.test_json_2 = {
+            'courses': [
+                {
+                    'courseTitle': 'Test Course 2',
+                    'department': 'TEST',
+                    'courseId': '2000',
+                    'credits': '4.00',
+                    'notes': 'Test description 2',
+                    'sections': [
+                        {
+                            'type': 'LAB',
+                            'catalogNumber': 'L01',
+                            'schedule': [{'day': 'T', 'time': '14:00'}],
+                            'meetNumber': '02',
+                            'instructors': ['Jane Smith']
+                        }
+                    ]
+                }
+            ]
+        }
     
     def test_full_generation(self):
-        with tempfile.NamedTemporaryFile(mode='w', suffix='.json', delete=False) as json_file:
-            json.dump(self.test_json, json_file)
-            json_path = json_file.name
-        
+        json_files = []
         try:
+            # Create multiple temporary JSON files
+            for test_json in [self.test_json_1, self.test_json_2]:
+                with tempfile.NamedTemporaryFile(mode='w', suffix='.json', delete=False) as json_file:
+                    json.dump(test_json, json_file)
+                    json_files.append(json_file.name)
+            
             with tempfile.NamedTemporaryFile(mode='w', suffix='.sql', delete=False) as sql_file:
                 sql_path = sql_file.name
             
             try:
-                generate_seed_sql(json_path, sql_path)
+                # Pass the list of JSON files to the function
+                generate_seed_sql(json_files, sql_path)
                 
                 # Verify file was created
                 self.assertTrue(os.path.exists(sql_path))
@@ -662,17 +686,20 @@ class TestGenerateSeedSQLIntegration(unittest.TestCase):
                 self.assertIn('INSERT INTO instructors', content)
                 self.assertIn('INSERT INTO courses', content)
                 self.assertIn('INSERT INTO sections', content)
-                self.assertIn('Test Course', content)
-                # Name is parsed into first_name and last_name
+                self.assertIn('Test Course 1', content)
+                self.assertIn('Test Course 2', content)
                 self.assertIn('John', content)
                 self.assertIn('Doe', content)
+                self.assertIn('Jane', content)
+                self.assertIn('Smith', content)
                 
             finally:
                 if os.path.exists(sql_path):
                     os.unlink(sql_path)
         finally:
-            if os.path.exists(json_path):
-                os.unlink(json_path)
+            for json_file in json_files:
+                if os.path.exists(json_file):
+                    os.unlink(json_file)
 
 
 if __name__ == '__main__':
