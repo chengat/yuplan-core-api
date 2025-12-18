@@ -1,24 +1,24 @@
-"""Test cases for urban.py scraper"""
+"""Test cases for schulich.py scraper"""
 
 import unittest
 import sys
 from pathlib import Path
-from unittest.mock import patch
-
+from unittest.mock import patch, mock_open
+import json
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from scraping.scrapers import urban
+from scraping.scrapers import schulich
 
 
-class TestUrbanIntegration(unittest.TestCase):
-    """Integration tests for urban scraper"""
+class TestSchulichIntegration(unittest.TestCase):
+    """Integration tests for schulich scraper"""
     
     def test_main_with_missing_html_file(self):
         """Test main function handles missing HTML file gracefully"""
         with patch('pathlib.Path.read_text', side_effect=FileNotFoundError("File not found")), \
              patch('builtins.print') as mock_print:
-            urban.main()
+            schulich.main()
             # Should print error message
             call_args = [str(call) for call in mock_print.call_args_list]
             self.assertTrue(any('Error reading HTML' in arg for arg in call_args))
@@ -30,13 +30,13 @@ class TestUrbanIntegration(unittest.TestCase):
             <body>
                 <table>
                     <tr>
-                        <td class="bodytext">EU</td>
-                        <td class="bodytext">ENVS</td>
+                        <td class="bodytext">SU</td>
+                        <td class="bodytext">ACTG</td>
                         <td class="bodytext">FW25</td>
-                        <td class="bodytext" colspan="6">Environmental Science</td>
+                        <td class="bodytext" colspan="6">Accounting Basics</td>
                     </tr>
                     <tr>
-                        <td>1012 3.00 A</td>
+                        <td>2000 3.00 A</td>
                         <td>EN</td>
                         <td>LEC</td>
                         <td>01</td>
@@ -52,7 +52,7 @@ class TestUrbanIntegration(unittest.TestCase):
              patch('pathlib.Path.mkdir'), \
              patch('builtins.print') as mock_print:
             
-            urban.main()
+            schulich.main()
             
             # Verify write was called
             self.assertTrue(mock_write.called)
@@ -70,7 +70,7 @@ class TestUrbanIntegration(unittest.TestCase):
              patch('pathlib.Path.mkdir'), \
              patch('builtins.print') as mock_print:
             
-            urban.main()
+            schulich.main()
             
             # Should complete without crashing
             self.assertTrue(mock_print.called)
@@ -82,11 +82,11 @@ class TestUrbanIntegration(unittest.TestCase):
         with patch('pathlib.Path.read_text', return_value=test_html), \
             patch('pathlib.Path.write_text'), \
             patch('pathlib.Path.mkdir'), \
-            patch('scraping.scrapers.urban.parse_course_timetable_html') as mock_parse, \
+            patch('scraping.scrapers.schulich.parse_course_timetable_html') as mock_parse, \
             patch('builtins.print'):
             
             mock_parse.return_value = {'courses': []}
-            urban.main()
+            schulich.main()
             
             # Verify parser was called with correct parameters
             mock_parse.assert_called_once()
@@ -100,13 +100,13 @@ class TestUrbanIntegration(unittest.TestCase):
         
         with patch('pathlib.Path.read_text', return_value=test_html), \
             patch('pathlib.Path.mkdir'), \
-            patch('scraping.scrapers.urban.parse_course_timetable_html') as mock_parse, \
+            patch('scraping.scrapers.schulich.parse_course_timetable_html') as mock_parse, \
             patch('pathlib.Path.write_text', side_effect=Exception("Write error")), \
             patch('builtins.print') as mock_print, \
             patch('traceback.print_exc') as mock_traceback:
             
             mock_parse.return_value = {'courses': []}
-            urban.main()
+            schulich.main()
             
             # Verify error was printed
             call_args = [str(call) for call in mock_print.call_args_list]
@@ -121,11 +121,11 @@ class TestUrbanIntegration(unittest.TestCase):
         
         with patch('pathlib.Path.read_text', return_value=test_html), \
             patch('pathlib.Path.mkdir'), \
-            patch('scraping.scrapers.urban.parse_course_timetable_html', side_effect=ValueError("Parse error")), \
+            patch('scraping.scrapers.schulich.parse_course_timetable_html', side_effect=ValueError("Parse error")), \
             patch('builtins.print') as mock_print, \
             patch('traceback.print_exc') as mock_traceback:
             
-            urban.main()
+            schulich.main()
             
             # Verify error handling
             call_args = [str(call) for call in mock_print.call_args_list]
@@ -139,8 +139,8 @@ class TestUrbanIntegration(unittest.TestCase):
         mock_result = {
             'courses': [
                 {
-                    'courseId': '1000',
-                    'courseTitle': 'Test Course',
+                    'courseId': '2000',
+                    'courseTitle': 'Accounting Basics',
                     'sections': [
                         {'section': 'A', 'type': 'LECT'},
                         {'section': 'B', 'type': 'LECT'}
@@ -152,15 +152,15 @@ class TestUrbanIntegration(unittest.TestCase):
         with patch('pathlib.Path.read_text', return_value=test_html), \
             patch('pathlib.Path.write_text'), \
             patch('pathlib.Path.mkdir'), \
-            patch('scraping.scrapers.urban.parse_course_timetable_html', return_value=mock_result), \
+            patch('scraping.scrapers.schulich.parse_course_timetable_html', return_value=mock_result), \
             patch('builtins.print') as mock_print:
             
-            urban.main()
+            schulich.main()
             
             # Verify course details were printed
             call_args = str(mock_print.call_args_list)
-            self.assertIn('1000', call_args)
-            self.assertIn('Test Course', call_args)
+            self.assertIn('2000', call_args)
+            self.assertIn('Accounting Basics', call_args)
             self.assertIn('Section', call_args)
 
 
