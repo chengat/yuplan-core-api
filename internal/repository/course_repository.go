@@ -5,73 +5,67 @@ import (
 	"fmt"
 	"yuplan/internal/models"
 
-	"github.com/jackc/pgx/v5/pgxpool"
+	"github.com/jackc/pgx/v4"
 )
 
-type CourseRepository struct {
-	db *pgxpool.Pool
+type CourseRepositoryInterface interface {
+	GetAll(ctx context.Context, limit, offset int) ([]models.Course, error)
+	GetByID(ctx context.Context, courseID string) (*models.Course, error)
 }
 
-func NewCourseRepository(db *pgxpool.Pool) *CourseRepository {
+type courseDB interface {
+	Query(ctx context.Context, sql string, args ...any) (pgx.Rows, error)
+	QueryRow(ctx context.Context, sql string, args ...any) pgx.Row
+}
+
+type CourseRepository struct {
+	db courseDB
+}
+
+func NewCourseRepository(db courseDB) *CourseRepository {
 	return &CourseRepository{db: db}
 }
 
 func (r *CourseRepository) GetAll(ctx context.Context, limit, offset int) ([]models.Course, error) {
-	query := `
-        SELECT id, name, code, credits, description, created_at, updated_at
-        FROM courses
-        ORDER BY code
-        LIMIT $1 OFFSET $2
-    `
-
-	rows, err := r.db.Query(ctx, query, limit, offset)
+	rows, err := r.db.Query(
+		ctx,
+		`SELECT id, name, code, credits, description, created_at, updated_at
+		 FROM courses
+		 LIMIT $1 OFFSET $2`,
+		limit, offset,
+	)
 	if err != nil {
-		return nil, fmt.Errorf("failed to query courses: %w", err)
+		return nil, fmt.Errorf("query courses: %w", err)
 	}
 	defer rows.Close()
 
-	var courses []models.Course
+	courses := make([]models.Course, 0)
 	for rows.Next() {
-		var course models.Course
-		err := rows.Scan(
-			&course.ID,
-			&course.Name,
-			&course.Code,
-			&course.Credits,
-			&course.Description,
-			&course.CreatedAt,
-			&course.UpdatedAt,
-		)
-		if err != nil {
-			return nil, fmt.Errorf("failed to scan course: %w", err)
+		var c models.Course
+		if err := rows.Scan(&c.ID, &c.Name, &c.Code, &c.Credits, &c.Description, &c.CreatedAt, &c.UpdatedAt); err != nil {
+			return nil, fmt.Errorf("scan course: %w", err)
 		}
-		courses = append(courses, course)
+		courses = append(courses, c)
+	}
+	if err := rows.Err(); err != nil {
+		return nil, fmt.Errorf("iterate courses: %w", err)
 	}
 
-	return courses, rows.Err()
+	return courses, nil
 }
 
 func (r *CourseRepository) GetByID(ctx context.Context, courseID string) (*models.Course, error) {
-	// Get course
-	courseQuery := `
-        SELECT id, name, code, credits, description, created_at, updated_at
-        FROM courses
-        WHERE id = $1
-    `
+	row := r.db.QueryRow(
+		ctx,
+		`SELECT id, name, code, credits, description, created_at, updated_at
+		 FROM courses
+		 WHERE id = $1`,
+		courseID,
+	)
 
 	var course models.Course
-	err := r.db.QueryRow(ctx, courseQuery, courseID).Scan(
-		&course.ID,
-		&course.Name,
-		&course.Code,
-		&course.Credits,
-		&course.Description,
-		&course.CreatedAt,
-		&course.UpdatedAt,
-	)
-	if err != nil {
-		return nil, fmt.Errorf("failed to get course: %w", err)
+	if err := row.Scan(&course.ID, &course.Name, &course.Code, &course.Credits, &course.Description, &course.CreatedAt, &course.UpdatedAt); err != nil {
+		return nil, fmt.Errorf("scan course by id: %w", err)
 	}
-
 	return &course, nil
 }

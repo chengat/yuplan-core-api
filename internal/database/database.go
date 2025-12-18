@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/jackc/pgx/v5/pgxpool"
+	"github.com/jackc/pgx/v4/pgxpool"
 )
 
 func NewPool(ctx context.Context, databaseUrl string) (*pgxpool.Pool, error) {
@@ -13,7 +13,7 @@ func NewPool(ctx context.Context, databaseUrl string) (*pgxpool.Pool, error) {
 		return nil, fmt.Errorf("Unable to parse the database url: %w", err)
 	}
 
-	pool, err := pgxpool.NewWithConfig(ctx, config)
+	pool, err := pgxpool.ConnectConfig(ctx, config)
 	if err != nil {
 		return nil, fmt.Errorf("Unable to create connection pool: %w", err)
 	}

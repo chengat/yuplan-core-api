@@ -9,10 +9,10 @@ import (
 )
 
 type CourseHandler struct {
-	repo *repository.CourseRepository
+	repo repository.CourseRepositoryInterface
 }
 
-func NewCourseHandler(repo *repository.CourseRepository) *CourseHandler {
+func NewCourseHandler(repo repository.CourseRepositoryInterface) *CourseHandler {
 	return &CourseHandler{repo: repo}
 }
 
