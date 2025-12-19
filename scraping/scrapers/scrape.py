@@ -13,6 +13,7 @@ try:
     import lassonde
     import urban
     import glendon
+    import liberal_arts
 except ImportError as e:
     print(f"Error importing scrapers: {e}")
     print("Make sure all scraper modules are available.")
@@ -68,6 +69,7 @@ def main():
         ("lassonde", lassonde, "Lassonde School of Engineering"),
         ("urban", urban, "Urban Studies"),
         ("glendon", glendon, "Glendon College"),
+        ("liberal_arts", liberal_arts, "Liberal Arts and Professional Studies"),
     ]
     
     results = []
