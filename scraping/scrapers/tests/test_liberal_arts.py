@@ -1,4 +1,4 @@
-"""Test cases for school_of_arts.py scraper"""
+"""Test cases for liberal_arts.py scraper"""
 
 import unittest
 import sys
@@ -8,17 +8,17 @@ import json
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from scraping.scrapers import school_of_arts
+from scraping.scrapers import liberal_arts
 
 
 class TestSchoolOfArtsIntegration(unittest.TestCase):
-    """Integration tests for school_of_arts scraper"""
+    """Integration tests for liberal_arts scraper"""
     
     def test_main_with_missing_html_file(self):
         """Test main function handles missing HTML file gracefully"""
         with patch('pathlib.Path.read_text', side_effect=FileNotFoundError("File not found")), \
              patch('builtins.print') as mock_print:
-            school_of_arts.main()
+            liberal_arts.main()
             # Should print error message
             call_args = [str(call) for call in mock_print.call_args_list]
             self.assertTrue(any('Error reading HTML' in arg for arg in call_args))
@@ -52,7 +52,7 @@ class TestSchoolOfArtsIntegration(unittest.TestCase):
              patch('pathlib.Path.mkdir'), \
              patch('builtins.print') as mock_print:
             
-            school_of_arts.main()
+            liberal_arts.main()
             
             # Verify write was called
             self.assertTrue(mock_write.called)
@@ -70,7 +70,7 @@ class TestSchoolOfArtsIntegration(unittest.TestCase):
              patch('pathlib.Path.mkdir'), \
              patch('builtins.print') as mock_print:
             
-            school_of_arts.main()
+            liberal_arts.main()
             
             # Should complete without crashing
             self.assertTrue(mock_print.called)
@@ -82,11 +82,11 @@ class TestSchoolOfArtsIntegration(unittest.TestCase):
         with patch('pathlib.Path.read_text', return_value=test_html), \
             patch('pathlib.Path.write_text'), \
             patch('pathlib.Path.mkdir'), \
-            patch('scraping.scrapers.school_of_arts.parse_course_timetable_html') as mock_parse, \
+            patch('scraping.scrapers.liberal_arts.parse_course_timetable_html') as mock_parse, \
             patch('builtins.print'):
             
             mock_parse.return_value = {'courses': []}
-            school_of_arts.main()
+            liberal_arts.main()
             
             # Verify parser was called with correct parameters
             mock_parse.assert_called_once()
@@ -100,13 +100,13 @@ class TestSchoolOfArtsIntegration(unittest.TestCase):
         
         with patch('pathlib.Path.read_text', return_value=test_html), \
             patch('pathlib.Path.mkdir'), \
-            patch('scraping.scrapers.school_of_arts.parse_course_timetable_html') as mock_parse, \
+            patch('scraping.scrapers.liberal_arts.parse_course_timetable_html') as mock_parse, \
             patch('pathlib.Path.write_text', side_effect=Exception("Write error")), \
             patch('builtins.print') as mock_print, \
             patch('traceback.print_exc') as mock_traceback:
             
             mock_parse.return_value = {'courses': []}
-            school_of_arts.main()
+            liberal_arts.main()
             
             # Verify error was printed
             call_args = [str(call) for call in mock_print.call_args_list]
@@ -121,11 +121,11 @@ class TestSchoolOfArtsIntegration(unittest.TestCase):
         
         with patch('pathlib.Path.read_text', return_value=test_html), \
             patch('pathlib.Path.mkdir'), \
-            patch('scraping.scrapers.school_of_arts.parse_course_timetable_html', side_effect=ValueError("Parse error")), \
+            patch('scraping.scrapers.liberal_arts.parse_course_timetable_html', side_effect=ValueError("Parse error")), \
             patch('builtins.print') as mock_print, \
             patch('traceback.print_exc') as mock_traceback:
             
-            school_of_arts.main()
+            liberal_arts.main()
             
             # Verify error handling
             call_args = [str(call) for call in mock_print.call_args_list]

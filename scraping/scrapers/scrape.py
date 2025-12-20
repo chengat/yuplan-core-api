@@ -15,6 +15,8 @@ try:
     import glendon
     import schulich
     import education
+    import school_of_arts
+    import liberal_arts
 except ImportError as e:
     print(f"Error importing scrapers: {e}")
     print("Make sure all scraper modules are available.")
@@ -72,6 +74,8 @@ def main():
         ("glendon", glendon, "Glendon College"),
         ("schulich", schulich, "Schulich School of Business"),
         ("education", education, "Faculty of Education"),
+        ("school_of_arts", school_of_arts, "School of Arts")
+        ("liberal_arts", liberal_arts, "Liberal Arts and Professional Studies"),
     ]
     
     results = []
