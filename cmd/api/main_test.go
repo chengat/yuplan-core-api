@@ -23,6 +23,7 @@ func TestSetupRouter_RegistersCourseRoutes(t *testing.T) {
 	}
 
 	assert.True(t, seen[http.MethodGet+" /api/v1/courses"], "expected GET /api/v1/courses route")
+	assert.True(t, seen[http.MethodGet+" /api/v1/courses/search"], "expected GET /api/v1/courses/search route")
 	assert.True(t, seen[http.MethodGet+" /api/v1/courses/:course_id"], "expected GET /api/v1/courses/:course_id route")
 }
 

@@ -134,3 +134,129 @@ func TestGetCourseByID_WhenScanFails_ReturnsError(t *testing.T) {
 	assert.Nil(t, course)
 	assert.NoError(t, mock.ExpectationsWereMet())
 }
+
+func TestSearchCourses(t *testing.T) {
+	mock, err := pgxmock.NewPool()
+	assert.NoError(t, err)
+	defer mock.Close()
+
+	repo := NewCourseRepository(mock)
+
+	now := time.Now()
+	desc := "Software engineering course"
+	mock.ExpectQuery("SELECT id, name, code, credits, description, created_at, updated_at FROM courses\\s+WHERE name ILIKE \\$1 OR code ILIKE \\$1\\s+ORDER BY code\\s+LIMIT \\$2 OFFSET \\$3").
+		WithArgs("%EECS%", 50, 0).
+		WillReturnRows(pgxmock.NewRows([]string{"id", "name", "code", "credits", "description", "created_at", "updated_at"}).
+			AddRow("id-1", "Software Design", "EECS3311", 3.0, &desc, now, now).
+			AddRow("id-2", "Software Engineering", "EECS4313", 3.0, &desc, now, now))
+
+	courses, err := repo.Search(context.Background(), "EECS", 50, 0)
+	assert.NoError(t, err)
+	assert.NotNil(t, courses)
+	assert.Equal(t, 2, len(courses))
+	assert.Equal(t, "EECS3311", courses[0].Code)
+	assert.Equal(t, "EECS4313", courses[1].Code)
+	assert.NoError(t, mock.ExpectationsWereMet())
+}
+
+func TestSearchCourses_ByName(t *testing.T) {
+	mock, err := pgxmock.NewPool()
+	assert.NoError(t, err)
+	defer mock.Close()
+
+	repo := NewCourseRepository(mock)
+
+	now := time.Now()
+	desc := "Software design course"
+	mock.ExpectQuery("SELECT id, name, code, credits, description, created_at, updated_at FROM courses\\s+WHERE name ILIKE \\$1 OR code ILIKE \\$1\\s+ORDER BY code\\s+LIMIT \\$2 OFFSET \\$3").
+		WithArgs("%Software%", 50, 0).
+		WillReturnRows(pgxmock.NewRows([]string{"id", "name", "code", "credits", "description", "created_at", "updated_at"}).
+			AddRow("id-1", "Software Design", "EECS3311", 3.0, &desc, now, now))
+
+	courses, err := repo.Search(context.Background(), "Software", 50, 0)
+	assert.NoError(t, err)
+	assert.NotNil(t, courses)
+	assert.Equal(t, 1, len(courses))
+	assert.Equal(t, "Software Design", courses[0].Name)
+	assert.NoError(t, mock.ExpectationsWereMet())
+}
+
+func TestSearchCourses_NoResults(t *testing.T) {
+	mock, err := pgxmock.NewPool()
+	assert.NoError(t, err)
+	defer mock.Close()
+
+	repo := NewCourseRepository(mock)
+
+	mock.ExpectQuery("SELECT id, name, code, credits, description, created_at, updated_at FROM courses\\s+WHERE name ILIKE \\$1 OR code ILIKE \\$1\\s+ORDER BY code\\s+LIMIT \\$2 OFFSET \\$3").
+		WithArgs("%NONEXISTENT%", 50, 0).
+		WillReturnRows(pgxmock.NewRows([]string{"id", "name", "code", "credits", "description", "created_at", "updated_at"}))
+
+	courses, err := repo.Search(context.Background(), "NONEXISTENT", 50, 0)
+	assert.NoError(t, err)
+	assert.NotNil(t, courses)
+	assert.Equal(t, 0, len(courses))
+	assert.NoError(t, mock.ExpectationsWereMet())
+}
+
+func TestSearchCourses_WhenQueryErrors_ReturnsError(t *testing.T) {
+	mock, err := pgxmock.NewPool()
+	assert.NoError(t, err)
+	defer mock.Close()
+
+	repo := NewCourseRepository(mock)
+
+	mock.ExpectQuery("SELECT id, name, code, credits, description, created_at, updated_at FROM courses\\s+WHERE name ILIKE \\$1 OR code ILIKE \\$1\\s+ORDER BY code\\s+LIMIT \\$2 OFFSET \\$3").
+		WithArgs("%EECS%", 50, 0).
+		WillReturnError(errors.New("db error"))
+
+	courses, err := repo.Search(context.Background(), "EECS", 50, 0)
+	assert.Error(t, err)
+	assert.Nil(t, courses)
+	assert.NoError(t, mock.ExpectationsWereMet())
+}
+
+func TestSearchCourses_WhenScanFails_ReturnsError(t *testing.T) {
+	mock, err := pgxmock.NewPool()
+	assert.NoError(t, err)
+	defer mock.Close()
+
+	repo := NewCourseRepository(mock)
+
+	now := time.Now()
+	desc := "Description"
+	rows := pgxmock.NewRows([]string{"id", "name", "code", "credits", "description", "created_at", "updated_at"}).
+		AddRow("id-1", "Course 1", "C1", "INVALID_FLOAT", &desc, now, now)
+
+	mock.ExpectQuery("SELECT id, name, code, credits, description, created_at, updated_at FROM courses\\s+WHERE name ILIKE \\$1 OR code ILIKE \\$1\\s+ORDER BY code\\s+LIMIT \\$2 OFFSET \\$3").
+		WithArgs("%EECS%", 50, 0).
+		WillReturnRows(rows)
+
+	courses, err := repo.Search(context.Background(), "EECS", 50, 0)
+	assert.Error(t, err)
+	assert.Nil(t, courses)
+	assert.NoError(t, mock.ExpectationsWereMet())
+}
+
+func TestSearchCourses_WhenRowsErr_ReturnsError(t *testing.T) {
+	mock, err := pgxmock.NewPool()
+	assert.NoError(t, err)
+	defer mock.Close()
+
+	repo := NewCourseRepository(mock)
+
+	now := time.Now()
+	desc := "Description"
+	rows := pgxmock.NewRows([]string{"id", "name", "code", "credits", "description", "created_at", "updated_at"}).
+		AddRow("id-1", "Course 1", "C1", 3.0, &desc, now, now).
+		RowError(0, errors.New("rows error"))
+
+	mock.ExpectQuery("SELECT id, name, code, credits, description, created_at, updated_at FROM courses\\s+WHERE name ILIKE \\$1 OR code ILIKE \\$1\\s+ORDER BY code\\s+LIMIT \\$2 OFFSET \\$3").
+		WithArgs("%EECS%", 50, 0).
+		WillReturnRows(rows)
+
+	courses, err := repo.Search(context.Background(), "EECS", 50, 0)
+	assert.Error(t, err)
+	assert.Nil(t, courses)
+	assert.NoError(t, mock.ExpectationsWereMet())
+}
