@@ -75,11 +75,11 @@ def main():
         ("urban", urban, "Urban Studies"),
         ("glendon", glendon, "Glendon College"),
         ("schulich", schulich, "Schulich School of Business"),
-        ("education", education, "Faculty of Education"),
+        ("education", education, "Education"),
         ("school_of_arts", school_of_arts, "School of Arts"),
         ("liberal_arts", liberal_arts, "Liberal Arts and Professional Studies"),
         ("health", health, "Health"),
-        ("science", science, "Faculty of Science"),
+        ("science", science, "Science"),
     ]
     
     results = []
