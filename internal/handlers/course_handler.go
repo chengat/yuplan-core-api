@@ -43,3 +43,25 @@ func (h *CourseHandler) GetCourseByID(c *gin.Context) {
 
 	c.JSON(http.StatusOK, gin.H{"data": course})
 }
+
+func (h *CourseHandler) SearchCourses(c *gin.Context) {
+	query := c.Query("q")
+	if query == "" {
+		c.JSON(http.StatusBadRequest, gin.H{"error": "Query parameter 'q' is required"})
+		return
+	}
+
+	limit, _ := strconv.Atoi(c.DefaultQuery("limit", "50"))
+	offset, _ := strconv.Atoi(c.DefaultQuery("offset", "0"))
+
+	courses, err := h.repo.Search(c.Request.Context(), query, limit, offset)
+	if err != nil {
+		c.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to search courses"})
+		return
+	}
+
+	c.JSON(http.StatusOK, gin.H{
+		"data":  courses,
+		"count": len(courses),
+	})
+}
