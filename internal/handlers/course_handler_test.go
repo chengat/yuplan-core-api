@@ -51,16 +51,16 @@ func TestGetCourses(t *testing.T) {
 	}
 	handler := NewCourseHandler(repo)
 
-	r := gin.Default()
-	r.GET("/courses", handler.GetCourses)
+	router := gin.Default()
+	router.GET("/courses", handler.GetCourses)
 
 	req, _ := http.NewRequest("GET", "/courses?limit=10&offset=0", nil)
-	w := httptest.NewRecorder()
-	r.ServeHTTP(w, req)
+	recorder := httptest.NewRecorder()
+	router.ServeHTTP(recorder, req)
 
-	assert.Equal(t, http.StatusOK, w.Code)
-	assert.Contains(t, w.Body.String(), "\"data\"")
-	assert.Contains(t, w.Body.String(), "\"count\"")
+	assert.Equal(t, http.StatusOK, recorder.Code)
+	assert.Contains(t, recorder.Body.String(), "\"data\"")
+	assert.Contains(t, recorder.Body.String(), "\"count\"")
 }
 
 func TestGetCourseByID(t *testing.T) {
@@ -73,16 +73,16 @@ func TestGetCourseByID(t *testing.T) {
 	}
 	handler := NewCourseHandler(repo)
 
-	r := gin.Default()
-	r.GET("/courses/:course_id", handler.GetCourseByID)
+	router := gin.Default()
+	router.GET("/courses/:course_id", handler.GetCourseByID)
 
 	req, _ := http.NewRequest("GET", "/courses/test-id", nil)
-	w := httptest.NewRecorder()
-	r.ServeHTTP(w, req)
+	recorder := httptest.NewRecorder()
+	router.ServeHTTP(recorder, req)
 
-	assert.Equal(t, http.StatusOK, w.Code)
-	assert.Contains(t, w.Body.String(), "\"data\"")
-	assert.Contains(t, w.Body.String(), "test-id")
+	assert.Equal(t, http.StatusOK, recorder.Code)
+	assert.Contains(t, recorder.Body.String(), "\"data\"")
+	assert.Contains(t, recorder.Body.String(), "test-id")
 }
 
 func TestGetCourses_WhenRepoErrors_Returns500(t *testing.T) {
@@ -95,15 +95,15 @@ func TestGetCourses_WhenRepoErrors_Returns500(t *testing.T) {
 	}
 	handler := NewCourseHandler(repo)
 
-	r := gin.New()
-	r.GET("/courses", handler.GetCourses)
+	router := gin.New()
+	router.GET("/courses", handler.GetCourses)
 
 	req, _ := http.NewRequest(http.MethodGet, "/courses?limit=10&offset=0", nil)
-	w := httptest.NewRecorder()
-	r.ServeHTTP(w, req)
+	recorder := httptest.NewRecorder()
+	router.ServeHTTP(recorder, req)
 
-	assert.Equal(t, http.StatusInternalServerError, w.Code)
-	assert.Contains(t, strings.ToLower(w.Body.String()), "failed")
+	assert.Equal(t, http.StatusInternalServerError, recorder.Code)
+	assert.Contains(t, strings.ToLower(recorder.Body.String()), "failed")
 }
 
 func TestGetCourseByID_WhenRepoErrors_Returns404(t *testing.T) {
@@ -116,15 +116,15 @@ func TestGetCourseByID_WhenRepoErrors_Returns404(t *testing.T) {
 	}
 	handler := NewCourseHandler(repo)
 
-	r := gin.New()
-	r.GET("/courses/:course_id", handler.GetCourseByID)
+	router := gin.New()
+	router.GET("/courses/:course_id", handler.GetCourseByID)
 
 	req, _ := http.NewRequest(http.MethodGet, "/courses/test-id", nil)
-	w := httptest.NewRecorder()
-	r.ServeHTTP(w, req)
+	recorder := httptest.NewRecorder()
+	router.ServeHTTP(recorder, req)
 
-	assert.Equal(t, http.StatusNotFound, w.Code)
-	assert.Contains(t, strings.ToLower(w.Body.String()), "not found")
+	assert.Equal(t, http.StatusNotFound, recorder.Code)
+	assert.Contains(t, strings.ToLower(recorder.Body.String()), "not found")
 }
 
 func TestSearchCourses(t *testing.T) {
@@ -140,18 +140,18 @@ func TestSearchCourses(t *testing.T) {
 	}
 	handler := NewCourseHandler(repo)
 
-	r := gin.Default()
-	r.GET("/courses/search", handler.SearchCourses)
+	router := gin.Default()
+	router.GET("/courses/search", handler.SearchCourses)
 
 	req, _ := http.NewRequest("GET", "/courses/search?q=EECS", nil)
-	w := httptest.NewRecorder()
-	r.ServeHTTP(w, req)
+	recorder := httptest.NewRecorder()
+	router.ServeHTTP(recorder, req)
 
-	assert.Equal(t, http.StatusOK, w.Code)
-	assert.Contains(t, w.Body.String(), "\"data\"")
-	assert.Contains(t, w.Body.String(), "\"count\"")
-	assert.Contains(t, w.Body.String(), "EECS3311")
-	assert.Contains(t, w.Body.String(), "Software Design")
+	assert.Equal(t, http.StatusOK, recorder.Code)
+	assert.Contains(t, recorder.Body.String(), "\"data\"")
+	assert.Contains(t, recorder.Body.String(), "\"count\"")
+	assert.Contains(t, recorder.Body.String(), "EECS3311")
+	assert.Contains(t, recorder.Body.String(), "Software Design")
 }
 
 func TestSearchCourses_WithPagination(t *testing.T) {
@@ -169,15 +169,15 @@ func TestSearchCourses_WithPagination(t *testing.T) {
 	}
 	handler := NewCourseHandler(repo)
 
-	r := gin.Default()
-	r.GET("/courses/search", handler.SearchCourses)
+	router := gin.Default()
+	router.GET("/courses/search", handler.SearchCourses)
 
 	req, _ := http.NewRequest("GET", "/courses/search?q=Software&limit=10&offset=5", nil)
-	w := httptest.NewRecorder()
-	r.ServeHTTP(w, req)
+	recorder := httptest.NewRecorder()
+	router.ServeHTTP(recorder, req)
 
-	assert.Equal(t, http.StatusOK, w.Code)
-	assert.Contains(t, w.Body.String(), "Software Design")
+	assert.Equal(t, http.StatusOK, recorder.Code)
+	assert.Contains(t, recorder.Body.String(), "Software Design")
 }
 
 func TestSearchCourses_MissingQueryParam_Returns400(t *testing.T) {
@@ -186,15 +186,15 @@ func TestSearchCourses_MissingQueryParam_Returns400(t *testing.T) {
 	var repo repository.CourseRepositoryInterface = &MockCourseRepository{}
 	handler := NewCourseHandler(repo)
 
-	r := gin.Default()
-	r.GET("/courses/search", handler.SearchCourses)
+	router := gin.Default()
+	router.GET("/courses/search", handler.SearchCourses)
 
 	req, _ := http.NewRequest("GET", "/courses/search", nil)
-	w := httptest.NewRecorder()
-	r.ServeHTTP(w, req)
+	recorder := httptest.NewRecorder()
+	router.ServeHTTP(recorder, req)
 
-	assert.Equal(t, http.StatusBadRequest, w.Code)
-	assert.Contains(t, strings.ToLower(w.Body.String()), "required")
+	assert.Equal(t, http.StatusBadRequest, recorder.Code)
+	assert.Contains(t, strings.ToLower(recorder.Body.String()), "required")
 }
 
 func TestSearchCourses_WhenRepoErrors_Returns500(t *testing.T) {
@@ -207,15 +207,15 @@ func TestSearchCourses_WhenRepoErrors_Returns500(t *testing.T) {
 	}
 	handler := NewCourseHandler(repo)
 
-	r := gin.Default()
-	r.GET("/courses/search", handler.SearchCourses)
+	router := gin.Default()
+	router.GET("/courses/search", handler.SearchCourses)
 
 	req, _ := http.NewRequest("GET", "/courses/search?q=EECS", nil)
-	w := httptest.NewRecorder()
-	r.ServeHTTP(w, req)
+	recorder := httptest.NewRecorder()
+	router.ServeHTTP(recorder, req)
 
-	assert.Equal(t, http.StatusInternalServerError, w.Code)
-	assert.Contains(t, strings.ToLower(w.Body.String()), "failed")
+	assert.Equal(t, http.StatusInternalServerError, recorder.Code)
+	assert.Contains(t, strings.ToLower(recorder.Body.String()), "failed")
 }
 
 func TestSearchCourses_EmptyResults(t *testing.T) {
@@ -228,13 +228,13 @@ func TestSearchCourses_EmptyResults(t *testing.T) {
 	}
 	handler := NewCourseHandler(repo)
 
-	r := gin.Default()
-	r.GET("/courses/search", handler.SearchCourses)
+	router := gin.Default()
+	router.GET("/courses/search", handler.SearchCourses)
 
 	req, _ := http.NewRequest("GET", "/courses/search?q=NONEXISTENT", nil)
-	w := httptest.NewRecorder()
-	r.ServeHTTP(w, req)
+	recorder := httptest.NewRecorder()
+	router.ServeHTTP(recorder, req)
 
-	assert.Equal(t, http.StatusOK, w.Code)
-	assert.Contains(t, w.Body.String(), "\"count\":0")
+	assert.Equal(t, http.StatusOK, recorder.Code)
+	assert.Contains(t, recorder.Body.String(), "\"count\":0")
 }
