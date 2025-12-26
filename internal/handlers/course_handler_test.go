@@ -15,14 +15,14 @@ import (
 )
 
 type MockCourseRepository struct {
-	getAll  func(ctx context.Context, limit, offset int) ([]models.Course, error)
-	getByID func(ctx context.Context, courseID string) (*models.Course, error)
-	search  func(ctx context.Context, query string, limit, offset int) ([]models.Course, error)
+	getAllRandomized func(ctx context.Context, limit, offset int) ([]models.Course, error)
+	getByID          func(ctx context.Context, courseID string) (*models.Course, error)
+	search           func(ctx context.Context, query string, limit, offset int) ([]models.Course, error)
 }
 
-func (m *MockCourseRepository) GetAll(ctx context.Context, limit, offset int) ([]models.Course, error) {
-	if m.getAll != nil {
-		return m.getAll(ctx, limit, offset)
+func (m *MockCourseRepository) GetAllRandomized(ctx context.Context, limit, offset int) ([]models.Course, error) {
+	if m.getAllRandomized != nil {
+		return m.getAllRandomized(ctx, limit, offset)
 	}
 	return []models.Course{}, nil
 }
@@ -45,7 +45,7 @@ func TestGetCourses(t *testing.T) {
 	gin.SetMode(gin.TestMode)
 
 	var repo repository.CourseRepositoryInterface = &MockCourseRepository{
-		getAll: func(ctx context.Context, limit, offset int) ([]models.Course, error) {
+		getAllRandomized: func(ctx context.Context, limit, offset int) ([]models.Course, error) {
 			return []models.Course{}, nil
 		},
 	}
@@ -89,7 +89,7 @@ func TestGetCourses_WhenRepoErrors_Returns500(t *testing.T) {
 	gin.SetMode(gin.TestMode)
 
 	var repo repository.CourseRepositoryInterface = &MockCourseRepository{
-		getAll: func(ctx context.Context, limit, offset int) ([]models.Course, error) {
+		getAllRandomized: func(ctx context.Context, limit, offset int) ([]models.Course, error) {
 			return nil, errors.New("db down")
 		},
 	}
