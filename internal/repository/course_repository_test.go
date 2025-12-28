@@ -17,11 +17,11 @@ func TestGetAllCourses(t *testing.T) {
 
 	repo := NewCourseRepository(mock)
 
-	mock.ExpectQuery("SELECT id, name, code, credits, description, created_at, updated_at FROM courses\\s+ORDER BY RANDOM\\(\\)\\s+LIMIT \\$1 OFFSET \\$2").
-		WithArgs(10, 0).
+	mock.ExpectQuery("SELECT id, name, code, credits, description, created_at, updated_at FROM courses TABLESAMPLE SYSTEM \\(10\\) ORDER BY RANDOM\\(\\) LIMIT \\$1").
+		WithArgs(10).
 		WillReturnRows(pgxmock.NewRows([]string{"id", "name", "code", "credits", "description", "created_at", "updated_at"}))
 
-	courses, err := repo.GetAllRandomized(context.Background(), 10, 0)
+	courses, err := repo.GetAllRandomized(context.Background(), 10)
 	assert.NoError(t, err)
 	assert.NotNil(t, courses)
 	assert.NoError(t, mock.ExpectationsWereMet())
@@ -54,11 +54,11 @@ func TestGetAllCourses_WhenQueryErrors_ReturnsError(t *testing.T) {
 
 	repo := NewCourseRepository(mock)
 
-	mock.ExpectQuery("SELECT id, name, code, credits, description, created_at, updated_at FROM courses\\s+ORDER BY RANDOM\\(\\)\\s+LIMIT \\$1 OFFSET \\$2").
-		WithArgs(10, 0).
+	mock.ExpectQuery("SELECT id, name, code, credits, description, created_at, updated_at FROM courses TABLESAMPLE SYSTEM \\(10\\) ORDER BY RANDOM\\(\\) LIMIT \\$1").
+		WithArgs(10).
 		WillReturnError(errors.New("boom"))
 
-	courses, err := repo.GetAllRandomized(context.Background(), 10, 0)
+	courses, err := repo.GetAllRandomized(context.Background(), 10)
 	assert.Error(t, err)
 	assert.Nil(t, courses)
 	assert.NoError(t, mock.ExpectationsWereMet())
@@ -77,11 +77,11 @@ func TestGetAllCourses_WhenScanFails_ReturnsError(t *testing.T) {
 	rows := pgxmock.NewRows([]string{"id", "name", "code", "credits", "description", "created_at", "updated_at"}).
 		AddRow("test-id", "Test Course", "TC101", "NOT_A_FLOAT", &desc, now, now)
 
-	mock.ExpectQuery("SELECT id, name, code, credits, description, created_at, updated_at FROM courses\\s+ORDER BY RANDOM\\(\\)\\s+LIMIT \\$1 OFFSET \\$2").
-		WithArgs(10, 0).
+	mock.ExpectQuery("SELECT id, name, code, credits, description, created_at, updated_at FROM courses TABLESAMPLE SYSTEM \\(10\\) ORDER BY RANDOM\\(\\) LIMIT \\$1").
+		WithArgs(10).
 		WillReturnRows(rows)
 
-	courses, err := repo.GetAllRandomized(context.Background(), 10, 0)
+	courses, err := repo.GetAllRandomized(context.Background(), 10)
 	assert.Error(t, err)
 	assert.Nil(t, courses)
 	assert.NoError(t, mock.ExpectationsWereMet())
@@ -102,11 +102,11 @@ func TestGetAllCourses_WhenRowsErr_ReturnsError(t *testing.T) {
 		AddRow("id-2", "Course 2", "C2", 3.0, &desc, now, now).
 		RowError(1, errors.New("rows err"))
 
-	mock.ExpectQuery("SELECT id, name, code, credits, description, created_at, updated_at FROM courses\\s+ORDER BY RANDOM\\(\\)\\s+LIMIT \\$1 OFFSET \\$2").
-		WithArgs(10, 0).
+	mock.ExpectQuery("SELECT id, name, code, credits, description, created_at, updated_at FROM courses TABLESAMPLE SYSTEM \\(10\\) ORDER BY RANDOM\\(\\) LIMIT \\$1").
+		WithArgs(10).
 		WillReturnRows(rows)
 
-	courses, err := repo.GetAllRandomized(context.Background(), 10, 0)
+	courses, err := repo.GetAllRandomized(context.Background(), 10)
 	assert.Error(t, err)
 	assert.Nil(t, courses)
 	assert.NoError(t, mock.ExpectationsWereMet())

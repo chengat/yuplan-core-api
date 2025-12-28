@@ -18,9 +18,8 @@ func NewCourseHandler(repo repository.CourseRepositoryInterface) *CourseHandler 
 
 func (h *CourseHandler) GetCourses(c *gin.Context) {
 	limit, _ := strconv.Atoi(c.DefaultQuery("limit", "20"))
-	offset, _ := strconv.Atoi(c.DefaultQuery("offset", "0"))
 
-	courses, err := h.repo.GetAllRandomized(c.Request.Context(), limit, offset)
+	courses, err := h.repo.GetAllRandomized(c.Request.Context(), limit)
 	if err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to fetch courses"})
 		return

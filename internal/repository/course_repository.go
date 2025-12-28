@@ -9,7 +9,7 @@ import (
 )
 
 type CourseRepositoryInterface interface {
-	GetAllRandomized(ctx context.Context, limit, offset int) ([]models.Course, error)
+	GetAllRandomized(ctx context.Context, limit int) ([]models.Course, error)
 	GetByID(ctx context.Context, courseID string) (*models.Course, error)
 	Search(ctx context.Context, query string, limit, offset int) ([]models.Course, error)
 }
@@ -27,14 +27,14 @@ func NewCourseRepository(db courseDB) *CourseRepository {
 	return &CourseRepository{db: db}
 }
 
-func (r *CourseRepository) GetAllRandomized(ctx context.Context, limit, offset int) ([]models.Course, error) {
+func (r *CourseRepository) GetAllRandomized(ctx context.Context, limit int) ([]models.Course, error) {
 	rows, err := r.db.Query(
 		ctx,
 		`SELECT id, name, code, credits, description, created_at, updated_at
-		 FROM courses
+		 FROM courses TABLESAMPLE SYSTEM (10)
 		 ORDER BY RANDOM()
-		 LIMIT $1 OFFSET $2`,
-		limit, offset,
+		 LIMIT $1`,
+		limit,
 	)
 	if err != nil {
 		return nil, fmt.Errorf("query courses: %w", err)

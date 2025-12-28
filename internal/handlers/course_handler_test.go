@@ -15,14 +15,14 @@ import (
 )
 
 type MockCourseRepository struct {
-	getAllRandomized func(ctx context.Context, limit, offset int) ([]models.Course, error)
+	getAllRandomized func(ctx context.Context, limit int) ([]models.Course, error)
 	getByID          func(ctx context.Context, courseID string) (*models.Course, error)
 	search           func(ctx context.Context, query string, limit, offset int) ([]models.Course, error)
 }
 
-func (m *MockCourseRepository) GetAllRandomized(ctx context.Context, limit, offset int) ([]models.Course, error) {
+func (m *MockCourseRepository) GetAllRandomized(ctx context.Context, limit int) ([]models.Course, error) {
 	if m.getAllRandomized != nil {
-		return m.getAllRandomized(ctx, limit, offset)
+		return m.getAllRandomized(ctx, limit)
 	}
 	return []models.Course{}, nil
 }
@@ -45,7 +45,7 @@ func TestGetCourses(t *testing.T) {
 	gin.SetMode(gin.TestMode)
 
 	var repo repository.CourseRepositoryInterface = &MockCourseRepository{
-		getAllRandomized: func(ctx context.Context, limit, offset int) ([]models.Course, error) {
+		getAllRandomized: func(ctx context.Context, limit int) ([]models.Course, error) {
 			return []models.Course{}, nil
 		},
 	}
@@ -54,7 +54,7 @@ func TestGetCourses(t *testing.T) {
 	router := gin.Default()
 	router.GET("/courses", handler.GetCourses)
 
-	req, _ := http.NewRequest("GET", "/courses?limit=10&offset=0", nil)
+	req, _ := http.NewRequest("GET", "/courses?limit=10", nil)
 	recorder := httptest.NewRecorder()
 	router.ServeHTTP(recorder, req)
 
@@ -89,7 +89,7 @@ func TestGetCourses_WhenRepoErrors_Returns500(t *testing.T) {
 	gin.SetMode(gin.TestMode)
 
 	var repo repository.CourseRepositoryInterface = &MockCourseRepository{
-		getAllRandomized: func(ctx context.Context, limit, offset int) ([]models.Course, error) {
+		getAllRandomized: func(ctx context.Context, limit int) ([]models.Course, error) {
 			return nil, errors.New("db down")
 		},
 	}
@@ -98,7 +98,7 @@ func TestGetCourses_WhenRepoErrors_Returns500(t *testing.T) {
 	router := gin.New()
 	router.GET("/courses", handler.GetCourses)
 
-	req, _ := http.NewRequest(http.MethodGet, "/courses?limit=10&offset=0", nil)
+	req, _ := http.NewRequest(http.MethodGet, "/courses?limit=10", nil)
 	recorder := httptest.NewRecorder()
 	router.ServeHTTP(recorder, req)
 
