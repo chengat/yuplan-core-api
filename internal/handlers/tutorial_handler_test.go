@@ -55,8 +55,8 @@ func TestGetTutorialsBySectionID(t *testing.T) {
 	assert.Equal(t, http.StatusOK, w.Code)
 	assert.Contains(t, w.Body.String(), "\"data\"")
 	assert.Contains(t, w.Body.String(), "\"count\"")
-	assert.Contains(t, w.Body.String(), "lab-1")
-	assert.Contains(t, w.Body.String(), "LAB001")
+	assert.Contains(t, w.Body.String(), "tutorial-1")
+	assert.Contains(t, w.Body.String(), "TUTR01")
 }
 
 func TestGetTutorialsBySectionID_EmptyResult(t *testing.T) {
