@@ -62,7 +62,7 @@ func setupRouter(pool *pgxpool.Pool) *gin.Engine {
 		api.GET("/instructors/:course_id", instructorHandler.GetInstructorsByCourseID)
 		api.GET("/labs/:section_id", labHandler.GetLabsBySectionID)
 		api.GET("/tutorials/:section_id", tutorialHandler.GetTutorialsBySectionID)
-		api.GET("/section/:course_id", sectionHandler.GetSectionsByCourseID)
+		api.GET("/sections/:course_id", sectionHandler.GetSectionsByCourseID)
 	}
 	return router
 }
