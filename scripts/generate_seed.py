@@ -148,15 +148,24 @@ def process_sections(courses: List[Dict], course_code_to_index: Dict[str, int]) 
                     labs_list.append(lab_entry)
             
             elif section_type in ['TUT', 'TUTR']:
-                catalog_number = section.get('catalogNumber', '')
-                schedule = section.get('schedule', [])
-                times_str = format_schedule(schedule)
-                tutorial_entry = {
-                    'course_idx': course_idx,
-                    'catalog_number': catalog_number,
-                    'times': times_str
-                }
-                tutorials_list.append(tutorial_entry)
+                # Associate tutorial with the most recent LECT section (or first if none yet)
+                if current_section_uuid is None:
+                    # Find first LECT section for this course
+                    for (c_idx, letter), sec_uuid in section_uuid_map.items():
+                        if c_idx == course_idx:
+                            current_section_uuid = sec_uuid
+                            break
+                
+                if current_section_uuid:
+                    catalog_number = section.get('catalogNumber', '')
+                    schedule = section.get('schedule', [])
+                    times_str = format_schedule(schedule)
+                    tutorial_entry = {
+                        'section_uuid': current_section_uuid,
+                        'catalog_number': catalog_number,
+                        'times': times_str
+                    }
+                    tutorials_list.append(tutorial_entry)
     
     return labs_list, tutorials_list, sections_list, instructors_list
 
@@ -228,8 +237,8 @@ def generate_lab_sql(labs_list: List[Dict]) -> List[str]:
     
     return sql_lines
 
-def generate_tutorial_sql(tutorials_list: List[Dict], courses_list: List[Dict]) -> List[str]:
-    """Generate SQL INSERT statements for tutorials"""
+def generate_tutorial_sql(tutorials_list: List[Dict]) -> List[str]:
+    """Generate SQL INSERT statements for tutorials with section_id"""
     sql_lines = ["-- Insert tutorials"]
     
     if not tutorials_list:
@@ -238,13 +247,12 @@ def generate_tutorial_sql(tutorials_list: List[Dict], courses_list: List[Dict]) 
     tutorial_inserts = []
     for tut in tutorials_list:
         tut_uuid = str(uuid.uuid4())
-        course_idx = tut['course_idx']
-        course_uuid = courses_list[course_idx]['uuid']
+        section_uuid = tut['section_uuid']
         catalog_number = escape_sql_string(tut['catalog_number'])
         times = tut['times']
-        tutorial_inserts.append(f"('{tut_uuid}', '{course_uuid}', {catalog_number}, {times})")
+        tutorial_inserts.append(f"('{tut_uuid}', '{section_uuid}', {catalog_number}, {times})")
     
-    sql_lines.append("INSERT INTO tutorials (id, course_id, catalog_number, times) VALUES")
+    sql_lines.append("INSERT INTO tutorials (id, section_id, catalog_number, times) VALUES")
     sql_lines.append(",\n".join(tutorial_inserts) + ";")
     sql_lines.append("")
     
@@ -316,10 +324,8 @@ def generate_seed_sql(json_files: list[str], output_file: str):
         # Merge labs (they reference sections by UUID, so no offset needed)
         all_labs_list.extend(labs_list)
         
-        # Merge tutorials with adjusted indices
-        for tutorial in tutorials_list:
-            tutorial['course_idx'] = tutorial['course_idx'] + offset
-            all_tutorials_list.append(tutorial)
+        # Merge tutorials (they reference sections by UUID, so no offset needed)
+        all_tutorials_list.extend(tutorials_list)
         
         # Merge instructors (they reference sections by UUID, so no offset needed)
         all_instructors_list.extend(instructors_list)
@@ -337,7 +343,7 @@ def generate_seed_sql(json_files: list[str], output_file: str):
     sql_lines.extend(generate_course_sql(all_courses_list))
     sql_lines.extend(generate_section_sql(all_sections_list, all_courses_list))
     sql_lines.extend(generate_lab_sql(all_labs_list))
-    sql_lines.extend(generate_tutorial_sql(all_tutorials_list, all_courses_list))
+    sql_lines.extend(generate_tutorial_sql(all_tutorials_list))
     sql_lines.extend(generate_instructor_sql(all_instructors_list))
     
     sql_lines.append("COMMIT;")
