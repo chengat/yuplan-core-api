@@ -52,9 +52,9 @@ func TestGetSectionsByCourseID(t *testing.T) {
 	handler := NewSectionHandler(repo)
 
 	r := gin.Default()
-	r.GET("/section/:course_id", handler.GetSectionsByCourseID)
+	r.GET("/sections/:course_id", handler.GetSectionsByCourseID)
 
-	req, _ := http.NewRequest("GET", "/section/course-1", nil)
+	req, _ := http.NewRequest("GET", "/sections/course-1", nil)
 	w := httptest.NewRecorder()
 	r.ServeHTTP(w, req)
 
@@ -77,9 +77,9 @@ func TestGetSectionsByCourseID_EmptyResult(t *testing.T) {
 	handler := NewSectionHandler(repo)
 
 	r := gin.Default()
-	r.GET("/section/:course_id", handler.GetSectionsByCourseID)
+	r.GET("/sections/:course_id", handler.GetSectionsByCourseID)
 
-	req, _ := http.NewRequest("GET", "/section/course-1", nil)
+	req, _ := http.NewRequest("GET", "/sections/course-1", nil)
 	w := httptest.NewRecorder()
 	r.ServeHTTP(w, req)
 
@@ -101,9 +101,9 @@ func TestGetSectionsByCourseID_WhenRepoErrors_Returns500(t *testing.T) {
 	handler := NewSectionHandler(repo)
 
 	r := gin.New()
-	r.GET("/section/:course_id", handler.GetSectionsByCourseID)
+	r.GET("/sections/:course_id", handler.GetSectionsByCourseID)
 
-	req, _ := http.NewRequest(http.MethodGet, "/section/course-1", nil)
+	req, _ := http.NewRequest(http.MethodGet, "/sections/course-1", nil)
 	w := httptest.NewRecorder()
 	r.ServeHTTP(w, req)
 

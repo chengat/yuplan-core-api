@@ -34,7 +34,7 @@ func (r *TutorialRepository) GetBySectionID(ctx context.Context, sectionID strin
 		sectionID,
 	)
 	if err != nil {
-		return nil, fmt.Errorf("query labs by section_id: %w", err)
+		return nil, fmt.Errorf("query tutorials by section_id: %w", err)
 	}
 	defer rows.Close()
 
