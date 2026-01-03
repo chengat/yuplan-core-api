@@ -1,0 +1,1 @@
+ALTER TABLE sections DROP COLUMN IF EXISTS times;
