@@ -26,6 +26,3 @@ func TestCourseModel(t *testing.T) {
 	assert.Equal(t, "SC", course.Faculty)
 	assert.Equal(t, "Fall", course.Term)
 }
-
-
-
