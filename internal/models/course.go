@@ -8,6 +8,8 @@ type Course struct {
 	Code        string    `json:"code"`
 	Credits     float64   `json:"credits"`
 	Description *string   `json:"description"`
+	Faculty     string    `json:"faculty_id"`
+	Term		string    `json:"term"`
 	CreatedAt   time.Time `json:"created_at"`
 	UpdatedAt   time.Time `json:"updated_at"`
 }
