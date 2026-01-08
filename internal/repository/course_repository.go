@@ -3,6 +3,7 @@ package repository
 import (
 	"context"
 	"fmt"
+	"strings"
 	"yuplan/internal/models"
 
 	"github.com/jackc/pgx/v4"
@@ -74,14 +75,15 @@ func (r *CourseRepository) GetByID(ctx context.Context, courseID string) (*model
 
 func (r *CourseRepository) Search(ctx context.Context, query string, limit, offset int) ([]models.Course, error) {
 	searchPattern := "%" + query + "%"
+	normalizedPattern := "%" + strings.ReplaceAll(query, " ", "") + "%"
 	rows, err := r.db.Query(
 		ctx,
 		`SELECT id, name, code, credits, description, faculty, term, created_at, updated_at
 		 FROM courses
-		 WHERE name ILIKE $1 OR code ILIKE $1
+		 WHERE name ILIKE $1 OR code ILIKE $1 OR REPLACE(code, ' ', '') ILIKE $2
 		 ORDER BY code
-		 LIMIT $2 OFFSET $3`,
-		searchPattern, limit, offset,
+		 LIMIT $3 OFFSET $4`,
+		searchPattern, normalizedPattern, limit, offset,
 	)
 	if err != nil {
 		return nil, fmt.Errorf("search courses: %w", err)
