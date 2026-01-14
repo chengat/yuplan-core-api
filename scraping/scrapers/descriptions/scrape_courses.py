@@ -16,7 +16,6 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import Select
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
-from bs4 import BeautifulSoup
 
 
 class YorkCourseScraper:
@@ -301,12 +300,7 @@ class YorkCourseScraper:
         except Exception as e:
             print(f"Error scraping course details from {course_url}: {e}")
             return None
-    
-    def save_to_json(self, filename="courses_data.json"):
-        """Save scraped data to a JSON file (deprecated - now using append_course_to_json)"""
-        # This method is kept for compatibility but is no longer used
-        # Data is saved incrementally via append_course_to_json
-        pass
+
     
     def scrape_subject(self, subject, retry_count=3):
         """Scrape all courses for a single subject (runs in a thread)"""
