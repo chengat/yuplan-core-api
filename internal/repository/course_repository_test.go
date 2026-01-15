@@ -284,3 +284,268 @@ func TestSearchCourses_WhenRowsErr_ReturnsError(t *testing.T) {
 	assert.Nil(t, courses)
 	assert.NoError(t, mock.ExpectationsWereMet())
 }
+
+// Tests for GetPaginatedCourses
+func TestGetPaginatedCourses_NoFilters(t *testing.T) {
+	mock, err := pgxmock.NewPool()
+	assert.NoError(t, err)
+	defer mock.Close()
+
+	repo := NewCourseRepository(mock)
+
+	now := time.Now()
+	desc := "Description"
+	mock.ExpectQuery("SELECT id, name, code, credits, description, faculty, term, created_at, updated_at FROM courses\\s+ORDER BY code, term\\s+LIMIT \\$1 OFFSET \\$2").
+		WithArgs(20, 0).
+		WillReturnRows(pgxmock.NewRows([]string{"id", "name", "code", "credits", "description", "faculty", "term", "created_at", "updated_at"}).
+			AddRow("id-1", "Course 1", "EECS1000", 3.0, &desc, "SC", "Fall", now, now).
+			AddRow("id-2", "Course 2", "MATH1010", 3.0, &desc, "SC", "Winter", now, now))
+
+	courses, err := repo.GetPaginatedCourses(context.Background(), 1, 20, nil, nil)
+	assert.NoError(t, err)
+	assert.NotNil(t, courses)
+	assert.Equal(t, 2, len(courses))
+	assert.NoError(t, mock.ExpectationsWereMet())
+}
+
+func TestGetPaginatedCourses_WithFacultyFilter(t *testing.T) {
+	mock, err := pgxmock.NewPool()
+	assert.NoError(t, err)
+	defer mock.Close()
+
+	repo := NewCourseRepository(mock)
+
+	now := time.Now()
+	desc := "Description"
+	faculty := "SC"
+	mock.ExpectQuery("SELECT id, name, code, credits, description, faculty, term, created_at, updated_at FROM courses\\s+WHERE faculty = \\$1\\s+ORDER BY code, term\\s+LIMIT \\$2 OFFSET \\$3").
+		WithArgs("SC", 20, 0).
+		WillReturnRows(pgxmock.NewRows([]string{"id", "name", "code", "credits", "description", "faculty", "term", "created_at", "updated_at"}).
+			AddRow("id-1", "Course 1", "EECS1000", 3.0, &desc, "SC", "Fall", now, now))
+
+	courses, err := repo.GetPaginatedCourses(context.Background(), 1, 20, &faculty, nil)
+	assert.NoError(t, err)
+	assert.NotNil(t, courses)
+	assert.Equal(t, 1, len(courses))
+	assert.Equal(t, "SC", courses[0].Faculty)
+	assert.NoError(t, mock.ExpectationsWereMet())
+}
+
+func TestGetPaginatedCourses_WithCourseCodeRangeFilter(t *testing.T) {
+	mock, err := pgxmock.NewPool()
+	assert.NoError(t, err)
+	defer mock.Close()
+
+	repo := NewCourseRepository(mock)
+
+	now := time.Now()
+	desc := "Description"
+	courseCodeRange := "1000s"
+	mock.ExpectQuery("SELECT id, name, code, credits, description, faculty, term, created_at, updated_at FROM courses\\s+WHERE CAST\\(SUBSTRING\\(code FROM '\\\\d\\+'\\) AS INTEGER\\) >= \\$1 AND CAST\\(SUBSTRING\\(code FROM '\\\\d\\+'\\) AS INTEGER\\) < \\$2\\s+ORDER BY code, term\\s+LIMIT \\$3 OFFSET \\$4").
+		WithArgs("1000", "1999", 20, 0).
+		WillReturnRows(pgxmock.NewRows([]string{"id", "name", "code", "credits", "description", "faculty", "term", "created_at", "updated_at"}).
+			AddRow("id-1", "Course 1", "EECS1000", 3.0, &desc, "SC", "Fall", now, now).
+			AddRow("id-2", "Course 2", "MATH1500", 3.0, &desc, "SC", "Winter", now, now))
+
+	courses, err := repo.GetPaginatedCourses(context.Background(), 1, 20, nil, &courseCodeRange)
+	assert.NoError(t, err)
+	assert.NotNil(t, courses)
+	assert.Equal(t, 2, len(courses))
+	assert.NoError(t, mock.ExpectationsWereMet())
+}
+
+func TestGetPaginatedCourses_WithCourseCodeRange5000sPlus(t *testing.T) {
+	mock, err := pgxmock.NewPool()
+	assert.NoError(t, err)
+	defer mock.Close()
+
+	repo := NewCourseRepository(mock)
+
+	now := time.Now()
+	desc := "Description"
+	courseCodeRange := "5000s+"
+	mock.ExpectQuery("SELECT id, name, code, credits, description, faculty, term, created_at, updated_at FROM courses\\s+WHERE CAST\\(SUBSTRING\\(code FROM '\\\\d\\+'\\) AS INTEGER\\) >= \\$1\\s+ORDER BY code, term\\s+LIMIT \\$2 OFFSET \\$3").
+		WithArgs("5000", 20, 0).
+		WillReturnRows(pgxmock.NewRows([]string{"id", "name", "code", "credits", "description", "faculty", "term", "created_at", "updated_at"}).
+			AddRow("id-1", "Course 1", "EECS5000", 3.0, &desc, "SC", "Fall", now, now))
+
+	courses, err := repo.GetPaginatedCourses(context.Background(), 1, 20, nil, &courseCodeRange)
+	assert.NoError(t, err)
+	assert.NotNil(t, courses)
+	assert.Equal(t, 1, len(courses))
+	assert.NoError(t, mock.ExpectationsWereMet())
+}
+
+func TestGetPaginatedCourses_WithBothFilters(t *testing.T) {
+	mock, err := pgxmock.NewPool()
+	assert.NoError(t, err)
+	defer mock.Close()
+
+	repo := NewCourseRepository(mock)
+
+	now := time.Now()
+	desc := "Description"
+	faculty := "SC"
+	courseCodeRange := "2000s"
+	mock.ExpectQuery("SELECT id, name, code, credits, description, faculty, term, created_at, updated_at FROM courses\\s+WHERE faculty = \\$1 AND CAST\\(SUBSTRING\\(code FROM '\\\\d\\+'\\) AS INTEGER\\) >= \\$2 AND CAST\\(SUBSTRING\\(code FROM '\\\\d\\+'\\) AS INTEGER\\) < \\$3\\s+ORDER BY code, term\\s+LIMIT \\$4 OFFSET \\$5").
+		WithArgs("SC", "2000", "2999", 20, 0).
+		WillReturnRows(pgxmock.NewRows([]string{"id", "name", "code", "credits", "description", "faculty", "term", "created_at", "updated_at"}).
+			AddRow("id-1", "Course 1", "EECS2030", 3.0, &desc, "SC", "Fall", now, now))
+
+	courses, err := repo.GetPaginatedCourses(context.Background(), 1, 20, &faculty, &courseCodeRange)
+	assert.NoError(t, err)
+	assert.NotNil(t, courses)
+	assert.Equal(t, 1, len(courses))
+	assert.Equal(t, "SC", courses[0].Faculty)
+	assert.Equal(t, "EECS2030", courses[0].Code)
+	assert.NoError(t, mock.ExpectationsWereMet())
+}
+
+func TestGetPaginatedCourses_WithPagination(t *testing.T) {
+	mock, err := pgxmock.NewPool()
+	assert.NoError(t, err)
+	defer mock.Close()
+
+	repo := NewCourseRepository(mock)
+
+	now := time.Now()
+	desc := "Description"
+	// Page 2 with page size 10 should have offset 10
+	mock.ExpectQuery("SELECT id, name, code, credits, description, faculty, term, created_at, updated_at FROM courses\\s+ORDER BY code, term\\s+LIMIT \\$1 OFFSET \\$2").
+		WithArgs(10, 10).
+		WillReturnRows(pgxmock.NewRows([]string{"id", "name", "code", "credits", "description", "faculty", "term", "created_at", "updated_at"}).
+			AddRow("id-11", "Course 11", "EECS3010", 3.0, &desc, "SC", "Fall", now, now))
+
+	courses, err := repo.GetPaginatedCourses(context.Background(), 2, 10, nil, nil)
+	assert.NoError(t, err)
+	assert.NotNil(t, courses)
+	assert.Equal(t, 1, len(courses))
+	assert.NoError(t, mock.ExpectationsWereMet())
+}
+
+func TestGetPaginatedCourses_WhenQueryErrors_ReturnsError(t *testing.T) {
+	mock, err := pgxmock.NewPool()
+	assert.NoError(t, err)
+	defer mock.Close()
+
+	repo := NewCourseRepository(mock)
+
+	mock.ExpectQuery("SELECT id, name, code, credits, description, faculty, term, created_at, updated_at FROM courses\\s+ORDER BY code, term\\s+LIMIT \\$1 OFFSET \\$2").
+		WithArgs(20, 0).
+		WillReturnError(errors.New("db error"))
+
+	courses, err := repo.GetPaginatedCourses(context.Background(), 1, 20, nil, nil)
+	assert.Error(t, err)
+	assert.Nil(t, courses)
+	assert.NoError(t, mock.ExpectationsWereMet())
+}
+
+func TestGetPaginatedCourses_WhenScanFails_ReturnsError(t *testing.T) {
+	mock, err := pgxmock.NewPool()
+	assert.NoError(t, err)
+	defer mock.Close()
+
+	repo := NewCourseRepository(mock)
+
+	now := time.Now()
+	desc := "Description"
+	rows := pgxmock.NewRows([]string{"id", "name", "code", "credits", "description", "faculty", "term", "created_at", "updated_at"}).
+		AddRow("id-1", "Course 1", "EECS1000", "INVALID_FLOAT", &desc, "SC", "Fall", now, now)
+
+	mock.ExpectQuery("SELECT id, name, code, credits, description, faculty, term, created_at, updated_at FROM courses\\s+ORDER BY code, term\\s+LIMIT \\$1 OFFSET \\$2").
+		WithArgs(20, 0).
+		WillReturnRows(rows)
+
+	courses, err := repo.GetPaginatedCourses(context.Background(), 1, 20, nil, nil)
+	assert.Error(t, err)
+	assert.Nil(t, courses)
+	assert.NoError(t, mock.ExpectationsWereMet())
+}
+
+// Tests for GetCoursesCount
+func TestGetCoursesCount_NoFilters(t *testing.T) {
+	mock, err := pgxmock.NewPool()
+	assert.NoError(t, err)
+	defer mock.Close()
+
+	repo := NewCourseRepository(mock)
+
+	mock.ExpectQuery("SELECT COUNT\\(\\*\\) FROM courses").
+		WillReturnRows(pgxmock.NewRows([]string{"count"}).AddRow(100))
+
+	count, err := repo.GetCoursesCount(context.Background(), nil, nil)
+	assert.NoError(t, err)
+	assert.Equal(t, 100, count)
+	assert.NoError(t, mock.ExpectationsWereMet())
+}
+
+func TestGetCoursesCount_WithFacultyFilter(t *testing.T) {
+	mock, err := pgxmock.NewPool()
+	assert.NoError(t, err)
+	defer mock.Close()
+
+	repo := NewCourseRepository(mock)
+
+	faculty := "SC"
+	mock.ExpectQuery("SELECT COUNT\\(\\*\\) FROM courses\\s+WHERE faculty = \\$1").
+		WithArgs("SC").
+		WillReturnRows(pgxmock.NewRows([]string{"count"}).AddRow(50))
+
+	count, err := repo.GetCoursesCount(context.Background(), &faculty, nil)
+	assert.NoError(t, err)
+	assert.Equal(t, 50, count)
+	assert.NoError(t, mock.ExpectationsWereMet())
+}
+
+func TestGetCoursesCount_WithCourseCodeRangeFilter(t *testing.T) {
+	mock, err := pgxmock.NewPool()
+	assert.NoError(t, err)
+	defer mock.Close()
+
+	repo := NewCourseRepository(mock)
+
+	courseCodeRange := "1000s"
+	mock.ExpectQuery("SELECT COUNT\\(\\*\\) FROM courses\\s+WHERE CAST\\(SUBSTRING\\(code FROM '\\\\d\\+'\\) AS INTEGER\\) >= \\$1 AND CAST\\(SUBSTRING\\(code FROM '\\\\d\\+'\\) AS INTEGER\\) < \\$2").
+		WithArgs("1000", "1999").
+		WillReturnRows(pgxmock.NewRows([]string{"count"}).AddRow(25))
+
+	count, err := repo.GetCoursesCount(context.Background(), nil, &courseCodeRange)
+	assert.NoError(t, err)
+	assert.Equal(t, 25, count)
+	assert.NoError(t, mock.ExpectationsWereMet())
+}
+
+func TestGetCoursesCount_WithBothFilters(t *testing.T) {
+	mock, err := pgxmock.NewPool()
+	assert.NoError(t, err)
+	defer mock.Close()
+
+	repo := NewCourseRepository(mock)
+
+	faculty := "SC"
+	courseCodeRange := "2000s"
+	mock.ExpectQuery("SELECT COUNT\\(\\*\\) FROM courses\\s+WHERE faculty = \\$1 AND CAST\\(SUBSTRING\\(code FROM '\\\\d\\+'\\) AS INTEGER\\) >= \\$2 AND CAST\\(SUBSTRING\\(code FROM '\\\\d\\+'\\) AS INTEGER\\) < \\$3").
+		WithArgs("SC", "2000", "2999").
+		WillReturnRows(pgxmock.NewRows([]string{"count"}).AddRow(15))
+
+	count, err := repo.GetCoursesCount(context.Background(), &faculty, &courseCodeRange)
+	assert.NoError(t, err)
+	assert.Equal(t, 15, count)
+	assert.NoError(t, mock.ExpectationsWereMet())
+}
+
+func TestGetCoursesCount_WhenQueryErrors_ReturnsError(t *testing.T) {
+	mock, err := pgxmock.NewPool()
+	assert.NoError(t, err)
+	defer mock.Close()
+
+	repo := NewCourseRepository(mock)
+
+	mock.ExpectQuery("SELECT COUNT\\(\\*\\) FROM courses").
+		WillReturnError(errors.New("db error"))
+
+	count, err := repo.GetCoursesCount(context.Background(), nil, nil)
+	assert.Error(t, err)
+	assert.Equal(t, 0, count)
+	assert.NoError(t, mock.ExpectationsWereMet())
+}
