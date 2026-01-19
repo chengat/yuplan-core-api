@@ -26,7 +26,7 @@ The API runs on port 8080. Database migrations and seeding run automatically.
 
 - `GET /api/v1/courses` - List all courses
 - `GET /api/v1/courses/search` - Search courses
-- `GET /api/v1/courses/:course_id` - Get course by ID
+- `GET /api/v1/courses/:course_code` - Get a course by course code (returns all term offerings, hydrated with sections/activities)
 - `GET /api/v1/instructors/:course_id` - Get instructors for a course
 - `GET /api/v1/sections/:course_id` - Get sections + section_activities for a course
 

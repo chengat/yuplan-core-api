@@ -3,17 +3,20 @@ package handlers
 import (
 	"net/http"
 	"strconv"
+	"strings"
+	"yuplan/internal/models"
 	"yuplan/internal/repository"
 
 	"github.com/gin-gonic/gin"
 )
 
 type CourseHandler struct {
-	repo repository.CourseRepositoryInterface
+	repo        repository.CourseRepositoryInterface
+	sectionRepo repository.SectionRepositoryInterface
 }
 
-func NewCourseHandler(repo repository.CourseRepositoryInterface) *CourseHandler {
-	return &CourseHandler{repo: repo}
+func NewCourseHandler(repo repository.CourseRepositoryInterface, sectionRepo repository.SectionRepositoryInterface) *CourseHandler {
+	return &CourseHandler{repo: repo, sectionRepo: sectionRepo}
 }
 
 func (h *CourseHandler) GetCourses(c *gin.Context) {
@@ -32,15 +35,62 @@ func (h *CourseHandler) GetCourses(c *gin.Context) {
 }
 
 func (h *CourseHandler) GetCourseByID(c *gin.Context) {
-	courseID := c.Param("course_id")
+	// Deprecated: kept for backwards compatibility with older tests/routes.
+	// This endpoint now always treats the identifier as a course code.
+	identifier := c.Param("course_id")
+	h.getCoursesByCode(c, identifier)
+}
 
-	course, err := h.repo.GetByID(c.Request.Context(), courseID)
+type CourseOffering struct {
+	models.Course
+	Sections []models.Section `json:"sections"`
+}
+
+// GetCoursesByCode returns all term-offerings for a course code, each hydrated with sections + activities.
+func (h *CourseHandler) GetCoursesByCode(c *gin.Context) {
+	rawCode := c.Param("course_code")
+	h.getCoursesByCode(c, rawCode)
+}
+
+func (h *CourseHandler) getCoursesByCode(c *gin.Context, rawCode string) {
+	if h.sectionRepo == nil {
+		c.JSON(http.StatusInternalServerError, gin.H{"error": "Sections repository not configured"})
+		return
+	}
+
+	if strings.TrimSpace(rawCode) == "" {
+		c.JSON(http.StatusBadRequest, gin.H{"error": "course_code is required"})
+		return
+	}
+
+	courses, err := h.repo.GetByCode(c.Request.Context(), rawCode)
 	if err != nil {
+		c.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to fetch courses"})
+		return
+	}
+	if len(courses) == 0 {
 		c.JSON(http.StatusNotFound, gin.H{"error": "Course not found"})
 		return
 	}
 
-	c.JSON(http.StatusOK, gin.H{"data": course})
+	resp := make([]CourseOffering, 0, len(courses))
+	for _, course := range courses {
+		sections, err := h.sectionRepo.GetByCourseID(c.Request.Context(), course.ID)
+		if err != nil {
+			c.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to fetch sections"})
+			return
+		}
+
+		resp = append(resp, CourseOffering{
+			Course:   course,
+			Sections: sections,
+		})
+	}
+
+	c.JSON(http.StatusOK, gin.H{
+		"data":  resp,
+		"count": len(resp),
+	})
 }
 
 func (h *CourseHandler) SearchCourses(c *gin.Context) {

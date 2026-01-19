@@ -17,6 +17,7 @@ import (
 type MockCourseRepository struct {
 	getRandomCourses    func(ctx context.Context, limit int) ([]models.Course, error)
 	getByID             func(ctx context.Context, courseID string) (*models.Course, error)
+	getByCode           func(ctx context.Context, courseCode string) ([]models.Course, error)
 	search              func(ctx context.Context, query string, limit, offset int) ([]models.Course, error)
 	getPaginatedCourses func(ctx context.Context, page, pageSize int, faculty, courseCodeRange *string) ([]models.Course, error)
 	getCoursesCount     func(ctx context.Context, faculty, courseCodeRange *string) (int, error)
@@ -34,6 +35,13 @@ func (m *MockCourseRepository) GetByID(ctx context.Context, courseID string) (*m
 		return m.getByID(ctx, courseID)
 	}
 	return &models.Course{}, nil
+}
+
+func (m *MockCourseRepository) GetByCode(ctx context.Context, courseCode string) ([]models.Course, error) {
+	if m.getByCode != nil {
+		return m.getByCode(ctx, courseCode)
+	}
+	return []models.Course{}, nil
 }
 
 func (m *MockCourseRepository) Search(ctx context.Context, query string, limit, offset int) ([]models.Course, error) {
@@ -65,7 +73,7 @@ func TestGetCourses(t *testing.T) {
 			return []models.Course{}, nil
 		},
 	}
-	handler := NewCourseHandler(repo)
+	handler := NewCourseHandler(repo, nil)
 
 	router := gin.Default()
 	router.GET("/courses", handler.GetCourses)
@@ -79,26 +87,38 @@ func TestGetCourses(t *testing.T) {
 	assert.Contains(t, recorder.Body.String(), "\"count\"")
 }
 
-func TestGetCourseByID(t *testing.T) {
+func TestGetCoursesByCode_ReturnsAllOfferingsWithSections(t *testing.T) {
 	gin.SetMode(gin.TestMode)
 
 	var repo repository.CourseRepositoryInterface = &MockCourseRepository{
-		getByID: func(ctx context.Context, courseID string) (*models.Course, error) {
-			return &models.Course{ID: courseID}, nil
+		getByCode: func(ctx context.Context, courseCode string) ([]models.Course, error) {
+			return []models.Course{
+				{ID: "course-fall", Code: "EECS2030", Term: "Fall"},
+				{ID: "course-winter", Code: "EECS2030", Term: "Winter"},
+			}, nil
 		},
 	}
-	handler := NewCourseHandler(repo)
+	var sectionRepo repository.SectionRepositoryInterface = &MockSectionRepositoryForCourseHandler{
+		getByCourseID: func(ctx context.Context, courseID string) ([]models.Section, error) {
+			return []models.Section{{ID: "sec-1", CourseID: courseID, Letter: "A"}}, nil
+		},
+	}
+	handler := NewCourseHandler(repo, sectionRepo)
 
 	router := gin.Default()
-	router.GET("/courses/:course_id", handler.GetCourseByID)
+	router.GET("/courses/:course_code", handler.GetCoursesByCode)
 
-	req, _ := http.NewRequest("GET", "/courses/test-id", nil)
+	req, _ := http.NewRequest("GET", "/courses/EECS2030", nil)
 	recorder := httptest.NewRecorder()
 	router.ServeHTTP(recorder, req)
 
 	assert.Equal(t, http.StatusOK, recorder.Code)
 	assert.Contains(t, recorder.Body.String(), "\"data\"")
-	assert.Contains(t, recorder.Body.String(), "test-id")
+	assert.Contains(t, recorder.Body.String(), "\"count\":2")
+	assert.Contains(t, recorder.Body.String(), "course-fall")
+	assert.Contains(t, recorder.Body.String(), "course-winter")
+	assert.Contains(t, recorder.Body.String(), "\"sections\"")
+	assert.Contains(t, recorder.Body.String(), "sec-1")
 }
 
 func TestGetCourses_WhenRepoErrors_Returns500(t *testing.T) {
@@ -109,7 +129,7 @@ func TestGetCourses_WhenRepoErrors_Returns500(t *testing.T) {
 			return nil, errors.New("db down")
 		},
 	}
-	handler := NewCourseHandler(repo)
+	handler := NewCourseHandler(repo, nil)
 
 	router := gin.New()
 	router.GET("/courses", handler.GetCourses)
@@ -122,20 +142,20 @@ func TestGetCourses_WhenRepoErrors_Returns500(t *testing.T) {
 	assert.Contains(t, strings.ToLower(recorder.Body.String()), "failed")
 }
 
-func TestGetCourseByID_WhenRepoErrors_Returns404(t *testing.T) {
+func TestGetCoursesByCode_WhenNoneFound_Returns404(t *testing.T) {
 	gin.SetMode(gin.TestMode)
 
 	var repo repository.CourseRepositoryInterface = &MockCourseRepository{
-		getByID: func(ctx context.Context, courseID string) (*models.Course, error) {
-			return nil, errors.New("not found")
+		getByCode: func(ctx context.Context, courseCode string) ([]models.Course, error) {
+			return []models.Course{}, nil
 		},
 	}
-	handler := NewCourseHandler(repo)
+	handler := NewCourseHandler(repo, &MockSectionRepositoryForCourseHandler{})
 
 	router := gin.New()
-	router.GET("/courses/:course_id", handler.GetCourseByID)
+	router.GET("/courses/:course_code", handler.GetCoursesByCode)
 
-	req, _ := http.NewRequest(http.MethodGet, "/courses/test-id", nil)
+	req, _ := http.NewRequest(http.MethodGet, "/courses/DOESNOTEXIST", nil)
 	recorder := httptest.NewRecorder()
 	router.ServeHTTP(recorder, req)
 
@@ -154,7 +174,7 @@ func TestSearchCourses(t *testing.T) {
 			}, nil
 		},
 	}
-	handler := NewCourseHandler(repo)
+	handler := NewCourseHandler(repo, nil)
 
 	router := gin.Default()
 	router.GET("/courses/search", handler.SearchCourses)
@@ -183,7 +203,7 @@ func TestSearchCourses_WithPagination(t *testing.T) {
 			}, nil
 		},
 	}
-	handler := NewCourseHandler(repo)
+	handler := NewCourseHandler(repo, nil)
 
 	router := gin.Default()
 	router.GET("/courses/search", handler.SearchCourses)
@@ -200,7 +220,7 @@ func TestSearchCourses_MissingQueryParam_Returns400(t *testing.T) {
 	gin.SetMode(gin.TestMode)
 
 	var repo repository.CourseRepositoryInterface = &MockCourseRepository{}
-	handler := NewCourseHandler(repo)
+	handler := NewCourseHandler(repo, nil)
 
 	router := gin.Default()
 	router.GET("/courses/search", handler.SearchCourses)
@@ -221,7 +241,7 @@ func TestSearchCourses_WhenRepoErrors_Returns500(t *testing.T) {
 			return nil, errors.New("db error")
 		},
 	}
-	handler := NewCourseHandler(repo)
+	handler := NewCourseHandler(repo, nil)
 
 	router := gin.Default()
 	router.GET("/courses/search", handler.SearchCourses)
@@ -242,7 +262,7 @@ func TestSearchCourses_EmptyResults(t *testing.T) {
 			return []models.Course{}, nil
 		},
 	}
-	handler := NewCourseHandler(repo)
+	handler := NewCourseHandler(repo, nil)
 
 	router := gin.Default()
 	router.GET("/courses/search", handler.SearchCourses)
@@ -270,7 +290,7 @@ func TestGetPaginatedCourses(t *testing.T) {
 			return 100, nil
 		},
 	}
-	handler := NewCourseHandler(repo)
+	handler := NewCourseHandler(repo, nil)
 
 	router := gin.Default()
 	router.GET("/courses/paginated", handler.GetPaginatedCourses)
@@ -301,7 +321,7 @@ func TestGetPaginatedCourses_WithDefaultValues(t *testing.T) {
 			return 0, nil
 		},
 	}
-	handler := NewCourseHandler(repo)
+	handler := NewCourseHandler(repo, nil)
 
 	router := gin.Default()
 	router.GET("/courses/paginated", handler.GetPaginatedCourses)
@@ -332,7 +352,7 @@ func TestGetPaginatedCourses_WithFacultyFilter(t *testing.T) {
 			return 50, nil
 		},
 	}
-	handler := NewCourseHandler(repo)
+	handler := NewCourseHandler(repo, nil)
 
 	router := gin.Default()
 	router.GET("/courses/paginated", handler.GetPaginatedCourses)
@@ -362,7 +382,7 @@ func TestGetPaginatedCourses_WithCourseCodeRangeFilter(t *testing.T) {
 			return 25, nil
 		},
 	}
-	handler := NewCourseHandler(repo)
+	handler := NewCourseHandler(repo, nil)
 
 	router := gin.Default()
 	router.GET("/courses/paginated", handler.GetPaginatedCourses)
@@ -394,7 +414,7 @@ func TestGetPaginatedCourses_WithBothFilters(t *testing.T) {
 			return 15, nil
 		},
 	}
-	handler := NewCourseHandler(repo)
+	handler := NewCourseHandler(repo, nil)
 
 	router := gin.Default()
 	router.GET("/courses/paginated", handler.GetPaginatedCourses)
@@ -422,7 +442,7 @@ func TestGetPaginatedCourses_WithPagination(t *testing.T) {
 			return 100, nil
 		},
 	}
-	handler := NewCourseHandler(repo)
+	handler := NewCourseHandler(repo, nil)
 
 	router := gin.Default()
 	router.GET("/courses/paginated", handler.GetPaginatedCourses)
@@ -449,7 +469,7 @@ func TestGetPaginatedCourses_InvalidPageNumber_DefaultsToOne(t *testing.T) {
 			return 0, nil
 		},
 	}
-	handler := NewCourseHandler(repo)
+	handler := NewCourseHandler(repo, nil)
 
 	router := gin.Default()
 	router.GET("/courses/paginated", handler.GetPaginatedCourses)
@@ -473,7 +493,7 @@ func TestGetPaginatedCourses_InvalidPageSize_DefaultsToTwenty(t *testing.T) {
 			return 0, nil
 		},
 	}
-	handler := NewCourseHandler(repo)
+	handler := NewCourseHandler(repo, nil)
 
 	router := gin.Default()
 	router.GET("/courses/paginated", handler.GetPaginatedCourses)
@@ -497,7 +517,7 @@ func TestGetPaginatedCourses_PageSizeExceedsMax_DefaultsToTwenty(t *testing.T) {
 			return 0, nil
 		},
 	}
-	handler := NewCourseHandler(repo)
+	handler := NewCourseHandler(repo, nil)
 
 	router := gin.Default()
 	router.GET("/courses/paginated", handler.GetPaginatedCourses)
@@ -517,7 +537,7 @@ func TestGetPaginatedCourses_WhenGetCoursesCountErrors_Returns500(t *testing.T) 
 			return 0, errors.New("db error")
 		},
 	}
-	handler := NewCourseHandler(repo)
+	handler := NewCourseHandler(repo, nil)
 
 	router := gin.Default()
 	router.GET("/courses/paginated", handler.GetPaginatedCourses)
@@ -541,7 +561,7 @@ func TestGetPaginatedCourses_WhenGetPaginatedCoursesErrors_Returns500(t *testing
 			return 100, nil
 		},
 	}
-	handler := NewCourseHandler(repo)
+	handler := NewCourseHandler(repo, nil)
 
 	router := gin.Default()
 	router.GET("/courses/paginated", handler.GetPaginatedCourses)
@@ -565,7 +585,7 @@ func TestGetPaginatedCourses_EmptyResults(t *testing.T) {
 			return 0, nil
 		},
 	}
-	handler := NewCourseHandler(repo)
+	handler := NewCourseHandler(repo, nil)
 
 	router := gin.Default()
 	router.GET("/courses/paginated", handler.GetPaginatedCourses)
@@ -578,3 +598,16 @@ func TestGetPaginatedCourses_EmptyResults(t *testing.T) {
 	assert.Contains(t, recorder.Body.String(), "\"total_items\":0")
 	assert.Contains(t, recorder.Body.String(), "\"total_pages\":1")
 }
+
+type MockSectionRepositoryForCourseHandler struct {
+	getByCourseID func(ctx context.Context, courseID string) ([]models.Section, error)
+}
+
+func (m *MockSectionRepositoryForCourseHandler) GetByCourseID(ctx context.Context, courseID string) ([]models.Section, error) {
+	if m.getByCourseID != nil {
+		return m.getByCourseID(ctx, courseID)
+	}
+	return []models.Section{}, nil
+}
+
+// Note: legacy "identifier is course code" tests were consolidated into the tests above.

@@ -12,6 +12,7 @@ import (
 type CourseRepositoryInterface interface {
 	GetRandomCourses(ctx context.Context, limit int) ([]models.Course, error)
 	GetByID(ctx context.Context, courseID string) (*models.Course, error)
+	GetByCode(ctx context.Context, courseCode string) ([]models.Course, error)
 	Search(ctx context.Context, query string, limit, offset int) ([]models.Course, error)
 	GetPaginatedCourses(ctx context.Context, page, pageSize int, faculty, courseCodeRange *string) ([]models.Course, error)
 	GetCoursesCount(ctx context.Context, faculty, courseCodeRange *string) (int, error)
@@ -73,6 +74,38 @@ func (r *CourseRepository) GetByID(ctx context.Context, courseID string) (*model
 		return nil, fmt.Errorf("scan course by id: %w", err)
 	}
 	return &course, nil
+}
+
+func (r *CourseRepository) GetByCode(ctx context.Context, courseCode string) ([]models.Course, error) {
+	// Normalize to match regardless of spaces/case.
+	normalized := strings.ToLower(strings.ReplaceAll(courseCode, " ", ""))
+
+	rows, err := r.db.Query(
+		ctx,
+		`SELECT id, name, code, credits, description, faculty, term, created_at, updated_at
+		 FROM courses
+		 WHERE REPLACE(LOWER(code), ' ', '') = $1
+		 ORDER BY term, code`,
+		normalized,
+	)
+	if err != nil {
+		return nil, fmt.Errorf("query courses by code: %w", err)
+	}
+	defer rows.Close()
+
+	courses := make([]models.Course, 0)
+	for rows.Next() {
+		var c models.Course
+		if err := rows.Scan(&c.ID, &c.Name, &c.Code, &c.Credits, &c.Description, &c.Faculty, &c.Term, &c.CreatedAt, &c.UpdatedAt); err != nil {
+			return nil, fmt.Errorf("scan course: %w", err)
+		}
+		courses = append(courses, c)
+	}
+	if err := rows.Err(); err != nil {
+		return nil, fmt.Errorf("iterate courses by code: %w", err)
+	}
+
+	return courses, nil
 }
 
 func (r *CourseRepository) Search(ctx context.Context, query string, limit, offset int) ([]models.Course, error) {

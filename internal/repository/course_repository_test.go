@@ -11,6 +11,7 @@ import (
 )
 
 const courseSearchQueryPattern = "SELECT id, name, code, credits, description, faculty, term, created_at, updated_at FROM courses\\s+WHERE name ILIKE \\$1 OR code ILIKE \\$1 OR REPLACE\\(code, ' ', ''\\) ILIKE \\$2\\s+ORDER BY code\\s+LIMIT \\$3 OFFSET \\$4"
+const courseByCodeQueryPattern = "SELECT id, name, code, credits, description, faculty, term, created_at, updated_at FROM courses\\s+WHERE REPLACE\\(LOWER\\(code\\), ' ', ''\\) = \\$1\\s+ORDER BY term, code"
 
 func TestGetAllCourses(t *testing.T) {
 	mock, err := pgxmock.NewPool()
@@ -46,6 +47,29 @@ func TestGetCourseByID(t *testing.T) {
 	course, err := repo.GetByID(context.Background(), "test-id")
 	assert.NoError(t, err)
 	assert.NotNil(t, course)
+	assert.NoError(t, mock.ExpectationsWereMet())
+}
+
+func TestGetCoursesByCode(t *testing.T) {
+	mock, err := pgxmock.NewPool()
+	assert.NoError(t, err)
+	defer mock.Close()
+
+	repo := NewCourseRepository(mock)
+
+	now := time.Now()
+	desc := "Description"
+	mock.ExpectQuery(courseByCodeQueryPattern).
+		WithArgs("eecs2030").
+		WillReturnRows(pgxmock.NewRows([]string{"id", "name", "code", "credits", "description", "faculty", "term", "created_at", "updated_at"}).
+			AddRow("id-fall", "Test Course", "EECS2030", 3.0, &desc, "SC", "Fall", now, now).
+			AddRow("id-winter", "Test Course", "EECS2030", 3.0, &desc, "SC", "Winter", now, now))
+
+	courses, err := repo.GetByCode(context.Background(), "EECS 2030")
+	assert.NoError(t, err)
+	assert.Len(t, courses, 2)
+	assert.Equal(t, "id-fall", courses[0].ID)
+	assert.Equal(t, "id-winter", courses[1].ID)
 	assert.NoError(t, mock.ExpectationsWereMet())
 }
 

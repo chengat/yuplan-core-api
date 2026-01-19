@@ -27,3 +27,5 @@ ENV/
 .venv
 scraping/.DS_Store
 scraping/scrapers/descriptions/.DS_Store
+
+.gocache
