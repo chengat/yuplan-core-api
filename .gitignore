@@ -29,3 +29,4 @@ scraping/.DS_Store
 scraping/scrapers/descriptions/.DS_Store
 
 .gocache
+.DS_Store
