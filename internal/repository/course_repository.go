@@ -278,7 +278,7 @@ func (r *CourseRepository) GetCoursesCount(ctx context.Context, faculty, courseC
 	}
 	
 	query := fmt.Sprintf(
-		`SELECT COUNT(*) FROM courses %s`,
+		`SELECT COUNT(DISTINCT code) FROM courses %s`,
 		whereClause,
 	)
 	
