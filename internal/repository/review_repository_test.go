@@ -201,3 +201,48 @@ func TestReviewRepository_GetCourseStats(t *testing.T) {
 	assert.Equal(t, 4.2, stats["avg_real_world_relevance"])
 	assert.NoError(t, mock.ExpectationsWereMet())
 }
+
+func TestReviewRepository_GetAll(t *testing.T) {
+	mock, err := pgxmock.NewPool()
+	assert.NoError(t, err)
+	defer mock.Close()
+
+	repo := NewReviewRepository(mock)
+	ctx := context.Background()
+
+	now := time.Now()
+	reviewText := "Great course!"
+	authorName := "John Smith"
+
+	rows := pgxmock.NewRows([]string{
+		"id", "course_code", "email", "author_name", "liked", "difficulty", "real_world_relevance",
+		"review_text", "created_at", "updated_at",
+	}).
+		AddRow(
+			"review-1", "EECS2030", "student1@yorku.ca", &authorName, true, 3, 5,
+			&reviewText, now, now,
+		).
+		AddRow(
+			"review-2", "EECS3101", "student2@yorku.ca", nil, false, 4, 3,
+			&reviewText, now.Add(-1*time.Hour), now.Add(-1*time.Hour),
+		).
+		AddRow(
+			"review-3", "EECS2030", "student3@yorku.ca", &authorName, true, 2, 4,
+			&reviewText, now.Add(-2*time.Hour), now.Add(-2*time.Hour),
+		)
+
+	mock.ExpectQuery("SELECT(.+)FROM reviews(.+)ORDER BY created_at DESC").
+		WillReturnRows(rows)
+
+	reviews, err := repo.GetAll(ctx)
+	assert.NoError(t, err)
+	assert.Len(t, reviews, 3)
+	assert.Equal(t, "review-1", reviews[0].ID)
+	assert.Equal(t, "EECS2030", reviews[0].CourseCode)
+	assert.NotNil(t, reviews[0].AuthorName)
+	assert.Equal(t, "review-2", reviews[1].ID)
+	assert.Equal(t, "EECS3101", reviews[1].CourseCode)
+	assert.Nil(t, reviews[1].AuthorName) // Anonymous
+	assert.Equal(t, "review-3", reviews[2].ID)
+	assert.NoError(t, mock.ExpectationsWereMet())
+}

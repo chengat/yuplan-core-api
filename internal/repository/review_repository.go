@@ -14,6 +14,7 @@ type ReviewRepositoryInterface interface {
 	Create(ctx context.Context, review *models.Review) error
 	GetByCourseCode(ctx context.Context, courseCode string, sortBy string, limit, offset int) ([]models.Review, error)
 	GetCourseStats(ctx context.Context, courseCode string) (map[string]interface{}, error)
+	GetAll(ctx context.Context) ([]models.Review, error)
 }
 
 type reviewDB interface {
@@ -158,3 +159,49 @@ func (r *ReviewRepository) GetCourseStats(ctx context.Context, courseCode string
 	}, nil
 }
 
+func (r *ReviewRepository) GetAll(ctx context.Context) ([]models.Review, error) {
+	query := `
+		SELECT 
+			id,
+			course_code,
+			email,
+			author_name,
+			liked,
+			difficulty,
+			real_world_relevance,
+			review_text,
+			created_at,
+			updated_at
+		FROM reviews
+		ORDER BY created_at DESC
+	`
+
+	rows, err := r.db.Query(ctx, query)
+	if err != nil {
+		return nil, err
+	}
+	defer rows.Close()
+
+	var reviews []models.Review
+	for rows.Next() {
+		var review models.Review
+		err := rows.Scan(
+			&review.ID,
+			&review.CourseCode,
+			&review.Email,
+			&review.AuthorName,
+			&review.Liked,
+			&review.Difficulty,
+			&review.RealWorldRelevance,
+			&review.ReviewText,
+			&review.CreatedAt,
+			&review.UpdatedAt,
+		)
+		if err != nil {
+			return nil, err
+		}
+		reviews = append(reviews, review)
+	}
+
+	return reviews, nil
+}

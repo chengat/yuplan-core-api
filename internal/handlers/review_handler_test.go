@@ -16,6 +16,7 @@ type mockReviewRepository struct {
 	createFunc          func(ctx context.Context, review *models.Review) error
 	getByCourseCodeFunc func(ctx context.Context, courseCode string, sortBy string, limit, offset int) ([]models.Review, error)
 	getCourseStatsFunc  func(ctx context.Context, courseCode string) (map[string]interface{}, error)
+	getAllFunc          func(ctx context.Context) ([]models.Review, error)
 }
 
 func (m *mockReviewRepository) Create(ctx context.Context, review *models.Review) error {
@@ -44,6 +45,13 @@ func (m *mockReviewRepository) GetCourseStats(ctx context.Context, courseCode st
 		"avg_difficulty":           0.0,
 		"avg_real_world_relevance": 0.0,
 	}, nil
+}
+
+func (m *mockReviewRepository) GetAll(ctx context.Context) ([]models.Review, error) {
+	if m.getAllFunc != nil {
+		return m.getAllFunc(ctx)
+	}
+	return []models.Review{}, nil
 }
 
 func TestCreateReview(t *testing.T) {
@@ -265,5 +273,87 @@ func TestGetReviews(t *testing.T) {
 				}
 			}
 		})
+	}
+}
+
+func TestGetAllReviews(t *testing.T) {
+	gin.SetMode(gin.TestMode)
+
+	reviewText := "Great course!"
+	authorName1 := "John Smith"
+	authorName2 := "Jane Doe"
+	mockReviews := []models.Review{
+		{
+			ID:                 "review-1",
+			CourseCode:         "EECS2030",
+			Email:              "student1@yorku.ca",
+			AuthorName:         &authorName1,
+			Liked:              true,
+			Difficulty:         3,
+			RealWorldRelevance: 5,
+			ReviewText:         &reviewText,
+		},
+		{
+			ID:                 "review-2",
+			CourseCode:         "EECS3101",
+			Email:              "student2@yorku.ca",
+			AuthorName:         nil, // Anonymous
+			Liked:              false,
+			Difficulty:         4,
+			RealWorldRelevance: 3,
+			ReviewText:         &reviewText,
+		},
+		{
+			ID:                 "review-3",
+			CourseCode:         "EECS2030",
+			Email:              "student3@yorku.ca",
+			AuthorName:         &authorName2,
+			Liked:              true,
+			Difficulty:         2,
+			RealWorldRelevance: 4,
+			ReviewText:         &reviewText,
+		},
+	}
+
+	mockReviewRepo := &mockReviewRepository{
+		getAllFunc: func(ctx context.Context) ([]models.Review, error) {
+			return mockReviews, nil
+		},
+	}
+
+	handler := NewReviewHandler(mockReviewRepo)
+
+	w := httptest.NewRecorder()
+	c, _ := gin.CreateTestContext(w)
+
+	req := httptest.NewRequest("GET", "/api/v1/reviews", nil)
+	c.Request = req
+
+	handler.GetAllReviews(c)
+
+	if w.Code != http.StatusOK {
+		t.Errorf("Expected status %d, got %d. Body: %s", http.StatusOK, w.Code, w.Body.String())
+	}
+
+	var response map[string]interface{}
+	if err := json.Unmarshal(w.Body.Bytes(), &response); err != nil {
+		t.Fatalf("Failed to unmarshal response: %v", err)
+	}
+
+	if _, ok := response["data"]; !ok {
+		t.Error("Expected 'data' in response")
+	}
+	if _, ok := response["count"]; !ok {
+		t.Error("Expected 'count' in response")
+	}
+
+	data := response["data"].([]interface{})
+	if len(data) != 3 {
+		t.Errorf("Expected 3 reviews, got %d", len(data))
+	}
+
+	count := response["count"].(float64)
+	if int(count) != 3 {
+		t.Errorf("Expected count 3, got %d", int(count))
 	}
 }

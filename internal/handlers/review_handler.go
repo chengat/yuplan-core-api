@@ -22,7 +22,7 @@ func NewReviewHandler(repo repository.ReviewRepositoryInterface) *ReviewHandler 
 // CreateReview handles POST /api/v1/courses/:course_code/reviews
 func (h *ReviewHandler) CreateReview(c *gin.Context) {
 	courseCode := c.Param("course_code")
-	
+
 	var req models.CreateReviewRequest
 	if err := c.ShouldBindJSON(&req); err != nil {
 		c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
@@ -58,23 +58,23 @@ func (h *ReviewHandler) CreateReview(c *gin.Context) {
 // GetReviews handles GET /api/v1/courses/:course_code/reviews
 func (h *ReviewHandler) GetReviews(c *gin.Context) {
 	courseCode := c.Param("course_code")
-	
+
 	// Parse query parameters
 	sortBy := c.DefaultQuery("sort", "recent") // "recent" or "earliest"
 	limit, _ := strconv.Atoi(c.DefaultQuery("limit", "10"))
 	offset, _ := strconv.Atoi(c.DefaultQuery("offset", "0"))
-	
+
 	// Validate limit
 	if limit < 1 || limit > 50 {
 		limit = 10
 	}
-	
+
 	reviews, err := h.repo.GetByCourseCode(c.Request.Context(), courseCode, sortBy, limit, offset)
 	if err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to fetch reviews"})
 		return
 	}
-	
+
 	// Get course stats
 	stats, err := h.repo.GetCourseStats(c.Request.Context(), courseCode)
 	if err != nil {
@@ -86,5 +86,19 @@ func (h *ReviewHandler) GetReviews(c *gin.Context) {
 		"data":  reviews,
 		"count": len(reviews),
 		"stats": stats,
+	})
+}
+
+// GetAllReviews handles GET /api/v1/reviews
+func (h *ReviewHandler) GetAllReviews(c *gin.Context) {
+	reviews, err := h.repo.GetAll(c.Request.Context())
+	if err != nil {
+		c.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to fetch reviews"})
+		return
+	}
+
+	c.JSON(http.StatusOK, gin.H{
+		"data":  reviews,
+		"count": len(reviews),
 	})
 }
