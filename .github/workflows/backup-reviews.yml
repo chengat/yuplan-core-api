@@ -17,7 +17,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.BACKUP_BOT_TOKEN }}
       
       - name: Fetch reviews data
         run: |
@@ -33,8 +33,8 @@ jobs:
       - name: Commit and push if changed
         if: steps.git-check.outputs.changed == 'true'
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
+          git config --local user.email "yuplan-backup-bot@users.noreply.github.com"
+          git config --local user.name "yuplan-backup-bot"
           git add backups/reviews/reviews_backup.json
           git commit -m "backup review table data (every 30 minutes)"
           git push
