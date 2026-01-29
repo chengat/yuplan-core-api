@@ -494,7 +494,7 @@ func TestGetCoursesCount_NoFilters(t *testing.T) {
 
 	repo := NewCourseRepository(mock)
 
-	mock.ExpectQuery("SELECT COUNT\\(\\*\\) FROM courses").
+	mock.ExpectQuery("SELECT COUNT\\(DISTINCT code\\) FROM courses").
 		WillReturnRows(pgxmock.NewRows([]string{"count"}).AddRow(100))
 
 	count, err := repo.GetCoursesCount(context.Background(), nil, nil)
@@ -511,7 +511,7 @@ func TestGetCoursesCount_WithFacultyFilter(t *testing.T) {
 	repo := NewCourseRepository(mock)
 
 	faculty := "SC"
-	mock.ExpectQuery("SELECT COUNT\\(\\*\\) FROM courses\\s+WHERE faculty = \\$1").
+	mock.ExpectQuery("SELECT COUNT\\(DISTINCT code\\) FROM courses\\s+WHERE faculty = \\$1").
 		WithArgs("SC").
 		WillReturnRows(pgxmock.NewRows([]string{"count"}).AddRow(50))
 
@@ -529,7 +529,7 @@ func TestGetCoursesCount_WithCourseCodeRangeFilter(t *testing.T) {
 	repo := NewCourseRepository(mock)
 
 	courseCodeRange := "1000s"
-	mock.ExpectQuery("SELECT COUNT\\(\\*\\) FROM courses\\s+WHERE CAST\\(SUBSTRING\\(code FROM '\\\\d\\+'\\) AS INTEGER\\) >= \\$1 AND CAST\\(SUBSTRING\\(code FROM '\\\\d\\+'\\) AS INTEGER\\) < \\$2").
+	mock.ExpectQuery("SELECT COUNT\\(DISTINCT code\\) FROM courses\\s+WHERE CAST\\(SUBSTRING\\(code FROM '\\\\d\\+'\\) AS INTEGER\\) >= \\$1 AND CAST\\(SUBSTRING\\(code FROM '\\\\d\\+'\\) AS INTEGER\\) < \\$2").
 		WithArgs("1000", "1999").
 		WillReturnRows(pgxmock.NewRows([]string{"count"}).AddRow(25))
 
@@ -548,7 +548,7 @@ func TestGetCoursesCount_WithBothFilters(t *testing.T) {
 
 	faculty := "SC"
 	courseCodeRange := "2000s"
-	mock.ExpectQuery("SELECT COUNT\\(\\*\\) FROM courses\\s+WHERE faculty = \\$1 AND CAST\\(SUBSTRING\\(code FROM '\\\\d\\+'\\) AS INTEGER\\) >= \\$2 AND CAST\\(SUBSTRING\\(code FROM '\\\\d\\+'\\) AS INTEGER\\) < \\$3").
+	mock.ExpectQuery("SELECT COUNT\\(DISTINCT code\\) FROM courses\\s+WHERE faculty = \\$1 AND CAST\\(SUBSTRING\\(code FROM '\\\\d\\+'\\) AS INTEGER\\) >= \\$2 AND CAST\\(SUBSTRING\\(code FROM '\\\\d\\+'\\) AS INTEGER\\) < \\$3").
 		WithArgs("SC", "2000", "2999").
 		WillReturnRows(pgxmock.NewRows([]string{"count"}).AddRow(15))
 
@@ -565,7 +565,7 @@ func TestGetCoursesCount_WhenQueryErrors_ReturnsError(t *testing.T) {
 
 	repo := NewCourseRepository(mock)
 
-	mock.ExpectQuery("SELECT COUNT\\(\\*\\) FROM courses").
+	mock.ExpectQuery("SELECT COUNT\\(DISTINCT code\\) FROM courses").
 		WillReturnError(errors.New("db error"))
 
 	count, err := repo.GetCoursesCount(context.Background(), nil, nil)
