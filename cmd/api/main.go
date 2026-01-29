@@ -3,9 +3,11 @@ package main
 import (
 	"context"
 	"log"
+	"time"
 	"yuplan/internal/config"
 	"yuplan/internal/database"
 	"yuplan/internal/handlers"
+	"yuplan/internal/middleware"
 	"yuplan/internal/repository"
 
 	"github.com/gin-gonic/gin"
@@ -48,7 +50,16 @@ func setupRouter(pool *pgxpool.Pool) *gin.Engine {
 
 	sectionHandler := handlers.NewSectionHandler(sectionRepo)
 
+	reviewRepo := repository.NewReviewRepository(pool)
+	reviewHandler := handlers.NewReviewHandler(reviewRepo)
+
 	router := gin.Default()
+
+	// Add rate limiting to protect the server (0.5 CPU, 512MB RAM)
+	// Conservative limit: 100 requests per minute per IP
+	rateLimiter := middleware.NewRateLimiter(100, 1*time.Minute)
+	router.Use(rateLimiter.Limit())
+
 	api := router.Group("/api/v1")
 	{
 		api.GET("/courses", courseHandler.GetCourses)
@@ -57,6 +68,10 @@ func setupRouter(pool *pgxpool.Pool) *gin.Engine {
 		api.GET("/courses/:course_code", courseHandler.GetCoursesByCode)
 		api.GET("/instructors/:course_id", instructorHandler.GetInstructorsByCourseID)
 		api.GET("/sections/:course_id", sectionHandler.GetSectionsByCourseID)
+
+		// Review endpoints
+		api.GET("/courses/:course_code/reviews", reviewHandler.GetReviews)
+		api.POST("/courses/:course_code/reviews", reviewHandler.CreateReview)
 	}
 	return router
 }
