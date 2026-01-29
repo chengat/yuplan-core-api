@@ -70,6 +70,7 @@ func setupRouter(pool *pgxpool.Pool) *gin.Engine {
 		api.GET("/sections/:course_id", sectionHandler.GetSectionsByCourseID)
 
 		// Review endpoints
+		api.GET("/reviews", reviewHandler.GetAllReviews)
 		api.GET("/courses/:course_code/reviews", reviewHandler.GetReviews)
 		api.POST("/courses/:course_code/reviews", reviewHandler.CreateReview)
 	}
