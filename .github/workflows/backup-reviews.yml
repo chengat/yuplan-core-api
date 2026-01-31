@@ -2,8 +2,8 @@ name: Backup Reviews Data
 
 on:
   schedule:
-    # Runs every 30 minutes
-    - cron: '*/30 * * * *'
+    # Runs every 2 hours
+    - cron: '0 */2 * * *'
   workflow_dispatch: # Allows manual triggering
 
 permissions:
@@ -36,5 +36,5 @@ jobs:
           git config --local user.email "yuplan-backup-bot@users.noreply.github.com"
           git config --local user.name "yuplan-backup-bot"
           git add backups/reviews/reviews_backup.json
-          git commit -m "backup review table data (every 30 minutes)"
+          git commit -m "backup review table data"
           git push
