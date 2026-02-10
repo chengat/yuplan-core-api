@@ -1,28 +1,44 @@
 """Run all course timetable scrapers."""
 
 import sys
+import importlib.util
 from pathlib import Path
-from typing import Dict, Any
+from typing import Dict, Any, List, Tuple
 from datetime import datetime
 
 scrapers_dir = Path(__file__).parent
-sys.path.insert(0, str(scrapers_dir))
+fall_winter_dir = scrapers_dir / "fall-winter-2025-2026"
+sys.path.insert(0, str(fall_winter_dir))
+sys.path.insert(1, str(scrapers_dir))
 
-try:
-    import graduate_studies
-    import lassonde
-    import urban
-    import glendon
-    import schulich
-    import education
-    import school_of_arts
-    import liberal_arts
-    import health
-    import science
-except ImportError as e:
-    print(f"Error importing scrapers: {e}")
-    print("Make sure all scraper modules are available.")
-    sys.exit(1)
+def _title_from_stem(stem: str) -> str:
+    return stem.replace("_", " ").title()
+
+
+def _load_scrapers(root: Path) -> List[Tuple[str, object, str]]:
+    scrapers: List[Tuple[str, object, str]] = []
+    for path in sorted(root.glob("*.py")):
+        if path.name.startswith("_"):
+            continue
+        module_name = path.stem
+        spec = importlib.util.spec_from_file_location(module_name, path)
+        if spec is None or spec.loader is None:
+            continue
+        module = importlib.util.module_from_spec(spec)
+        try:
+            spec.loader.exec_module(module)
+        except Exception as error:
+            print(f"Error importing {module_name}: {error}")
+            continue
+        if not hasattr(module, "main"):
+            continue
+        scrapers.append((module_name, module, _title_from_stem(module_name)))
+
+    if not scrapers:
+        print(f"No scrapers found in {root}")
+        sys.exit(1)
+
+    return scrapers
 
 
 def run_scraper(name: str, scraper_module, description: str) -> Dict[str, Any]:
@@ -44,15 +60,31 @@ def run_scraper(name: str, scraper_module, description: str) -> Dict[str, Any]:
         scraper_module.main()
         result["success"] = True
         
-        scraping_dir = Path(scraper_module.__file__).resolve().parents[1]
-        scraper_name = Path(scraper_module.__file__).stem
-        data_path = scraping_dir / "data" / f"{scraper_name}.json"
-        
-        if data_path.exists():
-            import json
-            with open(data_path, 'r', encoding='utf-8') as f:
-                data = json.load(f)
-                result["courses_count"] = len(data.get('courses', []))
+        scraper_path = Path(scraper_module.__file__).resolve()
+        scraping_dir = scraper_path.parents[2]
+        scraper_name = scraper_path.stem
+        term_dir = None
+        if "fall-winter-2025-2026" in scraper_path.parts: # update for new sessions
+            term_dir = "fall-winter-2025-2026"
+
+
+        candidate_paths = []
+        if term_dir:
+            candidate_paths.append(scraping_dir / "data" / term_dir / f"{scraper_name}.json")
+        else:
+            candidate_paths.extend([ # update for new sessions
+                scraping_dir / "data" / f"{scraper_name}.json",
+                scraping_dir / "data" / "fall-winter-2025-2026" / f"{scraper_name}.json",
+                
+            ])
+
+        for data_path in candidate_paths:
+            if data_path.exists():
+                import json
+                with open(data_path, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                    result["courses_count"] = len(data.get('courses', []))
+                break
         
     except Exception as e:
         result["success"] = False
@@ -69,18 +101,7 @@ def main():
     print("="*70)
     print(f"Started at: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
     
-    scrapers = [
-        ("graduate_studies", graduate_studies, "Graduate Studies"),
-        ("lassonde", lassonde, "Lassonde School of Engineering"),
-        ("urban", urban, "Urban Studies"),
-        ("glendon", glendon, "Glendon College"),
-        ("schulich", schulich, "Schulich School of Business"),
-        ("education", education, "Education"),
-        ("school_of_arts", school_of_arts, "School of Arts"),
-        ("liberal_arts", liberal_arts, "Liberal Arts and Professional Studies"),
-        ("health", health, "Health"),
-        ("science", science, "Science"),
-    ]
+    scrapers = _load_scrapers(fall_winter_dir)
     
     results = []
     for name, module, description in scrapers:
