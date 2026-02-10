@@ -1,6 +1,7 @@
 import json
 import uuid
 from collections import defaultdict
+from pathlib import Path
 from typing import Dict, List, Tuple, Set
 from urllib.parse import quote_plus
 
@@ -391,9 +392,10 @@ if __name__ == '__main__':
     import os
     import glob
     
-    data_dir = 'scraping/data'
-    output_file = 'db/seed.sql'
-    descriptions_file = 'scraping/scrapers/descriptions/course_descriptions.json'
+    repo_root = Path(__file__).resolve().parents[1]
+    data_dir = str(repo_root / 'scraping' / 'data')
+    output_file = str(repo_root / 'db' / 'seed.sql')
+    descriptions_file = str(repo_root / 'scraping' / 'scrapers' / 'descriptions' / 'course_descriptions.json')
     
     if len(sys.argv) > 1:
         data_dir = sys.argv[1]
@@ -402,7 +404,7 @@ if __name__ == '__main__':
     if len(sys.argv) > 3:
         descriptions_file = sys.argv[3]
 
-    json_files = glob.glob(os.path.join(data_dir, '*.json'))
+    json_files = glob.glob(os.path.join(data_dir, '*', '*.json'))
 
     if not json_files:
         print(f"No JSON files found in {data_dir}")
