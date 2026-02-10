@@ -110,5 +110,112 @@ class TestFindSectionTypeIndex(unittest.TestCase):
         self.assertIsNone(index)
 
 
+class TestParseSectionRow(unittest.TestCase):
+    """Test parse_section_row function"""
+
+    def test_section_row_with_schedule_table(self):
+        header_html = """<tr>
+            <td class=\"bodytext\">Faculty</td>
+            <td class=\"bodytext\">EDUC</td>
+            <td class=\"bodytext\">FW</td>
+            <td class=\"bodytext\" colspan=\"2\">Test Course</td>
+        </tr>"""
+        course = parse_course_header(BeautifulSoup(header_html, "html.parser").find("tr"))
+
+        row_html = """<tr>
+            <td>1000 3.00 A</td>
+            <td>EN</td>
+            <td>LECT</td>
+            <td>01</td>
+            <td>E77J01</td>
+            <td>
+                <table>
+                    <tr>
+                        <td>F</td>
+                        <td>8:30</td>
+                        <td>170</td>
+                        <td>Keele</td>
+                        <td>WC 117</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>"""
+        row = BeautifulSoup(row_html, "html.parser").find("tr")
+        detail = parse_section_row(row.find_all("td", recursive=False), course)
+
+        self.assertIsNotNone(detail)
+        self.assertEqual(course["courseId"], "1000")
+        self.assertEqual(course["credits"], "3.00")
+        self.assertEqual(course["languageOfInstruction"], "EN")
+        self.assertEqual(detail["type"], "LECT")
+        self.assertEqual(detail["meetNumber"], "01")
+        self.assertEqual(detail["section"], "A")
+        self.assertEqual(detail["catalogNumber"], "E77J01")
+        self.assertEqual(detail["schedule"][0]["room"], "WC 117")
+
+    def test_section_row_with_schedule_text(self):
+        course = parse_course_header(BeautifulSoup("""<tr>
+            <td class=\"bodytext\">Faculty</td>
+            <td class=\"bodytext\">EDUC</td>
+            <td class=\"bodytext\">FW</td>
+            <td class=\"bodytext\" colspan=\"2\">Test Course</td>
+        </tr>""", "html.parser").find("tr"))
+
+        row_html = """<tr>
+            <td>1001 3.00 B</td>
+            <td>EN</td>
+            <td>LECT</td>
+            <td>02</td>
+            <td>E77J02</td>
+            <td>TBA</td>
+        </tr>"""
+        row = BeautifulSoup(row_html, "html.parser").find("tr")
+        detail = parse_section_row(row.find_all("td", recursive=False), course)
+
+        self.assertIsNotNone(detail)
+        self.assertEqual(detail["schedule"][0]["time"], "TBA")
+
+    def test_section_row_cancelled_notes(self):
+        course = parse_course_header(BeautifulSoup("""<tr>
+            <td class=\"bodytext\">Faculty</td>
+            <td class=\"bodytext\">EDUC</td>
+            <td class=\"bodytext\">FW</td>
+            <td class=\"bodytext\" colspan=\"2\">Test Course</td>
+        </tr>""", "html.parser").find("tr"))
+
+        row_html = """<tr>
+            <td>1002 3.00 C</td>
+            <td>EN</td>
+            <td>LECT</td>
+            <td>03</td>
+            <td>Cancelled</td>
+            <td></td>
+            <td>Cancelled due to weather</td>
+        </tr>"""
+        row = BeautifulSoup(row_html, "html.parser").find("tr")
+        detail = parse_section_row(row.find_all("td", recursive=False), course)
+
+        self.assertIsNotNone(detail)
+        self.assertEqual(detail["catalogNumber"].lower(), "cancelled")
+        self.assertEqual(detail["notes"], "Cancelled due to weather")
+
+    def test_section_row_without_type_returns_none(self):
+        course = parse_course_header(BeautifulSoup("""<tr>
+            <td class=\"bodytext\">Faculty</td>
+            <td class=\"bodytext\">EDUC</td>
+            <td class=\"bodytext\">FW</td>
+            <td class=\"bodytext\" colspan=\"2\">Test Course</td>
+        </tr>""", "html.parser").find("tr"))
+
+        row_html = """<tr>
+            <td>1003 3.00 D</td>
+            <td>EN</td>
+            <td>04</td>
+        </tr>"""
+        row = BeautifulSoup(row_html, "html.parser").find("tr")
+        detail = parse_section_row(row.find_all("td", recursive=False), course)
+        self.assertIsNone(detail)
+
+
 if __name__ == '__main__':
     unittest.main()

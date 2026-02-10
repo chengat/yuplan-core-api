@@ -41,6 +41,20 @@ class TestParseCourseHTML(unittest.TestCase):
         result = parse_course_timetable_html(html, extract_metadata=True)
         self.assertIn('metadata', result)
         self.assertIsInstance(result['metadata'], dict)
+
+    def test_metadata_last_updated_extracted(self):
+        """Test metadata lastUpdated extraction"""
+        html = """
+        <html>
+            <body>
+                <p class="heading">Course Timetable</p>
+                <p class="bodytext"><strong>Updated Jan 1</strong></p>
+                <table></table>
+            </body>
+        </html>
+        """
+        result = parse_course_timetable_html(html, extract_metadata=True)
+        self.assertEqual(result["metadata"]["lastUpdated"], "Updated Jan 1")
     
     def test_metadata_extraction_disabled(self):
         """Test that metadata is not extracted when disabled"""
@@ -58,10 +72,29 @@ class TestParseCourseHTML(unittest.TestCase):
                 <td class="bodytext">FW 2024</td>
                 <td class="bodytext" colspan="2">Test Course</td>
             </tr>
+            <tr>
+                <td>1000 3.00 A</td>
+                <td>EN</td>
+                <td>LECT</td>
+                <td>01</td>
+                <td>E77J01</td>
+                <td>
+                    <table>
+                        <tr>
+                            <td>F</td>
+                            <td>8:30</td>
+                            <td>170</td>
+                            <td>Keele</td>
+                            <td>WC 117</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
         </table>
         """
         result = parse_course_timetable_html(html)
         self.assertIn('courses', result)
+        self.assertEqual(len(result["courses"][0]["sections"]), 1)
 
 
 if __name__ == '__main__':
