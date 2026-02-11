@@ -1,0 +1,4774 @@
+{
+  "courses": [
+    {
+      "faculty": "SB",
+      "department": "ACTG",
+      "term": "S1",
+      "courseTitle": "Introduction To Financial Accounting I",
+      "courseId": "2010",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "18:00",
+              "duration": "110",
+              "campus": "Keele",
+              "room": "SSB E118"
+            },
+            {
+              "day": "W",
+              "time": "18:00",
+              "duration": "110",
+              "campus": "Keele",
+              "room": "SSB E118"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "01",
+          "catalogNumber": "S70U02",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "20:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "SSB E118"
+            },
+            {
+              "day": "W",
+              "time": "20:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "SSB E118"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "ACTG",
+      "term": "S2",
+      "courseTitle": "Introduction To Financial Actg II",
+      "courseId": "2011",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "18:00",
+              "duration": "110",
+              "campus": "Keele",
+              "room": "SSB E118"
+            },
+            {
+              "day": "W",
+              "time": "18:00",
+              "duration": "110",
+              "campus": "Keele",
+              "room": "SSB E118"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "01",
+          "catalogNumber": "M17G02",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "20:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "SSB E118"
+            },
+            {
+              "day": "W",
+              "time": "20:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "SSB E118"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "ACTG",
+      "term": "S2",
+      "courseTitle": "Intermediate Financial Accounting I",
+      "courseId": "3110",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "8:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB E112"
+            },
+            {
+              "day": "W",
+              "time": "8:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB E112"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "01",
+          "catalogNumber": "Q16Q02",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "13:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB E112"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "ACTG",
+      "term": "H1",
+      "courseTitle": "Financial Accounting Fundamentals",
+      "courseId": "5101",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "13:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB E118"
+            },
+            {
+              "day": "W",
+              "time": "13:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB E118"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "01",
+          "catalogNumber": "R45T02",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "17:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB E112"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "Q",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "8:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB E112"
+            },
+            {
+              "day": "W",
+              "time": "8:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB E112"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "01",
+          "catalogNumber": "K92F02",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "13:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB E112"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "ACTG",
+      "term": "S",
+      "courseTitle": "Financial Decisions for Managers",
+      "courseId": "5200",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "S",
+          "catalogNumber": "G93S01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "18:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB N107"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "ACTG",
+      "term": "E",
+      "courseTitle": "Management Accounting",
+      "courseId": "5210",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "S",
+          "catalogNumber": "D88A01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "19:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB W132"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "ACTG",
+      "term": "H2",
+      "courseTitle": "Management Accounting Fundamentals",
+      "courseId": "5211",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "13:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB N106"
+            },
+            {
+              "day": "R",
+              "time": "13:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB N106"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "01",
+          "catalogNumber": "E39Z02",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "17:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB E111"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "Q",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "8:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB N106"
+            },
+            {
+              "day": "R",
+              "time": "8:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB N106"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "01",
+          "catalogNumber": "U86W02",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "10:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB E111"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "ACTG",
+      "term": "H2",
+      "courseTitle": "Intermediate Financial Accounting I",
+      "courseId": "6120",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "13:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB E115"
+            },
+            {
+              "day": "W",
+              "time": "13:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB E115"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "01",
+          "catalogNumber": "U57H02",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "17:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB E112"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "Q",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "8:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB E112"
+            },
+            {
+              "day": "W",
+              "time": "8:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB E112"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "01",
+          "catalogNumber": "Z04Q02",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "13:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB E112"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "ACTG",
+      "term": "SA",
+      "courseTitle": "Advanced Financial Accounting",
+      "courseId": "6160",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "H51C01",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "9:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB N108"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "Q",
+          "catalogNumber": "A98Y01",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "13:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB N108"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "ACTG",
+      "term": "SA",
+      "courseTitle": "Integrative Case Analysis for Accountants",
+      "courseId": "6301",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "Z33X01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "9:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB E111"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "Q",
+          "catalogNumber": "H80R01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "13:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB E111"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "ACTG",
+      "term": "Q7",
+      "courseTitle": "Advanced Integrative Case Analysis",
+      "courseId": "6401",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "B27D01",
+          "schedule": [
+            {
+              "day": "S",
+              "time": "9:00",
+              "duration": "470",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "N",
+          "catalogNumber": "R74Y01",
+          "schedule": [
+            {
+              "day": "S",
+              "time": "9:00",
+              "duration": "470",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "Q",
+          "catalogNumber": "Y21U01",
+          "schedule": [
+            {
+              "day": "U",
+              "time": "9:00",
+              "duration": "470",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "S",
+              "time": "9:00",
+              "duration": "470",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "ACTG",
+      "term": "Q8",
+      "courseTitle": "Integrative Case Analysis: The Capstone",
+      "courseId": "6501",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "E68G01",
+          "schedule": [
+            {
+              "day": "S",
+              "time": "9:00",
+              "duration": "470",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "N",
+          "catalogNumber": "V15Z01",
+          "schedule": [
+            {
+              "day": "S",
+              "time": "9:00",
+              "duration": "470",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "Q",
+          "catalogNumber": "Z62A01",
+          "schedule": [
+            {
+              "day": "U",
+              "time": "9:00",
+              "duration": "470",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "S",
+              "time": "9:00",
+              "duration": "470",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "ACTG",
+      "term": "Q5",
+      "courseTitle": "Management Accounting: Strategy & Performance",
+      "courseId": "6601",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "X09J01",
+          "schedule": [
+            {
+              "day": "F",
+              "time": "9:00",
+              "duration": "470",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "S",
+              "time": "9:00",
+              "duration": "470",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "N",
+          "catalogNumber": "B56S01",
+          "schedule": [
+            {
+              "day": "F",
+              "time": "9:00",
+              "duration": "470",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "S",
+              "time": "9:00",
+              "duration": "470",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "Q",
+          "catalogNumber": "S03D01",
+          "schedule": [
+            {
+              "day": "U",
+              "time": "9:00",
+              "duration": "470",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "F",
+              "time": "9:00",
+              "duration": "470",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "S",
+              "time": "9:00",
+              "duration": "470",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "ACTG",
+      "term": "SA",
+      "courseTitle": "Advanced Auditing",
+      "courseId": "6610",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "Q29F01",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "9:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB N107"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "Q",
+          "catalogNumber": "J76Z01",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "13:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB N107"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "ACTG",
+      "term": "SA",
+      "courseTitle": "Strategic Performance Evaluation",
+      "courseId": "6650",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "Y50M01",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "13:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB N108"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "Q",
+          "catalogNumber": "E97V01",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "9:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB N108"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "S",
+          "catalogNumber": "V44G01",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "18:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB N108"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "ACTG",
+      "term": "SA",
+      "courseTitle": "Managerial Tax Planning",
+      "courseId": "6730",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "D23A01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "9:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB N106"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "Q",
+          "catalogNumber": "T70X01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "13:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB N106"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "ACTG",
+      "term": "Q6",
+      "courseTitle": "Strategic Leadership Planning and Case Analysis",
+      "courseId": "6801",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "Z91P01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "18:00",
+              "duration": "230",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "N",
+          "catalogNumber": "X38B01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "18:00",
+              "duration": "230",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "Q",
+          "catalogNumber": "B85K01",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "18:00",
+              "duration": "230",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "ACTG",
+      "term": "E",
+      "courseTitle": "Individual Study: Accounting",
+      "courseId": "6900",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "E90F01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "ACTG",
+      "term": "S",
+      "courseTitle": "Individual Study - Accounting",
+      "courseId": "6900",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "V37N01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "ARTM",
+      "term": "E",
+      "courseTitle": "Individual Study: Selected Problems in Arts and Cultural Management",
+      "courseId": "6900",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "Z84W01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "ECON",
+      "term": "E",
+      "courseTitle": "Individual Study: Selected Problems in Economics",
+      "courseId": "6900",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "S54R01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "ECON",
+      "term": "S",
+      "courseTitle": "Individual Study: Selected Problems in Economics",
+      "courseId": "6900",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "M01D01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "EMBA",
+      "term": "ES",
+      "courseTitle": "Competitive Strategy",
+      "courseId": "5050",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "Q58U01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "EMBA",
+      "term": "ES",
+      "courseTitle": "Marketing",
+      "courseId": "5180",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "A33Y01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "EMBA",
+      "term": "ES",
+      "courseTitle": "Financial Management",
+      "courseId": "5220",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "A11M01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "EMBA",
+      "term": "ES",
+      "courseTitle": "Operations Management",
+      "courseId": "5460",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "K05G01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "EMBA",
+      "term": "ES",
+      "courseTitle": "Building an AI Powered Organization",
+      "courseId": "6018",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "K41Z01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "EMBA",
+      "term": "ET",
+      "courseTitle": "Authentic Leadership Journey",
+      "courseId": "6085",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "J25A01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "EMBA",
+      "term": "ES",
+      "courseTitle": "Strategic Decisions in Operations",
+      "courseId": "6110",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "C94X01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "EMBA",
+      "term": "ES",
+      "courseTitle": "Marketing Analytics",
+      "courseId": "6170",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "D52P01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "EMBA",
+      "term": "ES",
+      "courseTitle": "Future Proofing Brands",
+      "courseId": "6245",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "F26N01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "EMBA",
+      "term": "ES",
+      "courseTitle": "Leveraging Collaboration for Innovation",
+      "courseId": "6265",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "Y79E01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "EMBA",
+      "term": "ES",
+      "courseTitle": "Strategic Crisis Management",
+      "courseId": "6340",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "Q80T01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "EMBA",
+      "term": "ES",
+      "courseTitle": "Negotiations",
+      "courseId": "6400",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "G86C01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "EMBA",
+      "term": "EM",
+      "courseTitle": "Responsible Business Leadership",
+      "courseId": "6455",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "A40E01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "EMBA",
+      "term": "ES",
+      "courseTitle": "Designing Brand Experiences (Blended Course)",
+      "courseId": "6540",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "Q87M01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "EMBA",
+      "term": "ES",
+      "courseTitle": "Entrepreneurial Finance",
+      "courseId": "6670",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "K34V01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "ENTR",
+      "term": "S",
+      "courseTitle": "Entrepreneurship and New Firm Creation",
+      "courseId": "6605",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "J83H01",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB W136"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "ENTR",
+      "term": "S",
+      "courseTitle": "Startup Marketing",
+      "courseId": "6610",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "S",
+          "catalogNumber": "K63N01",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "19:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB N105"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "ENTR",
+      "term": "E",
+      "courseTitle": "Individual Study: Selected Problems in Entrepreneurial Studies",
+      "courseId": "6900",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "F48M01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "ENTR",
+      "term": "S",
+      "courseTitle": "Individual Study: Selected Problems in Entrepreneurial Studies",
+      "courseId": "6900",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "V95U01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "ENTR",
+      "term": "K",
+      "courseTitle": "Intelligent Innovation Ecosystem Design",
+      "courseId": "6905",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "V73V01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "9:00",
+              "duration": "470",
+              "campus": "Off Campus",
+              "room": ""
+            },
+            {
+              "day": "T",
+              "time": "9:00",
+              "duration": "470",
+              "campus": "Off Campus",
+              "room": ""
+            },
+            {
+              "day": "W",
+              "time": "9:00",
+              "duration": "470",
+              "campus": "Off Campus",
+              "room": ""
+            },
+            {
+              "day": "R",
+              "time": "9:00",
+              "duration": "470",
+              "campus": "Off Campus",
+              "room": ""
+            },
+            {
+              "day": "F",
+              "time": "9:00",
+              "duration": "470",
+              "campus": "Off Campus",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "EXCH",
+      "term": "SU",
+      "courseTitle": "Exchange - Schulich Business Elective",
+      "courseId": "4901",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "S12N01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "EXCH",
+      "term": "SU",
+      "courseTitle": "Exchange - Schulich Business Elective",
+      "courseId": "4902",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "V24B01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "EXCH",
+      "term": "SU",
+      "courseTitle": "Exchange - Schulich Business Elective",
+      "courseId": "4904",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "Z71K01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "EXCH",
+      "term": "SU",
+      "courseTitle": "Exchange - Schulich Business Elective",
+      "courseId": "4910",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "F06X01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "EXCH",
+      "term": "SU",
+      "courseTitle": "Exchange - Schulich Business Elective",
+      "courseId": "4911",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "V53Q01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "EXCH",
+      "term": "SU",
+      "courseTitle": "Exchange - Globally Focused Elective",
+      "courseId": "4921",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "Y59W01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "EXCH",
+      "term": "SU",
+      "courseTitle": "Exchange - Globally Focused Elective",
+      "courseId": "4922",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "P00C01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "EXCH",
+      "term": "SU",
+      "courseTitle": "Exchange - Non Business Elective",
+      "courseId": "4941",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "X18T01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "EXCH",
+      "term": "SU",
+      "courseTitle": "Exchange - Non Business Elective",
+      "courseId": "4942",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "B65F01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "EXCH",
+      "term": "S",
+      "courseTitle": "Exchange - Schulich Business Elective",
+      "courseId": "6901",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "G28S01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "EXCH",
+      "term": "S",
+      "courseTitle": "Exchange - Schulich Business Elective",
+      "courseId": "6902",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "W75D01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "EXCH",
+      "term": "S",
+      "courseTitle": "Exchange - Schulich Business Elective",
+      "courseId": "6903",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "J69V01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "EXCH",
+      "term": "S",
+      "courseTitle": "Exchange - Schulich Business Elective",
+      "courseId": "6904",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "D16H01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "EXCH",
+      "term": "S",
+      "courseTitle": "Exchange - Schulich Business Elective",
+      "courseId": "6905",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "T63P01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "EXCH",
+      "term": "E",
+      "courseTitle": "Exchange - Schulich Business Elective",
+      "courseId": "6906",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "N10B01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "EXCH",
+      "term": "E",
+      "courseTitle": "Exchange - Schulich Business Elective",
+      "courseId": "6907",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "G57K01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "EXCH",
+      "term": "E",
+      "courseTitle": "Exchange - Schulich Business Elective",
+      "courseId": "6908",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "A04T01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "EXCH",
+      "term": "E",
+      "courseTitle": "Exchange - Schulich Business Elective",
+      "courseId": "6909",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "Q51E01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "EXCH",
+      "term": "E",
+      "courseTitle": "Exchange - Schulich Business Elective",
+      "courseId": "6910",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "J98N01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "EXCH",
+      "term": "E",
+      "courseTitle": "Exchange Program",
+      "courseId": "6911",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "D45W01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "EXCH",
+      "term": "E",
+      "courseTitle": "Exchange - Schulich Business Elective",
+      "courseId": "6912",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "T92H01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "EXCH",
+      "term": "E",
+      "courseTitle": "Exchange - Schulich Business Elective",
+      "courseId": "6913",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "N39Q01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "EXCH",
+      "term": "E",
+      "courseTitle": "Exchange - Schulich Business Elective",
+      "courseId": "6914",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "W53E01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "FINE",
+      "term": "S",
+      "courseTitle": "Managerial Finance",
+      "courseId": "5200",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "S",
+          "catalogNumber": "U35X01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "19:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB W136"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "FINE",
+      "term": "S",
+      "courseTitle": "Fintech: Digital Transformation of Financial Services",
+      "courseId": "6280",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "S32S01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB W136"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "FINE",
+      "term": "S",
+      "courseTitle": "Corporate Financial Analysis",
+      "courseId": "6600",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "G64D01",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB N105"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "FINE",
+      "term": "E",
+      "courseTitle": "Individual Study: Selected Problems in Finance",
+      "courseId": "6900",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "P42G01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "FINE",
+      "term": "S",
+      "courseTitle": "Individual Study: Selected Problems in Finance",
+      "courseId": "6900",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "X89P01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "FNEN",
+      "term": "S",
+      "courseTitle": "Advanced Derivative Securities",
+      "courseId": "6820",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "S",
+          "catalogNumber": "B86H01 (SB MFIN) S33P01 (SB FNEN)",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "18:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB E115"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "FNEN",
+      "term": "S",
+      "courseTitle": "Enterprise-wide Financial Risk Management",
+      "courseId": "6840",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "S",
+          "catalogNumber": "K27F01",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "19:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB S124"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "FNEN",
+      "term": "E",
+      "courseTitle": "Individual Study: Financial Engineering",
+      "courseId": "6900",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "C36B01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "GBUS",
+      "term": "SU",
+      "courseTitle": "Work Placement in the Global Context",
+      "courseId": "4100",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "FDEX",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "N04F01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "HIMP",
+      "term": "E",
+      "courseTitle": "Individual Study - Health Industry Management Program",
+      "courseId": "6900",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "D74Z01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "HIMP",
+      "term": "S",
+      "courseTitle": "Individual Study - Health Industry Management Program",
+      "courseId": "6900",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "U21W01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "MBAN",
+      "term": "S",
+      "courseTitle": "Data Science I",
+      "courseId": "6110",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "S",
+          "catalogNumber": "F84U01",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "19:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB N105"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "T",
+          "catalogNumber": "W31F01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "19:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB E115"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "MBAN",
+      "term": "S",
+      "courseTitle": "Realizing Value from AI and Analytics in Organizations",
+      "courseId": "6200",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "S",
+          "catalogNumber": "T19R01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "18:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB W133"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "MFIN",
+      "term": "S",
+      "courseTitle": "Analysis of Structured Products using Python",
+      "courseId": "5500",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "T48J01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "10:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB S236"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "MFIN",
+      "term": "S",
+      "courseTitle": "Advanced Derivative Securities",
+      "courseId": "5520",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "S",
+          "catalogNumber": "B86H01 (SB MFIN) S33P01 (SB FNEN)",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "18:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB E115"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "MFIN",
+      "term": "S",
+      "courseTitle": "Financial Risk Management",
+      "courseId": "5800",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "T99A01",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB W133"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "MFIN",
+      "term": "E",
+      "courseTitle": "Ethical Decision Making for Finance Professionals",
+      "courseId": "5900",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "S",
+          "catalogNumber": "N46J01",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "19:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB E115"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "MGMT",
+      "term": "SU",
+      "courseTitle": "Work Placement",
+      "courseId": "4850",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "FDEX",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "Y88Z01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "MGMT",
+      "term": "L2",
+      "courseTitle": "Guided Study: Management: Selected Problems in Management",
+      "courseId": "4900",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "S88W01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "10:00",
+              "duration": "380",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "T",
+              "time": "10:00",
+              "duration": "380",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "W",
+              "time": "10:00",
+              "duration": "380",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "R",
+              "time": "10:00",
+              "duration": "380",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "F",
+              "time": "10:00",
+              "duration": "380",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "MGMT",
+      "term": "S",
+      "courseTitle": "Strategy Field Study Formation",
+      "courseId": "6090",
+      "credits": "0.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "FDEX",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "Q65N01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "MGMT",
+      "term": "S",
+      "courseTitle": "Strategy Field Study",
+      "courseId": "6100",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "FDEX",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "Q94F01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "MGMT",
+      "term": "S",
+      "courseTitle": "Venture Studio: The Acceleration Mission",
+      "courseId": "6110",
+      "credits": "6.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "S90C01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "18:30",
+              "duration": "170",
+              "campus": "Off Campus",
+              "room": ""
+            },
+            {
+              "day": "R",
+              "time": "11:30",
+              "duration": "170",
+              "campus": "Off Campus",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "MGMT",
+      "term": "H1",
+      "courseTitle": "Business Administration and the Law",
+      "courseId": "6200",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "Q",
+          "catalogNumber": "D30Q01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "17:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB W257"
+            },
+            {
+              "day": "T",
+              "time": "10:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB W257"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "MGMT",
+      "term": "S",
+      "courseTitle": "Case Analysis and Presentation Skills",
+      "courseId": "6300",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "H00Y01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB N107"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "S",
+          "catalogNumber": "A47U01",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "19:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB N107"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "MGMT",
+      "term": "E",
+      "courseTitle": "International Study Tour",
+      "courseId": "6400",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "FDEX",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "T77B01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "MGMT",
+      "term": "S",
+      "courseTitle": "International Study Tour",
+      "courseId": "6400",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "FDEX",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "N24K01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "MGMT",
+      "term": "S",
+      "courseTitle": "MBA Graduate Placement - Work Focused Experiential Education",
+      "courseId": "6851",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "G42E01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "MGMT",
+      "term": "E",
+      "courseTitle": "Individual Study: Selected Problems in Management",
+      "courseId": "6900",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "F77E01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "MGMT",
+      "term": "S",
+      "courseTitle": "Individual Study: Selected Problems in Management",
+      "courseId": "6900",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "W24M01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "MHIA",
+      "term": "S4",
+      "courseTitle": "Summer Workshop: in Healthcare Systems and Public Policy",
+      "courseId": "6000",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "WKSP",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "W02N01",
+          "schedule": [
+            {
+              "day": "F",
+              "time": "9:30",
+              "duration": "410",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "S",
+              "time": "9:30",
+              "duration": "410",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "MHIA",
+      "term": "S",
+      "courseTitle": "Strategy Consulting Study in Healthcare",
+      "courseId": "6100",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "FDEX",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "P49W01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "MHIA",
+      "term": "G",
+      "courseTitle": "Performance Indicators in Healthcare",
+      "courseId": "6170",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "S",
+          "catalogNumber": "X96X01",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "18:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB W132"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "MHIA",
+      "term": "S",
+      "courseTitle": "Entrepreneurship & Innovation in Healthcare",
+      "courseId": "6180",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "S",
+          "catalogNumber": "Q07G01",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "18:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "MB G102"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "MHIA",
+      "term": "E",
+      "courseTitle": "Public Policy for Healthcare",
+      "courseId": "6200",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "S",
+          "catalogNumber": "C43R01",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "18:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB W132"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "MKTG",
+      "term": "S",
+      "courseTitle": "Marketing Management",
+      "courseId": "5200",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "S",
+          "catalogNumber": "N82R01",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "18:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB E112"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "MKTG",
+      "term": "S",
+      "courseTitle": "Field Project",
+      "courseId": "6000",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "FDEX",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "G13M01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "FDEX",
+          "meetNumber": "01",
+          "section": "S",
+          "catalogNumber": "W60U01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "19:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "MKTG",
+      "term": "S",
+      "courseTitle": "The Fundamentals of Product Management and Marketing of SaaS/Tech Products",
+      "courseId": "6120",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "C72J01",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "18:30",
+              "duration": "170",
+              "campus": "Off Campus",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "MKTG",
+      "term": "S",
+      "courseTitle": "Consumer Behaviour",
+      "courseId": "6150",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "X69V01",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "10:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB N107"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "MKTG",
+      "term": "S",
+      "courseTitle": "The Future of Marketing",
+      "courseId": "6220",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "J28Q01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB W133"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "MKTG",
+      "term": "S",
+      "courseTitle": "Strategic Professional Selling",
+      "courseId": "6570",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "S",
+          "catalogNumber": "C75C01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "19:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB N108"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "MKTG",
+      "term": "S",
+      "courseTitle": "Marketing Dynamics",
+      "courseId": "6820",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "J54P01",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB N107"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "S",
+          "catalogNumber": "D01B01",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "19:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB N107"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "MKTG",
+      "term": "E",
+      "courseTitle": "Individual Study: Selected Problems in Marketing",
+      "courseId": "6900",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "P71V01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "MKTG",
+      "term": "S",
+      "courseTitle": "Individual Study: Selected Problems in Marketing",
+      "courseId": "6900",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "J18H01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "MKTG",
+      "term": "S",
+      "courseTitle": "Graduate Placement",
+      "courseId": "6905",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "E10W01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "MKTG",
+      "term": "Z3",
+      "courseTitle": "Research Paper Formation",
+      "courseId": "7985",
+      "credits": "0.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "RESP",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "F82R01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "MMAI",
+      "term": "S",
+      "courseTitle": "Artificial Intelligence Fundamentals",
+      "courseId": "5000",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "U28P01",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB N106"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "S",
+          "catalogNumber": "N75B01",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "19:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB E111"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "MMAI",
+      "term": "S",
+      "courseTitle": "Database Fundamentals",
+      "courseId": "5100",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "S",
+          "catalogNumber": "H22K01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "19:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB N105"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "T",
+          "catalogNumber": "A69T01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "19:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB N105"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "MSTM",
+      "term": "S",
+      "courseTitle": "Business Communication & Team Dynamics",
+      "courseId": "5000",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "S",
+          "catalogNumber": "T41Q01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "18:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB N108"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "MSTM",
+      "term": "S",
+      "courseTitle": "Managerial Decision Analysis",
+      "courseId": "5060",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "S",
+          "catalogNumber": "M88C01",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "19:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB W136"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "MSTM",
+      "term": "S",
+      "courseTitle": "Managerial Accounting",
+      "courseId": "5260",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "N17R01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "10:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB W133"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "MSTM",
+      "term": "S",
+      "courseTitle": "Enterprise Consulting Project",
+      "courseId": "6000",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "FDEX",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "M66D01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "OMIS",
+      "term": "G",
+      "courseTitle": "Operations Management",
+      "courseId": "5210",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "BLEN",
+          "meetNumber": "01",
+          "section": "S",
+          "catalogNumber": "H29D01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "19:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "OMIS",
+      "term": "S",
+      "courseTitle": "Design and Management of Organizational Processes",
+      "courseId": "5212",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "BLEN",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "M37Y01",
+          "schedule": [
+            {
+              "day": "F",
+              "time": "10:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "OMIS",
+      "term": "H1",
+      "courseTitle": "IT in the Modern Enterprise: Data, Architecture, Applications, and AI",
+      "courseId": "6710",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "Q",
+          "catalogNumber": "K12W01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB W132"
+            },
+            {
+              "day": "R",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB W132"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "OMIS",
+      "term": "S",
+      "courseTitle": "Project Management",
+      "courseId": "6750",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "L",
+          "catalogNumber": "X67Q01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB N108"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "C14C01",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB W133"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "S",
+          "catalogNumber": "S61K01",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "19:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB E118"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "T",
+          "catalogNumber": "M08T01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "19:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB N106"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "OMIS",
+      "term": "E",
+      "courseTitle": "Individual Study: Operations Management and Information Systems",
+      "courseId": "6900",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "N97A01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "OMIS",
+      "term": "S",
+      "courseTitle": "Individual Study: Operations Management and Information Systems",
+      "courseId": "6900",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "Y43T01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "OMIS",
+      "term": "Z4",
+      "courseTitle": "Research Methods in Operations Management and Information Systems",
+      "courseId": "7985",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "M35X01",
+          "schedule": [
+            {
+              "day": "F",
+              "time": "9:30",
+              "duration": "180",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "ORGS",
+      "term": "S",
+      "courseTitle": "Leading People and Organizations",
+      "courseId": "5200",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "BLEN",
+          "meetNumber": "01",
+          "section": "J",
+          "catalogNumber": "W89M01",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "19:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "ORGS",
+      "term": "S",
+      "courseTitle": "Managing Change",
+      "courseId": "6350",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "S",
+          "catalogNumber": "D59X01",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "19:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB W133"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "ORGS",
+      "term": "S",
+      "courseTitle": "Negotiations",
+      "courseId": "6560",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "U06Q01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB E112"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "S",
+          "catalogNumber": "N53C01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "19:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB E112"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "ORGS",
+      "term": "E",
+      "courseTitle": "Individual Study: Selected Problems in Organization Studies",
+      "courseId": "6900",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "Q00N01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "ORGS",
+      "term": "S",
+      "courseTitle": "Individual Study: Selected Problems in Organization Studies",
+      "courseId": "6900",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "J47W01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "PROP",
+      "term": "E",
+      "courseTitle": "Leadership in Real Estate and Infrastructure III",
+      "courseId": "6003",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "G35Y01",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB W136"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "PROP",
+      "term": "S",
+      "courseTitle": "Creative Workshop",
+      "courseId": "6080",
+      "credits": "6.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "10:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB E112"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "01",
+          "catalogNumber": "D81H02",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "19:00",
+              "duration": "110",
+              "campus": "Keele",
+              "room": "SSB N106"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "PROP",
+      "term": "S",
+      "courseTitle": "Commercial Real Estate Asset and Portfolio Management",
+      "courseId": "6650",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "R16E01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "18:30",
+              "duration": "170",
+              "campus": "Off Campus",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "PROP",
+      "term": "S",
+      "courseTitle": "Case Studies in Infrastructure",
+      "courseId": "6780",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "W82T01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "18:30",
+              "duration": "170",
+              "campus": "Off Campus",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "PROP",
+      "term": "E",
+      "courseTitle": "Individual Study: Selected Problems in Real Property",
+      "courseId": "6900",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "C65Q01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "PROP",
+      "term": "S",
+      "courseTitle": "Individual Study: Selected Problems in Real Property",
+      "courseId": "6900",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "T12B01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "SGMT",
+      "term": "S",
+      "courseTitle": "Strategy",
+      "courseId": "5200",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "BLEN",
+          "meetNumber": "01",
+          "section": "J",
+          "catalogNumber": "A18F01",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "18:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "SGMT",
+      "term": "S",
+      "courseTitle": "Strategic Management",
+      "courseId": "6000",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "BLEN",
+          "meetNumber": "01",
+          "section": "S",
+          "catalogNumber": "P78Z01",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "18:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "SGMT",
+      "term": "E",
+      "courseTitle": "Individual Study: Selected Problems in Strategic Management",
+      "courseId": "6900",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "M59K01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "SGMT",
+      "term": "S",
+      "courseTitle": "Individual Study: Selected Problems in Strategic Management",
+      "courseId": "6900",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "G06T01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "SUST",
+      "term": "S",
+      "courseTitle": "Business and Sustainability",
+      "courseId": "5200",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "Q36V01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB W133"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "SUST",
+      "term": "S",
+      "courseTitle": "Individual Study SUST",
+      "courseId": "6900",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "P20H01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "SUST",
+      "term": "E",
+      "courseTitle": "Ethics and Finance",
+      "courseId": "6950",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "S",
+          "catalogNumber": "F55F01",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "19:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB S124"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    }
+  ]
+}
