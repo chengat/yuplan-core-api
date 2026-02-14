@@ -8,8 +8,10 @@ from datetime import datetime
 
 scrapers_dir = Path(__file__).parent
 fall_winter_dir = scrapers_dir / "fall-winter-2025-2026"
+summer_dir = scrapers_dir / "summer-2026"
 sys.path.insert(0, str(fall_winter_dir))
-sys.path.insert(1, str(scrapers_dir))
+sys.path.insert(1, str(summer_dir))
+sys.path.insert(2, str(scrapers_dir))
 
 def _title_from_stem(stem: str) -> str:
     return stem.replace("_", " ").title()
@@ -66,6 +68,8 @@ def run_scraper(name: str, scraper_module, description: str) -> Dict[str, Any]:
         term_dir = None
         if "fall-winter-2025-2026" in scraper_path.parts: # update for new sessions
             term_dir = "fall-winter-2025-2026"
+        elif "summer-2026" in scraper_path.parts:
+            term_dir = "summer-2026"
 
 
         candidate_paths = []
@@ -75,6 +79,7 @@ def run_scraper(name: str, scraper_module, description: str) -> Dict[str, Any]:
             candidate_paths.extend([ # update for new sessions
                 scraping_dir / "data" / f"{scraper_name}.json",
                 scraping_dir / "data" / "fall-winter-2025-2026" / f"{scraper_name}.json",
+                scraping_dir / "data" / "summer-2026" / f"{scraper_name}.json"
                 
             ])
 
@@ -102,6 +107,7 @@ def main():
     print(f"Started at: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
     
     scrapers = _load_scrapers(fall_winter_dir)
+    scrapers += _load_scrapers(summer_dir)
     
     results = []
     for name, module, description in scrapers:
