@@ -44,5 +44,5 @@ RUN chmod +x scripts/*.sh && \
 
 EXPOSE 8080
 
-# Use startup script that runs migrations, seeds, then starts the server
+# Start: migrations, then selective seed (only seed tables; reviews untouched when seed.sql changes).
 CMD ["./scripts/start.sh"]

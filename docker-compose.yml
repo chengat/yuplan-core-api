@@ -1,47 +1,52 @@
 services:
-    postgres:
-        image: postgres:15
-        container_name: yuplan_core_api_postgres
-        environment:
-            POSTGRES_DB: yuplan_core_api_db
-            POSTGRES_USER: yuplan_core_api_user
-            POSTGRES_PASSWORD: yuplan_core_api_password
-        ports:
-            - "5433:5432"
-        volumes:
-          - yuplan_core_api_data:/var/lib/postgresql/data
-        healthcheck:
-          test: ["CMD-SHELL", "pg_isready -U yuplan_core_api_user -d yuplan_core_api_db"]
-          interval: 10s
-          timeout: 5s
-          retries: 5
+  postgres:
+    image: postgres:15
+    container_name: yuplan_core_api_postgres
+    environment:
+      POSTGRES_DB: yuplan_core_api_db
+      POSTGRES_USER: yuplan_core_api_user
+      POSTGRES_PASSWORD: yuplan_core_api_password
+    ports:
+      - "5433:5432"
+    volumes:
+      - yuplan_core_api_data:/var/lib/postgresql/data
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          "pg_isready -U yuplan_core_api_user -d yuplan_core_api_db",
+        ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
 
-    migrate:
-      build: ./
-      container_name: yuplan_core_api_migrate
-      environment:
-        - DATABASE_URL=postgres://yuplan_core_api_user:yuplan_core_api_password@postgres:5432/yuplan_core_api_db?sslmode=disable
-      depends_on:
-        postgres:
-          condition: service_healthy
-      volumes:
-        - ./:/app
-      command: bash ./scripts/init-db.sh
-      restart: "no"
+  # init-db runs migrations then selective seed (only seed tables truncated; dynamic tables never touched).
+  migrate:
+    build: ./
+    container_name: yuplan_core_api_migrate
+    environment:
+      - DATABASE_URL=postgres://yuplan_core_api_user:yuplan_core_api_password@postgres:5432/yuplan_core_api_db?sslmode=disable
+    depends_on:
+      postgres:
+        condition: service_healthy
+    volumes:
+      - ./:/app
+    command: bash ./scripts/init-db.sh
+    restart: "no"
 
-    core_api:
-      build: ./
-      container_name: yuplan_core_api
-      ports: 
-        - "8080:8080"
-      environment:
-        - DATABASE_URL=postgres://yuplan_core_api_user:yuplan_core_api_password@postgres:5432/yuplan_core_api_db?sslmode=disable
-      depends_on:
-        postgres:
-          condition: service_healthy
-        migrate:
-          condition: service_completed_successfully
-      # Note: No volume mount needed - using the built binary from the image
+  core_api:
+    build: ./
+    container_name: yuplan_core_api
+    ports:
+      - "8080:8080"
+    environment:
+      - DATABASE_URL=postgres://yuplan_core_api_user:yuplan_core_api_password@postgres:5432/yuplan_core_api_db?sslmode=disable
+    depends_on:
+      postgres:
+        condition: service_healthy
+      migrate:
+        condition: service_completed_successfully
+    # Note: No volume mount needed - using the built binary from the image
 
 volumes:
   yuplan_core_api_data:

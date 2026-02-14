@@ -1,3 +1,5 @@
+# Startup runs migrations then selective seed (only courses/sections/etc; reviews never truncated).
+# seed.sh re-seeds only when db/seed.sql checksum changes.
 services:
   - type: web
     name: core-api
