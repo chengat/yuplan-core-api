@@ -2970,7 +2970,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Zulfikar A. Hirji"
+          ],
           "notes": ""
         }
       ]
@@ -3188,7 +3190,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Carmela Shehadi Mishaiel"
+          ],
           "notes": "In order to enrol, please complete the online Arabic questionnaire ."
         }
       ]
@@ -3223,7 +3227,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Carmela Shehadi Mishaiel"
+          ],
           "notes": "In order to enrol, please complete the online Arabic questionnaire"
         }
       ]
@@ -3258,7 +3264,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Tammer El-Sheikh"
+          ],
           "notes": ""
         }
       ]
@@ -3307,7 +3315,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "John Limnidis"
+          ],
           "notes": ""
         }
       ]
@@ -3356,7 +3366,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "John Limnidis"
+          ],
           "notes": ""
         }
       ]
@@ -3419,7 +3431,9 @@
               "room": "LAS C"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Terrance J Kubiseski"
+          ],
           "notes": ""
         }
       ]
@@ -3454,7 +3468,9 @@
               "room": "LAS C"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mordechay Anafi"
+          ],
           "notes": ""
         }
       ]
@@ -3489,7 +3505,9 @@
               "room": "LAS B"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Peter Cheung"
+          ],
           "notes": ""
         }
       ]
@@ -4016,7 +4034,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Patricia Lakin-Thomas"
+          ],
           "notes": ""
         }
       ]
@@ -4051,7 +4071,9 @@
               "room": "LAS C"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Terrance J Kubiseski"
+          ],
           "notes": ""
         }
       ]
@@ -4086,7 +4108,9 @@
               "room": "LAS C"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mordechay Anafi"
+          ],
           "notes": ""
         }
       ]
@@ -4400,7 +4424,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Patricia Lakin-Thomas"
+          ],
           "notes": ""
         }
       ]
@@ -4428,7 +4454,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Laura McKinnon"
+          ],
           "notes": "This course is offered in a field study format demanding long field days covering many kilometers on foot. Attend an information session and permission from the instructor."
         },
         {
@@ -4479,7 +4507,9 @@
               "room": "LAS B"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Peter Cheung"
+          ],
           "notes": ""
         }
       ]
@@ -4753,7 +4783,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Alexander Mills"
+          ],
           "notes": ""
         }
       ]
@@ -4865,7 +4897,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Alexander Mills"
+          ],
           "notes": ""
         }
       ]
@@ -4900,7 +4934,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Dawn R A Bazely"
+          ],
           "notes": ""
         },
         {
@@ -5107,7 +5143,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Alexander Mills"
+          ],
           "notes": ""
         }
       ]
@@ -5198,7 +5236,9 @@
               "room": "LUM 106"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Dawn R A Bazely"
+          ],
           "notes": ""
         },
         {
@@ -5496,7 +5536,9 @@
               "room": "SC 211"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Dawn R A Bazely"
+          ],
           "notes": ""
         },
         {
@@ -5654,7 +5696,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Robert G Tsushima"
+          ],
           "notes": ""
         }
       ]
@@ -5689,7 +5733,9 @@
               "room": "CB 115"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Michael Cardinal-Aucoin"
+          ],
           "notes": ""
         }
       ]
@@ -5724,7 +5770,9 @@
               "room": "R S205"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Spencer Mukai"
+          ],
           "notes": ""
         }
       ]
@@ -5752,7 +5800,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Patricia Lakin-Thomas"
+          ],
           "notes": ""
         }
       ]
@@ -5842,6 +5892,34 @@
       ]
     },
     {
+      "faculty": "GL",
+      "department": "BUEC",
+      "term": "SU",
+      "courseTitle": "Professional work placement",
+      "courseId": "4500",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "G70M01",
+          "schedule": [
+            {
+              "day": "F",
+              "time": "13:00",
+              "duration": "170",
+              "campus": "Glendon",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
       "faculty": "AP",
       "department": "CCY",
       "term": "S2",
@@ -5861,17 +5939,19 @@
               "time": "8:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "DB 0015"
+              "room": "ACE 207"
             },
             {
               "day": "W",
               "time": "8:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "DB 0015"
+              "room": "ACE 207"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Abigail Shabtay"
+          ],
           "notes": "Students in this course will be required to attend a special event during the weekend of July 18 & 19."
         }
       ]
@@ -5906,7 +5986,9 @@
               "room": "DB 0015"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Kael KC Reid"
+          ],
           "notes": ""
         }
       ]
@@ -5941,7 +6023,9 @@
               "room": "R S203"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Richardine Woodall"
+          ],
           "notes": ""
         }
       ]
@@ -5966,17 +6050,19 @@
               "time": "11:30",
               "duration": "350",
               "campus": "Keele",
-              "room": "R S128"
+              "room": "ACE 207"
             },
             {
               "day": "W",
               "time": "11:30",
               "duration": "350",
               "campus": "Keele",
-              "room": "R S128"
+              "room": "ACE 207"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Abigail Shabtay"
+          ],
           "notes": "Students in this course will be required to attend a special event during the weekend of July 18 & 19."
         }
       ]
@@ -6011,7 +6097,9 @@
               "room": "R S125"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Christine Verrall"
+          ],
           "notes": "All spaces reserved for CCY Year 3/4 majors & minors only."
         }
       ]
@@ -6039,7 +6127,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Stephen Gennaro"
+          ],
           "notes": "All spaces reserved for CCY Year 3/4 majors & minors only."
         }
       ]
@@ -6109,7 +6199,9 @@
               "room": "VC 102"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Gurbir Jolly"
+          ],
           "notes": "All spaces reserved for CCY Year 3/4 majors & minors only."
         }
       ]
@@ -6144,7 +6236,9 @@
               "room": "R S128"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Sara R Horowitz"
+          ],
           "notes": "This course will be taught synchronously with the listed days and times."
         }
       ]
@@ -6242,7 +6336,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Xiao Ning Shi"
+          ],
           "notes": "In order to enrol, please complete the online Chinese questionnaire ."
         }
       ]
@@ -6277,7 +6373,9 @@
               "room": "ACW 109"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Kyle Belozerov"
+          ],
           "notes": ""
         },
         {
@@ -6552,7 +6650,9 @@
               "room": "ACW 109"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Kyle Belozerov"
+          ],
           "notes": ""
         },
         {
@@ -6827,7 +6927,9 @@
               "room": "ACW 206"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Raji Iyer"
+          ],
           "notes": ""
         },
         {
@@ -6956,7 +7058,7 @@
             }
           ],
           "instructors": [],
-          "notes": "(Backup)"
+          "notes": ""
         },
         {
           "type": "LAB",
@@ -6972,7 +7074,7 @@
             }
           ],
           "instructors": [],
-          "notes": "(Backup)"
+          "notes": ""
         },
         {
           "type": "LAB",
@@ -7029,7 +7131,9 @@
               "room": "CLH I"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Raji Iyer"
+          ],
           "notes": ""
         },
         {
@@ -7689,7 +7793,9 @@
               "room": "BRG 211"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "JItendrapal Sharma"
+          ],
           "notes": ""
         },
         {
@@ -7740,7 +7846,9 @@
               "room": "BRG 213"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Pulin Mondal"
+          ],
           "notes": ""
         },
         {
@@ -8013,7 +8121,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Andreas G. Kitzmann"
+          ],
           "notes": "This course will be taught asynchronously."
         }
       ]
@@ -8057,7 +8167,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Gillian Helfield"
+          ],
           "notes": ""
         },
         {
@@ -8703,7 +8815,9 @@
               "room": "VH D"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Nicholas Taylor"
+          ],
           "notes": ""
         },
         {
@@ -8991,7 +9105,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Audrey Pyee"
+          ],
           "notes": ""
         }
       ]
@@ -9075,7 +9191,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Alejandro Zamora"
+          ],
           "notes": "This course is part of the Summer Abroad Program at Yorks Eco-campus in Costa Rica. It is entirely taught abroad. For more information: https://lasnubes.euc.yorku.ca/education/programs/ ."
         }
       ]
@@ -9103,7 +9221,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Audrey Pyee"
+          ],
           "notes": ""
         }
       ]
@@ -9131,7 +9251,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Audrey Pyee"
+          ],
           "notes": ""
         }
       ]
@@ -9411,7 +9533,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Brandon Takayuki Hillier"
+          ],
           "notes": "This course is available exclusively to students in EUC; enrolment is subject to the Career Centre approval. Contact askcoop@yorku.ca ."
         }
       ]
@@ -9537,7 +9661,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Willem Maas"
+          ],
           "notes": "The summer 2026 course is full. Please monitor https://www.yorku.ca/international/global-learning/faculty-led-study-abroad-courses/pols4400/ for details about how to register for the summer 2027 version, or reach out to yuabroad@yorku.ca ."
         }
       ]
@@ -9931,7 +10057,9 @@
               "room": "MK 5035"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Hector Centeno Garcia"
+          ],
           "notes": ""
         }
       ]
@@ -10169,7 +10297,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Atanas Bozdarov"
+          ],
           "notes": ""
         }
       ]
@@ -10204,7 +10334,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "May Haidar"
+          ],
           "notes": "This course is for Digital Technologies majors only. The date, time, and room may not be fully listed here. Details will be emailed by the department after mid February 2026. For questions, email digitech@yorku.ca ."
         },
         {
@@ -10283,7 +10415,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Navid Mohaghegh"
+          ],
           "notes": "This course is for Digital Technologies majors only. The date, time, and room may not be fully listed here. Details will be emailed by the department after mid February 2026. For questions, email digitech@yorku.ca ."
         },
         {
@@ -10348,7 +10482,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jonatan Schroeder"
+          ],
           "notes": "This course is for Digital Technologies majors only. The date, time, and room may not be fully listed here. Details will be emailed by the department after mid February 2026. For questions, email digitech@yorku.ca ."
         },
         {
@@ -10471,7 +10607,9 @@
               "room": "YH A004"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Marc Audette"
+          ],
           "notes": "Ce cours se déroule en présentiel. Un appareil photo est recommandé."
         }
       ]
@@ -10499,7 +10637,9 @@
               "room": "YH A201"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Audrey Pyee"
+          ],
           "notes": ""
         }
       ]
@@ -11081,7 +11221,9 @@
               "room": "CLH B"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Ying Kong"
+          ],
           "notes": ""
         }
       ]
@@ -11116,7 +11258,9 @@
               "room": "DB 0014"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Ida Ferrara"
+          ],
           "notes": ""
         },
         {
@@ -11175,7 +11319,9 @@
               "room": "DB 0006"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mahmudul Anam"
+          ],
           "notes": ""
         },
         {
@@ -11234,7 +11380,9 @@
               "room": "DB 0006"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Henry Tam"
+          ],
           "notes": ""
         },
         {
@@ -11352,7 +11500,9 @@
               "room": "DB 0010"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Xianghong Li"
+          ],
           "notes": ""
         },
         {
@@ -11508,7 +11658,9 @@
               "room": "DB 0010"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mahmudul Anam"
+          ],
           "notes": ""
         }
       ]
@@ -11578,7 +11730,9 @@
               "room": "DB 0010"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Xianghong Li"
+          ],
           "notes": ""
         }
       ]
@@ -11613,7 +11767,9 @@
               "room": "DB 0014"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Ardeshir Noordeh"
+          ],
           "notes": ""
         }
       ]
@@ -11648,7 +11804,9 @@
               "room": "DB 0010"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "George J. Georgopoulos"
+          ],
           "notes": ""
         },
         {
@@ -11707,7 +11865,9 @@
               "room": "DB 0014"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jeleta Kebede"
+          ],
           "notes": ""
         },
         {
@@ -11766,7 +11926,9 @@
               "room": "CLH B"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Ying Kong"
+          ],
           "notes": ""
         }
       ]
@@ -11836,7 +11998,9 @@
               "room": "VH 3006"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Chaoran Chen"
+          ],
           "notes": ""
         }
       ]
@@ -11962,7 +12126,9 @@
               "room": "R N120"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Ida Ferrara"
+          ],
           "notes": ""
         }
       ]
@@ -12095,7 +12261,9 @@
               "room": "VH 3006"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "George J. Georgopoulos"
+          ],
           "notes": ""
         }
       ]
@@ -12130,7 +12298,9 @@
               "room": "CLH 110"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jinyue Li"
+          ],
           "notes": ""
         }
       ]
@@ -12165,7 +12335,9 @@
               "room": "R S203"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Yishu Zeng"
+          ],
           "notes": ""
         }
       ]
@@ -12263,7 +12435,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "John Hupfield"
+          ],
           "notes": "Reserved for the Waaban cohort."
         }
       ]
@@ -12291,7 +12465,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "John Hupfield"
+          ],
           "notes": "Reserved for the Waaban cohort."
         }
       ]
@@ -12319,7 +12495,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Lorin Schwarz"
+          ],
           "notes": "Reserved for the TMU BEd cohort. Course will be offered at Toronto Metropolitan University (TMU)."
         }
       ]
@@ -12347,7 +12525,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Joy Mannette"
+          ],
           "notes": "Reserved for the TMU BEd cohort. Course will be offered at Toronto Metropolitan University (TMU)."
         }
       ]
@@ -12410,7 +12590,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Rebecca Beaulne-Stuebing"
+          ],
           "notes": "Reserved for the Waaban cohort."
         }
       ]
@@ -12480,7 +12662,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Rachelle Campigotto"
+          ],
           "notes": "Reserved for the TMU BEd cohort. Course will be offered at Toronto Metropolitan University (TMU)."
         }
       ]
@@ -12508,7 +12692,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Zuhra Abawi"
+          ],
           "notes": "Reserved for the Waaban cohort."
         }
       ]
@@ -12553,7 +12739,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Zuhra Abawi"
+          ],
           "notes": "Reserved for the Waaban cohort."
         }
       ]
@@ -12672,7 +12860,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Roopa Trilokekar"
+          ],
           "notes": "Course open to students from across the university."
         }
       ]
@@ -12700,7 +12890,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Steven John Alsop"
+          ],
           "notes": "This course will be offered at Las Nubes. Permission Only."
         }
       ]
@@ -12763,7 +12955,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Rebecca Beaulne-Stuebing"
+          ],
           "notes": "Reserved for the Waaban cohort."
         }
       ]
@@ -12798,7 +12992,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Parinaz Nikfarjam"
+          ],
           "notes": ""
         }
       ]
@@ -12833,7 +13029,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Parinaz Nikfarjam"
+          ],
           "notes": ""
         },
         {
@@ -12892,7 +13090,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Nombuso Dlamini"
+          ],
           "notes": ""
         },
         {
@@ -12979,7 +13179,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Steven John Alsop"
+          ],
           "notes": "This course will be offered at Las Nubes. Permission Only."
         }
       ]
@@ -13038,7 +13240,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Rachelle Campigotto"
+          ],
           "notes": ""
         }
       ]
@@ -13164,7 +13368,9 @@
               "room": "DB 0016"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Navid Mohaghegh"
+          ],
           "notes": ""
         },
         {
@@ -13240,7 +13446,9 @@
               "room": "CLH E"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Sima Soltanpour"
+          ],
           "notes": ""
         },
         {
@@ -13375,7 +13583,9 @@
               "room": "LAS B"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Navid Mohaghegh"
+          ],
           "notes": ""
         },
         {
@@ -13467,7 +13677,9 @@
               "room": "LAS A"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Sukhwant Kaur Sagar"
+          ],
           "notes": ""
         },
         {
@@ -13642,7 +13854,9 @@
               "room": "CLH G"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Hui Wang"
+          ],
           "notes": ""
         },
         {
@@ -13666,7 +13880,9 @@
               "room": "LAS B"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Hui Wang"
+          ],
           "notes": ""
         }
       ]
@@ -13701,7 +13917,9 @@
               "room": "CLH D"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Hui Wang"
+          ],
           "notes": ""
         },
         {
@@ -13835,7 +14053,9 @@
               "room": "LAS C"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jackie Wang"
+          ],
           "notes": ""
         },
         {
@@ -13911,7 +14131,9 @@
               "room": "CLH D"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Sukhwant Kaur Sagar"
+          ],
           "notes": ""
         },
         {
@@ -13978,7 +14200,9 @@
               "room": "CLH D"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Sunila Akbar"
+          ],
           "notes": ""
         },
         {
@@ -14045,7 +14269,9 @@
               "room": "LAS B"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jackie Wang"
+          ],
           "notes": ""
         }
       ]
@@ -14080,7 +14306,9 @@
               "room": "LSB 103"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Houshang Karimi"
+          ],
           "notes": ""
         },
         {
@@ -14179,7 +14407,9 @@
               "room": "CB 121"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jackie Wang"
+          ],
           "notes": ""
         },
         {
@@ -14286,7 +14516,9 @@
               "room": "CLH A"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Gias Uddin"
+          ],
           "notes": ""
         },
         {
@@ -14353,7 +14585,9 @@
               "room": "R S137"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Navid Mohaghegh"
+          ],
           "notes": ""
         }
       ]
@@ -14458,7 +14692,9 @@
               "room": "R S137"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Natalija Vlajic"
+          ],
           "notes": ""
         },
         {
@@ -14630,7 +14866,9 @@
               "room": "R S201"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Gias Uddin"
+          ],
           "notes": ""
         }
       ]
@@ -14665,7 +14903,9 @@
               "room": "R S205"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jarek Gryz"
+          ],
           "notes": ""
         }
       ]
@@ -14693,7 +14933,9 @@
               "room": "ACW 307"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Alvine Boaye Belle"
+          ],
           "notes": ""
         },
         {
@@ -14760,7 +15002,9 @@
               "room": "HNE B15"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Manos Papagelis"
+          ],
           "notes": ""
         }
       ]
@@ -14795,7 +15039,9 @@
               "room": "ACW 307"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mehrdad Najafpour Ghazvini Fardshad"
+          ],
           "notes": ""
         },
         {
@@ -15065,7 +15311,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jon J Sufrin"
+          ],
           "notes": ""
         },
         {
@@ -15279,176 +15527,88 @@
           "type": "TUTR",
           "meetNumber": "01",
           "section": "B",
-          "catalogNumber": "Q45R02 (AP WRIT) P36T02 (AP HUMA) C30Z02 (AP EN )",
-          "schedule": [
-            {
-              "day": "",
-              "time": "0:00",
-              "duration": "0",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
         {
           "type": "ONLN",
           "meetNumber": "01",
-          "catalogNumber": "",
-          "schedule": [
-            {
-              "day": "",
-              "time": "0:00",
-              "duration": "0",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "catalogNumber": "Q45R03 (AP WRIT) P36T03 (AP HUMA) C30Z03 (AP EN )",
-          "schedule": [
-            {
-              "day": "",
-              "time": "0:00",
-              "duration": "0",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "catalogNumber": "Q45R04 (AP WRIT) P36T04 (AP HUMA) C30Z04 (AP EN )",
-          "schedule": [
-            {
-              "day": "",
-              "time": "0:00",
-              "duration": "0",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
         {
           "type": "TUTR",
           "meetNumber": "04",
-          "catalogNumber": "Q45R05 (AP WRIT) P36T05 (AP HUMA) C30Z05 (AP EN )",
-          "schedule": [
-            {
-              "day": "",
-              "time": "0:00",
-              "duration": "0",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
         {
           "type": "TUTR",
           "meetNumber": "05",
-          "catalogNumber": "Q45R06 (AP WRIT) P36T06 (AP HUMA) C30Z06 (AP EN )",
-          "schedule": [
-            {
-              "day": "",
-              "time": "0:00",
-              "duration": "0",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
         {
           "type": "TUTR",
           "meetNumber": "06",
-          "catalogNumber": "Q45R07 (AP WRIT) P36T07 (AP HUMA) C30Z07 (AP EN )",
-          "schedule": [
-            {
-              "day": "",
-              "time": "0:00",
-              "duration": "0",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
         {
           "type": "TUTR",
           "meetNumber": "07",
-          "catalogNumber": "Q45R08 (AP WRIT) P36T08 (AP HUMA) C30Z08 (AP EN )",
-          "schedule": [
-            {
-              "day": "",
-              "time": "0:00",
-              "duration": "0",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
         {
           "type": "TUTR",
           "meetNumber": "08",
-          "catalogNumber": "Q45R09 (AP WRIT) P36T09 (AP HUMA) C30Z09 (AP EN )",
-          "schedule": [
-            {
-              "day": "",
-              "time": "0:00",
-              "duration": "0",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
         {
           "type": "TUTR",
           "meetNumber": "09",
-          "catalogNumber": "Q45R10 (AP WRIT) P36T10 (AP HUMA) C30Z10 (AP EN )",
-          "schedule": [
-            {
-              "day": "",
-              "time": "0:00",
-              "duration": "0",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "(Backup)"
         },
         {
           "type": "TUTR",
           "meetNumber": "10",
-          "catalogNumber": "Q45R11 (AP WRIT) P36T11 (AP HUMA) C30Z11 (AP EN )",
-          "schedule": [
-            {
-              "day": "",
-              "time": "0:00",
-              "duration": "0",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "(Backup)"
         }
@@ -15477,7 +15637,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Terry Goldie"
+          ],
           "notes": "This is an online and asynchronous course. There are no specified meeting times. Additional information will be provided by your course instructor."
         }
       ]
@@ -15512,7 +15674,9 @@
               "room": "R S507"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Deanne Williams"
+          ],
           "notes": "This course will be held in person at the assigned location. This is an experiential learning course, and students are expected to attend a live performance at the Shaw Festival Theatre on July 14, 2026."
         }
       ]
@@ -15530,25 +15694,126 @@
           "type": "SEMR",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "H11B01",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
+          "notes": "This course will be held in person at the assigned location."
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "B",
+          "catalogNumber": "",
           "schedule": [
             {
               "day": "M",
               "time": "14:30",
-              "duration": "170",
+              "duration": "110",
               "campus": "Keele",
-              "room": "R S105"
+              "room": "ACW 005"
             },
             {
               "day": "W",
               "time": "14:30",
-              "duration": "170",
+              "duration": "110",
               "campus": "Keele",
-              "room": "R S105"
+              "room": "ACW 005"
             }
           ],
           "instructors": [],
-          "notes": "This course will be held in person at the assigned location."
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "01",
+          "catalogNumber": "B63B02",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "17:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "BC 214"
+            },
+            {
+              "day": "W",
+              "time": "17:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "BC 214"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "02",
+          "catalogNumber": "B63B03",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "17:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "FC 109"
+            },
+            {
+              "day": "W",
+              "time": "17:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "FC 109"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "03",
+          "catalogNumber": "B63B04",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "18:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "MC 101"
+            },
+            {
+              "day": "W",
+              "time": "18:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "MC 101"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "04",
+          "catalogNumber": "B63B05",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "17:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "MC 101"
+            },
+            {
+              "day": "W",
+              "time": "17:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "MC 101"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
         }
       ]
     },
@@ -15788,7 +16053,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Marcia S. Blumberg"
+          ],
           "notes": "This course will be delivered remotely with synchronous class sessions: the meetings are scheduled on the Day(s) and Start Time(s) listed here."
         }
       ]
@@ -15806,23 +16073,8 @@
           "type": "SEMR",
           "meetNumber": "01",
           "section": "M",
-          "catalogNumber": "U17G01",
-          "schedule": [
-            {
-              "day": "M",
-              "time": "16:00",
-              "duration": "170",
-              "campus": "Keele",
-              "room": "VH 1005"
-            },
-            {
-              "day": "W",
-              "time": "16:00",
-              "duration": "170",
-              "campus": "Keele",
-              "room": "VH 1005"
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "This course will be held in person at the assigned location."
         }
@@ -16433,7 +16685,9 @@
               "room": "LAS A"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Sunil B Bisnath"
+          ],
           "notes": ""
         }
       ]
@@ -16517,7 +16771,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Patricia Lakin-Thomas"
+          ],
           "notes": ""
         }
       ]
@@ -16545,7 +16801,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Patricia Lakin-Thomas"
+          ],
           "notes": ""
         }
       ]
@@ -16685,7 +16943,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Alexander Mills"
+          ],
           "notes": ""
         }
       ]
@@ -16797,7 +17057,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Alexander Mills"
+          ],
           "notes": ""
         }
       ]
@@ -16832,7 +17094,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Dawn R A Bazely"
+          ],
           "notes": ""
         },
         {
@@ -17039,7 +17303,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Alexander Mills"
+          ],
           "notes": ""
         }
       ]
@@ -17130,7 +17396,9 @@
               "room": "LUM 106"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Dawn R A Bazely"
+          ],
           "notes": ""
         },
         {
@@ -17428,7 +17696,9 @@
               "room": "SC 211"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Dawn R A Bazely"
+          ],
           "notes": ""
         },
         {
@@ -17551,7 +17821,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Robert G Tsushima"
+          ],
           "notes": ""
         }
       ]
@@ -17579,7 +17851,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Patricia Lakin-Thomas"
+          ],
           "notes": ""
         }
       ]
@@ -17896,7 +18170,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Alice J. Hovorka"
+          ],
           "notes": "This course is available exclusively to students in EUC; enrolment is subject to department approval. Contact: euc_ee@yorku.ca ."
         }
       ]
@@ -17924,7 +18200,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Alice J. Hovorka"
+          ],
           "notes": "This course is available exclusively to students in EUC; enrolment is subject to department approval. Contact: euc_ee@yorku.ca ."
         }
       ]
@@ -17952,7 +18230,9 @@
               "room": "HNE 141"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Gail Fraser"
+          ],
           "notes": "The course is offer as a field/workshop style. There are at least two days where the class will be meeting off campus in the Toronto area and students will be expected to make their own way to these protected area locations. For many sessions you will be outdoors, and a significant amount of walking may be needed. It is expected that students in this course will have some knowledge of introductory ecology."
         }
       ]
@@ -17980,7 +18260,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Phillip J. Montoya"
+          ],
           "notes": "This course is part of the Las Nubes Semester Abroad in Costa Rica; students are admitted through a selection process; additional fees are required to cover the trip to Costa Rica; final costs, dates, registration information and other essential information can be found at https://lasnubes.euc.yorku.ca/education/programs/ ."
         }
       ]
@@ -18008,7 +18290,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Martha Stiegman"
+          ],
           "notes": "This course is part of the Las Nubes Semester Abroad in Costa Rica; students are admitted through a selection process; additional fees are required to cover the trip to Costa Rica; final costs, dates, registration information and other essential information can be found at https://lasnubes.euc.yorku.ca/education/programs/ ."
         }
       ]
@@ -18158,7 +18442,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Olga Makinina"
+          ],
           "notes": "If you do not have the prerequisite for this, please complete the online ESL Application ."
         }
       ]
@@ -18193,7 +18479,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Heejin Song"
+          ],
           "notes": "If you do not have the prerequisite for this, please complete the online ESL Application ."
         }
       ]
@@ -18263,7 +18551,9 @@
               "room": "LAS B"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "James A Whiteway"
+          ],
           "notes": ""
         },
         {
@@ -18276,7 +18566,7 @@
               "time": "14:30",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "PSE 020A"
             }
           ],
           "instructors": [],
@@ -18292,7 +18582,7 @@
               "time": "14:30",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "PSE 020A"
             }
           ],
           "instructors": [],
@@ -18324,7 +18614,7 @@
               "time": "10:00",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "PSE 020A"
             }
           ],
           "instructors": [],
@@ -18340,7 +18630,7 @@
               "time": "10:00",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "PSE 020A"
             }
           ],
           "instructors": [],
@@ -18485,7 +18775,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Janusz Przychodzen"
+          ],
           "notes": "This course will be taught online throughout the S2 term with synchronous class sessions on the day(s) and at the time listed here. Please note that if you have not completed the prerequisite course or have never taken a course with the Department of French Studies you must first complete a French placement test before enrolling into this course."
         }
       ]
@@ -18590,7 +18882,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Lukas Arnason"
+          ],
           "notes": "This course will be taught online throughout the S2 term with synchronous class sessions on the day(s) and at the time listed here. Please note that if you have not completed the prerequisite course or have never taken a course with the Department of French Studies you must first complete a French placement test before enrolling into this course."
         }
       ]
@@ -18660,7 +18954,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Janusz Przychodzen"
+          ],
           "notes": "This course will be taught online throughout the S1 term with synchronous class sessions on the day(s) and at the time listed here. Enrollment is open to students who have the mandatory minimum grade of C in the pre-requisite course."
         }
       ]
@@ -18730,7 +19026,9 @@
               "room": "YH 245"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Muriel Péguret"
+          ],
           "notes": "Les étudiants doivent avoir des compétences en lecture et en compréhension orale (au moins niveau A2 au CECRL ou 4/5 au NCLC) en français pour pouvoir s'inscrire dans le cours. Students must have reading and listening comprehension skills (at least A2 level on the CEFR or 4/5 on the NCLC) in french in order to enroll in the course."
         }
       ]
@@ -18828,7 +19126,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Aurelie Takam"
+          ],
           "notes": "Ce cours sera offert à distance/en ligne avec des sessions synchrones asynchrones. Le(s) jour(s) et l'heure du début du cours sont listés ici. This course will be delivered remotely/on line with synchronous class sessions: the delivery will be on the Day(s) and Start Time listed here."
         }
       ]
@@ -18888,14 +19188,14 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A204"
             },
             {
               "day": "W",
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A204"
             }
           ],
           "instructors": [],
@@ -18926,7 +19226,9 @@
               "room": "YH A201"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Audrey Pyee"
+          ],
           "notes": ""
         }
       ]
@@ -19164,7 +19466,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Alice J. Hovorka"
+          ],
           "notes": "This course is available exclusively to students in EUC; enrolment is subject to department approval. Contact: euc_ee@yorku.ca ."
         }
       ]
@@ -19192,7 +19496,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Alice J. Hovorka"
+          ],
           "notes": "This course is available exclusively to students in EUC; enrolment is subject to department approval. Contact: euc_ee@yorku.ca ."
         }
       ]
@@ -19220,7 +19526,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Carlota McAllister"
+          ],
           "notes": "This course is part of the Las Nubes Semester Abroad in Costa Rica; students are admitted through a selection process; additional fees are required to cover the trip to Costa Rica; final costs, dates, registration information and other essential information can be found at https://lasnubes.euc.yorku.ca/education/programs/ ."
         }
       ]
@@ -19552,7 +19860,9 @@
               "room": "CLH 110"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Monica Malta"
+          ],
           "notes": ""
         }
       ]
@@ -19587,7 +19897,9 @@
               "room": "VH 3006"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Sherry L Grace"
+          ],
           "notes": ""
         }
       ]
@@ -19657,7 +19969,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Amanda De Lisio"
+          ],
           "notes": ""
         }
       ]
@@ -19727,7 +20041,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Monica Malta"
+          ],
           "notes": ""
         }
       ]
@@ -19797,7 +20113,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Godfred Boateng"
+          ],
           "notes": ""
         }
       ]
@@ -19867,7 +20185,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Brad Meisner"
+          ],
           "notes": ""
         }
       ]
@@ -19961,6 +20281,76 @@
           ],
           "instructors": [],
           "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "AP",
+      "department": "GLBL",
+      "term": "S2",
+      "courseTitle": "The Political Economy of Newly-Industrialized Countries",
+      "courseId": "3411",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ONLN",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "N82H01 (AP POLS) H29Q01 (AP GLBL)",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "10:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "R",
+              "time": "10:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "This course will be delivered in ONLN format. Lectures will be online synchronous on Tues. & Thurs. at 10:30 a.m."
+        }
+      ]
+    },
+    {
+      "faculty": "AP",
+      "department": "GLBL",
+      "term": "S1",
+      "courseTitle": "Political Economy of Asia and Pacific",
+      "courseId": "3591",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "U35V01 (AP POLS) D88N01 (AP GLBL)",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "10:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "HNE 032"
+            },
+            {
+              "day": "W",
+              "time": "10:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "HNE 032"
+            }
+          ],
+          "instructors": [],
+          "notes": "This course will meet in person in the location assigned as per the Day(s) and Start Time listed here."
         }
       ]
     },
@@ -20155,7 +20545,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Julie Dowsett"
+          ],
           "notes": ""
         }
       ]
@@ -20183,7 +20575,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Julie Dowsett"
+          ],
           "notes": ""
         }
       ]
@@ -20218,7 +20612,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Tanya Taylor"
+          ],
           "notes": ""
         }
       ]
@@ -20253,7 +20649,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Tanya Taylor"
+          ],
           "notes": ""
         }
       ]
@@ -20288,7 +20686,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Tanya Taylor"
+          ],
           "notes": ""
         }
       ]
@@ -20323,7 +20723,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Tanya Taylor"
+          ],
           "notes": ""
         }
       ]
@@ -20358,7 +20760,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Tanya Taylor"
+          ],
           "notes": ""
         }
       ]
@@ -20393,7 +20797,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Krista Hunt"
+          ],
           "notes": ""
         }
       ]
@@ -20428,7 +20834,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Krista Hunt"
+          ],
           "notes": ""
         }
       ]
@@ -20704,7 +21112,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Boyd D. Cothran"
+          ],
           "notes": ""
         },
         {
@@ -20780,7 +21190,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Michele Antoinette Johnson"
+          ],
           "notes": ""
         }
       ]
@@ -20808,7 +21220,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Damilola Adebayo"
+          ],
           "notes": ""
         }
       ]
@@ -20836,7 +21250,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Rukmini Barua"
+          ],
           "notes": ""
         }
       ]
@@ -20977,7 +21393,9 @@
               "room": "R S101A"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Sakis Gekas"
+          ],
           "notes": ""
         }
       ]
@@ -21012,7 +21430,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Natasha L. Henry-Dixon"
+          ],
           "notes": ""
         }
       ]
@@ -21040,7 +21460,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "David Lawrence"
+          ],
           "notes": ""
         }
       ]
@@ -21103,7 +21525,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "K Weiser"
+          ],
           "notes": ""
         }
       ]
@@ -21152,7 +21576,9 @@
               "room": "R S102"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Boyd D. Cothran"
+          ],
           "notes": ""
         }
       ]
@@ -21208,7 +21634,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jennifer L. Bonnell"
+          ],
           "notes": ""
         }
       ]
@@ -21236,7 +21664,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Audrey Pyee"
+          ],
           "notes": ""
         }
       ]
@@ -21271,7 +21701,9 @@
               "room": "VH 3005"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Paul Lawrie"
+          ],
           "notes": ""
         }
       ]
@@ -21306,7 +21738,9 @@
               "room": "R S128"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Anne G. Rubenstein"
+          ],
           "notes": ""
         }
       ]
@@ -21569,7 +22003,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jessica Vorstermans"
+          ],
           "notes": "Application required. Learn more about the course: https://www.yorku.ca/health/shpm/summer-abroad-experiencing-cuba/ ."
         }
       ]
@@ -21632,7 +22068,9 @@
               "room": "VH 1016"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Ellen G Schraa"
+          ],
           "notes": "Enrolment by permission only. Interested fourth-year Honours students who meet the prerequisites of the course should complete a permission . The Course Director(s) will select from those who apply. Decisions are made before the start of term. Note: Students must complete community partner risk management requirements by the start of the term to take the course (details to be provided)."
         }
       ]
@@ -22013,7 +22451,9 @@
               "room": "DB 1016"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jay Goulding"
+          ],
           "notes": ""
         }
       ]
@@ -22048,7 +22488,9 @@
               "room": "CLH 110"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Kasim Tirmizey"
+          ],
           "notes": ""
         }
       ]
@@ -22153,7 +22595,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Yvonne Su"
+          ],
           "notes": ""
         }
       ]
@@ -22737,7 +23181,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Roger S Fisher"
+          ],
           "notes": ""
         }
       ]
@@ -22772,7 +23218,9 @@
               "room": "DB 0001"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Stanley Tweyman"
+          ],
           "notes": ""
         },
         {
@@ -22795,7 +23243,9 @@
               "room": "VH 2005"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Stanley Tweyman"
+          ],
           "notes": ""
         },
         {
@@ -22818,7 +23268,9 @@
               "room": "VH 2009"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Stanley Tweyman"
+          ],
           "notes": ""
         },
         {
@@ -22981,7 +23433,9 @@
               "room": "VH D"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Theresa M Hyun"
+          ],
           "notes": ""
         },
         {
@@ -23004,7 +23458,9 @@
               "room": "DB 0004"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Theresa M Hyun"
+          ],
           "notes": ""
         },
         {
@@ -23154,7 +23610,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jon J Sufrin"
+          ],
           "notes": ""
         },
         {
@@ -23368,176 +23826,88 @@
           "type": "TUTR",
           "meetNumber": "01",
           "section": "B",
-          "catalogNumber": "Q45R02 (AP WRIT) P36T02 (AP HUMA) C30Z02 (AP EN )",
-          "schedule": [
-            {
-              "day": "",
-              "time": "0:00",
-              "duration": "0",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
         {
           "type": "ONLN",
           "meetNumber": "01",
-          "catalogNumber": "",
-          "schedule": [
-            {
-              "day": "",
-              "time": "0:00",
-              "duration": "0",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "catalogNumber": "Q45R03 (AP WRIT) P36T03 (AP HUMA) C30Z03 (AP EN )",
-          "schedule": [
-            {
-              "day": "",
-              "time": "0:00",
-              "duration": "0",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "catalogNumber": "Q45R04 (AP WRIT) P36T04 (AP HUMA) C30Z04 (AP EN )",
-          "schedule": [
-            {
-              "day": "",
-              "time": "0:00",
-              "duration": "0",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
         {
           "type": "TUTR",
           "meetNumber": "04",
-          "catalogNumber": "Q45R05 (AP WRIT) P36T05 (AP HUMA) C30Z05 (AP EN )",
-          "schedule": [
-            {
-              "day": "",
-              "time": "0:00",
-              "duration": "0",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
         {
           "type": "TUTR",
           "meetNumber": "05",
-          "catalogNumber": "Q45R06 (AP WRIT) P36T06 (AP HUMA) C30Z06 (AP EN )",
-          "schedule": [
-            {
-              "day": "",
-              "time": "0:00",
-              "duration": "0",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
         {
           "type": "TUTR",
           "meetNumber": "06",
-          "catalogNumber": "Q45R07 (AP WRIT) P36T07 (AP HUMA) C30Z07 (AP EN )",
-          "schedule": [
-            {
-              "day": "",
-              "time": "0:00",
-              "duration": "0",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
         {
           "type": "TUTR",
           "meetNumber": "07",
-          "catalogNumber": "Q45R08 (AP WRIT) P36T08 (AP HUMA) C30Z08 (AP EN )",
-          "schedule": [
-            {
-              "day": "",
-              "time": "0:00",
-              "duration": "0",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
         {
           "type": "TUTR",
           "meetNumber": "08",
-          "catalogNumber": "Q45R09 (AP WRIT) P36T09 (AP HUMA) C30Z09 (AP EN )",
-          "schedule": [
-            {
-              "day": "",
-              "time": "0:00",
-              "duration": "0",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
         {
           "type": "TUTR",
           "meetNumber": "09",
-          "catalogNumber": "Q45R10 (AP WRIT) P36T10 (AP HUMA) C30Z10 (AP EN )",
-          "schedule": [
-            {
-              "day": "",
-              "time": "0:00",
-              "duration": "0",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "(Backup)"
         },
         {
           "type": "TUTR",
           "meetNumber": "10",
-          "catalogNumber": "Q45R11 (AP WRIT) P36T11 (AP HUMA) C30Z11 (AP EN )",
-          "schedule": [
-            {
-              "day": "",
-              "time": "0:00",
-              "duration": "0",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "(Backup)"
         }
@@ -24078,7 +24448,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Julie Vig"
+          ],
           "notes": ""
         },
         {
@@ -24286,7 +24658,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Alicia Turner"
+          ],
           "notes": ""
         },
         {
@@ -24315,23 +24689,8 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "catalogNumber": "H17U04",
-          "schedule": [
-            {
-              "day": "T",
-              "time": "16:30",
-              "duration": "50",
-              "campus": "Keele",
-              "room": ""
-            },
-            {
-              "day": "R",
-              "time": "16:30",
-              "duration": "50",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -24367,7 +24726,9 @@
               "room": "DB 0015"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Kael KC Reid"
+          ],
           "notes": ""
         }
       ]
@@ -24671,7 +25032,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Roger S Fisher"
+          ],
           "notes": "This course will be taught asynchronously."
         }
       ]
@@ -24741,7 +25104,9 @@
               "room": "R S128"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Anita Lam"
+          ],
           "notes": ""
         }
       ]
@@ -24790,7 +25155,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jesse Adrian Thistle"
+          ],
           "notes": "This course will be taught synchronously with the listed days and times."
         }
       ]
@@ -24825,7 +25192,9 @@
               "room": "YH A004"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Marc Audette"
+          ],
           "notes": "Ce cours se déroule en présentiel. Un appareil photo est recommandé."
         }
       ]
@@ -24860,7 +25229,9 @@
               "room": "R S203"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Richardine Woodall"
+          ],
           "notes": ""
         }
       ]
@@ -24895,7 +25266,9 @@
               "room": "DB 0015"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Marc Herman"
+          ],
           "notes": ""
         }
       ]
@@ -25098,7 +25471,9 @@
               "room": "R S125"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Christine Verrall"
+          ],
           "notes": "All spaces reserved for CCY Year 3/4 majors & minors only."
         }
       ]
@@ -25126,7 +25501,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Stephen Gennaro"
+          ],
           "notes": "All spaces reserved for CCY Year 3/4 majors & minors only."
         }
       ]
@@ -25196,7 +25573,9 @@
               "room": "VC 102"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Gurbir Jolly"
+          ],
           "notes": "All spaces reserved for CCY Year 3/4 majors & minors only."
         }
       ]
@@ -25231,7 +25610,9 @@
               "room": "VH 2000"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Avron Kulak"
+          ],
           "notes": ""
         }
       ]
@@ -25304,7 +25685,9 @@
               "room": "R S128"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Sara R Horowitz"
+          ],
           "notes": "This course will be taught synchronously with the listed days and times."
         }
       ]
@@ -25332,7 +25715,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Andreas G. Kitzmann"
+          ],
           "notes": "This course will be taught asynchronously."
         }
       ]
@@ -25367,7 +25752,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Maria L Figueredo"
+          ],
           "notes": ""
         }
       ]
@@ -25423,7 +25810,9 @@
               "room": "YH A201"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Audrey Pyee"
+          ],
           "notes": ""
         }
       ]
@@ -25451,7 +25840,9 @@
               "room": "YH A201"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Audrey Pyee"
+          ],
           "notes": ""
         }
       ]
@@ -25500,7 +25891,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jesse Adrian Thistle"
+          ],
           "notes": "This course will be taught synchronously with the listed days and times."
         }
       ]
@@ -25549,7 +25942,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jesse Adrian Thistle"
+          ],
           "notes": "This course will be taught synchronously with the listed days and times."
         }
       ]
@@ -25584,7 +25979,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Patrizia Di Vincenzo"
+          ],
           "notes": "Please complete the online Italian placement test ."
         }
       ]
@@ -25668,7 +26065,9 @@
               "room": "CFA 312"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Radu I Campeanu"
+          ],
           "notes": ""
         }
       ]
@@ -25724,7 +26123,9 @@
               "room": "DB 1004"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Xiaofeng Zhou"
+          ],
           "notes": ""
         }
       ]
@@ -25752,7 +26153,9 @@
               "room": "DB 0007"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Radu I Campeanu"
+          ],
           "notes": ""
         }
       ]
@@ -25773,11 +26176,11 @@
           "catalogNumber": "U47S01",
           "schedule": [
             {
-              "day": "T",
+              "day": "R",
               "time": "18:00",
               "duration": "170",
               "campus": "Keele",
-              "room": "DB 0005"
+              "room": "ACW 303"
             }
           ],
           "instructors": [],
@@ -25787,16 +26190,8 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "B",
-          "catalogNumber": "N94E01",
-          "schedule": [
-            {
-              "day": "R",
-              "time": "18:00",
-              "duration": "170",
-              "campus": "Keele",
-              "room": "DB 0007"
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -25881,7 +26276,9 @@
               "room": "DB 1004"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Xiaofeng Zhou"
+          ],
           "notes": ""
         }
       ]
@@ -25899,7 +26296,27 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "Y48J01",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "AP",
+      "department": "ITEC",
+      "term": "SU",
+      "courseTitle": "Designing User Interfaces",
+      "courseId": "3230",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "T77Z01",
           "schedule": [
             {
               "day": "R",
@@ -26047,6 +26464,34 @@
       "faculty": "AP",
       "department": "ITEC",
       "term": "SU",
+      "courseTitle": "Internet Client-Server Systems",
+      "courseId": "4020",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "N24A01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "18:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "R S105"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "AP",
+      "department": "ITEC",
+      "term": "SU",
       "courseTitle": "Enterprise Resource Planning Systems Configuration",
       "courseId": "4050",
       "credits": "3.00",
@@ -26056,7 +26501,27 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "T89Y01",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "AP",
+      "department": "ITEC",
+      "term": "SU",
+      "courseTitle": "Topics in Information Technology",
+      "courseId": "4100",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "G71J01",
           "schedule": [
             {
               "day": "T",
@@ -26084,16 +26549,8 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "J95R01",
-          "schedule": [
-            {
-              "day": "M",
-              "time": "18:00",
-              "duration": "170",
-              "campus": "Keele",
-              "room": "VH 3006"
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -26157,7 +26614,9 @@
               "room": "DB 0015"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Marc Herman"
+          ],
           "notes": ""
         }
       ]
@@ -26185,7 +26644,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "K Weiser"
+          ],
           "notes": ""
         }
       ]
@@ -26388,7 +26849,9 @@
               "room": "R S128"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Sara R Horowitz"
+          ],
           "notes": "This course will be taught synchronously with the listed days and times."
         }
       ]
@@ -26423,7 +26886,9 @@
               "room": "R N120"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Tammy George"
+          ],
           "notes": ""
         },
         {
@@ -26504,7 +26969,9 @@
               "room": "VH 3009"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Nicole Ventura"
+          ],
           "notes": ""
         },
         {
@@ -26585,7 +27052,9 @@
               "room": "R S205"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Nicole Ventura"
+          ],
           "notes": ""
         }
       ]
@@ -26620,7 +27089,9 @@
               "room": "R N203"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Lyndsay Hayhurst"
+          ],
           "notes": ""
         }
       ]
@@ -26655,7 +27126,9 @@
               "room": "R S105"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Kelly M Parr"
+          ],
           "notes": ""
         },
         {
@@ -26974,7 +27447,9 @@
               "room": "DB 1016"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Antonio Santilli"
+          ],
           "notes": ""
         }
       ]
@@ -27009,7 +27484,9 @@
               "room": "CLH H"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Antonio Santilli"
+          ],
           "notes": ""
         }
       ]
@@ -27044,7 +27521,9 @@
               "room": "CC 106"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Anthony Battaglia"
+          ],
           "notes": ""
         }
       ]
@@ -27107,7 +27586,9 @@
               "room": "VH 3006"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Sherry L Grace"
+          ],
           "notes": ""
         }
       ]
@@ -27135,7 +27616,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mihyon Jeon"
+          ],
           "notes": "Please complete the online Korean placement test ."
         }
       ]
@@ -27163,7 +27646,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Roger S Fisher"
+          ],
           "notes": ""
         }
       ]
@@ -27246,7 +27731,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Aurelie Takam"
+          ],
           "notes": "Ce cours sera offert à distance/en ligne avec des sessions synchrones asynchrones. Le(s) jour(s) et l'heure du début du cours sont listés ici. This course will be delivered remotely/on line with synchronous class sessions: the delivery will be on the Day(s) and Start Time listed here."
         }
       ]
@@ -27281,7 +27768,9 @@
               "room": "R S137"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Youri Zabbal"
+          ],
           "notes": ""
         }
       ]
@@ -27316,7 +27805,9 @@
               "room": "DB 0014"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Eri Takahashi"
+          ],
           "notes": ""
         }
       ]
@@ -28484,7 +28975,9 @@
               "room": "CB 121"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Yuejiao Cindy Fu"
+          ],
           "notes": ""
         }
       ]
@@ -28711,7 +29204,9 @@
               "room": "CB 121"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Wei Liu"
+          ],
           "notes": ""
         },
         {
@@ -28785,7 +29280,9 @@
               "room": "ACW 005"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Augustine Chi Mou Wong"
+          ],
           "notes": ""
         },
         {
@@ -29123,7 +29620,9 @@
               "room": "R S201"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Hossam Sadek"
+          ],
           "notes": ""
         },
         {
@@ -29190,7 +29689,9 @@
               "room": "WSC 101"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Roger Kempers"
+          ],
           "notes": ""
         },
         {
@@ -29271,7 +29772,9 @@
               "room": "R S201"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Abbas Panahi"
+          ],
           "notes": ""
         },
         {
@@ -29345,7 +29848,9 @@
               "room": "ACW 307"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Hossam Sadek"
+          ],
           "notes": ""
         },
         {
@@ -29781,7 +30286,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Michael Cado"
+          ],
           "notes": ""
         }
       ]
@@ -29844,7 +30351,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Michael Cado"
+          ],
           "notes": ""
         }
       ]
@@ -29879,7 +30388,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "John Castillo"
+          ],
           "notes": ""
         }
       ]
@@ -29956,7 +30467,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Michael Cado"
+          ],
           "notes": ""
         }
       ]
@@ -30012,7 +30525,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Michael Coghlan"
+          ],
           "notes": ""
         }
       ]
@@ -30103,7 +30618,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Michael Cado"
+          ],
           "notes": ""
         }
       ]
@@ -30159,7 +30676,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Ian Lumb"
+          ],
           "notes": "For details about the course delivery format, please refer to: https://www.yorku.ca/science/natsci/courses/ ."
         }
       ]
@@ -30187,7 +30706,9 @@
               "room": "ACW 206"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Ian Slater"
+          ],
           "notes": "For details about the course delivery format, please refer to: https://www.yorku.ca/science/natsci/courses/ ."
         }
       ]
@@ -30250,7 +30771,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Robin Metcalfe"
+          ],
           "notes": "For details about the course delivery format, please refer to: https://www.yorku.ca/science/natsci/courses/ ."
         }
       ]
@@ -30285,7 +30808,9 @@
               "room": "ACW 206"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Angela Cope"
+          ],
           "notes": "For details about the course delivery format, please refer to: https://www.yorku.ca/science/natsci/courses/ ."
         }
       ]
@@ -30313,7 +30838,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jeremy Webb"
+          ],
           "notes": "For details about the course delivery format, please refer to: https://www.yorku.ca/science/natsci/courses/ ."
         }
       ]
@@ -30348,7 +30875,9 @@
               "room": "LSB 103"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Carly Rozins"
+          ],
           "notes": "For details about the course delivery format, please refer to: https://www.yorku.ca/science/natsci/courses/ ."
         }
       ]
@@ -30376,7 +30905,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Barbara B. Czaban"
+          ],
           "notes": "For details about the course delivery format, please refer to: https://www.yorku.ca/science/natsci/courses/ ."
         }
       ]
@@ -30404,7 +30935,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Tatiana Ouvarova"
+          ],
           "notes": "For details about the course delivery format, please refer to: https://www.yorku.ca/science/natsci/courses/ ."
         }
       ]
@@ -30432,7 +30965,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Robin Kingsburgh"
+          ],
           "notes": "For details about the course delivery format, please refer to: https://www.yorku.ca/science/natsci/courses/ ."
         }
       ]
@@ -30460,7 +30995,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Ian Lumb"
+          ],
           "notes": "For details about the course delivery format, please refer to: https://www.yorku.ca/science/natsci/courses/ ."
         }
       ]
@@ -30488,7 +31025,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Carl Wolfe"
+          ],
           "notes": "For details about the course delivery format, please refer to: https://www.yorku.ca/science/natsci/courses/ ."
         }
       ]
@@ -30516,7 +31055,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Tatiana Ouvarova"
+          ],
           "notes": "For details about the course delivery format, please refer to: https://www.yorku.ca/science/natsci/courses/ ."
         }
       ]
@@ -30600,7 +31141,9 @@
               "room": "DB 0006"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Irfan Aslam"
+          ],
           "notes": "Open for enrollment to Year 1 students in the 2nd Entry BScN program."
         },
         {
@@ -30633,7 +31176,9 @@
               "room": "DB 0010"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Irfan Aslam"
+          ],
           "notes": "Open for enrollment to Year 1 students in the 2nd Entry BScN program."
         },
         {
@@ -31041,7 +31586,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Maxima Encinares"
+          ],
           "notes": ""
         },
         {
@@ -31087,7 +31634,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Michelle Jubin"
+          ],
           "notes": ""
         },
         {
@@ -31110,7 +31659,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Tunde Makinde"
+          ],
           "notes": ""
         },
         {
@@ -31133,7 +31684,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mehran Varshochi"
+          ],
           "notes": ""
         },
         {
@@ -31156,7 +31709,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mohammed Anwar Majid"
+          ],
           "notes": ""
         },
         {
@@ -31179,7 +31734,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Anthony Ekeanyanwu"
+          ],
           "notes": ""
         },
         {
@@ -31202,7 +31759,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Alex Asare-Bediako"
+          ],
           "notes": ""
         },
         {
@@ -31433,7 +31992,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Maxima Encinares"
+          ],
           "notes": ""
         },
         {
@@ -31479,7 +32040,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Michelle Jubin"
+          ],
           "notes": ""
         },
         {
@@ -31502,7 +32065,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Tunde Makinde"
+          ],
           "notes": ""
         },
         {
@@ -31525,7 +32090,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mehran Varshochi"
+          ],
           "notes": ""
         },
         {
@@ -31548,7 +32115,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mohammed Anwar Majid"
+          ],
           "notes": ""
         },
         {
@@ -31571,7 +32140,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Alex Asare-Bediako"
+          ],
           "notes": ""
         },
         {
@@ -31829,7 +32400,9 @@
               "room": "HNE 038"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Irfan Aslam"
+          ],
           "notes": ""
         },
         {
@@ -31846,7 +32419,9 @@
               "room": "HNE 038"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Irfan Aslam"
+          ],
           "notes": ""
         }
       ]
@@ -31874,7 +32449,9 @@
               "room": "DB 1005"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Roya Haghiri-Vijeh"
+          ],
           "notes": ""
         },
         {
@@ -31925,7 +32502,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Deborah Haynes"
+          ],
           "notes": ""
         },
         {
@@ -31948,7 +32527,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Kimberley Price"
+          ],
           "notes": ""
         },
         {
@@ -31971,7 +32552,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Salwa Musa"
+          ],
           "notes": ""
         },
         {
@@ -31994,7 +32577,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Aldona Nowak"
+          ],
           "notes": ""
         },
         {
@@ -32017,7 +32602,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Suzanne Tinglin"
+          ],
           "notes": ""
         },
         {
@@ -32113,7 +32700,9 @@
               "room": "HNE 038"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Cui Lin"
+          ],
           "notes": "Open for enrollment to Year 1 students in the 2nd Entry and Accelerated 3-Year Direct Entry BScN programs."
         },
         {
@@ -32158,7 +32747,9 @@
               "room": "DB 0010"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Fay M Dastjerdi"
+          ],
           "notes": "Open for enrollment to Year 1 students in the IEN and Accelerated 3-Year Direct Entry BScN programs."
         }
       ]
@@ -32186,7 +32777,9 @@
               "room": "DB 0006"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Cui Lin"
+          ],
           "notes": "Open for enrollment to students in the Accelerated 3-Year Direct Entry BScN program."
         },
         {
@@ -32230,7 +32823,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Cui Lin"
+          ],
           "notes": "(Backup)"
         },
         {
@@ -32246,7 +32841,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Deborah Haynes"
+          ],
           "notes": ""
         },
         {
@@ -32262,7 +32859,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Shaina Janmohamed"
+          ],
           "notes": ""
         },
         {
@@ -32278,7 +32877,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Suzanne Tinglin"
+          ],
           "notes": ""
         },
         {
@@ -32294,7 +32895,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Maria Wallace"
+          ],
           "notes": ""
         },
         {
@@ -32310,7 +32913,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Aisha Shettima"
+          ],
           "notes": ""
         },
         {
@@ -32326,7 +32931,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Aldona Nowak"
+          ],
           "notes": ""
         },
         {
@@ -32371,7 +32978,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Sarah Evans"
+          ],
           "notes": ""
         },
         {
@@ -32388,7 +32997,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mary Smith"
+          ],
           "notes": ""
         },
         {
@@ -32433,7 +33044,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Cui Lin"
+          ],
           "notes": "(Backup)"
         },
         {
@@ -32449,7 +33062,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jonas Lim"
+          ],
           "notes": ""
         }
       ]
@@ -32477,7 +33092,9 @@
               "room": "HNE 032"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Sarah Evans"
+          ],
           "notes": ""
         },
         {
@@ -32494,7 +33111,9 @@
               "room": "HNE 033"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Robin Coatsworth-Puspoky"
+          ],
           "notes": ""
         }
       ]
@@ -32522,7 +33141,9 @@
               "room": "DB 1016"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Laura L. Nicholson"
+          ],
           "notes": ""
         }
       ]
@@ -32550,7 +33171,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Laura L. Nicholson"
+          ],
           "notes": "(Backup)"
         },
         {
@@ -32566,7 +33189,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Maxima Encinares"
+          ],
           "notes": ""
         },
         {
@@ -32582,7 +33207,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Salwa Musa"
+          ],
           "notes": ""
         },
         {
@@ -32662,7 +33289,9 @@
               "room": "VH 3006"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Sherry L Grace"
+          ],
           "notes": ""
         }
       ]
@@ -32690,7 +33319,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mary Smith"
+          ],
           "notes": "Nursing Elective: The course is open to upper- year-level BScN students."
         }
       ]
@@ -32774,7 +33405,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Brandon Vickerd",
+            "Laura Levin"
+          ],
           "notes": ""
         }
       ]
@@ -32974,7 +33608,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Henry Jackman"
+          ],
           "notes": ""
         },
         {
@@ -33153,7 +33789,9 @@
               "room": "R N120"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Idil Boran"
+          ],
           "notes": ""
         }
       ]
@@ -33188,7 +33826,9 @@
               "room": "CLH H"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Brian Huss"
+          ],
           "notes": ""
         }
       ]
@@ -33315,7 +33955,9 @@
               "room": "CLH H"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Brian Huss"
+          ],
           "notes": ""
         }
       ]
@@ -33350,7 +33992,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Verena Gottschling"
+          ],
           "notes": ""
         }
       ]
@@ -33497,7 +34141,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Verena Gottschling"
+          ],
           "notes": ""
         }
       ]
@@ -33532,7 +34178,9 @@
               "room": "R S125"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Idil Boran"
+          ],
           "notes": ""
         }
       ]
@@ -33574,7 +34222,9 @@
               "room": "LAS C"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Matthew C. George"
+          ],
           "notes": ""
         },
         {
@@ -33590,7 +34240,9 @@
               "room": "LAS C"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Matthew C. George"
+          ],
           "notes": ""
         },
         {
@@ -33840,7 +34492,9 @@
               "room": "LAS B"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Stanislaw Jerzak"
+          ],
           "notes": ""
         },
         {
@@ -33856,7 +34510,9 @@
               "room": "LAS B"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Stanislaw Jerzak"
+          ],
           "notes": ""
         },
         {
@@ -34064,7 +34720,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Stanislaw Jerzak"
+          ],
           "notes": ""
         }
       ]
@@ -34099,7 +34757,9 @@
               "room": "ACW 005"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jesse Rogerson"
+          ],
           "notes": ""
         },
         {
@@ -34115,7 +34775,9 @@
               "room": "ACW 005"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jesse Rogerson"
+          ],
           "notes": ""
         }
       ]
@@ -34150,7 +34812,9 @@
               "room": "ACW 109"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Pour Banafsheh Hashemi"
+          ],
           "notes": ""
         },
         {
@@ -34354,7 +35018,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Sean Tulin"
+          ],
           "notes": ""
         },
         {
@@ -34384,7 +35050,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Sean Tulin"
+          ],
           "notes": ""
         }
       ]
@@ -34660,7 +35328,9 @@
               "room": "TM POOL"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Nicole Ferguson"
+          ],
           "notes": ""
         },
         {
@@ -34684,7 +35354,9 @@
               "room": "TM POOL"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Nicole Ferguson"
+          ],
           "notes": ""
         },
         {
@@ -34708,7 +35380,9 @@
               "room": "TM POOL"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Nicole Ferguson"
+          ],
           "notes": "Women's Only"
         },
         {
@@ -34944,7 +35618,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Tom Gretes"
+          ],
           "notes": "Will be on the South Utility Field"
         }
       ]
@@ -35121,7 +35797,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Tom Gretes"
+          ],
           "notes": "Will be held on the Passy Field #2"
         }
       ]
@@ -35309,7 +35987,9 @@
               "room": "TM STUDIO2"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Antonio Santilli"
+          ],
           "notes": ""
         },
         {
@@ -35531,7 +36211,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Lisa Sandlos"
+          ],
           "notes": ""
         },
         {
@@ -35555,7 +36237,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Lisa Sandlos"
+          ],
           "notes": ""
         }
       ]
@@ -35590,7 +36274,9 @@
               "room": "TM STUDIO6"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Lisa Sandlos"
+          ],
           "notes": ""
         },
         {
@@ -35630,7 +36316,9 @@
               "room": "TM STUDIO6"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Lisa Sandlos"
+          ],
           "notes": ""
         },
         {
@@ -35823,7 +36511,9 @@
               "room": "TFC 115B"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Tom Gretes"
+          ],
           "notes": ""
         }
       ]
@@ -35858,7 +36548,9 @@
               "room": "TFC 115B"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Tom Gretes"
+          ],
           "notes": ""
         }
       ]
@@ -36043,7 +36735,9 @@
               "room": "TFC 115A"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Tom Gretes"
+          ],
           "notes": ""
         }
       ]
@@ -36078,7 +36772,9 @@
               "room": "TFC 115A"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Tom Gretes"
+          ],
           "notes": ""
         },
         {
@@ -36102,7 +36798,9 @@
               "room": "TFC 115A"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Tom Gretes"
+          ],
           "notes": ""
         }
       ]
@@ -36185,7 +36883,9 @@
               "room": "SC 101A"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Nicole Ferguson"
+          ],
           "notes": ""
         }
       ]
@@ -36220,7 +36920,9 @@
               "room": "SC 101A"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Nicole Ferguson"
+          ],
           "notes": ""
         },
         {
@@ -36268,7 +36970,9 @@
               "room": "SC 101A"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Nicole Ferguson"
+          ],
           "notes": ""
         }
       ]
@@ -36494,17 +37198,17 @@
           "schedule": [
             {
               "day": "T",
-              "time": "10:30",
+              "time": "12:30",
               "duration": "110",
               "campus": "Keele",
-              "room": "DB 0014"
+              "room": "ACW 006"
             },
             {
               "day": "F",
-              "time": "10:30",
+              "time": "12:30",
               "duration": "110",
               "campus": "Keele",
-              "room": "DB 0014"
+              "room": "ACW 006"
             }
           ],
           "instructors": [],
@@ -36517,7 +37221,7 @@
           "schedule": [
             {
               "day": "T",
-              "time": "12:30",
+              "time": "14:30",
               "duration": "110",
               "campus": "Keele",
               "room": "DB 0009"
@@ -36533,10 +37237,10 @@
           "schedule": [
             {
               "day": "F",
-              "time": "12:30",
+              "time": "14:30",
               "duration": "110",
               "campus": "Keele",
-              "room": "R S128"
+              "room": "ACE 012"
             }
           ],
           "instructors": [],
@@ -36549,7 +37253,7 @@
           "schedule": [
             {
               "day": "T",
-              "time": "14:30",
+              "time": "16:30",
               "duration": "110",
               "campus": "Keele",
               "room": "R S205"
@@ -36565,7 +37269,7 @@
           "schedule": [
             {
               "day": "F",
-              "time": "14:30",
+              "time": "16:30",
               "duration": "110",
               "campus": "Keele",
               "room": "R S128"
@@ -36606,7 +37310,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Danny O'Rourke-DiCarlo"
+          ],
           "notes": ""
         }
       ]
@@ -36733,7 +37439,9 @@
               "room": "HNE 031"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Danny O'Rourke-DiCarlo"
+          ],
           "notes": ""
         }
       ]
@@ -36768,7 +37476,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Danny O'Rourke-DiCarlo"
+          ],
           "notes": ""
         }
       ]
@@ -36803,7 +37513,9 @@
               "room": "HNE 031"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Danny O'Rourke-DiCarlo"
+          ],
           "notes": ""
         }
       ]
@@ -36838,7 +37550,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Danny O'Rourke-DiCarlo"
+          ],
           "notes": ""
         }
       ]
@@ -37012,6 +37726,76 @@
       ]
     },
     {
+      "faculty": "AP",
+      "department": "POLS",
+      "term": "S2",
+      "courseTitle": "The Political Economy of Newly-Industrialized Countries",
+      "courseId": "3411",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ONLN",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "N82H01 (AP POLS) H29Q01 (AP GLBL)",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "10:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "R",
+              "time": "10:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "This course will be delivered in ONLN format. Lectures will be online synchronous on Tues. & Thurs. at 10:30 a.m."
+        }
+      ]
+    },
+    {
+      "faculty": "AP",
+      "department": "POLS",
+      "term": "S1",
+      "courseTitle": "Political Economy of Asia and Pacific",
+      "courseId": "3591",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "U35V01 (AP POLS) D88N01 (AP GLBL)",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "10:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "HNE 032"
+            },
+            {
+              "day": "W",
+              "time": "10:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "HNE 032"
+            }
+          ],
+          "instructors": [],
+          "notes": "This course will meet in person in the location assigned as per the Day(s) and Start Time listed here."
+        }
+      ]
+    },
+    {
       "faculty": "GL",
       "department": "POLS",
       "term": "SU",
@@ -37168,14 +37952,14 @@
           "schedule": [
             {
               "day": "M",
-              "time": "10:00",
+              "time": "11:30",
               "duration": "170",
               "campus": "Keele",
               "room": "VH 3003"
             },
             {
               "day": "W",
-              "time": "10:00",
+              "time": "11:30",
               "duration": "170",
               "campus": "Keele",
               "room": "VH 3003"
@@ -37356,7 +38140,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Willem Maas"
+          ],
           "notes": "The summer 2026 course is full. Please monitor https://www.yorku.ca/international/global-learning/faculty-led-study-abroad-courses/pols4400/ for details about how to register for the summer 2027 version, or reach out to yuabroad@yorku.ca ."
         }
       ]
@@ -37384,7 +38170,9 @@
               "room": "YH A201"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Audrey Pyee"
+          ],
           "notes": "There will NOT be weekly classes, but some synchronous online or in-person meetings a few times during the session will be required. / Il n'y aura PAS de cours hebdomadaires. Quelques cours en ligne (synchrones) ou en personne seront nécessaires quelques fois pendant la session."
         }
       ]
@@ -37531,7 +38319,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Patricia Duarte Vieira"
+          ],
           "notes": "Please complete the online Portuguese placement test ."
         }
       ]
@@ -37594,7 +38384,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Danny O'Rourke-DiCarlo"
+          ],
           "notes": ""
         }
       ]
@@ -37629,7 +38421,9 @@
               "room": "HNE 031"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Danny O'Rourke-DiCarlo"
+          ],
           "notes": ""
         }
       ]
@@ -37664,7 +38458,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Danny O'Rourke-DiCarlo"
+          ],
           "notes": ""
         }
       ]
@@ -37881,7 +38677,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Thaddeus Hwong"
+          ],
           "notes": ""
         }
       ]
@@ -37979,7 +38777,9 @@
               "room": "VH C"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Agnieszka Kopinska"
+          ],
           "notes": ""
         },
         {
@@ -37996,7 +38796,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Alisha Salerno"
+          ],
           "notes": ""
         }
       ]
@@ -38031,7 +38833,9 @@
               "room": "ACW 106"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Julie Conder"
+          ],
           "notes": ""
         },
         {
@@ -38055,7 +38859,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jean Varghese"
+          ],
           "notes": ""
         }
       ]
@@ -38090,7 +38896,9 @@
               "room": "FC 203"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jean Varghese"
+          ],
           "notes": ""
         }
       ]
@@ -38125,7 +38933,9 @@
               "room": "VH B"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Rachel Rabi"
+          ],
           "notes": ""
         }
       ]
@@ -38160,7 +38970,9 @@
               "room": "LAS C"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Corey Petsnik"
+          ],
           "notes": ""
         }
       ]
@@ -38195,7 +39007,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Heather L. Jenkin"
+          ],
           "notes": ""
         }
       ]
@@ -38230,7 +39044,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Thanujeni Pathman"
+          ],
           "notes": ""
         }
       ]
@@ -38265,7 +39081,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Krista Phillips"
+          ],
           "notes": ""
         }
       ]
@@ -38300,7 +39118,9 @@
               "room": "VH B"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jennifer Ruttle"
+          ],
           "notes": ""
         }
       ]
@@ -38335,7 +39155,9 @@
               "room": "VH B"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Agnieszka Kopinska"
+          ],
           "notes": ""
         }
       ]
@@ -38363,7 +39185,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Liya Ma"
+          ],
           "notes": ""
         }
       ]
@@ -38398,7 +39222,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Zoha Ahmad"
+          ],
           "notes": ""
         }
       ]
@@ -38426,7 +39252,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Peter Papadogiannis"
+          ],
           "notes": ""
         }
       ]
@@ -38461,7 +39289,9 @@
               "room": "VH C"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jennifer Lewin"
+          ],
           "notes": ""
         }
       ]
@@ -38496,7 +39326,9 @@
               "room": "VH B"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Suzanne MacDonald"
+          ],
           "notes": ""
         }
       ]
@@ -38531,7 +39363,9 @@
               "room": "DB 0014"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Eri Takahashi"
+          ],
           "notes": ""
         }
       ]
@@ -38566,7 +39400,9 @@
               "room": "VH C"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Lillian R Steen"
+          ],
           "notes": ""
         }
       ]
@@ -38601,7 +39437,9 @@
               "room": "VH B"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Peter Papadogiannis"
+          ],
           "notes": ""
         }
       ]
@@ -38636,7 +39474,9 @@
               "room": "VH B"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Sayyed Mohsen Fatemi"
+          ],
           "notes": ""
         }
       ]
@@ -38783,7 +39623,9 @@
               "room": "R S122"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Lara Pierce"
+          ],
           "notes": ""
         }
       ]
@@ -38818,7 +39660,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Melody Wiseheart"
+          ],
           "notes": ""
         }
       ]
@@ -38853,7 +39697,9 @@
               "room": "R S127"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Lorne Sugar"
+          ],
           "notes": ""
         }
       ]
@@ -38888,7 +39734,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jennifer Lewin"
+          ],
           "notes": ""
         }
       ]
@@ -38923,7 +39771,9 @@
               "room": "R S129"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jennifer Lewin"
+          ],
           "notes": ""
         }
       ]
@@ -39152,7 +40002,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Julie Vig"
+          ],
           "notes": ""
         },
         {
@@ -39302,7 +40154,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Tanya Taylor"
+          ],
           "notes": ""
         }
       ]
@@ -39337,7 +40191,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Tanya Taylor"
+          ],
           "notes": ""
         }
       ]
@@ -39372,7 +40228,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Tanya Taylor"
+          ],
           "notes": ""
         }
       ]
@@ -39407,7 +40265,9 @@
               "room": "DB 0015"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Marc Herman"
+          ],
           "notes": ""
         }
       ]
@@ -39442,7 +40302,9 @@
               "room": "VH 2000"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Avron Kulak"
+          ],
           "notes": ""
         }
       ]
@@ -39477,7 +40339,9 @@
               "room": "R N120"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Syed Harris Ali"
+          ],
           "notes": ""
         }
       ]
@@ -39512,7 +40376,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Glenn J Stalker"
+          ],
           "notes": ""
         }
       ]
@@ -39547,7 +40413,9 @@
               "room": "R S203"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Marcello Musto"
+          ],
           "notes": ""
         }
       ]
@@ -39582,7 +40450,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Karen Anderson"
+          ],
           "notes": ""
         }
       ]
@@ -39610,7 +40480,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Barbara Gail Hanson"
+          ],
           "notes": ""
         }
       ]
@@ -39659,7 +40531,9 @@
               "room": "R S205"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Michael Nijhawan"
+          ],
           "notes": ""
         }
       ]
@@ -39694,7 +40568,9 @@
               "room": "R S128"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Johanne Jean-Pierre"
+          ],
           "notes": ""
         }
       ]
@@ -39743,7 +40619,9 @@
               "room": "R S123"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Robert A Kenedy"
+          ],
           "notes": ""
         }
       ]
@@ -39771,7 +40649,9 @@
               "room": "YH A201"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Audrey Pyee"
+          ],
           "notes": ""
         }
       ]
@@ -40828,7 +41708,9 @@
               "room": "VH 3006"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Denielle A Elliott"
+          ],
           "notes": ""
         }
       ]
@@ -41229,7 +42111,9 @@
               "room": "R S105"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Sylvia Peacock"
+          ],
           "notes": ""
         }
       ]
@@ -41502,7 +42386,9 @@
               "room": "R N120"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Karrie Sandford"
+          ],
           "notes": ""
         }
       ]
@@ -41578,7 +42464,9 @@
               "room": "R S201"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Ian Slater"
+          ],
           "notes": ""
         }
       ]
@@ -41613,7 +42501,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Angela Cope"
+          ],
           "notes": ""
         }
       ]
@@ -41774,7 +42664,9 @@
               "room": "VH 1005"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Sylvia Peacock"
+          ],
           "notes": ""
         }
       ]
@@ -42187,7 +43079,9 @@
               "room": "YH A201"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Audrey Pyee"
+          ],
           "notes": "There will NOT be weekly classes, but some synchronous online or in-person meetings a few times during the session will be required. / Il n'y aura PAS de cours hebdomadaires. Quelques cours en ligne (synchrones) ou en personne seront nécessaires quelques fois pendant la session."
         }
       ]
@@ -42215,7 +43109,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Curt Pullan"
+          ],
           "notes": ""
         },
         {
@@ -42232,7 +43128,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Curt Pullan"
+          ],
           "notes": ""
         }
       ]
@@ -42260,7 +43158,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Susan Gallagher"
+          ],
           "notes": ""
         },
         {
@@ -42305,7 +43205,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Brenton Diaz"
+          ],
           "notes": ""
         },
         {
@@ -42322,7 +43224,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Brenton Diaz"
+          ],
           "notes": ""
         }
       ]
@@ -42350,7 +43254,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Brenton Diaz"
+          ],
           "notes": ""
         },
         {
@@ -42395,7 +43301,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Karin E Adlhoch"
+          ],
           "notes": ""
         },
         {
@@ -42440,7 +43348,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Karin E Adlhoch"
+          ],
           "notes": ""
         },
         {
@@ -42632,7 +43542,9 @@
               "room": "ACW 104"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Karin E Adlhoch"
+          ],
           "notes": ""
         }
       ]
@@ -42856,7 +43768,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Julio Fonseca"
+          ],
           "notes": "Please complete the online Spanish placement test ."
         }
       ]
@@ -42884,7 +43798,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Alejandro Zamora"
+          ],
           "notes": "This course is part of the Summer Abroad Program in University of Mexico (UNAM) at the Taxco campus. Six sessions at YorkU and 12 days abroad. For more information: https://yorkinternational.yorku.ca/gl-sp-2051-spanish-conversation-in-the-field-a-cultural-immersion-practicum/ ."
         }
       ]
@@ -42912,7 +43828,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Alejandro Zamora"
+          ],
           "notes": "This course is part of the Summer Abroad Program at Yorks Eco-campus in Costa Rica. It is entirely taught abroad. For more information: https://lasnubes.euc.yorku.ca/education/programs/ ."
         }
       ]
@@ -42947,7 +43865,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Maria L Figueredo"
+          ],
           "notes": ""
         }
       ]
@@ -42982,7 +43902,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Angela Cope"
+          ],
           "notes": ""
         }
       ]
@@ -43010,7 +43932,9 @@
               "room": "R S201"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Ian Slater"
+          ],
           "notes": ""
         }
       ]
@@ -43045,7 +43969,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Angela Cope"
+          ],
           "notes": ""
         }
       ]
@@ -43080,7 +44006,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Conor Douglas"
+          ],
           "notes": ""
         }
       ]
@@ -43143,7 +44071,9 @@
               "room": "VH 1154"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "James Elwick"
+          ],
           "notes": ""
         }
       ]
@@ -43199,7 +44129,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Michael R Jenkin"
+          ],
           "notes": ""
         }
       ]
@@ -43283,7 +44215,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Michael R Jenkin"
+          ],
           "notes": ""
         }
       ]
@@ -43311,7 +44245,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Michael R Jenkin"
+          ],
           "notes": ""
         }
       ]
@@ -43474,7 +44410,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Michael R Jenkin"
+          ],
           "notes": ""
         }
       ]
@@ -44062,7 +45000,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Courtney Ch'ng Lancaster"
+          ],
           "notes": ""
         }
       ]
@@ -44118,7 +45058,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Audrey Pyee"
+          ],
           "notes": ""
         }
       ]
@@ -44184,7 +45126,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Audrey Pyee"
+          ],
           "notes": ""
         }
       ]
@@ -44235,7 +45179,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Robyn Cumming"
+          ],
           "notes": ""
         },
         {
@@ -44700,7 +45646,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Joy Wong"
+          ],
           "notes": ""
         },
         {
@@ -44723,7 +45671,9 @@
               "room": "CFA 284"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Joy Wong"
+          ],
           "notes": ""
         }
       ]
@@ -44765,7 +45715,9 @@
               "room": "CFA 004"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Holly Ward"
+          ],
           "notes": ""
         }
       ]
@@ -44823,7 +45775,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jon J Sufrin"
+          ],
           "notes": ""
         },
         {
@@ -45037,176 +45991,88 @@
           "type": "TUTR",
           "meetNumber": "01",
           "section": "B",
-          "catalogNumber": "Q45R02 (AP WRIT) P36T02 (AP HUMA) C30Z02 (AP EN )",
-          "schedule": [
-            {
-              "day": "",
-              "time": "0:00",
-              "duration": "0",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
         {
           "type": "ONLN",
           "meetNumber": "01",
-          "catalogNumber": "",
-          "schedule": [
-            {
-              "day": "",
-              "time": "0:00",
-              "duration": "0",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "catalogNumber": "Q45R03 (AP WRIT) P36T03 (AP HUMA) C30Z03 (AP EN )",
-          "schedule": [
-            {
-              "day": "",
-              "time": "0:00",
-              "duration": "0",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "catalogNumber": "Q45R04 (AP WRIT) P36T04 (AP HUMA) C30Z04 (AP EN )",
-          "schedule": [
-            {
-              "day": "",
-              "time": "0:00",
-              "duration": "0",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
         {
           "type": "TUTR",
           "meetNumber": "04",
-          "catalogNumber": "Q45R05 (AP WRIT) P36T05 (AP HUMA) C30Z05 (AP EN )",
-          "schedule": [
-            {
-              "day": "",
-              "time": "0:00",
-              "duration": "0",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
         {
           "type": "TUTR",
           "meetNumber": "05",
-          "catalogNumber": "Q45R06 (AP WRIT) P36T06 (AP HUMA) C30Z06 (AP EN )",
-          "schedule": [
-            {
-              "day": "",
-              "time": "0:00",
-              "duration": "0",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
         {
           "type": "TUTR",
           "meetNumber": "06",
-          "catalogNumber": "Q45R07 (AP WRIT) P36T07 (AP HUMA) C30Z07 (AP EN )",
-          "schedule": [
-            {
-              "day": "",
-              "time": "0:00",
-              "duration": "0",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
         {
           "type": "TUTR",
           "meetNumber": "07",
-          "catalogNumber": "Q45R08 (AP WRIT) P36T08 (AP HUMA) C30Z08 (AP EN )",
-          "schedule": [
-            {
-              "day": "",
-              "time": "0:00",
-              "duration": "0",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
         {
           "type": "TUTR",
           "meetNumber": "08",
-          "catalogNumber": "Q45R09 (AP WRIT) P36T09 (AP HUMA) C30Z09 (AP EN )",
-          "schedule": [
-            {
-              "day": "",
-              "time": "0:00",
-              "duration": "0",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
         {
           "type": "TUTR",
           "meetNumber": "09",
-          "catalogNumber": "Q45R10 (AP WRIT) P36T10 (AP HUMA) C30Z10 (AP EN )",
-          "schedule": [
-            {
-              "day": "",
-              "time": "0:00",
-              "duration": "0",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "(Backup)"
         },
         {
           "type": "TUTR",
           "meetNumber": "10",
-          "catalogNumber": "Q45R11 (AP WRIT) P36T11 (AP HUMA) C30Z11 (AP EN )",
-          "schedule": [
-            {
-              "day": "",
-              "time": "0:00",
-              "duration": "0",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "(Backup)"
         }

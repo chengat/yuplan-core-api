@@ -247,7 +247,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Anna Hudson"
+          ],
           "notes": ""
         }
       ]
@@ -359,7 +361,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Anna Hudson"
+          ],
           "notes": ""
         }
       ]
@@ -1201,7 +1205,9 @@
               "room": "VH 1156"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Sean Hillier"
+          ],
           "notes": ""
         }
       ]
@@ -1590,7 +1596,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "BRG 213"
             }
           ],
           "instructors": [],
@@ -1768,7 +1774,9 @@
               "room": "R S156"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mark P. Hayward"
+          ],
           "notes": ""
         },
         {
@@ -1988,7 +1996,9 @@
               "room": "R S101A"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Tokunbo Ojo"
+          ],
           "notes": ""
         },
         {
@@ -2278,7 +2288,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Lorin Schwarz"
+          ],
           "notes": ""
         }
       ]
@@ -2333,7 +2345,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Joy Mannette"
+          ],
           "notes": ""
         }
       ]
@@ -2361,7 +2375,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Steven John Alsop"
+          ],
           "notes": "This course will be offered at Las Nubes. By permission only."
         }
       ]
@@ -2379,23 +2395,8 @@
           "type": "SEMR",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "C32X01",
-          "schedule": [
-            {
-              "day": "M",
-              "time": "14:30",
-              "duration": "170",
-              "campus": "Keele",
-              "room": ""
-            },
-            {
-              "day": "W",
-              "time": "14:30",
-              "duration": "170",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -2431,7 +2432,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Roopa Trilokekar"
+          ],
           "notes": ""
         }
       ]
@@ -2501,7 +2504,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Aparna Mishra Tarc"
+          ],
           "notes": ""
         }
       ]
@@ -2536,7 +2541,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Lucy Angus"
+          ],
           "notes": ""
         }
       ]
@@ -2571,7 +2578,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Cristina Delgado Vintimilla"
+          ],
           "notes": ""
         }
       ]
@@ -2613,7 +2622,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Claudia Ingrisch-Rupp"
+          ],
           "notes": "The course is being offered by a visiting professor from PH Freiburg in Germany. Class meets 9 times on July 14, 15, 16, 17, 22, 23, 24, 27, 28Â at 11:30 a.m. - 3:30 p.m."
         }
       ]
@@ -2802,7 +2813,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Stephen Anthony Gaetz"
+          ],
           "notes": ""
         }
       ]
@@ -3089,7 +3102,9 @@
               "room": "R S104"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Katarina O'Briain"
+          ],
           "notes": ""
         }
       ]
@@ -3124,7 +3139,9 @@
               "room": "R N203A"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Stephen Cain"
+          ],
           "notes": ""
         }
       ]
@@ -3149,10 +3166,12 @@
               "time": "9:30",
               "duration": "360",
               "campus": "Keele",
-              "room": ""
+              "room": "HNE 141"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Gail Fraser"
+          ],
           "notes": ""
         }
       ]
@@ -3201,7 +3220,9 @@
               "room": "HNE 142"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jin Haritaworn"
+          ],
           "notes": ""
         }
       ]
@@ -3285,7 +3306,9 @@
               "room": "HNE 142"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Peter Timmerman"
+          ],
           "notes": ""
         }
       ]
@@ -4871,7 +4894,9 @@
               "room": "CFT 239"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Kate J Russell"
+          ],
           "notes": ""
         }
       ]
@@ -4899,7 +4924,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jerzy Kowal"
+          ],
           "notes": ""
         }
       ]
@@ -5172,7 +5199,9 @@
               "room": "HNE 142"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jin Haritaworn"
+          ],
           "notes": ""
         }
       ]
@@ -6049,7 +6078,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Geoff Lawrence"
+          ],
           "notes": ""
         }
       ]
@@ -6111,7 +6142,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Eve Haque"
+          ],
           "notes": ""
         }
       ]
@@ -6496,7 +6529,9 @@
               "room": "PSE 321"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Man Wah Wong"
+          ],
           "notes": ""
         }
       ]
@@ -6531,7 +6566,9 @@
               "room": "R S129"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Huaiping Zhu"
+          ],
           "notes": ""
         }
       ]
@@ -6566,7 +6603,9 @@
               "room": "R S127"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Georges Monette"
+          ],
           "notes": ""
         }
       ]
@@ -6601,7 +6640,9 @@
               "room": "PSE 321"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jianhong Wu"
+          ],
           "notes": ""
         }
       ]
@@ -6825,7 +6866,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Judith Ann MacDonnell"
+          ],
           "notes": ""
         }
       ]
@@ -6881,7 +6924,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Roya Haghiri-Vijeh"
+          ],
           "notes": ""
         },
         {
@@ -6898,7 +6943,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Iris Epstein"
+          ],
           "notes": ""
         }
       ]
@@ -6926,7 +6973,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Robin Coatsworth-Puspoky"
+          ],
           "notes": ""
         }
       ]
@@ -7010,7 +7059,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mia Biondi"
+          ],
           "notes": ""
         },
         {
@@ -7027,7 +7078,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mia Biondi"
+          ],
           "notes": ""
         },
         {
@@ -7044,7 +7097,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mia Biondi"
+          ],
           "notes": ""
         }
       ]
@@ -7072,7 +7127,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Linda Frost"
+          ],
           "notes": ""
         },
         {
@@ -7089,7 +7146,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Linda Frost"
+          ],
           "notes": ""
         }
       ]
@@ -7948,7 +8007,9 @@
               "room": "CFT 239"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Janine Marchessault"
+          ],
           "notes": ""
         }
       ]
@@ -8151,7 +8212,9 @@
               "room": "R S101A"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Henry Jackman"
+          ],
           "notes": ""
         }
       ]
@@ -8319,7 +8382,9 @@
               "room": "PSE 258"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Matthew C Johnson"
+          ],
           "notes": ""
         }
       ]
@@ -8361,7 +8426,9 @@
               "room": "PSE 258"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Nikita Blinov"
+          ],
           "notes": ""
         }
       ]
@@ -8473,7 +8540,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Ken Ogata"
+          ],
           "notes": ""
         },
         {
@@ -8490,7 +8559,9 @@
               "room": "VH 3006"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Ken Ogata"
+          ],
           "notes": ""
         },
         {
@@ -8597,7 +8668,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Naomi C. Couto"
+          ],
           "notes": ""
         }
       ]
@@ -9220,7 +9293,9 @@
               "room": "R N814"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Maggie E Toplak"
+          ],
           "notes": ""
         }
       ]
@@ -9248,7 +9323,9 @@
               "room": "BSB 207"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Debra J Pepler"
+          ],
           "notes": ""
         }
       ]
@@ -9339,7 +9416,9 @@
               "room": "VH 3005"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Johanne Jean-Pierre"
+          ],
           "notes": ""
         }
       ]
@@ -9409,7 +9488,9 @@
               "room": "R N836"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Curt Pullan"
+          ],
           "notes": ""
         }
       ]
@@ -9696,7 +9777,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jean-Thomas Tremblay"
+          ],
           "notes": ""
         }
       ]
@@ -10011,6 +10094,34 @@
     },
     {
       "faculty": "GS",
+      "department": "TXLW",
+      "term": "SU",
+      "courseTitle": "Solving Advanced Corporate Tax Problems",
+      "courseId": "6837",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ONLN",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "X16P01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "duration": "0",
+              "campus": "Off Campus",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "GS",
       "department": "VISA",
       "term": "SU",
       "courseTitle": "Global Eco-Arts Residency",
@@ -10032,7 +10143,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Brandon Vickerd",
+            "Laura Levin"
+          ],
           "notes": ""
         }
       ]
@@ -10060,7 +10174,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Susan Blight"
+          ],
           "notes": ""
         }
       ]
@@ -10088,7 +10204,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Susan Blight"
+          ],
           "notes": ""
         }
       ]
