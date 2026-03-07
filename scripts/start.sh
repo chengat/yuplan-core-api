@@ -16,13 +16,12 @@ fi
 
 echo "DATABASE_URL is configured"
 
-# Detect if we're in docker-compose (hostname is "postgres") vs Render (hostname starts with "dpg-")
-# In docker-compose, migrations run in a separate service, so we skip them here
+# In docker-compose, migrate service runs migrations+seed; here we only start the app
 if [[ "$DATABASE_URL" == *"@postgres:"* ]]; then
-    echo "Detected docker-compose environment - skipping migrations and seeding (they run in separate migrate service)"
+    echo "Detected docker-compose - skipping migrations and seeding (handled by migrate service)"
 else
-    # This is Render or another environment - run migrations and seeding
-    echo "Detected Render/production environment - running migrations and seeding..."
+    # Supabase (DB): run migrations then selective seed (no duplicates, seed.sh uses checksum + TRUNCATE)
+    echo "Running migrations and selective seed..."
     
     # Give the database a moment to be ready (Render databases can take a few seconds)
     echo "Waiting a moment for database to be ready..."

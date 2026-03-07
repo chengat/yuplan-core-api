@@ -18,25 +18,21 @@ if [[ "$MIGRATE_URL" == postgresql://* ]]; then
     MIGRATE_URL="${MIGRATE_URL/postgresql:/postgres:}"
 fi
 
-# Only add sslmode if not already present
-# Detect if it's Render (hostname starts with "dpg-") or docker-compose (hostname is "postgres")
+# Only add sslmode if not already present (Supabase need SSL, docker-compose does not)
 if [[ "$MIGRATE_URL" != *"sslmode"* ]]; then
-    if [[ "$MIGRATE_URL" == *"@dpg-"* ]]; then
-        # Render databases require SSL
+    if [[ "$MIGRATE_URL" == *"supabase.co"* ]] || [[ "$MIGRATE_URL" == *"@dpg-"* ]]; then
         if [[ "$MIGRATE_URL" == *"?"* ]]; then
             MIGRATE_URL="${MIGRATE_URL}&sslmode=require"
         else
             MIGRATE_URL="${MIGRATE_URL}?sslmode=require"
         fi
     elif [[ "$MIGRATE_URL" == *"@postgres:"* ]]; then
-        # Docker-compose local database doesn't use SSL
         if [[ "$MIGRATE_URL" == *"?"* ]]; then
             MIGRATE_URL="${MIGRATE_URL}&sslmode=disable"
         else
             MIGRATE_URL="${MIGRATE_URL}?sslmode=disable"
         fi
     fi
-    # If neither pattern matches, don't add sslmode (let it use default)
 fi
 
 echo "Running migrations with connection string..."
