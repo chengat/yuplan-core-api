@@ -55,9 +55,7 @@ func setupRouter(pool *pgxpool.Pool) *gin.Engine {
 
 	router := gin.Default()
 
-	// Add rate limiting to protect the server (0.5 CPU, 512MB RAM)
-	// Conservative limit: 100 requests per minute per IP
-	rateLimiter := middleware.NewRateLimiter(100, 1*time.Minute)
+	rateLimiter := middleware.NewRateLimiter(400, 1*time.Minute)
 	router.Use(rateLimiter.Limit())
 
 	api := router.Group("/api/v1")
