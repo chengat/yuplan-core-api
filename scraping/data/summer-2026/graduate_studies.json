@@ -1579,6 +1579,62 @@
     {
       "faculty": "GS",
       "department": "CIVL",
+      "term": "SU",
+      "courseTitle": "Bridge Engineering",
+      "courseId": "6414",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "Q68X01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "10:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "BC 214"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "GS",
+      "department": "CIVL",
+      "term": "S1",
+      "courseTitle": "Directed Reading in Transportation Engineering",
+      "courseId": "6500",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "Z43T01",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "13:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "In BRG 345-1 (Department Meeting Room)"
+        }
+      ]
+    },
+    {
+      "faculty": "GS",
+      "department": "CIVL",
       "term": "S1",
       "courseTitle": "Computational Methods in Hydrodynamics",
       "courseId": "6610",
@@ -1599,8 +1655,38 @@
               "room": "BRG 213"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Shooka Karimpour"
+          ],
           "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "GS",
+      "department": "CIVL",
+      "term": "S2",
+      "courseTitle": "Data-driven modelling and uncertainty analysis for water resources engineering",
+      "courseId": "6620",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "X19U01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "11:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "In BRG 345-1 (Department Meeting Room)"
         }
       ]
     },
@@ -2141,7 +2227,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Nirupama Agrawal"
+          ],
           "notes": ""
         }
       ]
@@ -2528,14 +2616,14 @@
           "schedule": [
             {
               "day": "T",
-              "time": "14:30",
+              "time": "17:30",
               "duration": "170",
               "campus": "Keele",
               "room": ""
             },
             {
               "day": "R",
-              "time": "14:30",
+              "time": "17:30",
               "duration": "170",
               "campus": "Keele",
               "room": ""
@@ -2845,6 +2933,41 @@
           ],
           "instructors": [],
           "notes": "This is a non-credit course that graduate students must enrol into for every term they are working on either a MEd Major Research Project (MRP), MEd Thesis or PhD Doctoral Dissertation. Self-directed work on a MEd Major Research Project (MRP), MEd Thesis or PhD Doctoral Dissertation with their supervisor.Â"
+        }
+      ]
+    },
+    {
+      "faculty": "GS",
+      "department": "EECS",
+      "term": "S1",
+      "courseTitle": "Information Networks",
+      "courseId": "5414",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "B22X01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "11:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "HNE B15"
+            },
+            {
+              "day": "W",
+              "time": "13:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "HNE B15"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
         }
       ]
     },
@@ -3172,7 +3295,7 @@
           "instructors": [
             "Gail Fraser"
           ],
-          "notes": ""
+          "notes": "The course is offer as a field/workshop style. There are at least two days where the class will be meeting off campus in the Toronto area and students will be expected to make their own way to these protected area locations. For many sessions you will be outdoors, and a significant amount of walking may be needed. It is expected that students in this course will have some knowledge of introductory ecology."
         }
       ]
     },
@@ -3223,7 +3346,7 @@
           "instructors": [
             "Jin Haritaworn"
           ],
-          "notes": ""
+          "notes": "This course is meeting May 4-19 inclusive. See course syllabus for more details."
         }
       ]
     },
@@ -3309,6 +3432,55 @@
           "instructors": [
             "Peter Timmerman"
           ],
+          "notes": "This course is meeting June 16-29 inclusive. See course syllabus for more details."
+        }
+      ]
+    },
+    {
+      "faculty": "GS",
+      "department": "ENVS",
+      "term": "I2",
+      "courseTitle": "International Political Economy and Ecology Summer School",
+      "courseId": "6275",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "B82J01 (GS ENVS) X35A01 (GS GEOG) Z88Z01 (GS POLS)",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "9:00",
+              "duration": "350",
+              "campus": "Keele",
+              "room": "HNE 140"
+            },
+            {
+              "day": "T",
+              "time": "9:00",
+              "duration": "350",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "W",
+              "time": "9:00",
+              "duration": "350",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "R",
+              "time": "9:00",
+              "duration": "350",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -3357,8 +3529,10 @@
               "room": "HNE 140"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Loren March"
+          ],
+          "notes": "This course is meeting May 11-26 inclusive. See course syllabus for more details."
         }
       ]
     },
@@ -3617,7 +3791,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "This offering is part of the Cross-Campus Capstone Classroom (C4) Management program. From June 1 to June 12 (with Capstone Day on June 19), students will work in interdisciplinary teams on a project sprint focused on real-world social impact. To apply, visit https://www.yorku.ca/c4/apply-for-c4/ ."
         },
         {
           "type": "FDEX",
@@ -5018,6 +5192,55 @@
     {
       "faculty": "GS",
       "department": "GEOG",
+      "term": "I2",
+      "courseTitle": "International Political Economy and Ecology Summer School",
+      "courseId": "5395",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "B82J01 (GS ENVS) X35A01 (GS GEOG) Z88Z01 (GS POLS)",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "9:00",
+              "duration": "350",
+              "campus": "Keele",
+              "room": "HNE 140"
+            },
+            {
+              "day": "T",
+              "time": "9:00",
+              "duration": "350",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "W",
+              "time": "9:00",
+              "duration": "350",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "R",
+              "time": "9:00",
+              "duration": "350",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "GS",
+      "department": "GEOG",
       "term": "SU",
       "courseTitle": "M.A./M.Sc. Research Paper",
       "courseId": "6010",
@@ -5202,7 +5425,7 @@
           "instructors": [
             "Jin Haritaworn"
           ],
-          "notes": ""
+          "notes": "This course is meeting May 4-19 inclusive. See course syllabus for more details."
         }
       ]
     },
@@ -6896,7 +7119,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Eva Hava Peisachovich"
+          ],
           "notes": ""
         }
       ]
@@ -7056,7 +7281,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "HNE B26"
             }
           ],
           "instructors": [
@@ -7075,7 +7300,7 @@
               "time": "13:00",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "HNE B26"
             }
           ],
           "instructors": [
@@ -7094,7 +7319,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "HNE B26"
             }
           ],
           "instructors": [
@@ -7792,7 +8017,9 @@
               "room": "DB 1004"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Romi-Lee Sevel"
+          ],
           "notes": ""
         },
         {
@@ -7809,7 +8036,9 @@
               "room": "DB 0007"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Romi-Lee Sevel"
+          ],
           "notes": ""
         }
       ]
@@ -7830,11 +8059,11 @@
           "catalogNumber": "J02W01",
           "schedule": [
             {
-              "day": "R",
-              "time": "11:00",
+              "day": "T",
+              "time": "18:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "CLH M"
+              "room": "DB 0005"
             }
           ],
           "instructors": [],
@@ -7882,7 +8111,9 @@
               "room": "DB 1004"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Joanne E Magee"
+          ],
           "notes": ""
         },
         {
@@ -7899,7 +8130,9 @@
               "room": "DB 1004"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Joanne E Magee"
+          ],
           "notes": ""
         }
       ]
@@ -7948,11 +8181,11 @@
           "catalogNumber": "F90Y01",
           "schedule": [
             {
-              "day": "M",
-              "time": "11:30",
+              "day": "R",
+              "time": "14:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "R S105"
+              "room": "DB 0001"
             }
           ],
           "instructors": [],
@@ -8429,6 +8662,55 @@
           "instructors": [
             "Nikita Blinov"
           ],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "GS",
+      "department": "POLS",
+      "term": "I2",
+      "courseTitle": "International Political Economy and Ecology Summer School",
+      "courseId": "6282",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "B82J01 (GS ENVS) X35A01 (GS GEOG) Z88Z01 (GS POLS)",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "9:00",
+              "duration": "350",
+              "campus": "Keele",
+              "room": "HNE 140"
+            },
+            {
+              "day": "T",
+              "time": "9:00",
+              "duration": "350",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "W",
+              "time": "9:00",
+              "duration": "350",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "R",
+              "time": "9:00",
+              "duration": "350",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -9276,26 +9558,9 @@
           "type": "SEMR",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "H49H01",
-          "schedule": [
-            {
-              "day": "M",
-              "time": "14:30",
-              "duration": "170",
-              "campus": "Keele",
-              "room": "R N814"
-            },
-            {
-              "day": "W",
-              "time": "14:30",
-              "duration": "170",
-              "campus": "Keele",
-              "room": "R N814"
-            }
-          ],
-          "instructors": [
-            "Maggie E Toplak"
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -9453,7 +9718,9 @@
               "room": "R N836"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Kinnon Ross MacKinnon"
+          ],
           "notes": ""
         }
       ]
