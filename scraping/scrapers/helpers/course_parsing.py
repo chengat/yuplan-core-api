@@ -84,8 +84,43 @@ def parse_schedule_entry(schedule_cells: List[Tag]) -> Dict[str, str]:
     }
 
 
+def extract_from_schedule_cell(schedule_cell: Tag) -> tuple[List[str], str]:
+    """Extract instructors and notes from nested TDs inside the schedule cell (old HTML structure)."""
+    instructors: List[str] = []
+    notes = ""
+    
+    nested_tds = schedule_cell.find_all("td", recursive=False)
+    if len(nested_tds) >= 1:
+        instructors = parse_instructors(nested_tds[0].decode_contents())
+    if len(nested_tds) >= 2:
+        notes = parse_notes(nested_tds[1].decode_contents())
+    
+    return instructors, notes
+
+
+def extract_from_sibling_cells(row_cells: List[Tag], section_type_index: int) -> tuple[List[str], str]:
+    """Extract instructors and notes from sibling TD cells at offsets 4 and 5 (new HTML structure)."""
+    instructors: List[str] = []
+    notes = ""
+    
+    # Instructors are at offset +4 from section_type_index
+    if len(row_cells) > section_type_index + 4:
+        instructors = parse_instructors(row_cells[section_type_index + 4].decode_contents())
+    
+    # Notes are at offset +5 from section_type_index
+    if len(row_cells) > section_type_index + 5:
+        notes = parse_notes(row_cells[section_type_index + 5].decode_contents())
+    
+    return instructors, notes
+
+
 def build_details(row_cells: List[Tag], section_type_index: int) -> tuple[List[Dict[str, str]], List[str], str, str, bool]:
-    """Construct schedule, instructors, notes, catalog_number and is_cancelled for a section row."""
+    """Construct schedule, instructors, notes, catalog_number and is_cancelled for a section row.
+    
+    Supports both old and new HTML structures:
+    - Old: instructors/notes nested inside schedule cell
+    - New: instructors/notes as sibling cells at offsets +4 and +5
+    """
     schedule: List[Dict[str, str]] = []
     catalog_cell = row_cells[section_type_index + 2] if len(row_cells) > section_type_index + 2 else None
     schedule_cell = row_cells[section_type_index + 3] if len(row_cells) > section_type_index + 3 else None
@@ -109,11 +144,12 @@ def build_details(row_cells: List[Tag], section_type_index: int) -> tuple[List[D
             if schedule_text and schedule_text.lower() != "cancelled":
                 schedule.append({"day": "", "time": schedule_text, "duration": "", "campus": "", "room": ""})
 
-        nested_tds = schedule_cell.find_all("td", recursive=False)
-        if len(nested_tds) >= 1:
-            instructors = parse_instructors(nested_tds[0].decode_contents())
-        if len(nested_tds) >= 2:
-            notes = parse_notes(nested_tds[1].decode_contents())
+        # Try to extract instructors and notes from nested TDs (old structure)
+        instructors, notes = extract_from_schedule_cell(schedule_cell)
+
+    # If instructors/notes not found in schedule cell, try sibling cells (new structure)
+    if not instructors and not notes:
+        instructors, notes = extract_from_sibling_cells(row_cells, section_type_index)
 
     return schedule, instructors, notes, catalog_number, is_cancelled
 
