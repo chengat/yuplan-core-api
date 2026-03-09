@@ -153,6 +153,78 @@ class TestParseSectionRow(unittest.TestCase):
         self.assertEqual(detail["catalogNumber"], "E77J01")
         self.assertEqual(detail["schedule"][0]["room"], "WC 117")
 
+    def test_section_row_with_instructors_notes_in_sibling_cells(self):
+        """Newer HTML structure keeps instructors/notes in sibling cells."""
+        course = parse_course_header(BeautifulSoup("""<tr>
+            <td class=\"bodytext\">Faculty</td>
+            <td class=\"bodytext\">EDUC</td>
+            <td class=\"bodytext\">FW</td>
+            <td class=\"bodytext\" colspan=\"2\">Test Course</td>
+        </tr>""", "html.parser").find("tr"))
+
+        row_html = """<tr>
+            <td>1005 3.00 A</td>
+            <td>EN</td>
+            <td>LECT</td>
+            <td>01</td>
+            <td>Z99Z01</td>
+            <td>
+                <table>
+                    <tr>
+                        <td>M</td>
+                        <td>11:30</td>
+                        <td>170</td>
+                        <td>Keele</td>
+                        <td>CLH E</td>
+                    </tr>
+                </table>
+            </td>
+            <td>Mary Smith</td>
+            <td>Bring calculator</td>
+        </tr>"""
+        row = BeautifulSoup(row_html, "html.parser").find("tr")
+        detail = parse_section_row(row.find_all("td", recursive=False), course)
+
+        self.assertIsNotNone(detail)
+        self.assertEqual(detail["instructors"], ["Mary Smith"])
+        self.assertEqual(detail["notes"], "Bring calculator")
+
+    def test_section_row_with_instructors_notes_nested_in_schedule_cell(self):
+        """Older HTML structure can embed instructors/notes inside schedule cell."""
+        course = parse_course_header(BeautifulSoup("""<tr>
+            <td class=\"bodytext\">Faculty</td>
+            <td class=\"bodytext\">EDUC</td>
+            <td class=\"bodytext\">FW</td>
+            <td class=\"bodytext\" colspan=\"2\">Test Course</td>
+        </tr>""", "html.parser").find("tr"))
+
+        row_html = """<tr>
+            <td>1006 3.00 B</td>
+            <td>EN</td>
+            <td>LECT</td>
+            <td>02</td>
+            <td>Y11Y02</td>
+            <td>
+                <table>
+                    <tr>
+                        <td>W</td>
+                        <td>14:30</td>
+                        <td>170</td>
+                        <td>Keele</td>
+                        <td>ACW 005</td>
+                    </tr>
+                </table>
+                <td>John Limnidis</td>
+                <td>(Backup)</td>
+            </td>
+        </tr>"""
+        row = BeautifulSoup(row_html, "html.parser").find("tr")
+        detail = parse_section_row(row.find_all("td", recursive=False), course)
+
+        self.assertIsNotNone(detail)
+        self.assertEqual(detail["instructors"], ["John Limnidis"])
+        self.assertEqual(detail["notes"], "(Backup)")
+
     def test_section_row_with_schedule_text(self):
         course = parse_course_header(BeautifulSoup("""<tr>
             <td class=\"bodytext\">Faculty</td>
