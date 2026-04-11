@@ -1,0 +1,37 @@
+{
+  "_description": "Maps page_source/<term>/<stem>.html to York SIS static timetable HTML. Full URL = base_url + year_prefix + faculty_code + '.html'. The local term folder name (e.g. fall-winter-2026-2027) does not have to match York's FW#### prefix—set year_prefix to whatever filenames exist on apps1.sis.yorku.ca.",
+  "base_url": "https://apps1.sis.yorku.ca/WebObjects/cdm.woa/Contents/WebServerResources/",
+  "terms": {
+    "fall-winter-2025-2026": {
+      "year_prefix": "FW2026",
+      "stem_to_faculty_code": {
+        "liberal_arts": "AP",
+        "education": "ED",
+        "urban": "EU",
+        "school_of_arts": "FA",
+        "glendon": "GL",
+        "graduate_studies": "GS",
+        "health": "HH",
+        "lassonde": "LE",
+        "schulich": "SB",
+        "science": "SC"
+      }
+    },
+    "fall-winter-2026-2027": {
+      "year_prefix": "FW2026",
+      "_year_prefix_note": "Same SIS filenames as current published timetables (FW2026*.html). When York posts new files (e.g. FW2027*.html), update year_prefix here.",
+      "stem_to_faculty_code": {
+        "liberal_arts": "AP",
+        "education": "ED",
+        "urban": "EU",
+        "school_of_arts": "FA",
+        "glendon": "GL",
+        "graduate_studies": "GS",
+        "health": "HH",
+        "lassonde": "LE",
+        "schulich": "SB",
+        "science": "SC"
+      }
+    }
+  }
+}

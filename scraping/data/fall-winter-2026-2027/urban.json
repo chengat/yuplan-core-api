@@ -1,0 +1,5502 @@
+{
+  "courses": [
+    {
+      "faculty": "EU",
+      "department": "COOP",
+      "term": "F",
+      "courseTitle": "Co-op Professional Development",
+      "courseId": "2001",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ONLN",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "M74F01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "This course is available exclusively to students in EUC; enrolment is subject to the Career Centre approval. Contact askcoop@yorku.ca ."
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "COOP",
+      "term": "W",
+      "courseTitle": "Co-op Professional Development",
+      "courseId": "2001",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ONLN",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "G21Z01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "This course is available exclusively to students in EUC; enrolment is subject to the Career Centre approval. Contact askcoop@yorku.ca .Â"
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "COOP",
+      "term": "F",
+      "courseTitle": "EUC Co-op Work Term",
+      "courseId": "2109",
+      "credits": "0.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ONLN",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "P86Q01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Off Campus",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "This course is available exclusively to students in EUC; enrolment is subject to the Career Centre approval. Contact askcoop@yorku.ca .Â"
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "COOP",
+      "term": "W",
+      "courseTitle": "EUC Co-op Work Term",
+      "courseId": "2109",
+      "credits": "0.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ONLN",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "J33C01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Off Campus",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "This course is available exclusively to students in EUC; enrolment is subject to the Career Centre approval. Contact askcoop@yorku.ca .Â"
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "COOP",
+      "term": "F",
+      "courseTitle": "EUC Co-op Work Term",
+      "courseId": "3109",
+      "credits": "0.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ONLN",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "C80Y01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Off Campus",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "This course is available exclusively to students in EUC; enrolment is subject to the Career Centre approval. Contact askcoop@yorku.ca .Â"
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "COOP",
+      "term": "W",
+      "courseTitle": "EUC Co-op Work Term",
+      "courseId": "3109",
+      "credits": "0.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ONLN",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "T27T01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Off Campus",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "This course is available exclusively to students in EUC; enrolment is subject to the Career Centre approval. Contact askcoop@yorku.ca .Â"
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "F",
+      "courseTitle": "Introduction to Environmental Documentaries",
+      "courseId": "1010",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "TUTR",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "N62B02",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "9:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "This course will be delivered online with synchronous class sessions:the Lecture will be online and the tutorials delivery will be on the Day(s) and Start Time listed here."
+        },
+        {
+          "type": "ONLN",
+          "meetNumber": "01",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "8:30",
+              "duration": "110",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "02",
+          "catalogNumber": "N62B03",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "03",
+          "catalogNumber": "N62B04",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "13:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "04",
+          "catalogNumber": "N62B05",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "13:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "05",
+          "catalogNumber": "N62B06",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "06",
+          "catalogNumber": "N62B07",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "11:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "07",
+          "catalogNumber": "N62B08",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "12:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "08",
+          "catalogNumber": "N62B09",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "12:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "W",
+      "courseTitle": "Introduction to Environmental Documentaries",
+      "courseId": "1010",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "TUTR",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "H09K02",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "9:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "This course will be delivered online with synchronous class sessions:the Lecture will be online and the tutorials delivery will be on the Day(s) and Start Time listed here."
+        },
+        {
+          "type": "ONLN",
+          "meetNumber": "01",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "8:30",
+              "duration": "110",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "02",
+          "catalogNumber": "H09K03",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "03",
+          "catalogNumber": "H09K04",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "13:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "04",
+          "catalogNumber": "H09K05",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "13:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "05",
+          "catalogNumber": "H09K06",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "06",
+          "catalogNumber": "H09K07",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "11:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "07",
+          "catalogNumber": "H09K08",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "12:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "08",
+          "catalogNumber": "H09K09",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "12:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "W",
+      "courseTitle": "The land we're on: Treaties, Art and Environment",
+      "courseId": "1100",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "F",
+              "time": "14:30",
+              "duration": "110",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "01",
+          "catalogNumber": "Z49A02",
+          "schedule": [
+            {
+              "day": "F",
+              "time": "16:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "02",
+          "catalogNumber": "Z49A03",
+          "schedule": [
+            {
+              "day": "F",
+              "time": "16:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "03",
+          "catalogNumber": "Z49A04",
+          "schedule": [
+            {
+              "day": "F",
+              "time": "16:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "04",
+          "catalogNumber": "Z49A05",
+          "schedule": [
+            {
+              "day": "F",
+              "time": "16:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "05",
+          "catalogNumber": "Z49A06",
+          "schedule": [
+            {
+              "day": "F",
+              "time": "17:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "06",
+          "catalogNumber": "Z49A07",
+          "schedule": [
+            {
+              "day": "F",
+              "time": "17:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "07",
+          "catalogNumber": "Z49A08",
+          "schedule": [
+            {
+              "day": "F",
+              "time": "17:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "08",
+          "catalogNumber": "Z49A09",
+          "schedule": [
+            {
+              "day": "F",
+              "time": "17:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "F",
+      "courseTitle": "Cities,Regions and Planning in a Globalizing World",
+      "courseId": "1210",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "14:30",
+              "duration": "110",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "01",
+          "catalogNumber": "C88B02",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "16:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "02",
+          "catalogNumber": "C88B03",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "17:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "03",
+          "catalogNumber": "C88B04",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "16:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "04",
+          "catalogNumber": "C88B05",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "17:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "05",
+          "catalogNumber": "C88B06",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "17:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "06",
+          "catalogNumber": "C88B07",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "16:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "F",
+      "courseTitle": "Environmental Politics and Justice",
+      "courseId": "1300",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "12:30",
+              "duration": "110",
+              "campus": "Keele",
+              "room": "HNE 030"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "01",
+          "catalogNumber": "H96J02",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "14:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "HNE B10"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "02",
+          "catalogNumber": "H96J03",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "15:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "HNE B10"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "W",
+      "courseTitle": "Foundations of Environmental Management: Policy, Resources and Conservation",
+      "courseId": "1400",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "14:30",
+              "duration": "110",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "01",
+          "catalogNumber": "F13N02",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "16:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "02",
+          "catalogNumber": "F13N03",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "16:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "03",
+          "catalogNumber": "F13N04",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "17:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "04",
+          "catalogNumber": "F13N05",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "17:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "F",
+      "courseTitle": "Introduction to Environmental Science",
+      "courseId": "1500",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "F",
+              "time": "10:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "01",
+          "catalogNumber": "V60V02",
+          "schedule": [
+            {
+              "day": "F",
+              "time": "11:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "HNE 258"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "02",
+          "catalogNumber": "V60V03",
+          "schedule": [
+            {
+              "day": "F",
+              "time": "11:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "HNE 253"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "03",
+          "catalogNumber": "V60V04",
+          "schedule": [
+            {
+              "day": "F",
+              "time": "13:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "HNE 258"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "04",
+          "catalogNumber": "V60V05",
+          "schedule": [
+            {
+              "day": "F",
+              "time": "13:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "HNE 253"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "F",
+      "courseTitle": "Community Arts for Social Change",
+      "courseId": "2122",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "WKSP",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "Q88V01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "HNE 140"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "W",
+      "courseTitle": "Foundations of Planning and Politics",
+      "courseId": "2200",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "14:30",
+              "duration": "110",
+              "campus": "Keele",
+              "room": "ACW 005"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "01",
+          "catalogNumber": "P36W02",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "16:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "HNE B10"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "02",
+          "catalogNumber": "P36W03",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "16:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "HNE 030"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "03",
+          "catalogNumber": "P36W04",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "17:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "HNE B10"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "04",
+          "catalogNumber": "P36W05",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "17:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "HNE 036"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "F",
+      "courseTitle": "Foundations of Urban Political Ecology",
+      "courseId": "2201",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "14:30",
+              "duration": "110",
+              "campus": "Keele",
+              "room": "HNE 038"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "01",
+          "catalogNumber": "C30R02",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "16:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "HNE B10"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "02",
+          "catalogNumber": "C30R03",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "16:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "HNE 036"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "03",
+          "catalogNumber": "C30R04",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "17:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "HNE B10"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "04",
+          "catalogNumber": "C30R05",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "17:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "HNE 036"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "F",
+      "courseTitle": "In/Humanities: Critical Perspectives on Environmental Justice",
+      "courseId": "2327",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "S77C01",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "11:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "F",
+      "courseTitle": "Solutions: Sustainability, Justice, Transitions",
+      "courseId": "2403",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "TUTR",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "X54Q02",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "13:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "This course will be delivered online with synchronous class sessions: the delivery will be on the Day(s) and Start Time listed here."
+        },
+        {
+          "type": "ONLN",
+          "meetNumber": "01",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "11:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "02",
+          "catalogNumber": "X54Q03",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "13:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "03",
+          "catalogNumber": "X54Q04",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "13:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "04",
+          "catalogNumber": "X54Q05",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "13:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "05",
+          "catalogNumber": "X54Q06",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "13:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "W",
+      "courseTitle": "Environmental Governance and Policy: Ideas, Interests and Institutions",
+      "courseId": "2410",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "14:30",
+              "duration": "110",
+              "campus": "Keele",
+              "room": "HNE 038"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "01",
+          "catalogNumber": "P07H02",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "16:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "HNE 030"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "02",
+          "catalogNumber": "P07H03",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "17:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "HNE 034"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "03",
+          "catalogNumber": "P07H04",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "16:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "HNE 036"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "04",
+          "catalogNumber": "P07H05",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "17:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "VH 3004"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "W",
+      "courseTitle": "Ecology and Conservation Science",
+      "courseId": "2420",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "9:30",
+              "duration": "110",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "01",
+          "catalogNumber": "K35H02",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "11:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "02",
+          "catalogNumber": "K35H03",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "13:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "03",
+          "catalogNumber": "K35H04",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "11:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "04",
+          "catalogNumber": "K35H05",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "13:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "W",
+      "courseTitle": "Economics for the Anthropocene",
+      "courseId": "2510",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "14:30",
+              "duration": "110",
+              "campus": "Keele",
+              "room": "HNE 038"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "01",
+          "catalogNumber": "C01C02",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "16:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "HNE B10"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "02",
+          "catalogNumber": "C01C03",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "17:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "HNE 036"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "03",
+          "catalogNumber": "C01C04",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "16:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "HNE 036"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "04",
+          "catalogNumber": "C01C05",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "17:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "HNE B10"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "F",
+      "courseTitle": "Qualitative Methods",
+      "courseId": "3010",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "TUTR",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "Y73U02",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "11:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "This course will be delivered online with synchronous class sessions: the delivery will be on the Day(s) and Start Time listed here."
+        },
+        {
+          "type": "ONLN",
+          "meetNumber": "01",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "9:30",
+              "duration": "110",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "02",
+          "catalogNumber": "Y73U03",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "11:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "03",
+          "catalogNumber": "Y73U04",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "12:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "04",
+          "catalogNumber": "Y73U05",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "12:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "F",
+      "courseTitle": "Environmental History",
+      "courseId": "3120",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "G22Y01",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "HNE 102"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "F",
+      "courseTitle": "Create, Curate, Critique: Environmental Arts Workshop",
+      "courseId": "3122",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "WKSP",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "D82Q01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "11:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "HNE 102"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "F",
+      "courseTitle": "Energy and the Environment in Canada",
+      "courseId": "3130",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "W39H01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "8:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "HNE 030"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "W",
+      "courseTitle": "Race/Racism and Environmental Justice",
+      "courseId": "3160",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ONLN",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "Q16F01",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "8:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "This course will be delivered online with synchronous class sessions: the delivery will be on the Day(s) and Start Time listed here."
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "W",
+      "courseTitle": "Urban and Regional Infrastructures: A Critical Introduction",
+      "courseId": "3222",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "U29B01",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "11:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "F",
+      "courseTitle": "Sustainable Urbanism: Environmental Planning and Design",
+      "courseId": "3226",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "N76K01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "F",
+      "courseTitle": "Doing Urban Research: Theory and Practice",
+      "courseId": "3228",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "N69R01",
+          "schedule": [
+            {
+              "day": "F",
+              "time": "8:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "This course includes a mandatory four-day field trip to Montreal. Through visits to diverse neighbourhoods and institutions, as well as meetings with professors, community organizations, and policy makers, students will examine urban form, governance, policy, and community-based planning in practice. The field trip typically takes place from Thursday to Sunday around the mid-term period, and participation is required for successful completion of the course."
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "W",
+      "courseTitle": "Arts-Based Research Methods",
+      "courseId": "3327",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "B43S01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "HNE 140"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "F",
+      "courseTitle": "Global Environmental Politics",
+      "courseId": "3340",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "J63Z01",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "11:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "F",
+      "courseTitle": "Introduction to Climate Change Science and Policy",
+      "courseId": "3400",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "F",
+              "time": "11:30",
+              "duration": "110",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "01",
+          "catalogNumber": "H23T02",
+          "schedule": [
+            {
+              "day": "F",
+              "time": "13:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "02",
+          "catalogNumber": "H23T03",
+          "schedule": [
+            {
+              "day": "F",
+              "time": "14:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "F",
+      "courseTitle": "Environmental Assessment",
+      "courseId": "3430",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "W98Y01",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "11:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "HNE B15"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "W",
+      "courseTitle": "Business and Sustainability: Issues and Strategies",
+      "courseId": "3505",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "D39P01",
+          "schedule": [
+            {
+              "day": "F",
+              "time": "11:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "HNE 030"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "W",
+      "courseTitle": "Ecological Economics",
+      "courseId": "3511",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "A70F01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "11:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "HNE B17"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "W",
+      "courseTitle": "Digital Worlds and Urban Futures: Cities, Technology, and Justice",
+      "courseId": "3800C",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "G79V01",
+          "schedule": [
+            {
+              "day": "F",
+              "time": "8:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "F",
+      "courseTitle": "Introduction to Degrowth for Socio-Ecological Transformations",
+      "courseId": "3801",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "M71P01",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "F",
+      "courseTitle": "Directed Reading",
+      "courseId": "3900",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "DIRD",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "R17N01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "This course is available exclusively to students in EUC; enrolment is subject to department approval. Contact euadvise@yorku.ca ."
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "W",
+      "courseTitle": "Directed Reading",
+      "courseId": "3900",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "DIRD",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "K64W01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "This course is available exclusively to students in EUC; enrolment is subject to department approval. Contact euadvise@yorku.ca ."
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "Y",
+      "courseTitle": "Directed Reading",
+      "courseId": "3900",
+      "credits": "6.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "DIRD",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "E11X01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "This course is available exclusively to students in EUC; enrolment is subject to department approval. Contact euadvise@yorku.ca ."
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "Y",
+      "courseTitle": "Senior Honours Work Seminar",
+      "courseId": "4000",
+      "credits": "6.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "THES",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "U58Q01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "This course is available exclusively to students in EUC; enrolment is subject to department approval. Contact euadvise@yorku.ca ."
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "F",
+      "courseTitle": "Field Placement Course",
+      "courseId": "4001",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "INSP",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "Z05C01 (EU ENVS) Q94R01 (EU GEOG)",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "This course is available exclusively to students in EUC; enrolment is subject to department approval. Contact euadvise@yorku.ca ."
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "W",
+      "courseTitle": "Field Placement Course",
+      "courseId": "4001",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "INSP",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "H52Y01 (EU ENVS) K41D01 (EU GEOG)",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "This course is available exclusively to students in EUC; enrolment is subject to department approval. Contact: euc_ee@yorku.ca ."
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "Y",
+      "courseTitle": "Field Placement Course",
+      "courseId": "4001",
+      "credits": "6.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "INSP",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "A99U01 (EU ENVS) A47J01 (EU GEOG)",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "This course is available exclusively to students in EUC; enrolment is subject to department approval. Contact: euc_ee@yorku.ca ."
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "Y",
+      "courseTitle": "Inter-disciplinary Capstone Project (C4)",
+      "courseId": "4003",
+      "credits": "6.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "G42R01",
+          "schedule": [
+            {
+              "day": "F",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "This offering is part of the cross-campus capstone classroom (C4) launchpad program. Students will work collaboratively with EUC and non-EUC students on an interdisciplinary project sprint. Enrolment is by permission. To apply, visit https://www.yorku.ca/c4/apply-for-c4/ . Visit: https://www.yorku.ca/c4/apply-for-c4/gateway-courses-and-liaisons ."
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "F",
+      "courseTitle": "Inter-disciplinary Capstone Project (C4)",
+      "courseId": "4003",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "T48W01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "This offering is part of the cross-campus capstone classroom (C4) launchpad program. Students will work collaboratively with EUC and non-EUC students on an interdisciplinary project sprint. Enrolment is by permission. To apply, visit https://www.yorku.ca/c4/apply-for-c4/ . Visit: https://www.yorku.ca/c4/apply-for-c4/gateway-courses-and-liaisons ."
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "W",
+      "courseTitle": "Inter-disciplinary Capstone Project (C4)",
+      "courseId": "4003",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "M95X01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "This offering is part of the cross-campus capstone classroom (C4) launchpad program. Students will work collaboratively with EUC and non-EUC students on an interdisciplinary project sprint. Enrolment is by permission. To apply, contact euc_ee@yorku.ca . Visit: https://www.yorku.ca/c4/apply-for-c4/gateway-courses-and-liaisons ."
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "W",
+      "courseTitle": "Food, Land and Culture",
+      "courseId": "4011",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "G51D01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "11:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "HNE 140"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "W",
+      "courseTitle": "Biodiversity",
+      "courseId": "4111",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "11:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "CLH H"
+            },
+            {
+              "day": "R",
+              "time": "11:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "CLH H"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "01",
+          "catalogNumber": "P15Y02 (SC BIOL) V75S02 (EU ENVS)",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "02",
+          "catalogNumber": "P15Y03 (SC BIOL) V75S03 (EU ENVS)",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "03",
+          "catalogNumber": "P15Y04 (SC BIOL) V75S04 (EU ENVS)",
+          "schedule": [
+            {
+              "day": "F",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "04",
+          "catalogNumber": "P15Y05 (SC BIOL) V75S05 (EU ENVS)",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "F",
+      "courseTitle": "Nature and Culture: Environmental Thought",
+      "courseId": "4140",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "X83X01",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "11:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "ACE 010"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "F",
+      "courseTitle": "Urbanization in the Global South",
+      "courseId": "4220",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "P94G01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "11:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "W",
+      "courseTitle": "Urban Consulting Practice",
+      "courseId": "4221",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "T35J01",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "HNE 036"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "W",
+      "courseTitle": "Global Cities",
+      "courseId": "4223",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "Q45U01",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "8:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "F",
+      "courseTitle": "Designing Sustainable Cities",
+      "courseId": "4225",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "R46F01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "F",
+      "courseTitle": "Urban Environmental Risk and Resilience",
+      "courseId": "4227",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "G58T01",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "F",
+      "courseTitle": "Queer of Colour Art and Activism in the City",
+      "courseId": "4300",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ONLN",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "J48X01",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "8:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "This course will be delivered online with synchronous class sessions: the delivery will be on the Day(s) and Start Time listed here."
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "F",
+      "courseTitle": "Extraction and its Discontents",
+      "courseId": "4310",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "P57B01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "11:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "W",
+      "courseTitle": "Indigenous Environmental Justice",
+      "courseId": "4311",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "R90D01",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "F",
+      "courseTitle": "Arts and Culture in Cities",
+      "courseId": "4326",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "Y37M01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "HNE 102"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "W",
+      "courseTitle": "Climate Justice",
+      "courseId": "4350",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "W10P01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "F",
+      "courseTitle": "Principles of renewable energy: theory, policy and practice",
+      "courseId": "4400",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "F63H01",
+          "schedule": [
+            {
+              "day": "F",
+              "time": "8:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "F",
+      "courseTitle": "Climate Change Mitigation",
+      "courseId": "4402",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "FIEL",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "D68H01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "HNE 036"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "W",
+      "courseTitle": "Impact Assessment Process & Practice",
+      "courseId": "4430",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "W69T01",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "11:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "HNE B10"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "W",
+      "courseTitle": "Environmental Disasters",
+      "courseId": "4440",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "D10A01",
+          "schedule": [
+            {
+              "day": "F",
+              "time": "11:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "ACW 005"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "F",
+      "courseTitle": "Systems Thinking: How everything is connected to everything else, and what to do about it",
+      "courseId": "4523",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "J04K01",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "8:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "HNE 036"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "W",
+      "courseTitle": "Political Ecology of Landscape",
+      "courseId": "4750",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "N04R01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "11:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "F",
+      "courseTitle": "The Black Atlantic and Environmental Justice",
+      "courseId": "4800E",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "U15P01",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "11:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "F",
+      "courseTitle": "Land and Urban Development",
+      "courseId": "4800Q",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "J41P01",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "O3",
+      "courseTitle": "Advanced Topics in Environment and Health",
+      "courseId": "4800A",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "FDEX",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "B28N01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "duration": "0",
+              "campus": "Off Campus",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "This course is part of the Las Nubes Semester Abroad in Costa Rica and will be offered during February 2027 block week (Reading Week); students are admitted through a selection process; additional fees are required to cover the trip to Costa Rica; final costs, dates, registration information and other essential information can be found at https://lasnubes.euc.yorku.ca/education/programs/ ."
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "F",
+      "courseTitle": "Directed Study",
+      "courseId": "4900",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "DIRD",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "T28Q01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "This course is available exclusively to students in EUC; enrolment is subject to department approval. Contact euadvise@yorku.ca ."
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "W",
+      "courseTitle": "Directed Study",
+      "courseId": "4900",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "DIRD",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "M75C01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "This course is available exclusively to students in EUC; enrolment is subject to department approval. Contact euadvise@yorku.ca ."
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "ENVS",
+      "term": "Y",
+      "courseTitle": "Directed Study",
+      "courseId": "4900",
+      "credits": "6.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "DIRD",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "J92G01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "This course is available exclusively to students in EUC; enrolment is subject to department approval. Contact euadvise@yorku.ca ."
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "GEOG",
+      "term": "Y",
+      "courseTitle": "The World Today: An Introduction to World Geography",
+      "courseId": "1000",
+      "credits": "6.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "CLH I"
+            },
+            {
+              "day": "W",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "CLH I"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "01",
+          "catalogNumber": "N33J02",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "11:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "DB 0015"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "02",
+          "catalogNumber": "N33J03",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "11:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "ACW 209"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "03",
+          "catalogNumber": "N33J04",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "11:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "VC 102"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "04",
+          "catalogNumber": "N33J05",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "11:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "05",
+          "catalogNumber": "N33J06",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "13:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "06",
+          "catalogNumber": "N33J07",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "13:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "07",
+          "catalogNumber": "N33J08",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "13:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "08",
+          "catalogNumber": "N33J09",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "13:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "ACW 209"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "09",
+          "catalogNumber": "N33J10",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "11:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "DB 0015"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "10",
+          "catalogNumber": "N33J11",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "11:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "R S128"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "11",
+          "catalogNumber": "N33J12",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "17:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "12",
+          "catalogNumber": "N33J13",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "17:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "13",
+          "catalogNumber": "N33J14",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "17:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "14",
+          "catalogNumber": "N33J15",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "17:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "GEOG",
+      "term": "F",
+      "courseTitle": "Physical Geography: Weather and Climate",
+      "courseId": "1401",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "9:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "LAS B"
+            },
+            {
+              "day": "R",
+              "time": "9:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "LAS B"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "01",
+          "catalogNumber": "N91Q02 (EU GEOG) K92R02 (SC GEOG)",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SLH 107"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "02",
+          "catalogNumber": "N91Q03 (EU GEOG) K92R03 (SC GEOG)",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SLH 107"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "03",
+          "catalogNumber": "N91Q04 (EU GEOG) K92R04 (SC GEOG)",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "R S105"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "04",
+          "catalogNumber": "N91Q05 (EU GEOG) K92R05 (SC GEOG)",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SLH 107"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "05",
+          "catalogNumber": "N91Q06 (EU GEOG) K92R06 (SC GEOG)",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "R S105"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "06",
+          "catalogNumber": "N91Q07 (EU GEOG) K92R07 (SC GEOG)",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "GEOG",
+      "term": "W",
+      "courseTitle": "Physical Geography: The Dynamic Earth",
+      "courseId": "1402",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "LAS C"
+            },
+            {
+              "day": "R",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "LAS C"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "01",
+          "catalogNumber": "H38C02 (EU GEOG) E39D02 (SC GEOG)",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SLH 107"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "02",
+          "catalogNumber": "H38C03 (EU GEOG) E39D03 (SC GEOG)",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SLH 107"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "03",
+          "catalogNumber": "H38C04 (EU GEOG) E39D04 (SC GEOG)",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SLH 107"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "04",
+          "catalogNumber": "H38C05 (EU GEOG) E39D05 (SC GEOG)",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "R S103"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "05",
+          "catalogNumber": "H38C06 (EU GEOG) E39D06 (SC GEOG)",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "R S105"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "06",
+          "catalogNumber": "H38C07 (EU GEOG) E39D07 (SC GEOG)",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "GEOG",
+      "term": "W",
+      "courseTitle": "The End of the Earth as We Know It: Global Environmental Change",
+      "courseId": "2030",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "14:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "01",
+          "catalogNumber": "K93Z02",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "11:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "VC 118"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "02",
+          "catalogNumber": "K93Z03",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "13:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "SLH 107"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "03",
+          "catalogNumber": "K93Z04",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "13:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "R N120"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "04",
+          "catalogNumber": "K93Z05",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "11:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "SLH 107"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "GEOG",
+      "term": "W",
+      "courseTitle": "Geographies of Global Political Economy and Power",
+      "courseId": "2110",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "9:30",
+              "duration": "110",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "01",
+          "catalogNumber": "E84V02",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "11:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "02",
+          "catalogNumber": "E84V03",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "12:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "03",
+          "catalogNumber": "E84V04",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "11:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "04",
+          "catalogNumber": "E84V05",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "12:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "GEOG",
+      "term": "F",
+      "courseTitle": "Global Urban Geography",
+      "courseId": "2220",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "10:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "R",
+              "time": "10:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "01",
+          "catalogNumber": "V31G02",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "14:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "ACE 006"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "02",
+          "catalogNumber": "V31G03",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "15:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "R S128"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "03",
+          "catalogNumber": "V31G04",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "14:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "R S128"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "04",
+          "catalogNumber": "V31G05",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "15:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "HNE B10"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "GEOG",
+      "term": "F",
+      "courseTitle": "Migration and Displacement",
+      "courseId": "2320",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "TUTR",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "Z78P02",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "16:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "This course will be delivered online with synchronous class sessions: the delivery will be on the Day(s) and Start Time listed here."
+        },
+        {
+          "type": "ONLN",
+          "meetNumber": "01",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "14:30",
+              "duration": "110",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "02",
+          "catalogNumber": "Z78P03",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "16:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "03",
+          "catalogNumber": "Z78P04",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "17:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "04",
+          "catalogNumber": "Z78P05",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "17:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "GEOG",
+      "term": "W",
+      "courseTitle": "Introduction to Geomatics",
+      "courseId": "2340",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "9:30",
+              "duration": "110",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "01",
+          "catalogNumber": "E40A02 (EU GEOG) W96R02 (SC GEOG)",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "11:30",
+              "duration": "110",
+              "campus": "Keele",
+              "room": "HNE 258"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "02",
+          "catalogNumber": "E40A03 (EU GEOG) W96R03 (SC GEOG)",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "14:30",
+              "duration": "110",
+              "campus": "Keele",
+              "room": "HNE 258"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "03",
+          "catalogNumber": "E40A04 (EU GEOG) W96R04 (SC GEOG)",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "11:30",
+              "duration": "110",
+              "campus": "Keele",
+              "room": "HNE 253"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "GEOG",
+      "term": "F",
+      "courseTitle": "Hydrosphere I",
+      "courseId": "2401",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "R N143"
+            },
+            {
+              "day": "W",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "R N143"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "01",
+          "catalogNumber": "E55G02 (EU GEOG) U86Y02 (SC GEOG)",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "R N143"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "GEOG",
+      "term": "F",
+      "courseTitle": "Quantitative Methods",
+      "courseId": "2420",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "16:30",
+              "duration": "110",
+              "campus": "Keele",
+              "room": "HNE 038"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "01",
+          "catalogNumber": "Y22G02 (EU GEOG) Q43D02 (SC GEOG)",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "11:30",
+              "duration": "110",
+              "campus": "Keele",
+              "room": "HNE 258"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "02",
+          "catalogNumber": "Y22G03 (EU GEOG) Q43D03 (SC GEOG)",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "11:30",
+              "duration": "110",
+              "campus": "Keele",
+              "room": "HNE 253"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "03",
+          "catalogNumber": "Y22G04 (EU GEOG) Q43D04 (SC GEOG)",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "11:30",
+              "duration": "110",
+              "campus": "Keele",
+              "room": "HNE 258"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "04",
+          "catalogNumber": "Y22G05 (EU GEOG) Q43D05 (SC GEOG)",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "11:30",
+              "duration": "110",
+              "campus": "Keele",
+              "room": "HNE 253"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "GEOG",
+      "term": "F",
+      "courseTitle": "Geomorphology I",
+      "courseId": "2600",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "11:30",
+              "duration": "110",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "01",
+          "catalogNumber": "E69P02 (EU GEOG) J90M02 (SC GEOG)",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "11:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "GEOG",
+      "term": "W",
+      "courseTitle": "Regions of Canada",
+      "courseId": "3010",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "X25B01",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "GEOG",
+      "term": "F",
+      "courseTitle": "Gender, Population,and Migration",
+      "courseId": "3070",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "R03E01",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "11:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "GEOG",
+      "term": "W",
+      "courseTitle": "Global Biogeochemical Cycles",
+      "courseId": "3100",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "V02Z01 (EU GEOG) R45X01 (SC GEOG)",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "8:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "R N143"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "GEOG",
+      "term": "F",
+      "courseTitle": "The Global Economy",
+      "courseId": "3130",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "Q74M01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "11:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "HNE 032"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "GEOG",
+      "term": "F",
+      "courseTitle": "Terrestrial Ecosystems",
+      "courseId": "3200",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "9:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "R N143"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "01",
+          "catalogNumber": "V16A02 (EU GEOG) D37V02 (SC GEOG)",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "R N143"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "GEOG",
+      "term": "F",
+      "courseTitle": "Geographic Thought",
+      "courseId": "3330",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "B72K01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "GEOG",
+      "term": "F",
+      "courseTitle": "Fundamentals of Geographic Information Systems (GIS)",
+      "courseId": "3340",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "9:30",
+              "duration": "110",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "01",
+          "catalogNumber": "B42V02",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "14:30",
+              "duration": "110",
+              "campus": "Keele",
+              "room": "HNE 253"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "02",
+          "catalogNumber": "B42V03",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "14:30",
+              "duration": "110",
+              "campus": "Keele",
+              "room": "HNE 258"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "GEOG",
+      "term": "W",
+      "courseTitle": "International Development: Critical Geographical Perspectives",
+      "courseId": "3370",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "T86A01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "11:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "GEOG",
+      "term": "W",
+      "courseTitle": "Urban Social Analysis",
+      "courseId": "3380",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "S19S01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "R N120"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "GEOG",
+      "term": "F",
+      "courseTitle": "Remote Sensing for Earth Observation",
+      "courseId": "3440",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "9:30",
+              "duration": "110",
+              "campus": "Keele",
+              "room": "DB 1004"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "01",
+          "catalogNumber": "Z63J02 (EU GEOG) T84G02 (SC GEOG)",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "11:30",
+              "duration": "110",
+              "campus": "Keele",
+              "room": "HNE 253"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "02",
+          "catalogNumber": "Z63J03 (EU GEOG) T84G03 (SC GEOG)",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "11:30",
+              "duration": "110",
+              "campus": "Keele",
+              "room": "HNE 258"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "GEOG",
+      "term": "W",
+      "courseTitle": "Biogeography",
+      "courseId": "3500",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "9:30",
+              "duration": "110",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "01",
+          "catalogNumber": "V67Z02 (EU GEOG) S90Z02 (SC BIOL) M37A02 (SC GEOG)",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "11:30",
+              "duration": "110",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "02",
+          "catalogNumber": "V67Z03 (EU GEOG) S90Z03 (SC BIOL) M37A03 (SC GEOG)",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "14:30",
+              "duration": "110",
+              "campus": "Keele",
+              "room": "VC 119"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "03",
+          "catalogNumber": "V67Z04 (EU GEOG) S90Z04 (SC BIOL) M37A04 (SC GEOG)",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "16:30",
+              "duration": "110",
+              "campus": "Keele",
+              "room": "VC 118"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "GEOG",
+      "term": "F",
+      "courseTitle": "Field Studies in Physical Geography",
+      "courseId": "3540",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "FIEL",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "X10S01 (EU GEOG) N31P01 (SC GEOG)",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "8:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "R S128"
+            }
+          ],
+          "instructors": [],
+          "notes": "This course entails a 4 to 5 days field trip during the fall reading week; additional course fee to partially offset the costs of food and accomodation will be levied. $200.00 - Course Materials"
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "GEOG",
+      "term": "W",
+      "courseTitle": "Black Geographies",
+      "courseId": "3610",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "U22X01",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "11:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "GEOG",
+      "term": "W",
+      "courseTitle": "Disaster! The Earth's Extreme Natural Events",
+      "courseId": "3700",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "B57E01 (EU GEOG) G78B01 (SC GEOG)",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "11:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "VH 3006"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "GEOG",
+      "term": "W",
+      "courseTitle": "Geographies of Work",
+      "courseId": "3800",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "G80S01",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "HNE 001"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "GEOG",
+      "term": "W",
+      "courseTitle": "Physical Geography of the City",
+      "courseId": "3900",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ONLN",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "C81X01 (EU GEOG) N75N01 (SC GEOG)",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "This course will be offered through online delivery and is an asynchronous course with no specified meeting times. Additional information will be provided by your course instructor."
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "GEOG",
+      "term": "Y",
+      "courseTitle": "Honours Thesis",
+      "courseId": "4000",
+      "credits": "6.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "THES",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "A27E01 (EU GEOG) H22W01 (SC GEOG)",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "This course is available exclusively to students in EUC; enrolment is subject to department approval. Contact euadvise@yorku.ca ."
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "GEOG",
+      "term": "F",
+      "courseTitle": "Field Placement Course",
+      "courseId": "4001",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "INSP",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "Z05C01 (EU ENVS) Q94R01 (EU GEOG)",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "This course is available exclusively to students in EUC; enrolment is subject to department approval. Contact euadvise@yorku.ca ."
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "GEOG",
+      "term": "W",
+      "courseTitle": "Field Placement Course",
+      "courseId": "4001",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "INSP",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "H52Y01 (EU ENVS) K41D01 (EU GEOG)",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "This course is available exclusively to students in EUC; enrolment is subject to department approval. Contact: euc_ee@yorku.ca ."
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "GEOG",
+      "term": "Y",
+      "courseTitle": "Field Placement Course",
+      "courseId": "4001",
+      "credits": "6.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "INSP",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "A99U01 (EU ENVS) A47J01 (EU GEOG)",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "This course is available exclusively to students in EUC; enrolment is subject to department approval. Contact: euc_ee@yorku.ca ."
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "GEOG",
+      "term": "W",
+      "courseTitle": "Planning Suburbs",
+      "courseId": "4130",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "Y51V01 (EU GEOG) D88M01 (AP URST)",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "GEOG",
+      "term": "W",
+      "courseTitle": "Geographic Perspectives on Immigration, Ethnicity and Race in Modern Cities",
+      "courseId": "4170",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "E98H01",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "11:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "GEOG",
+      "term": "W",
+      "courseTitle": "Migrant Economies",
+      "courseId": "4190",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "Y66E01",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "GEOG",
+      "term": "F",
+      "courseTitle": "Water Quality and Stream Ecosystems",
+      "courseId": "4200",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "11:30",
+              "duration": "110",
+              "campus": "Keele",
+              "room": "R N143"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "01",
+          "catalogNumber": "V45P02 (EU GEOG) A25K02 (SC GEOG)",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "8:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "R N143"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "GEOG",
+      "term": "Y",
+      "courseTitle": "Directed Reading",
+      "courseId": "4290",
+      "credits": "6.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "DIRD",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "Z92B01 (EU GEOG) D66N01 (SC GEOG)",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "This course is available exclusively to students in EUC; enrolment is subject to department approval. Contact euadvise@yorku.ca ."
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "GEOG",
+      "term": "F",
+      "courseTitle": "Directed Reading",
+      "courseId": "4290",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "DIRD",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "X39K01 (EU GEOG) Q72S01 (SC GEOG)",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "This course is available exclusively to students in EUC; enrolment is subject to department approval. Contact euadvise@yorku.ca ."
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "GEOG",
+      "term": "W",
+      "courseTitle": "Directed Reading",
+      "courseId": "4290",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "DIRD",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "B86T01 (EU GEOG) K19E01 (SC GEOG)",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "This course is available exclusively to students in EUC; enrolment is subject to department approval. Contact euadvise@yorku.ca ."
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "GEOG",
+      "term": "W",
+      "courseTitle": "Spatial analysis and problem solving with Geographic Information Systems (GIS)",
+      "courseId": "4340",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "9:30",
+              "duration": "110",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "01",
+          "catalogNumber": "V30J02",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "11:30",
+              "duration": "110",
+              "campus": "Keele",
+              "room": "HNE 253"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "GEOG",
+      "term": "W",
+      "courseTitle": "Processing and Analysis of Earth Observation",
+      "courseId": "4440",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "9:30",
+              "duration": "110",
+              "campus": "Keele",
+              "room": "HNE 036"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "01",
+          "catalogNumber": "S33E02 (EU GEOG) U13V02 (SC GEOG)",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "11:30",
+              "duration": "110",
+              "campus": "Keele",
+              "room": "HNE 253"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "GEOG",
+      "term": "F",
+      "courseTitle": "Rivers: Environment and Process",
+      "courseId": "4600",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "9:30",
+              "duration": "110",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "01",
+          "catalogNumber": "K21V02 (EU GEOG) A69X02 (SC GEOG)",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "HNE 258"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "GEOG",
+      "term": "F",
+      "courseTitle": "City Challenges, City Opportunities in a 21st Century Toronto",
+      "courseId": "4620",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "G18B01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "GEOG",
+      "term": "W",
+      "courseTitle": "The Critical Geographies of Education",
+      "courseId": "4700",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "Y80N01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "11:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "EU",
+      "department": "GEOG",
+      "term": "F",
+      "courseTitle": "Spaces of Conflict, Violence, and Power",
+      "courseId": "4880",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "P15U01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "11:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    }
+  ]
+}
