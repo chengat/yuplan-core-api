@@ -1,4 +1,5 @@
 import json
+import sys
 import uuid
 from collections import defaultdict
 from pathlib import Path
@@ -329,7 +330,11 @@ def generate_seed_sql(json_files: list[str], output_file: str, descriptions_file
         
         with open(json_file, 'r', encoding='utf-8') as f:
             data = json.load(f)
-        
+
+        if not isinstance(data, dict) or 'courses' not in data:
+            print(f"  Skipping (not a faculty scrape export with top-level 'courses')")
+            continue
+
         courses = data.get('courses', [])
         
         # Collect data from JSON
@@ -387,31 +392,72 @@ def generate_seed_sql(json_files: list[str], output_file: str, descriptions_file
     print(f"   - {len(all_section_activities_list)} section activities")
     print(f"   - {len(all_sections_list)} sections")
 
-if __name__ == '__main__':
-    import sys
-    import os
-    import glob
-    
-    repo_root = Path(__file__).resolve().parents[1]
-    data_dir = str(repo_root / 'scraping' / 'data')
-    output_file = str(repo_root / 'db' / 'seed.sql')
-    descriptions_file = str(repo_root / 'scraping' / 'scrapers' / 'descriptions' / 'course_descriptions.json')
-    
-    if len(sys.argv) > 1:
-        data_dir = sys.argv[1]
-    if len(sys.argv) > 2:
-        output_file = sys.argv[2]
-    if len(sys.argv) > 3:
-        descriptions_file = sys.argv[3]
+EXCLUDED_EXPORT_JSON = frozenset({
+    "duplicates.json",
+    "stub_courses.json",
+})
 
-    json_files = glob.glob(os.path.join(data_dir, '*', '*.json'))
+
+def _collect_json_paths(repo_root: Path, data_root: Path, term_dir_names: list[str]) -> list[str]:
+    """Resolve each name to a directory under scraping/data (or an absolute dir) and list *.json."""
+    paths: list[str] = []
+    for name in term_dir_names:
+        raw = Path(name)
+        if raw.is_absolute():
+            d = raw.resolve()
+        else:
+            under_data = (data_root / name).resolve()
+            d = under_data if under_data.is_dir() else (repo_root / name).resolve()
+        if not d.is_dir():
+            print(f"Error: not a directory: {d}", file=sys.stderr)
+            sys.exit(1)
+        for jp in sorted(d.glob("*.json")):
+            if jp.name in EXCLUDED_EXPORT_JSON:
+                continue
+            paths.append(str(jp))
+    return paths
+
+
+if __name__ == '__main__':
+    import argparse
+
+    repo_root = Path(__file__).resolve().parents[1]
+    data_root = repo_root / 'scraping' / 'data'
+    default_desc = repo_root / 'scraping' / 'scrapers' / 'descriptions' / 'course_descriptions.json'
+    default_out = repo_root / 'db' / 'seed.sql'
+
+    parser = argparse.ArgumentParser(
+        description="Generate db/seed.sql from one or more term folders (e.g. fall-winter + summer)."
+    )
+    parser.add_argument(
+        "term_dirs",
+        nargs="*",
+        default=["fall-winter-2026-2027", "summer-2026"],
+        metavar="DIR",
+        help="Subdirs of scraping/data, or absolute paths to folders of *.json "
+        "(default: fall-winter-2026-2027 summer-2026). Pass only one dir to exclude summer.",
+    )
+    parser.add_argument(
+        "-o",
+        "--output",
+        default=str(default_out),
+        help=f"Output SQL path (default: {default_out})",
+    )
+    parser.add_argument(
+        "--descriptions",
+        default=str(default_desc),
+        help="course_descriptions.json path",
+    )
+    args = parser.parse_args()
+
+    json_files = _collect_json_paths(repo_root, data_root, list(args.term_dirs))
 
     if not json_files:
-        print(f"No JSON files found in {data_dir}")
+        print("No JSON files found (check term_dirs paths).", file=sys.stderr)
         sys.exit(1)
 
-    print(f"Found {len(json_files)} JSON file(s) to process:")  # Fixed!
-    for json_file in json_files:
-        print(f"  - {json_file}")
-    
-    generate_seed_sql(json_files, output_file, descriptions_file)
+    print("JSON inputs:")
+    for j in json_files:
+        print(f"  - {j}")
+
+    generate_seed_sql(json_files, args.output, args.descriptions)
