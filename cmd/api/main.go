@@ -3,6 +3,7 @@ package main
 import (
 	"context"
 	"log"
+	"os"
 	"time"
 	"yuplan/internal/config"
 	"yuplan/internal/database"
@@ -24,7 +25,7 @@ func main() {
 	}
 	defer pool.Close()
 
-	router := setupRouter(pool)
+	router := setupRouter(pool, cfg)
 
 	if err := startServer(router, cfg.Port); err != nil {
 		log.Fatalf("Failed to start server: %v", err)
@@ -39,7 +40,7 @@ func initDatabase(ctx context.Context, databaseURL string) (*pgxpool.Pool, error
 	return pool, nil
 }
 
-func setupRouter(pool *pgxpool.Pool) *gin.Engine {
+func setupRouter(pool *pgxpool.Pool, cfg *config.Config) *gin.Engine {
 	courseRepo := repository.NewCourseRepository(pool)
 	sectionActivityRepo := repository.NewSectionActivityRepository(pool)
 	sectionRepo := repository.NewSectionRepository(pool, sectionActivityRepo)
@@ -53,6 +54,13 @@ func setupRouter(pool *pgxpool.Pool) *gin.Engine {
 	reviewRepo := repository.NewReviewRepository(pool)
 	reviewHandler := handlers.NewReviewHandler(reviewRepo)
 	cacheStore := middleware.NewResponseCacheStore()
+
+	repoRoot, err := os.Getwd()
+	if err != nil {
+		log.Printf("Getwd for seed pipeline: %v, using .", err)
+		repoRoot = "."
+	}
+	seedPipelineHandler := handlers.NewSeedPipelineHandler(cfg.SeedPipelineToken, cfg.DatabaseURL, repoRoot)
 
 	router := gin.Default()
 
@@ -77,6 +85,8 @@ func setupRouter(pool *pgxpool.Pool) *gin.Engine {
 		api.GET("/reviews", middleware.NoStore(), reviewHandler.GetAllReviews)
 		api.GET("/courses/:course_code/reviews", middleware.NoStore(), reviewHandler.GetReviews)
 		api.POST("/courses/:course_code/reviews", middleware.NoStore(), reviewHandler.CreateReview)
+
+		api.POST("/admin/seed/pipeline", middleware.NoStore(), seedPipelineHandler.Post)
 	}
 	return router
 }
