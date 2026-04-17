@@ -17,12 +17,13 @@ RUN CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo -o /app/bin/api ./cm
 # Final stage
 FROM alpine:latest
 
-# Install runtime dependencies
+# Install runtime dependencies (python3 = seed pipeline: run_seed_pipeline.py + scrapers)
 RUN apk add --no-cache \
     postgresql-client \
     bash \
     curl \
-    ca-certificates
+    ca-certificates \
+    python3
 
 # Install golang-migrate
 RUN curl -L https://github.com/golang-migrate/migrate/releases/download/v4.19.0/migrate.linux-amd64.tar.gz | tar xvz && \
@@ -34,8 +35,9 @@ WORKDIR /app
 # Copy the binary from builder
 COPY --from=builder /app/bin/api /app/bin/api
 
-# Copy scripts and other necessary files
+# Copy scripts, scrapers, and seed SQL (pipeline needs scraping/ at runtime)
 COPY scripts/ ./scripts/
+COPY scraping/ ./scraping/
 COPY migrations/ ./migrations/
 COPY db/ ./db/
 
