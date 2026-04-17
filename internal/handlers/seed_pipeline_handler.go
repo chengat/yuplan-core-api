@@ -18,32 +18,30 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-// SeedPipelineHandler runs scripts/run_seed_pipeline.py (fetch → scrape → db/seed.sql, optional DB apply).
+const (
+	seedPipelinePython  = "python3"
+	seedPipelineTimeout = 45 * time.Minute
+)
+
+// SeedPipelineHandler runs scripts/run_seed_pipeline.py (fetch → scrape → db/seed.sql).
+// If databaseURL is non-empty, also passes --apply-db so scripts/seed.sh runs (uses DATABASE_URL from the child env).
 type SeedPipelineHandler struct {
 	mu       sync.Mutex
 	token    string
 	repoRoot string
-	python   string
 	applyDB  bool
-	timeout  time.Duration
 }
 
-func NewSeedPipelineHandler(token, repoRoot, python string, applyDB bool, timeout time.Duration) *SeedPipelineHandler {
-	if timeout <= 0 {
-		timeout = 45 * time.Minute
-	}
-	if python == "" {
-		python = "python3"
-	}
+// NewSeedPipelineHandler configures the admin seed route. Repo root is usually os.Getwd() at startup (deploy from repo root).
+// applyDB is true when databaseURL is non-empty so the child process runs scripts/seed.sh (inherits DATABASE_URL).
+func NewSeedPipelineHandler(token, databaseURL, repoRoot string) *SeedPipelineHandler {
 	if repoRoot == "" {
 		repoRoot = "."
 	}
 	return &SeedPipelineHandler{
 		token:    strings.TrimSpace(token),
 		repoRoot: repoRoot,
-		python:   python,
-		applyDB:  applyDB,
-		timeout:  timeout,
+		applyDB:  strings.TrimSpace(databaseURL) != "",
 	}
 }
 
@@ -121,7 +119,7 @@ func envWithSISCookie(base []string, sisCookie string) []string {
 func (h *SeedPipelineHandler) runLocked(sisCookie string) {
 	defer h.mu.Unlock()
 
-	ctx, cancel := context.WithTimeout(context.Background(), h.timeout)
+	ctx, cancel := context.WithTimeout(context.Background(), seedPipelineTimeout)
 	defer cancel()
 
 	script := filepath.Join(h.repoRoot, "scripts", "run_seed_pipeline.py")
@@ -130,7 +128,7 @@ func (h *SeedPipelineHandler) runLocked(sisCookie string) {
 		args = append(args, "--apply-db")
 	}
 
-	cmd := exec.CommandContext(ctx, h.python, args...)
+	cmd := exec.CommandContext(ctx, seedPipelinePython, args...)
 	cmd.Dir = h.repoRoot
 	cmd.Env = envWithSISCookie(os.Environ(), sisCookie)
 

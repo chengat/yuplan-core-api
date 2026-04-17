@@ -2,12 +2,10 @@
 """
 Single entrypoint: fetch SIS HTML → run scrapers → generate db/seed.sql → optionally load DB.
 
-Environment (typical on a server):
-  YORK_SIS_COOKIE     Cookie header for apps1 SIS (same as browser DevTools → Network).
-                        Overridden for one run when the Go POST /api/v1/admin/seed/pipeline
-                        body includes {"cookie":"…"}.
-  SEED_PIPELINE_APPLY_DB  If "1"/"true"/"yes", run scripts/seed.sh after generating SQL
-                          (needs DATABASE_URL and psql on PATH).
+Environment:
+  DATABASE_URL          Used by seed.sh when you pass --apply-db (or API does, if DATABASE_URL was set at startup).
+  YORK_SIS_COOKIE       Optional fallback for SIS fetch; API usually sends cookie in POST JSON instead.
+  SEED_PIPELINE_APPLY_DB  CLI: "1"/"true" or --apply-db to run seed.sh after generating db/seed.sql.
 
 CLI (from repository root):
   python3 scripts/run_seed_pipeline.py

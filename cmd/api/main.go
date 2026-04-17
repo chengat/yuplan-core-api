@@ -3,6 +3,7 @@ package main
 import (
 	"context"
 	"log"
+	"os"
 	"time"
 	"yuplan/internal/config"
 	"yuplan/internal/database"
@@ -54,13 +55,12 @@ func setupRouter(pool *pgxpool.Pool, cfg *config.Config) *gin.Engine {
 	reviewHandler := handlers.NewReviewHandler(reviewRepo)
 	cacheStore := middleware.NewResponseCacheStore()
 
-	seedPipelineHandler := handlers.NewSeedPipelineHandler(
-		cfg.SeedPipelineToken,
-		cfg.SeedPipelineRepoRoot,
-		cfg.SeedPipelinePython,
-		cfg.SeedPipelineApplyDB,
-		cfg.SeedPipelineTimeout,
-	)
+	repoRoot, err := os.Getwd()
+	if err != nil {
+		log.Printf("Getwd for seed pipeline: %v, using .", err)
+		repoRoot = "."
+	}
+	seedPipelineHandler := handlers.NewSeedPipelineHandler(cfg.SeedPipelineToken, cfg.DatabaseURL, repoRoot)
 
 	router := gin.Default()
 

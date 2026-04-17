@@ -5,7 +5,6 @@ import (
 	"net/http/httptest"
 	"strings"
 	"testing"
-	"time"
 
 	"github.com/gin-gonic/gin"
 	"github.com/stretchr/testify/assert"
@@ -13,7 +12,7 @@ import (
 
 func TestSeedPipelineHandler_Post_NotConfigured(t *testing.T) {
 	gin.SetMode(gin.TestMode)
-	h := NewSeedPipelineHandler("", ".", "python3", false, time.Minute)
+	h := NewSeedPipelineHandler("", "", ".")
 
 	w := httptest.NewRecorder()
 	c, _ := gin.CreateTestContext(w)
@@ -26,7 +25,7 @@ func TestSeedPipelineHandler_Post_NotConfigured(t *testing.T) {
 
 func TestSeedPipelineHandler_Post_Unauthorized(t *testing.T) {
 	gin.SetMode(gin.TestMode)
-	h := NewSeedPipelineHandler("secret-token", ".", "python3", false, time.Minute)
+	h := NewSeedPipelineHandler("secret-token", "postgres://localhost/db", ".")
 
 	w := httptest.NewRecorder()
 	c, _ := gin.CreateTestContext(w)
@@ -40,7 +39,7 @@ func TestSeedPipelineHandler_Post_Unauthorized(t *testing.T) {
 
 func TestSeedPipelineHandler_Post_InvalidJSON(t *testing.T) {
 	gin.SetMode(gin.TestMode)
-	h := NewSeedPipelineHandler("secret-token", ".", "python3", false, time.Minute)
+	h := NewSeedPipelineHandler("secret-token", "postgres://localhost/db", ".")
 
 	w := httptest.NewRecorder()
 	c, _ := gin.CreateTestContext(w)
