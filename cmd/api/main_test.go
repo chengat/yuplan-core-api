@@ -26,7 +26,7 @@ func TestSetupRouter_RegistersCourseRoutes(t *testing.T) {
 	assert.True(t, seen[http.MethodGet+" /api/v1/courses"], "expected GET /api/v1/courses route")
 	assert.True(t, seen[http.MethodGet+" /api/v1/courses/search"], "expected GET /api/v1/courses/search route")
 	assert.True(t, seen[http.MethodGet+" /api/v1/courses/:course_code"], "expected GET /api/v1/courses/:course_code route")
-	assert.True(t, seen[http.MethodPost+" /api/v1/admin/seed-pipeline"], "expected POST /api/v1/admin/seed-pipeline route")
+	assert.True(t, seen[http.MethodPost+" /api/v1/admin/seed/pipeline"], "expected POST /api/v1/admin/seed/pipeline route")
 }
 
 func TestInitDatabase_InvalidURL_ReturnsError(t *testing.T) {

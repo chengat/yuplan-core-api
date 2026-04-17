@@ -86,7 +86,7 @@ func setupRouter(pool *pgxpool.Pool, cfg *config.Config) *gin.Engine {
 		api.GET("/courses/:course_code/reviews", middleware.NoStore(), reviewHandler.GetReviews)
 		api.POST("/courses/:course_code/reviews", middleware.NoStore(), reviewHandler.CreateReview)
 
-		api.POST("/admin/seed-pipeline", middleware.NoStore(), seedPipelineHandler.Post)
+		api.POST("/admin/seed/pipeline", middleware.NoStore(), seedPipelineHandler.Post)
 	}
 	return router
 }

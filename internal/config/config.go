@@ -11,7 +11,7 @@ type Config struct {
 	DatabaseURL string
 	Port        string
 
-	// POST /api/v1/admin/seed-pipeline (Bearer SEED_PIPELINE_TOKEN)
+	// POST /api/v1/admin/seed/pipeline (Bearer SEED_PIPELINE_TOKEN)
 	SeedPipelineToken    string
 	SeedPipelineRepoRoot string
 	SeedPipelinePython   string

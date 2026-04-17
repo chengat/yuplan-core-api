@@ -17,7 +17,7 @@ func TestSeedPipelineHandler_Post_NotConfigured(t *testing.T) {
 
 	w := httptest.NewRecorder()
 	c, _ := gin.CreateTestContext(w)
-	c.Request = httptest.NewRequest(http.MethodPost, "/api/v1/admin/seed-pipeline", nil)
+	c.Request = httptest.NewRequest(http.MethodPost, "/api/v1/admin/seed/pipeline", nil)
 
 	h.Post(c)
 
@@ -30,7 +30,7 @@ func TestSeedPipelineHandler_Post_Unauthorized(t *testing.T) {
 
 	w := httptest.NewRecorder()
 	c, _ := gin.CreateTestContext(w)
-	c.Request = httptest.NewRequest(http.MethodPost, "/api/v1/admin/seed-pipeline", nil)
+	c.Request = httptest.NewRequest(http.MethodPost, "/api/v1/admin/seed/pipeline", nil)
 	c.Request.Header.Set("Authorization", "Bearer wrong")
 
 	h.Post(c)
@@ -44,7 +44,7 @@ func TestSeedPipelineHandler_Post_InvalidJSON(t *testing.T) {
 
 	w := httptest.NewRecorder()
 	c, _ := gin.CreateTestContext(w)
-	req := httptest.NewRequest(http.MethodPost, "/api/v1/admin/seed-pipeline", strings.NewReader(`not-json`))
+	req := httptest.NewRequest(http.MethodPost, "/api/v1/admin/seed/pipeline", strings.NewReader(`not-json`))
 	req.Header.Set("Content-Type", "application/json")
 	req.Header.Set("Authorization", "Bearer secret-token")
 	c.Request = req
