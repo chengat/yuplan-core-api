@@ -18,10 +18,17 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-const (
-	seedPipelinePython  = "python3"
-	seedPipelineTimeout = 45 * time.Minute
-)
+const seedPipelineTimeout = 45 * time.Minute
+
+// resolvePythonInterpreter returns the path to python3 or python (many prod images only have `python`).
+func resolvePythonInterpreter() string {
+	for _, name := range []string{"python3", "python"} {
+		if path, err := exec.LookPath(name); err == nil {
+			return path
+		}
+	}
+	return ""
+}
 
 // SeedPipelineHandler runs scripts/run_seed_pipeline.py (fetch → scrape → db/seed.sql).
 // If databaseURL is non-empty, also passes --apply-db so scripts/seed.sh runs (uses DATABASE_URL from the child env).
@@ -122,19 +129,27 @@ func (h *SeedPipelineHandler) runLocked(sisCookie string) {
 	ctx, cancel := context.WithTimeout(context.Background(), seedPipelineTimeout)
 	defer cancel()
 
+	py := resolvePythonInterpreter()
+	if py == "" {
+		log.Printf("seed pipeline failed: neither python3 nor python found in $PATH (install Python in the image or add a symlink)")
+		return
+	}
+
 	script := filepath.Join(h.repoRoot, "scripts", "run_seed_pipeline.py")
 	args := []string{script}
 	if h.applyDB {
 		args = append(args, "--apply-db")
 	}
 
-	cmd := exec.CommandContext(ctx, seedPipelinePython, args...)
+	cmd := exec.CommandContext(ctx, py, args...)
 	cmd.Dir = h.repoRoot
 	cmd.Env = envWithSISCookie(os.Environ(), sisCookie)
 
 	var buf bytes.Buffer
 	cmd.Stdout = &buf
 	cmd.Stderr = &buf
+
+	log.Printf("seed pipeline starting: %s %s", py, script)
 
 	if err := cmd.Run(); err != nil {
 		log.Printf("seed pipeline failed: %v\n%s", err, buf.String())
