@@ -247,7 +247,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Anna Hudson"
+          ],
           "notes": ""
         }
       ]
@@ -359,7 +361,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Anna Hudson"
+          ],
           "notes": ""
         }
       ]
@@ -1201,7 +1205,9 @@
               "room": "VH 1156"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Sean Hillier"
+          ],
           "notes": ""
         }
       ]
@@ -1573,6 +1579,62 @@
     {
       "faculty": "GS",
       "department": "CIVL",
+      "term": "SU",
+      "courseTitle": "Bridge Engineering",
+      "courseId": "6414",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "Q68X01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "10:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "BC 214"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "GS",
+      "department": "CIVL",
+      "term": "S1",
+      "courseTitle": "Directed Reading in Transportation Engineering",
+      "courseId": "6500",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "Z43T01",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "13:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "In BRG 345-1 (Department Meeting Room)"
+        }
+      ]
+    },
+    {
+      "faculty": "GS",
+      "department": "CIVL",
       "term": "S1",
       "courseTitle": "Computational Methods in Hydrodynamics",
       "courseId": "6610",
@@ -1590,11 +1652,41 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Keele",
+              "room": "BRG 213"
+            }
+          ],
+          "instructors": [
+            "Shooka Karimpour"
+          ],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "GS",
+      "department": "CIVL",
+      "term": "S2",
+      "courseTitle": "Data-driven modelling and uncertainty analysis for water resources engineering",
+      "courseId": "6620",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "X19U01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "11:00",
+              "duration": "170",
+              "campus": "Keele",
               "room": ""
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "In BRG 345-1 (Department Meeting Room)"
         }
       ]
     },
@@ -1768,7 +1860,9 @@
               "room": "R S156"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mark P. Hayward"
+          ],
           "notes": ""
         },
         {
@@ -1988,7 +2082,9 @@
               "room": "R S101A"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Tokunbo Ojo"
+          ],
           "notes": ""
         },
         {
@@ -2131,7 +2227,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Nirupama Agrawal"
+          ],
           "notes": ""
         }
       ]
@@ -2278,7 +2376,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Lorin Schwarz"
+          ],
           "notes": ""
         }
       ]
@@ -2333,7 +2433,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Joy Mannette"
+          ],
           "notes": ""
         }
       ]
@@ -2361,7 +2463,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Steven John Alsop"
+          ],
           "notes": "This course will be offered at Las Nubes. By permission only."
         }
       ]
@@ -2379,23 +2483,8 @@
           "type": "SEMR",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "C32X01",
-          "schedule": [
-            {
-              "day": "M",
-              "time": "14:30",
-              "duration": "170",
-              "campus": "Keele",
-              "room": ""
-            },
-            {
-              "day": "W",
-              "time": "14:30",
-              "duration": "170",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -2431,7 +2520,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Roopa Trilokekar"
+          ],
           "notes": ""
         }
       ]
@@ -2501,7 +2592,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Aparna Mishra Tarc"
+          ],
           "notes": ""
         }
       ]
@@ -2523,20 +2616,22 @@
           "schedule": [
             {
               "day": "T",
-              "time": "14:30",
+              "time": "17:30",
               "duration": "170",
               "campus": "Keele",
               "room": ""
             },
             {
               "day": "R",
-              "time": "14:30",
+              "time": "17:30",
               "duration": "170",
               "campus": "Keele",
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Lucy Angus"
+          ],
           "notes": ""
         }
       ]
@@ -2571,7 +2666,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Cristina Delgado Vintimilla"
+          ],
           "notes": ""
         }
       ]
@@ -2613,7 +2710,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Claudia Ingrisch-Rupp"
+          ],
           "notes": "The course is being offered by a visiting professor from PH Freiburg in Germany. Class meets 9 times on July 14, 15, 16, 17, 22, 23, 24, 27, 28Â at 11:30 a.m. - 3:30 p.m."
         }
       ]
@@ -2802,7 +2901,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Stephen Anthony Gaetz"
+          ],
           "notes": ""
         }
       ]
@@ -2832,6 +2933,41 @@
           ],
           "instructors": [],
           "notes": "This is a non-credit course that graduate students must enrol into for every term they are working on either a MEd Major Research Project (MRP), MEd Thesis or PhD Doctoral Dissertation. Self-directed work on a MEd Major Research Project (MRP), MEd Thesis or PhD Doctoral Dissertation with their supervisor.Â"
+        }
+      ]
+    },
+    {
+      "faculty": "GS",
+      "department": "EECS",
+      "term": "S1",
+      "courseTitle": "Information Networks",
+      "courseId": "5414",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "B22X01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "11:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "HNE B15"
+            },
+            {
+              "day": "W",
+              "time": "13:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "HNE B15"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
         }
       ]
     },
@@ -3089,7 +3225,9 @@
               "room": "R S104"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Katarina O'Briain"
+          ],
           "notes": ""
         }
       ]
@@ -3124,7 +3262,9 @@
               "room": "R N203A"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Stephen Cain"
+          ],
           "notes": ""
         }
       ]
@@ -3149,11 +3289,13 @@
               "time": "9:30",
               "duration": "360",
               "campus": "Keele",
-              "room": ""
+              "room": "HNE 141"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Gail Fraser"
+          ],
+          "notes": "The course is offer as a field/workshop style. There are at least two days where the class will be meeting off campus in the Toronto area and students will be expected to make their own way to these protected area locations. For many sessions you will be outdoors, and a significant amount of walking may be needed. It is expected that students in this course will have some knowledge of introductory ecology."
         }
       ]
     },
@@ -3201,8 +3343,10 @@
               "room": "HNE 142"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Jin Haritaworn"
+          ],
+          "notes": "This course is meeting May 4-19 inclusive. See course syllabus for more details."
         }
       ]
     },
@@ -3285,6 +3429,57 @@
               "room": "HNE 142"
             }
           ],
+          "instructors": [
+            "Peter Timmerman"
+          ],
+          "notes": "This course is meeting June 16-29 inclusive. See course syllabus for more details."
+        }
+      ]
+    },
+    {
+      "faculty": "GS",
+      "department": "ENVS",
+      "term": "I2",
+      "courseTitle": "International Political Economy and Ecology Summer School",
+      "courseId": "6275",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "B82J01 (GS ENVS) X35A01 (GS GEOG) Z88Z01 (GS POLS)",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "9:00",
+              "duration": "350",
+              "campus": "Keele",
+              "room": "HNE 140"
+            },
+            {
+              "day": "T",
+              "time": "9:00",
+              "duration": "350",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "W",
+              "time": "9:00",
+              "duration": "350",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "R",
+              "time": "9:00",
+              "duration": "350",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
           "instructors": [],
           "notes": ""
         }
@@ -3334,8 +3529,10 @@
               "room": "HNE 140"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Loren March"
+          ],
+          "notes": "This course is meeting May 11-26 inclusive. See course syllabus for more details."
         }
       ]
     },
@@ -3594,7 +3791,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "This offering is part of the Cross-Campus Capstone Classroom (C4) Management program. From June 1 to June 12 (with Capstone Day on June 19), students will work in interdisciplinary teams on a project sprint focused on real-world social impact. To apply, visit https://www.yorku.ca/c4/apply-for-c4/ ."
         },
         {
           "type": "FDEX",
@@ -4871,7 +5068,9 @@
               "room": "CFT 239"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Kate J Russell"
+          ],
           "notes": ""
         }
       ]
@@ -4899,7 +5098,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jerzy Kowal"
+          ],
           "notes": ""
         }
       ]
@@ -4980,6 +5181,55 @@
               "time": "0:00",
               "duration": "0",
               "campus": "Off Campus",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "GS",
+      "department": "GEOG",
+      "term": "I2",
+      "courseTitle": "International Political Economy and Ecology Summer School",
+      "courseId": "5395",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "B82J01 (GS ENVS) X35A01 (GS GEOG) Z88Z01 (GS POLS)",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "9:00",
+              "duration": "350",
+              "campus": "Keele",
+              "room": "HNE 140"
+            },
+            {
+              "day": "T",
+              "time": "9:00",
+              "duration": "350",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "W",
+              "time": "9:00",
+              "duration": "350",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "R",
+              "time": "9:00",
+              "duration": "350",
+              "campus": "Keele",
               "room": ""
             }
           ],
@@ -5172,8 +5422,10 @@
               "room": "HNE 142"
             }
           ],
-          "instructors": [],
-          "notes": ""
+          "instructors": [
+            "Jin Haritaworn"
+          ],
+          "notes": "This course is meeting May 4-19 inclusive. See course syllabus for more details."
         }
       ]
     },
@@ -6049,7 +6301,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Geoff Lawrence"
+          ],
           "notes": ""
         }
       ]
@@ -6111,7 +6365,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Eve Haque"
+          ],
           "notes": ""
         }
       ]
@@ -6496,7 +6752,9 @@
               "room": "PSE 321"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Man Wah Wong"
+          ],
           "notes": ""
         }
       ]
@@ -6531,7 +6789,9 @@
               "room": "R S129"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Huaiping Zhu"
+          ],
           "notes": ""
         }
       ]
@@ -6566,7 +6826,9 @@
               "room": "R S127"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Georges Monette"
+          ],
           "notes": ""
         }
       ]
@@ -6601,7 +6863,9 @@
               "room": "PSE 321"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jianhong Wu"
+          ],
           "notes": ""
         }
       ]
@@ -6825,7 +7089,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Judith Ann MacDonnell"
+          ],
           "notes": ""
         }
       ]
@@ -6853,7 +7119,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Eva Hava Peisachovich"
+          ],
           "notes": ""
         }
       ]
@@ -6881,7 +7149,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Roya Haghiri-Vijeh"
+          ],
           "notes": ""
         },
         {
@@ -6898,7 +7168,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Iris Epstein"
+          ],
           "notes": ""
         }
       ]
@@ -6926,7 +7198,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Robin Coatsworth-Puspoky"
+          ],
           "notes": ""
         }
       ]
@@ -7007,10 +7281,12 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "HNE B26"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mia Biondi"
+          ],
           "notes": ""
         },
         {
@@ -7024,10 +7300,12 @@
               "time": "13:00",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "HNE B26"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mia Biondi"
+          ],
           "notes": ""
         },
         {
@@ -7041,10 +7319,12 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "HNE B26"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Mia Biondi"
+          ],
           "notes": ""
         }
       ]
@@ -7072,7 +7352,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Linda Frost"
+          ],
           "notes": ""
         },
         {
@@ -7089,7 +7371,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Linda Frost"
+          ],
           "notes": ""
         }
       ]
@@ -7733,7 +8017,9 @@
               "room": "DB 1004"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Romi-Lee Sevel"
+          ],
           "notes": ""
         },
         {
@@ -7750,7 +8036,9 @@
               "room": "DB 0007"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Romi-Lee Sevel"
+          ],
           "notes": ""
         }
       ]
@@ -7771,11 +8059,11 @@
           "catalogNumber": "J02W01",
           "schedule": [
             {
-              "day": "R",
-              "time": "11:00",
+              "day": "T",
+              "time": "18:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "CLH M"
+              "room": "DB 0005"
             }
           ],
           "instructors": [],
@@ -7823,7 +8111,9 @@
               "room": "DB 1004"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Joanne E Magee"
+          ],
           "notes": ""
         },
         {
@@ -7840,7 +8130,9 @@
               "room": "DB 1004"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Joanne E Magee"
+          ],
           "notes": ""
         }
       ]
@@ -7889,11 +8181,11 @@
           "catalogNumber": "F90Y01",
           "schedule": [
             {
-              "day": "M",
-              "time": "11:30",
+              "day": "R",
+              "time": "14:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "R S105"
+              "room": "DB 0001"
             }
           ],
           "instructors": [],
@@ -7948,7 +8240,9 @@
               "room": "CFT 239"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Janine Marchessault"
+          ],
           "notes": ""
         }
       ]
@@ -8151,7 +8445,9 @@
               "room": "R S101A"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Henry Jackman"
+          ],
           "notes": ""
         }
       ]
@@ -8319,7 +8615,9 @@
               "room": "PSE 258"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Matthew C Johnson"
+          ],
           "notes": ""
         }
       ]
@@ -8359,6 +8657,57 @@
               "duration": "80",
               "campus": "Keele",
               "room": "PSE 258"
+            }
+          ],
+          "instructors": [
+            "Nikita Blinov"
+          ],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "GS",
+      "department": "POLS",
+      "term": "I2",
+      "courseTitle": "International Political Economy and Ecology Summer School",
+      "courseId": "6282",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "B82J01 (GS ENVS) X35A01 (GS GEOG) Z88Z01 (GS POLS)",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "9:00",
+              "duration": "350",
+              "campus": "Keele",
+              "room": "HNE 140"
+            },
+            {
+              "day": "T",
+              "time": "9:00",
+              "duration": "350",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "W",
+              "time": "9:00",
+              "duration": "350",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "R",
+              "time": "9:00",
+              "duration": "350",
+              "campus": "Keele",
+              "room": ""
             }
           ],
           "instructors": [],
@@ -8473,7 +8822,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Ken Ogata"
+          ],
           "notes": ""
         },
         {
@@ -8490,7 +8841,9 @@
               "room": "VH 3006"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Ken Ogata"
+          ],
           "notes": ""
         },
         {
@@ -8597,7 +8950,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Naomi C. Couto"
+          ],
           "notes": ""
         }
       ]
@@ -9203,23 +9558,8 @@
           "type": "SEMR",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "H49H01",
-          "schedule": [
-            {
-              "day": "M",
-              "time": "14:30",
-              "duration": "170",
-              "campus": "Keele",
-              "room": "R N814"
-            },
-            {
-              "day": "W",
-              "time": "14:30",
-              "duration": "170",
-              "campus": "Keele",
-              "room": "R N814"
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -9248,7 +9588,9 @@
               "room": "BSB 207"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Debra J Pepler"
+          ],
           "notes": ""
         }
       ]
@@ -9339,7 +9681,9 @@
               "room": "VH 3005"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Johanne Jean-Pierre"
+          ],
           "notes": ""
         }
       ]
@@ -9374,7 +9718,9 @@
               "room": "R N836"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Kinnon Ross MacKinnon"
+          ],
           "notes": ""
         }
       ]
@@ -9409,7 +9755,9 @@
               "room": "R N836"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Curt Pullan"
+          ],
           "notes": ""
         }
       ]
@@ -9696,7 +10044,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Jean-Thomas Tremblay"
+          ],
           "notes": ""
         }
       ]
@@ -10011,6 +10361,34 @@
     },
     {
       "faculty": "GS",
+      "department": "TXLW",
+      "term": "SU",
+      "courseTitle": "Solving Advanced Corporate Tax Problems",
+      "courseId": "6837",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ONLN",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "X16P01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "duration": "0",
+              "campus": "Off Campus",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "GS",
       "department": "VISA",
       "term": "SU",
       "courseTitle": "Global Eco-Arts Residency",
@@ -10032,7 +10410,10 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Brandon Vickerd",
+            "Laura Levin"
+          ],
           "notes": ""
         }
       ]
@@ -10060,7 +10441,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Susan Blight"
+          ],
           "notes": ""
         }
       ]
@@ -10088,7 +10471,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Susan Blight"
+          ],
           "notes": ""
         }
       ]

@@ -180,39 +180,16 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "M",
-          "catalogNumber": "",
-          "schedule": [
-            {
-              "day": "M",
-              "time": "13:00",
-              "duration": "170",
-              "campus": "Keele",
-              "room": "SSB E118"
-            },
-            {
-              "day": "W",
-              "time": "13:00",
-              "duration": "170",
-              "campus": "Keele",
-              "room": "SSB E118"
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
         {
           "type": "LAB",
           "meetNumber": "01",
-          "catalogNumber": "R45T02",
-          "schedule": [
-            {
-              "day": "W",
-              "time": "17:00",
-              "duration": "170",
-              "campus": "Keele",
-              "room": "SSB E112"
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
@@ -327,39 +304,16 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "M",
-          "catalogNumber": "",
-          "schedule": [
-            {
-              "day": "T",
-              "time": "13:00",
-              "duration": "170",
-              "campus": "Keele",
-              "room": "SSB N106"
-            },
-            {
-              "day": "R",
-              "time": "13:00",
-              "duration": "170",
-              "campus": "Keele",
-              "room": "SSB N106"
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
         {
           "type": "LAB",
           "meetNumber": "01",
-          "catalogNumber": "E39Z02",
-          "schedule": [
-            {
-              "day": "R",
-              "time": "17:00",
-              "duration": "170",
-              "campus": "Keele",
-              "room": "SSB E111"
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
@@ -394,7 +348,7 @@
           "schedule": [
             {
               "day": "R",
-              "time": "10:00",
+              "time": "13:00",
               "duration": "170",
               "campus": "Keele",
               "room": "SSB E111"
@@ -418,39 +372,16 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "M",
-          "catalogNumber": "",
-          "schedule": [
-            {
-              "day": "M",
-              "time": "13:00",
-              "duration": "170",
-              "campus": "Keele",
-              "room": "SSB E115"
-            },
-            {
-              "day": "W",
-              "time": "13:00",
-              "duration": "170",
-              "campus": "Keele",
-              "room": "SSB E115"
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
         {
           "type": "LAB",
           "meetNumber": "01",
-          "catalogNumber": "U57H02",
-          "schedule": [
-            {
-              "day": "W",
-              "time": "17:00",
-              "duration": "170",
-              "campus": "Keele",
-              "room": "SSB E112"
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
@@ -1647,6 +1578,62 @@
     {
       "faculty": "SB",
       "department": "ENTR",
+      "term": "K",
+      "courseTitle": "Designing Startup Communities: Inside Toronto's Innovation Ecosystem",
+      "courseId": "6630",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "E15Y01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "9:00",
+              "duration": "470",
+              "campus": "Off Campus",
+              "room": ""
+            },
+            {
+              "day": "T",
+              "time": "9:00",
+              "duration": "470",
+              "campus": "Off Campus",
+              "room": ""
+            },
+            {
+              "day": "W",
+              "time": "9:00",
+              "duration": "470",
+              "campus": "Off Campus",
+              "room": ""
+            },
+            {
+              "day": "R",
+              "time": "9:00",
+              "duration": "470",
+              "campus": "Off Campus",
+              "room": ""
+            },
+            {
+              "day": "F",
+              "time": "9:00",
+              "duration": "470",
+              "campus": "Off Campus",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "ENTR",
       "term": "E",
       "courseTitle": "Individual Study: Selected Problems in Entrepreneurial Studies",
       "courseId": "6900",
@@ -1713,44 +1700,8 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "M",
-          "catalogNumber": "V73V01",
-          "schedule": [
-            {
-              "day": "M",
-              "time": "9:00",
-              "duration": "470",
-              "campus": "Off Campus",
-              "room": ""
-            },
-            {
-              "day": "T",
-              "time": "9:00",
-              "duration": "470",
-              "campus": "Off Campus",
-              "room": ""
-            },
-            {
-              "day": "W",
-              "time": "9:00",
-              "duration": "470",
-              "campus": "Off Campus",
-              "room": ""
-            },
-            {
-              "day": "R",
-              "time": "9:00",
-              "duration": "470",
-              "campus": "Off Campus",
-              "room": ""
-            },
-            {
-              "day": "F",
-              "time": "9:00",
-              "duration": "470",
-              "campus": "Off Campus",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -2420,7 +2371,7 @@
               "time": "19:00",
               "duration": "170",
               "campus": "Keele",
-              "room": "SSB W136"
+              "room": "SSB S236"
             }
           ],
           "instructors": [],
@@ -2448,7 +2399,7 @@
               "time": "14:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "SSB W136"
+              "room": "SSB S236"
             }
           ],
           "instructors": [],
@@ -2476,7 +2427,7 @@
               "time": "14:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "SSB N105"
+              "room": "SSB S236"
             }
           ],
           "instructors": [],
@@ -2560,7 +2511,7 @@
               "time": "18:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "SSB E115"
+              "room": "SSB S236"
             }
           ],
           "instructors": [],
@@ -2588,7 +2539,7 @@
               "time": "19:00",
               "duration": "170",
               "campus": "Keele",
-              "room": "SSB S124"
+              "room": "SSB S236"
             }
           ],
           "instructors": [],
@@ -2829,7 +2780,7 @@
               "time": "18:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "SSB E115"
+              "room": "SSB S236"
             }
           ],
           "instructors": [],
@@ -2857,7 +2808,7 @@
               "time": "14:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "SSB W133"
+              "room": "SSB S236"
             }
           ],
           "instructors": [],
@@ -2885,7 +2836,7 @@
               "time": "19:00",
               "duration": "170",
               "campus": "Keele",
-              "room": "SSB E115"
+              "room": "SSB S236"
             }
           ],
           "instructors": [],
@@ -3596,6 +3547,26 @@
       "faculty": "SB",
       "department": "MKTG",
       "term": "S",
+      "courseTitle": "Service Marketing",
+      "courseId": "6300",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "S",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "MKTG",
+      "term": "S",
       "courseTitle": "Strategic Professional Selling",
       "courseId": "6570",
       "credits": "3.00",
@@ -3936,14 +3907,23 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "M",
-          "catalogNumber": "N17R01",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "S",
+          "catalogNumber": "X57W01",
           "schedule": [
             {
-              "day": "T",
-              "time": "10:00",
+              "day": "M",
+              "time": "19:00",
               "duration": "170",
               "campus": "Keele",
-              "room": "SSB W133"
+              "room": "SSB W136"
             }
           ],
           "instructors": [],
@@ -4302,16 +4282,8 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "M",
-          "catalogNumber": "U06Q01",
-          "schedule": [
-            {
-              "day": "M",
-              "time": "14:30",
-              "duration": "170",
-              "campus": "Keele",
-              "room": "SSB E112"
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
@@ -4322,11 +4294,11 @@
           "catalogNumber": "N53C01",
           "schedule": [
             {
-              "day": "M",
+              "day": "T",
               "time": "19:00",
               "duration": "170",
               "campus": "Keele",
-              "room": "SSB E112"
+              "room": "SSB E111"
             }
           ],
           "instructors": [],
