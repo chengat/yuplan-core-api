@@ -1709,7 +1709,7 @@
               "time": "11:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "SSB W136"
+              "room": "MB G101"
             }
           ],
           "instructors": [],
@@ -1726,7 +1726,7 @@
               "time": "8:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "SSB N105"
+              "room": "MB G105"
             }
           ],
           "instructors": [],
@@ -1743,7 +1743,7 @@
               "time": "11:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "SSB W136"
+              "room": "MB G102"
             }
           ],
           "instructors": [],
@@ -1812,11 +1812,11 @@
           "catalogNumber": "R41J01",
           "schedule": [
             {
-              "day": "T",
+              "day": "W",
               "time": "14:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "SSB E118"
+              "room": "SSB W132"
             }
           ],
           "instructors": [],
@@ -1854,14 +1854,23 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "F",
-          "catalogNumber": "R55S01",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "ONLN",
+          "meetNumber": "01",
+          "section": "J",
+          "catalogNumber": "N55Z01",
           "schedule": [
             {
-              "day": "M",
-              "time": "11:30",
+              "day": "T",
+              "time": "19:00",
               "duration": "170",
               "campus": "Keele",
-              "room": "SSB E115"
+              "room": ""
             }
           ],
           "instructors": [],
@@ -1889,7 +1898,7 @@
               "time": "11:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "SSB E118"
+              "room": "MB G102"
             }
           ],
           "instructors": [],
@@ -1899,16 +1908,8 @@
           "type": "ONLN",
           "meetNumber": "01",
           "section": "J",
-          "catalogNumber": "Y02E01",
-          "schedule": [
-            {
-              "day": "T",
-              "time": "19:00",
-              "duration": "170",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -2006,7 +2007,7 @@
               "time": "8:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "SSB E112"
+              "room": "MB G105"
             }
           ],
           "instructors": [],
@@ -2091,27 +2092,10 @@
           "schedule": [
             {
               "day": "T",
-              "time": "8:30",
-              "duration": "170",
-              "campus": "Keele",
-              "room": "MB G105"
-            }
-          ],
-          "instructors": [],
-          "notes": ""
-        },
-        {
-          "type": "LECT",
-          "meetNumber": "01",
-          "section": "T",
-          "catalogNumber": "P16U01",
-          "schedule": [
-            {
-              "day": "M",
               "time": "11:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "MB G105"
+              "room": "MB G101"
             }
           ],
           "instructors": [],
@@ -2139,7 +2123,7 @@
               "time": "17:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "SSB E118"
+              "room": "SSB N106"
             }
           ],
           "instructors": [],
@@ -2167,7 +2151,7 @@
               "time": "11:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "SSB E111"
+              "room": "MB G102"
             }
           ],
           "instructors": [],
@@ -2251,7 +2235,7 @@
               "time": "17:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "SSB E118"
+              "room": "SSB N106"
             }
           ],
           "instructors": [],
@@ -2279,24 +2263,7 @@
               "time": "8:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "SSB W136"
-            }
-          ],
-          "instructors": [],
-          "notes": ""
-        },
-        {
-          "type": "LECT",
-          "meetNumber": "01",
-          "section": "T",
-          "catalogNumber": "M33B01",
-          "schedule": [
-            {
-              "day": "R",
-              "time": "8:30",
-              "duration": "170",
-              "campus": "Keele",
-              "room": "SSB N106"
+              "room": "MB G102"
             }
           ],
           "instructors": [],
@@ -2324,24 +2291,7 @@
               "time": "8:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "SSB N107"
-            }
-          ],
-          "instructors": [],
-          "notes": ""
-        },
-        {
-          "type": "LECT",
-          "meetNumber": "01",
-          "section": "T",
-          "catalogNumber": "G31B01",
-          "schedule": [
-            {
-              "day": "T",
-              "time": "14:30",
-              "duration": "170",
-              "campus": "Keele",
-              "room": "MB G105"
+              "room": "MB G102"
             }
           ],
           "instructors": [],
@@ -2402,7 +2352,7 @@
               "time": "8:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "SSB E112"
+              "room": "MB G102"
             }
           ],
           "instructors": [],
@@ -2479,7 +2429,7 @@
               "time": "8:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "SSB W132"
+              "room": "MB G102"
             }
           ],
           "instructors": [],
@@ -2924,7 +2874,7 @@
           "schedule": [
             {
               "day": "R",
-              "time": "11:30",
+              "time": "8:30",
               "duration": "170",
               "campus": "Keele",
               "room": "SSB S125"
@@ -5460,1920 +5410,5819 @@
       "department": "DDPR",
       "term": "F",
       "courseTitle": "Dual Degree - Non Business Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4958",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "F76P01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "DDPR",
       "term": "W",
       "courseTitle": "Dual Degree - Non Business Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4958",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "W23A01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "DDPR",
       "term": "F",
       "courseTitle": "Dual Degree - Non Business Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4959",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "P70J01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "DDPR",
       "term": "W",
       "courseTitle": "Dual Degree - Non Business Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4959",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "J17S01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "DDPR",
+      "term": "F",
+      "courseTitle": "Dual Degree - Schulich Business Elective",
+      "courseId": "4960",
+      "credits": "9.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "R62Z01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "DDPR",
+      "term": "W",
+      "courseTitle": "Dual Degree - Schulich Business Elective",
+      "courseId": "4960",
+      "credits": "9.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "Y09A01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "DDPR",
+      "term": "F",
+      "courseTitle": "Dual Degree - Schulich Business Elective",
+      "courseId": "4961",
+      "credits": "12.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "E56J01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "DDPR",
+      "term": "W",
+      "courseTitle": "Dual Degree - Schulich Business Elective",
+      "courseId": "4961",
+      "credits": "12.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "V03R01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "DDPR",
+      "term": "F",
+      "courseTitle": "Dual Degree - Schulich Business Elective",
+      "courseId": "4962",
+      "credits": "15.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "Z50D01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "DDPR",
+      "term": "W",
+      "courseTitle": "Dual Degree - Schulich Business Elective",
+      "courseId": "4962",
+      "credits": "15.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "H97M01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "DDPR",
+      "term": "F",
+      "courseTitle": "Dual Degree - Non Business Elective",
+      "courseId": "4963",
+      "credits": "6.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "B44V01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "DDPR",
+      "term": "W",
+      "courseTitle": "Dual Degree - Non Business Elective",
+      "courseId": "4963",
+      "credits": "6.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "R91G01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "DDPR",
+      "term": "F",
+      "courseTitle": "Dual Degree - Non Business Elective",
+      "courseId": "4964",
+      "credits": "9.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "Y38P01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "DDPR",
+      "term": "W",
+      "courseTitle": "Dual Degree - Non Business Elective",
+      "courseId": "4964",
+      "credits": "9.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "E85B01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "DDPR",
+      "term": "F",
+      "courseTitle": "Dual Degree - Non Business Elective",
+      "courseId": "4965",
+      "credits": "12.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "V32J01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "DDPR",
+      "term": "W",
+      "courseTitle": "Dual Degree - Non Business Elective",
+      "courseId": "4965",
+      "credits": "12.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "Z79S01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "DDPR",
+      "term": "F",
+      "courseTitle": "Dual Degree - Non Business Elective",
+      "courseId": "4966",
+      "credits": "15.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "X26E01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "DDPR",
+      "term": "W",
+      "courseTitle": "Dual Degree - Non Business Elective",
+      "courseId": "4966",
+      "credits": "15.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "B73N01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "EW",
       "courseTitle": "Quantitative Methods for Business",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "5060",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ONLN",
+          "meetNumber": "01",
+          "section": "F",
+          "catalogNumber": "D36Y01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "EW",
       "courseTitle": "Managerial Decision Analysis",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "5140",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "F",
+          "catalogNumber": "F61A01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "EW",
       "courseTitle": "Financial Reporting Systems",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "5160",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "F",
+          "catalogNumber": "W08X01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "EW",
       "courseTitle": "Marketing",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "5180",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "F",
+          "catalogNumber": "S09V01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "ER",
       "courseTitle": "Leadership and Organizations",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "5250",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "F",
+          "catalogNumber": "Z68S01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "EF",
       "courseTitle": "Management Planning and Control",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "5320",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "S96U01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "EW",
       "courseTitle": "The World Economy",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6010",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "F",
+          "catalogNumber": "S67F01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "EF",
       "courseTitle": "Unlocking Executive & Enterprise Value with Generative AI",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6011",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "H35V01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "EF",
       "courseTitle": "China Marketing: Tech, Society and Beyond",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6015",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "D94S01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "EW",
       "courseTitle": "China Marketing: Tech, Society and Beyond",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6015",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "F",
+          "catalogNumber": "U41D01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "EF",
       "courseTitle": "China in Transition",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6021",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "A82H01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "EF",
       "courseTitle": "International Business with Chinese Opportunities and Challenges",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6026",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "R29P01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "EW",
       "courseTitle": "Mergers & Acquisitions and Other Reorganization Methods",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6035",
+      "credits": "4.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "F",
+          "catalogNumber": "J89C01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "EF",
       "courseTitle": "Political Economy  A Global Perspective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6065",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "W66P01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "EW",
       "courseTitle": "Political Economy  A Global Perspective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6065",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "F",
+          "catalogNumber": "Q13B01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "EF",
       "courseTitle": "Entrepreneurial Selling: How Revenue-Responsible Leaders Build Amazing Companies",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6125",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "BLEN",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "T54E01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "EW",
       "courseTitle": "Entrepreneurial Selling: How Revenue-Responsible Leaders Build Amazing Companies",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6125",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "F",
+          "catalogNumber": "N01N01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "EF",
       "courseTitle": "From Risk to Reward: Strategies for Sustainable Business Transformation",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6135",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "N88M01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "EW",
       "courseTitle": "Leader Development Models and Practice",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6155",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "F",
+          "catalogNumber": "Q42Q01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "EW",
       "courseTitle": "Selling Yourself and Your Ideas",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6165",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "F",
+          "catalogNumber": "G48W01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "EF",
       "courseTitle": "Innovating for Social Impact",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6195",
+      "credits": "4.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "T83T01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "ER",
       "courseTitle": "Managing Globally",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6220",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "F",
+          "catalogNumber": "Z97K01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "ER",
       "courseTitle": "Building and Scaling Intelligent Products: An Entrepreneurial and GenAI Perspective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6225",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "F",
+          "catalogNumber": "H06G01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "EW",
       "courseTitle": "Global Corporate Restructuring",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6260",
+      "credits": "4.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "F",
+          "catalogNumber": "J60K01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "EW",
       "courseTitle": "Influencing Decisions through Decks & Dashboards",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6280",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "F",
+          "catalogNumber": "E24M01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "EW",
       "courseTitle": "Managing Healthcare Services in a Value-Based Setting",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6285",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "BLEN",
+          "meetNumber": "01",
+          "section": "F",
+          "catalogNumber": "D65D01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "EW",
       "courseTitle": "Leading High Impact Teams",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6310",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "F",
+          "catalogNumber": "M43G01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "EF",
       "courseTitle": "Value Investing",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6320",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "V79Q01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "EW",
       "courseTitle": "Value Creation and Capture in Biopharmaceuticals",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6325",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "F",
+          "catalogNumber": "N30F01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "EW",
       "courseTitle": "Leading Organizational Transformation",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6335",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "F",
+          "catalogNumber": "G19H01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "EW",
       "courseTitle": "Phase 0",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6345",
+      "credits": "4.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "F",
+          "catalogNumber": "G77Z01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "EW",
       "courseTitle": "Creating and Managing Strategic Alliances",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6350",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "F",
+          "catalogNumber": "J02D01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "ER",
       "courseTitle": "Early Stage Investing & Fundraising",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6355",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "F",
+          "catalogNumber": "R00A01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "EW",
       "courseTitle": "Launching and Leading Startups",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6365",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "F",
+          "catalogNumber": "A24A01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "EF",
       "courseTitle": "Strategic Brand Management",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6370",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "BLEN",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "Y85W01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "EW",
       "courseTitle": "Strategic Brand Management",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6370",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "BLEN",
+          "meetNumber": "01",
+          "section": "F",
+          "catalogNumber": "F32X01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "EW",
       "courseTitle": "Nonprofit Board Governance",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6375",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ONLN",
+          "meetNumber": "01",
+          "section": "F",
+          "catalogNumber": "K47J01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "EW",
       "courseTitle": "Strategic Marketing Decisions",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6380",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "F",
+          "catalogNumber": "F03Q01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "EW",
       "courseTitle": "Advertising Strategy",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6390",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "F",
+          "catalogNumber": "C49M01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "EF",
       "courseTitle": "Leading Product Organizations",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6395",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "BLEN",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "Q71X01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "EW",
       "courseTitle": "Leading Product Organizations",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6395",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ONLN",
+          "meetNumber": "01",
+          "section": "F",
+          "catalogNumber": "K18R01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "EF",
       "courseTitle": "Responsible Business Leadership",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6455",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "BLEN",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "T25M01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "ER",
       "courseTitle": "The Business of Social Change",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6465",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ONLN",
+          "meetNumber": "01",
+          "section": "F",
+          "catalogNumber": "A53P01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "EW",
       "courseTitle": "Digital Strategy: Individual and Organizational Transformation for a Digital Age",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6490",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "F",
+          "catalogNumber": "C78E01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "EW",
       "courseTitle": "Economics of Competition",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6500",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "F",
+          "catalogNumber": "B62N01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "EW",
       "courseTitle": "Strategy Beyond Markets",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6510",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ONLN",
+          "meetNumber": "01",
+          "section": "F",
+          "catalogNumber": "U12Y01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "EW",
       "courseTitle": "Social Dynamics and Networks",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6515",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "F",
+          "catalogNumber": "F90P01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "EF",
       "courseTitle": "Financial Instruments and Capital Markets",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6520",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "P55R01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "EW",
       "courseTitle": "FinTech Strategy: Innovations in Financial Services",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6525",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "F",
+          "catalogNumber": "M72V01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "EW",
       "courseTitle": "Value Creation and Capture in an Evolving Healthcare Services Landscape",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6535",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "F",
+          "catalogNumber": "D08V01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "EW",
       "courseTitle": "Strategies for Growth",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6560",
+      "credits": "4.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "F",
+          "catalogNumber": "D07T01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "EW",
       "courseTitle": "Biases, Forecasts and Deep Uncertainty",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6570",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "F",
+          "catalogNumber": "P26C01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "EW",
       "courseTitle": "Human and Machine Intelligence: Creating Business Value Through Artificial Intelligence",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6600",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "F",
+          "catalogNumber": "W95H01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "EW",
       "courseTitle": "Incentives, Organization and Strategy",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6610",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "F",
+          "catalogNumber": "B91F01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "EW",
       "courseTitle": "Healthcare Strategy",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6620",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "F",
+          "catalogNumber": "C20U01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "EW",
       "courseTitle": "Entrepreneurial Finance and Venture Capital",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6630",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "F",
+          "catalogNumber": "S38N01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "EW",
       "courseTitle": "International Real Estate",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6635",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ONLN",
+          "meetNumber": "01",
+          "section": "F",
+          "catalogNumber": "X15E01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "EW",
       "courseTitle": "Advanced Negotiations",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6660",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "F",
+          "catalogNumber": "M14Z01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "EF",
       "courseTitle": "Deal-Making in China and Asia",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6700",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "X44T01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "EF",
       "courseTitle": "Understanding Consumers",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6720",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "Y56H01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "EW",
       "courseTitle": "Leading and Managing Diverse Organizations",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6755",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "F",
+          "catalogNumber": "N59U01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "EF",
       "courseTitle": "International Finance",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6840",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "BLEN",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "P84J01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "EW",
       "courseTitle": "International Finance",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6840",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "BLEN",
+          "meetNumber": "01",
+          "section": "F",
+          "catalogNumber": "J31S01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "EW",
       "courseTitle": "Investment Banks, Hedge Funds and Private Equity",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6850",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "F",
+          "catalogNumber": "V50B01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EMBA",
       "term": "EW",
       "courseTitle": "Family Enterprises",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6890",
+      "credits": "2.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "F",
+          "catalogNumber": "X73Y01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "ENTR",
       "term": "F",
       "courseTitle": "Business Essentials for Technology Entrepreneurs I",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "3400",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "BLEN",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "H36E01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "19:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "BRG 313"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "BLEN",
+          "meetNumber": "01",
+          "section": "B",
+          "catalogNumber": "A83N01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "16:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "BRG 313"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "ENTR",
       "term": "W",
       "courseTitle": "Business Essentials for Technology Entrepreneurs II",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "3600",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "BLEN",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "R30V01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "19:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "BRG 313"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "BLEN",
+          "meetNumber": "01",
+          "section": "S",
+          "catalogNumber": "K77H01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "16:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "BRG 313"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "ENTR",
       "term": "F",
       "courseTitle": "Field Study: Innovating with Entrepreneurs, Unlocking New Venture Potential",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4400",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "FDEX",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "D80S01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "ENTR",
       "term": "W",
       "courseTitle": "Entrepreneurship and Technology Ventures",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4500",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "S68Y01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "19:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "BRG 313"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "S",
+          "catalogNumber": "M15U01",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "19:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "BRG 213"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "ENTR",
       "term": "F",
       "courseTitle": "Entrepreneurship and New Venture Creation",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4600",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "U27D01",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "11:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB S128"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "ENTR",
       "term": "F",
       "courseTitle": "Financing Growing Ventures",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4700",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "N74M01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "11:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB S128"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "ENTR",
       "term": "W",
       "courseTitle": "Financing Growing Ventures",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4700",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "H21V01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "8:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB S126"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "ENTR",
       "term": "W",
       "courseTitle": "Social Entrepreneurship",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4800",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "A68H01",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "17:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB S128"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "ENTR",
       "term": "F",
       "courseTitle": "Guided Study: Entrepreneurial Studies-Selected Problems in Entrepreneurial Studies",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4900",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "R96S01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "ENTR",
       "term": "W",
       "courseTitle": "Guided Study: Entrepreneurial Studies-Selected Problems in Entrepreneurial Studies",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4900",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "Y43E01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "ENTR",
       "term": "F",
       "courseTitle": "Startup Lab: The Together Mission",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4906",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "H86V01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "11:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "MB G101"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "ENTR",
       "term": "W",
       "courseTitle": "Managing the Family Enterprise",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4950",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "R15P01",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "8:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB S124"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "ENTR",
       "term": "F2",
       "courseTitle": "Field Study: Innovating with Entrepreneurs, Unlocking New Venture Potential",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6400",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "FDEX",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "N56X01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "ENTR",
       "term": "F2",
       "courseTitle": "Startup Lab: The Together Mission",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6500",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "K95Y01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "11:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "MB G101"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "ENTR",
       "term": "F2",
       "courseTitle": "Entrepreneurship and New Firm Creation",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6605",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "M69J01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "11:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "MB G105"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "ENTR",
       "term": "A",
       "courseTitle": "Individual Study: Selected Problems in Entrepreneurial Studies",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6900",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "H69Z01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "ENTR",
       "term": "C",
       "courseTitle": "Individual Study: Selected Problems in Entrepreneurial Studies",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6900",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "F",
+          "catalogNumber": "B16A01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "ENTR",
       "term": "F2",
       "courseTitle": "Individual Study: Selected Problems in Entrepreneurial Studies",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6900",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "R63X01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "ENTR",
       "term": "W2",
       "courseTitle": "Individual Study: Selected Problems in Entrepreneurial Studies",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6900",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "F",
+          "catalogNumber": "Y10R01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "ENTR",
       "term": "F2",
       "courseTitle": "Venture Capital & Private Equity",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6910",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "F41A01",
+          "schedule": [
+            {
+              "day": "F",
+              "time": "8:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB W133"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "ENTR",
       "term": "W2",
       "courseTitle": "Venture Capital & Private Equity",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6910",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "F",
+          "catalogNumber": "T51P01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB E115"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "ENTR",
       "term": "W2",
       "courseTitle": "Mentorship Match: Learning to Innovate with Venture Leaders",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6960",
+      "credits": "6.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "F",
+          "catalogNumber": "Z87F01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "F",
       "courseTitle": "Exchange - Schulich Business Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4901",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "E97G01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "W",
       "courseTitle": "Exchange - Schulich Business Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4901",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "V44Z01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "F",
       "courseTitle": "Exchange - Schulich Business Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4902",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "H22S01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "W",
       "courseTitle": "Exchange - Schulich Business Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4902",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "A69E01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "F",
       "courseTitle": "Exchange - Schulich Business Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4903",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "R16M01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "W",
       "courseTitle": "Exchange - Schulich Business Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4903",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "K63V01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "F",
       "courseTitle": "Exchange - Schulich Business Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4904",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "E10H01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "W",
       "courseTitle": "Exchange - Schulich Business Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4904",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "U57P01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "F",
       "courseTitle": "Exchange - Schulich Business Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4905",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "G93D01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "W",
       "courseTitle": "Exchange - Schulich Business Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4905",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "A40M01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "F",
       "courseTitle": "Exchange - Schulich Business Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4906",
+      "credits": "3.00",
+      "languageOfInstruction": "GE",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "Q87U01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "W",
       "courseTitle": "Exchange - Schulich Business Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4906",
+      "credits": "3.00",
+      "languageOfInstruction": "GE",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "K34G01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "W",
       "courseTitle": "Exchange - Schulich Business Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4907",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "D81P01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "W",
       "courseTitle": "Exchange - Schulich Business Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4908",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "Z04B01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "F",
       "courseTitle": "Exchange - Schulich Business Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4910",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "B85S01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "W",
       "courseTitle": "Exchange - Schulich Business Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4910",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "S32D01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "F",
       "courseTitle": "Exchange - Schulich Business Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4911",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "Y79M01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "W",
       "courseTitle": "Exchange - Schulich Business Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4911",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "F26V01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "F",
       "courseTitle": "Exchange - Schulich Business Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4912",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "V73G01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "W",
       "courseTitle": "Exchange - Schulich Business Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4912",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "P20P01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "F",
       "courseTitle": "Exchange - Schulich Business Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4913",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "X67B01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "W",
       "courseTitle": "Exchange - Schulich Business Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4913",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "C14K01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "F",
       "courseTitle": "Exchange - Schulich Business Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4914",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "S61S01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "W",
       "courseTitle": "Exchange - Schulich Business Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4914",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "M08E01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "F",
       "courseTitle": "Exchange - Schulich Business Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4915",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "F55N01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "W",
       "courseTitle": "Exchange - Schulich Business Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4915",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "W02V01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "F",
       "courseTitle": "Exchange - Schulich Business Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4916",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "P49H01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "W",
       "courseTitle": "Exchange - Schulich Business Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4916",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "X96Q01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "F",
       "courseTitle": "Exchange - Schulich Business Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4917",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "C43C01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "W",
       "courseTitle": "Exchange - Schulich Business Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4917",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "S90K01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "F",
       "courseTitle": "Exchange - Schulich Business Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4918",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "M37T01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "W",
       "courseTitle": "Exchange - Schulich Business Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4918",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "F84F01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "F",
       "courseTitle": "Exchange - Schulich Business Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4919",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "W31N01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "W",
       "courseTitle": "Exchange - Schulich Business Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4919",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "P78W01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "F",
       "courseTitle": "Exchange - Globally Focused Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4921",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "Z91A01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "W",
       "courseTitle": "Exchange - Globally Focused Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4921",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "X38J01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "F",
       "courseTitle": "Exchange - Globally Focused Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4922",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "J25X01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "W",
       "courseTitle": "Exchange - Globally Focused Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4922",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "C72R01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "F",
       "courseTitle": "Exchange - Globally Focused Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4923",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "T19C01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "W",
       "courseTitle": "Exchange - Globally Focused Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4923",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "M66Y01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "F",
       "courseTitle": "Exchange - Globally Focused Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4924",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "T77J01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "W",
       "courseTitle": "Exchange - Globally Focused Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4924",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "N24S01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "F",
       "courseTitle": "Exchange - Globally Focused Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4925",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "Y72T01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "W",
       "courseTitle": "Exchange - Globally Focused Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4925",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "F19F01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "F",
       "courseTitle": "Exchange - Globally Focused Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4930",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "G71E01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "W",
       "courseTitle": "Exchange - Globally Focused Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4930",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "A18N01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "F",
       "courseTitle": "Exchange - Globally Focused Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4931",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "Q65V01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "W",
       "courseTitle": "Exchange - Globally Focused Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4931",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "K12H01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "F",
       "courseTitle": "Exchange - Globally Focused Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4932",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "D59Q01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "W",
       "courseTitle": "Exchange - Globally Focused Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4932",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "U06B01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "F",
       "courseTitle": "Exchange - Globally Focused Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4933",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "N53K01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "W",
       "courseTitle": "Exchange - Globally Focused Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4933",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "H00T01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "F",
       "courseTitle": "Exchange - Globally Focused Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4934",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "A47F01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "W",
       "courseTitle": "Exchange - Globally Focused Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4934",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "Q94N01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "F",
       "courseTitle": "Exchange - Globally Focused Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4935",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "K41W01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "W",
       "courseTitle": "Exchange - Globally Focused Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4935",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "D88X01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "F",
       "courseTitle": "Exchange - Globally Focused Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4936",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "U35Q01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "W",
       "courseTitle": "Exchange - Globally Focused Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4936",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "N82C01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "F",
       "courseTitle": "Exchange - Globally Focused Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4937",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "H29Y01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "W",
       "courseTitle": "Exchange - Globally Focused Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4937",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "A76U01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "F",
       "courseTitle": "Exchange - Globally Focused Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4938",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "V66N01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "W",
       "courseTitle": "Exchange - Globally Focused Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4938",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "P13W01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "F",
       "courseTitle": "Exchange - Globally Focused Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4939",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "X60X01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "W",
       "courseTitle": "Exchange - Globally Focused Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4939",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "C07R01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "F",
       "courseTitle": "Exchange - Non Business Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4941",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "H51K01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "W",
       "courseTitle": "Exchange - Non Business Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4941",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "A98T01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "F",
       "courseTitle": "Exchange - Non Business Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4942",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "R45E01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "W",
       "courseTitle": "Exchange - Non Business Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4942",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "K92N01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "F",
       "courseTitle": "Exchange - Non Business Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4943",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "E39W01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "W",
       "courseTitle": "Exchange - Non Business Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4943",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "U86H01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "F",
       "courseTitle": "Exchange - Non Business Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4950",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "B27Y01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "W",
       "courseTitle": "Exchange - Non Business Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4950",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "R74T01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "F",
       "courseTitle": "Exchange - Non Business Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4951",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "Z33Q01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "W",
       "courseTitle": "Exchange - Non Business Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4951",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "H80C01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "F",
       "courseTitle": "Exchange - Non Business Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4952",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "Y21F01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "W",
       "courseTitle": "Exchange - Non Business Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4952",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "E68Z01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "F",
       "courseTitle": "Exchange - Non Business Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4953",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "V15W01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "W",
       "courseTitle": "Exchange - Non Business Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4953",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "Z62X01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "F",
       "courseTitle": "Exchange - Non Business Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4954",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "X09R01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "W",
       "courseTitle": "Exchange - Non Business Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4954",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "B56D01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "F",
       "courseTitle": "Exchange - Non Business Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4955",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "S03Y01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "W",
       "courseTitle": "Exchange - Non Business Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4955",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "Y50U01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "F",
       "courseTitle": "Exchange - Language Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4960",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "U28A01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "W",
       "courseTitle": "Exchange - Language Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4960",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "N75J01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "F",
       "courseTitle": "Exchange - Language Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4961",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "G13U01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "W",
       "courseTitle": "Exchange - Language Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4961",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "W60F01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "F",
       "courseTitle": "Exchange - Language Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4962",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "Q07Z01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "W",
       "courseTitle": "Exchange - Language Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4962",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "J54A01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "F",
       "courseTitle": "Exchange - Language Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4963",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "D01J01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "W",
       "courseTitle": "Exchange - Language Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4963",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "T48R01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "F",
       "courseTitle": "Exchange - Language Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4970",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "M95D01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "W",
       "courseTitle": "Exchange - Language Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4970",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "G42M01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "F",
       "courseTitle": "Exchange - Language Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4971",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "W89U01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "W",
       "courseTitle": "Exchange - Language Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4971",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "Q36G01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "F",
       "courseTitle": "Exchange - Language Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4972",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "J83P01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "W",
       "courseTitle": "Exchange - Language Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4972",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "D30B01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "F",
       "courseTitle": "Exchange - Language Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4973",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "R23F01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "W",
       "courseTitle": "Exchange - Language Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "4973",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "K70Z01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "F2",
       "courseTitle": "Exchange - Schulich Business Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6901",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "C54N01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "W2",
       "courseTitle": "Exchange - Schulich Business Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6901",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "F",
+          "catalogNumber": "T01V01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
       "department": "EXCH",
       "term": "F2",
       "courseTitle": "Exchange - Schulich Business Elective",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "6902",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ISTY",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "M48H01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SB",
@@ -8322,6 +12171,23 @@
               "duration": "60",
               "campus": "Keele",
               "room": "SSB N108"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "D",
+          "catalogNumber": "H68U01",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB S126"
             }
           ],
           "instructors": [],
@@ -9992,7 +13858,7 @@
               "time": "14:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "SSB E111"
+              "room": "MB G101"
             }
           ],
           "instructors": [],
@@ -10065,7 +13931,7 @@
               "time": "14:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "SSB W136"
+              "room": "MB G105"
             }
           ],
           "instructors": [],
@@ -11425,16 +15291,8 @@
           "type": "BLEN",
           "meetNumber": "01",
           "section": "F",
-          "catalogNumber": "S18N01",
-          "schedule": [
-            {
-              "day": "W",
-              "time": "14:30",
-              "duration": "170",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "(Backup)"
         },
@@ -11473,11 +15331,11 @@
           "catalogNumber": "F00E01",
           "schedule": [
             {
-              "day": "F",
+              "day": "T",
               "time": "14:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "SSB N107"
+              "room": "SSB E115"
             }
           ],
           "instructors": [],
@@ -11535,11 +15393,11 @@
           "catalogNumber": "B88Q01",
           "schedule": [
             {
-              "day": "F",
-              "time": "8:30",
+              "day": "T",
+              "time": "11:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "SSB E115"
+              "room": "SSB E118"
             }
           ],
           "instructors": [],
@@ -12045,7 +15903,7 @@
       "faculty": "SB",
       "department": "MGMT",
       "term": "F2",
-      "courseTitle": "MBA Graduate Placement - Work Focused Experiential Education",
+      "courseTitle": "Graduate Work Placement",
       "courseId": "6851",
       "credits": "3.00",
       "languageOfInstruction": "EN",
@@ -12054,11 +15912,11 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "C17X01",
+          "catalogNumber": "H02A01",
           "schedule": [
             {
               "day": "",
-              "time": "0:00",
+              "time": "",
               "duration": "0",
               "campus": "Keele",
               "room": ""
@@ -12073,7 +15931,7 @@
       "faculty": "SB",
       "department": "MGMT",
       "term": "W2",
-      "courseTitle": "MBA Graduate Placement - Work Focused Experiential Education",
+      "courseTitle": "Graduate Work Placement",
       "courseId": "6851",
       "credits": "3.00",
       "languageOfInstruction": "EN",
@@ -12082,11 +15940,11 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "F",
-          "catalogNumber": "S64Q01",
+          "catalogNumber": "A49J01",
           "schedule": [
             {
               "day": "",
-              "time": "0:00",
+              "time": "",
               "duration": "0",
               "campus": "Keele",
               "room": ""
@@ -12796,7 +16654,7 @@
               "time": "11:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "SSB W133"
+              "room": "SSB S126"
             }
           ],
           "instructors": [],
@@ -13537,7 +17395,7 @@
               "time": "14:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "SSB N108"
+              "room": "MB G102"
             }
           ],
           "instructors": [],
@@ -13571,7 +17429,7 @@
               "time": "14:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "SSB N109"
+              "room": "SSB W133"
             }
           ],
           "instructors": [],
@@ -13589,6 +17447,23 @@
               "duration": "170",
               "campus": "Keele",
               "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "U",
+          "catalogNumber": "Q96R01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "19:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB W133"
             }
           ],
           "instructors": [],
@@ -13633,7 +17508,7 @@
               "time": "8:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "SSB N105"
+              "room": "MB G105"
             }
           ],
           "instructors": [],
@@ -13673,6 +17548,34 @@
       "faculty": "SB",
       "department": "MKTG",
       "term": "F2",
+      "courseTitle": "Product Management",
+      "courseId": "5210",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "U",
+          "catalogNumber": "K43D01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "19:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB W132"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "MKTG",
+      "term": "F2",
       "courseTitle": "Marketing Research",
       "courseId": "6050",
       "credits": "3.00",
@@ -13690,6 +17593,23 @@
               "duration": "170",
               "campus": "Keele",
               "room": "SSB W133"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "U",
+          "catalogNumber": "U02J01",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "19:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB N109"
             }
           ],
           "instructors": [],
@@ -13762,7 +17682,7 @@
               "time": "11:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "SSB E111"
+              "room": "MB G102"
             }
           ],
           "instructors": [],
@@ -13783,16 +17703,8 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "F",
-          "catalogNumber": "A36R01",
-          "schedule": [
-            {
-              "day": "R",
-              "time": "11:30",
-              "duration": "170",
-              "campus": "Keele",
-              "room": "MB G102"
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -13891,7 +17803,7 @@
               "time": "11:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "SSB E112"
+              "room": "MB G101"
             }
           ],
           "instructors": [],
@@ -13909,7 +17821,7 @@
       "languageOfInstruction": "EN",
       "sections": [
         {
-          "type": "BLEN",
+          "type": "LECT",
           "meetNumber": "01",
           "section": "J",
           "catalogNumber": "D37N01",
@@ -13954,7 +17866,7 @@
               "time": "14:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "SSB N106"
+              "room": "SSB W136"
             }
           ],
           "instructors": [],
@@ -14044,7 +17956,7 @@
               "time": "11:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "SSB E111"
+              "room": "MB G105"
             }
           ],
           "instructors": [],
@@ -14380,7 +18292,7 @@
               "time": "8:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "SSB N106"
+              "room": "MB G105"
             }
           ],
           "instructors": [],
@@ -14464,7 +18376,7 @@
               "time": "8:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "SSB N106"
+              "room": "MB G102"
             }
           ],
           "instructors": [],
@@ -14632,7 +18544,7 @@
               "time": "14:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "SSB E112"
+              "room": "MB G101"
             }
           ],
           "instructors": [],
@@ -15141,6 +19053,23 @@
               "duration": "80",
               "campus": "Keele",
               "room": "SSB N107"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "U",
+          "catalogNumber": "B15G01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "11:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB W256"
             }
           ],
           "instructors": [],
@@ -16179,16 +20108,8 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "U",
-          "catalogNumber": "F70P01",
-          "schedule": [
-            {
-              "day": "M",
-              "time": "19:00",
-              "duration": "170",
-              "campus": "Keele",
-              "room": "SSB N105"
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -16235,16 +20156,8 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "U",
-          "catalogNumber": "M23G01",
-          "schedule": [
-            {
-              "day": "M",
-              "time": "19:00",
-              "duration": "170",
-              "campus": "Keele",
-              "room": "SSB N105"
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -16533,6 +20446,62 @@
     {
       "faculty": "SB",
       "department": "OMIS",
+      "term": "A",
+      "courseTitle": "Design Thinking for Innovation",
+      "courseId": "6621",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "U",
+          "catalogNumber": "Y95C01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "19:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB N105"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "OMIS",
+      "term": "M",
+      "courseTitle": "Design Thinking for Innovation",
+      "courseId": "6621",
+      "credits": "1.50",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "U",
+          "catalogNumber": "S48Q01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "19:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB N105"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SB",
+      "department": "OMIS",
       "term": "W2",
       "courseTitle": "Project Management",
       "courseId": "6750",
@@ -16550,7 +20519,7 @@
               "time": "14:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "SSB N108"
+              "room": "MB G102"
             }
           ],
           "instructors": [],
@@ -17401,11 +21370,11 @@
           "catalogNumber": "A75A01",
           "schedule": [
             {
-              "day": "W",
-              "time": "14:30",
+              "day": "R",
+              "time": "11:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "SSB W257"
+              "room": "SSB S126"
             }
           ],
           "instructors": [],
@@ -17562,7 +21531,7 @@
               "time": "11:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "MB G101"
+              "room": "MB G102"
             }
           ],
           "instructors": [],
@@ -18325,7 +22294,7 @@
           "schedule": [
             {
               "day": "T",
-              "time": "19:00",
+              "time": "18:30",
               "duration": "170",
               "campus": "Keele",
               "room": "MB G105"
@@ -18352,7 +22321,7 @@
           "catalogNumber": "M98B01",
           "schedule": [
             {
-              "day": "T",
+              "day": "M",
               "time": "19:00",
               "duration": "170",
               "campus": "Keele",
@@ -18408,7 +22377,7 @@
           "catalogNumber": "G45K01",
           "schedule": [
             {
-              "day": "M",
+              "day": "T",
               "time": "19:00",
               "duration": "170",
               "campus": "Keele",
@@ -18936,11 +22905,11 @@
           "catalogNumber": "T85S01",
           "schedule": [
             {
-              "day": "W",
-              "time": "14:30",
+              "day": "T",
+              "time": "11:30",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "SSB W133"
             }
           ],
           "instructors": [],
@@ -19985,7 +23954,7 @@
               "time": "14:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "SSB N106"
+              "room": "MB G102"
             }
           ],
           "instructors": [],
@@ -20093,7 +24062,7 @@
               "time": "11:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "SSB E111"
+              "room": "MB G102"
             }
           ],
           "instructors": [],
@@ -20171,34 +24140,6 @@
           "meetNumber": "01",
           "section": "U",
           "catalogNumber": "H54X01",
-          "schedule": [
-            {
-              "day": "R",
-              "time": "19:00",
-              "duration": "170",
-              "campus": "Keele",
-              "room": "SSB W133"
-            }
-          ],
-          "instructors": [],
-          "notes": ""
-        }
-      ]
-    },
-    {
-      "faculty": "SB",
-      "department": "SUST",
-      "term": "W2",
-      "courseTitle": "Integrating Sustainability Across Functions",
-      "courseId": "6250",
-      "credits": "3.00",
-      "languageOfInstruction": "EN",
-      "sections": [
-        {
-          "type": "LECT",
-          "meetNumber": "01",
-          "section": "U",
-          "catalogNumber": "C00U01",
           "schedule": [
             {
               "day": "W",

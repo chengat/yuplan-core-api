@@ -4562,6 +4562,34 @@
     },
     {
       "faculty": "GS",
+      "department": "CIVL",
+      "term": "F",
+      "courseTitle": "Data-driven modelling and uncertainty analysis for water resources engineering",
+      "courseId": "6620",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "Y88J01",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "13:00",
+              "duration": "180",
+              "campus": "Keele",
+              "room": "BRG 213"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "GS",
       "department": "CLDR",
       "term": "F",
       "courseTitle": "Contemporary Issues in Litigation",
@@ -5016,16 +5044,8 @@
           "type": "SEMR",
           "meetNumber": "01",
           "section": "N",
-          "catalogNumber": "M55M01 (GS SOCI) G02V01 (GS CMCT)",
-          "schedule": [
-            {
-              "day": "W",
-              "time": "11:30",
-              "duration": "170",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -5676,13 +5696,14 @@
         {
           "type": "SEMR",
           "meetNumber": "01",
-          "catalogNumber": "C55W01",
+          "section": "M",
+          "catalogNumber": "G95H01",
           "schedule": [
             {
               "day": "T",
               "time": "10:00",
               "duration": "170",
-              "campus": "Toronto Metropolitan Univ",
+              "campus": "Keele",
               "room": ""
             }
           ],
@@ -5896,7 +5917,7 @@
               "time": "14:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "DB 0004"
+              "room": "VH 1022"
             }
           ],
           "instructors": [],
@@ -6176,7 +6197,7 @@
     {
       "faculty": "GS",
       "department": "DEMS",
-      "term": "W",
+      "term": "F",
       "courseTitle": "Research Design and Qualitative Research Methods",
       "courseId": "5051",
       "credits": "3.00",
@@ -6185,8 +6206,8 @@
         {
           "type": "LECT",
           "meetNumber": "01",
-          "section": "M",
-          "catalogNumber": "S64Y01 (GS DEMS) Q10H01 (GS DEMS)",
+          "section": "A",
+          "catalogNumber": "Q82X01 (GS DEMS) K29R01 (GS DEMS)",
           "schedule": [
             {
               "day": "R",
@@ -6202,8 +6223,8 @@
         {
           "type": "LECT",
           "meetNumber": "01",
-          "section": "M",
-          "catalogNumber": "S64Y01 (GS DEMS) Q10H01 (GS DEMS)",
+          "section": "A",
+          "catalogNumber": "Q82X01 (GS DEMS) K29R01 (GS DEMS)",
           "schedule": [
             {
               "day": "R",
@@ -6213,6 +6234,35 @@
               "room": ""
             }
           ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "GS",
+      "department": "DEMS",
+      "term": "W",
+      "courseTitle": "Research Design and Qualitative Research Methods",
+      "courseId": "5051",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -6231,14 +6281,43 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "M11U01 (GS DEMS) J57Q01 (GS DEMS)",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "GS",
+      "department": "DEMS",
+      "term": "W",
+      "courseTitle": "Research Design and Quantitative Methods",
+      "courseId": "5052",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "G88Z01 (GS DEMS) A35A01 (GS DEMS)",
           "schedule": [
             {
               "day": "R",
               "time": "16:00",
               "duration": "170",
               "campus": "Keele",
-              "room": "MC 212"
+              "room": ""
             }
           ],
           "instructors": [],
@@ -6247,15 +6326,15 @@
         {
           "type": "LECT",
           "meetNumber": "01",
-          "section": "A",
-          "catalogNumber": "M11U01 (GS DEMS) J57Q01 (GS DEMS)",
+          "section": "M",
+          "catalogNumber": "G88Z01 (GS DEMS) A35A01 (GS DEMS)",
           "schedule": [
             {
               "day": "R",
               "time": "16:00",
               "duration": "170",
               "campus": "Keele",
-              "room": "MC 212"
+              "room": ""
             }
           ],
           "instructors": [],
@@ -6503,11 +6582,11 @@
           "catalogNumber": "W05Z01",
           "schedule": [
             {
-              "day": "R",
+              "day": "W",
               "time": "11:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "R S101"
+              "room": ""
             }
           ],
           "instructors": [],
@@ -6546,7 +6625,7 @@
     {
       "faculty": "GS",
       "department": "DEMS",
-      "term": "W",
+      "term": "F",
       "courseTitle": "Research Design and Qualitative Research Methods",
       "courseId": "5051",
       "credits": "3.00",
@@ -6555,8 +6634,8 @@
         {
           "type": "LECT",
           "meetNumber": "01",
-          "section": "M",
-          "catalogNumber": "S64Y01 (GS DEMS) Q10H01 (GS DEMS)",
+          "section": "A",
+          "catalogNumber": "Q82X01 (GS DEMS) K29R01 (GS DEMS)",
           "schedule": [
             {
               "day": "R",
@@ -6572,8 +6651,8 @@
         {
           "type": "LECT",
           "meetNumber": "01",
-          "section": "M",
-          "catalogNumber": "S64Y01 (GS DEMS) Q10H01 (GS DEMS)",
+          "section": "A",
+          "catalogNumber": "Q82X01 (GS DEMS) K29R01 (GS DEMS)",
           "schedule": [
             {
               "day": "R",
@@ -6583,6 +6662,35 @@
               "room": ""
             }
           ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "GS",
+      "department": "DEMS",
+      "term": "W",
+      "courseTitle": "Research Design and Qualitative Research Methods",
+      "courseId": "5051",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -6601,14 +6709,43 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "M11U01 (GS DEMS) J57Q01 (GS DEMS)",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "GS",
+      "department": "DEMS",
+      "term": "W",
+      "courseTitle": "Research Design and Quantitative Methods",
+      "courseId": "5052",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "G88Z01 (GS DEMS) A35A01 (GS DEMS)",
           "schedule": [
             {
               "day": "R",
               "time": "16:00",
               "duration": "170",
               "campus": "Keele",
-              "room": "MC 212"
+              "room": ""
             }
           ],
           "instructors": [],
@@ -6617,15 +6754,15 @@
         {
           "type": "LECT",
           "meetNumber": "01",
-          "section": "A",
-          "catalogNumber": "M11U01 (GS DEMS) J57Q01 (GS DEMS)",
+          "section": "M",
+          "catalogNumber": "G88Z01 (GS DEMS) A35A01 (GS DEMS)",
           "schedule": [
             {
               "day": "R",
               "time": "16:00",
               "duration": "170",
               "campus": "Keele",
-              "room": "MC 212"
+              "room": ""
             }
           ],
           "instructors": [],
@@ -7908,7 +8045,7 @@
               "time": "11:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "HNE 034"
+              "room": ""
             }
           ],
           "instructors": [],
@@ -8656,7 +8793,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Eve Haque"
+          ],
           "notes": ""
         }
       ]
@@ -8685,7 +8824,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "(Backup)"
         }
       ]
     },
@@ -8908,7 +9047,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Ibtissem Knouzi"
+          ],
           "notes": ""
         }
       ]
@@ -8965,7 +9106,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "(Backup)"
         }
       ]
     },
@@ -9049,7 +9190,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "(Backup)"
         }
       ]
     },
@@ -9217,7 +9358,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "(Backup)"
         }
       ]
     },
@@ -9329,7 +9470,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "(Backup)"
         }
       ]
     },
@@ -9412,7 +9553,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Khaled Barkaoui"
+          ],
           "notes": ""
         }
       ]
@@ -9553,7 +9696,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "(Backup)"
         }
       ]
     },
@@ -10779,6 +10922,41 @@
       "faculty": "GS",
       "department": "EECS",
       "term": "W",
+      "courseTitle": "Machine Learning Theory",
+      "courseId": "6127",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "C75S01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "11:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "W",
+              "time": "11:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "GS",
+      "department": "EECS",
+      "term": "W",
       "courseTitle": "Coding and Information Theory",
       "courseId": "6222",
       "credits": "3.00",
@@ -10819,9 +10997,16 @@
           "catalogNumber": "N34V01",
           "schedule": [
             {
-              "day": "T",
-              "time": "11:30",
-              "duration": "170",
+              "day": "M",
+              "time": "14:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "W",
+              "time": "14:30",
+              "duration": "80",
               "campus": "Keele",
               "room": ""
             }
@@ -11047,23 +11232,8 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "M",
-          "catalogNumber": "G23A01",
-          "schedule": [
-            {
-              "day": "T",
-              "time": "14:30",
-              "duration": "80",
-              "campus": "Keele",
-              "room": ""
-            },
-            {
-              "day": "R",
-              "time": "14:30",
-              "duration": "80",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -11870,6 +12040,34 @@
     {
       "faculty": "GS",
       "department": "EN",
+      "term": "W",
+      "courseTitle": "Seminar-Workshop in Creative Writing: Poetry",
+      "courseId": "6776",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "B29P01",
+          "schedule": [
+            {
+              "day": "F",
+              "time": "11:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "GS",
+      "department": "EN",
       "term": "F",
       "courseTitle": "Seminar-Workshop in Creative Writing: Fiction",
       "courseId": "6779",
@@ -11946,6 +12144,26 @@
               "room": ""
             }
           ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "GS",
+      "department": "EN",
+      "term": "W",
+      "courseTitle": "Issues in Contemporary Theory",
+      "courseId": "6997",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -12076,7 +12294,7 @@
           "type": "SEMR",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "P81P01 (GS GEOG) T51K01 (GS ENVS) M98T01 (GS SOCI)",
+          "catalogNumber": "X76V01 (GS GEOG) C23H01 (GS ENVS) P29M01 (GS SOCI) S70P01 (GS SPTH)",
           "schedule": [
             {
               "day": "R",
@@ -13438,16 +13656,8 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "M",
-          "catalogNumber": "N35B01",
-          "schedule": [
-            {
-              "day": "W",
-              "time": "16:00",
-              "duration": "170",
-              "campus": "Keele",
-              "room": "VC 107A"
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -13634,18 +13844,27 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "D12P01",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
+          "notes": "Course runs from 10-2pm on Nov. 20, 23, 27, 30 and Dec. 4 and 7."
+        },
+        {
+          "type": "ONLN",
+          "meetNumber": "01",
+          "section": "B",
+          "catalogNumber": "Y68E01",
           "schedule": [
             {
               "day": "F",
               "time": "10:00",
-              "duration": "230",
+              "duration": "170",
               "campus": "Keele",
               "room": ""
             }
           ],
           "instructors": [],
-          "notes": "Course runs from 10-2pm on Nov. 20, 23, 27, 30 and Dec. 4 and 7."
+          "notes": ""
         }
       ]
     },
@@ -14767,6 +14986,34 @@
               "time": "12:00",
               "duration": "180",
               "campus": "Glendon",
+              "room": "YH 349"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "GS",
+      "department": "FREN",
+      "term": "F",
+      "courseTitle": "RHÉTORIQUE ET SÉMIOTIQUE / RHETORIC AND SEMIOTICS",
+      "courseId": "5625",
+      "credits": "3.00",
+      "languageOfInstruction": "FR",
+      "sections": [
+        {
+          "type": "BLEN",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "M75X01",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "11:30",
+              "duration": "170",
+              "campus": "Keele",
               "room": ""
             }
           ],
@@ -15292,7 +15539,7 @@
           "type": "SEMR",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "P81P01 (GS GEOG) T51K01 (GS ENVS) M98T01 (GS SOCI)",
+          "catalogNumber": "X76V01 (GS GEOG) C23H01 (GS ENVS) P29M01 (GS SOCI) S70P01 (GS SPTH)",
           "schedule": [
             {
               "day": "R",
@@ -16261,7 +16508,7 @@
             }
           ],
           "instructors": [],
-          "notes": "Module 1: Tuesday, September 1, 2026 to Friday, September 4, 2026 - Dr. Amrita Daftary | Module 2: Thursday, December 10, 2026 to Tuesday, December 22, 2026 - Dr. Godfred Boateng | Module 3: Monday, February 15 to Friday, February 19, 2027 - Dr. Monica Malta"
+          "notes": "Module 1: Tuesday, September 1, 2026 to Friday, September 4, 2026 - Dr. Amrita Daftary (ACW 203) | Module 2: Thursday, December 10, 2026 to Thursday, December 17, 2026 - Dr. Godfred Boateng (DB 0004) | Module 3: Monday, February 15 to Friday, February 19, 2027 - Dr. Monica Malta (DB 0004)"
         }
       ]
     },
@@ -16425,6 +16672,23 @@
               "time": "0:00",
               "duration": "0",
               "campus": "Off Campus",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "ONLN",
+          "meetNumber": "01",
+          "section": "B",
+          "catalogNumber": "J28J01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "duration": "0",
+              "campus": "Keele",
               "room": ""
             }
           ],
@@ -16603,6 +16867,34 @@
             {
               "day": "",
               "time": "0:00",
+              "duration": "0",
+              "campus": "Off Campus",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "GS",
+      "department": "GNRL",
+      "term": "F",
+      "courseTitle": "Introduction to Canadian Graduate Legal Studies (Online)",
+      "courseId": "6249",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ONLN",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "D68N01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
               "duration": "0",
               "campus": "Off Campus",
               "room": ""
@@ -17130,11 +17422,59 @@
           "type": "SEMR",
           "meetNumber": "01",
           "section": "M",
-          "catalogNumber": "Z00U01",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "GS",
+      "department": "HIST",
+      "term": "W",
+      "courseTitle": "Indigenous History of North America Before 1900",
+      "courseId": "5190",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "R42J01",
           "schedule": [
             {
               "day": "W",
               "time": "11:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "GS",
+      "department": "HIST",
+      "term": "F",
+      "courseTitle": "Religion, Secularism and the Colonial Encounter",
+      "courseId": "5420",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "F23D01 (GS HUMA) Y76R01 (GS HIST)",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "16:00",
               "duration": "170",
               "campus": "Keele",
               "room": ""
@@ -19062,7 +19402,27 @@
           "type": "SEMR",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "D33J01",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "GS",
+      "department": "HUMA",
+      "term": "F",
+      "courseTitle": "Religion, Secularism and the Colonial Encounter",
+      "courseId": "6228",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "F23D01 (GS HUMA) Y76R01 (GS HIST)",
           "schedule": [
             {
               "day": "W",
@@ -20233,23 +20593,8 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "M",
-          "catalogNumber": "M48V01",
-          "schedule": [
-            {
-              "day": "M",
-              "time": "14:30",
-              "duration": "80",
-              "campus": "Keele",
-              "room": ""
-            },
-            {
-              "day": "W",
-              "time": "14:30",
-              "duration": "80",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -20397,7 +20742,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Gabriela Alboiu"
+          ],
           "notes": ""
         }
       ]
@@ -20425,7 +20772,9 @@
               "room": "VC 119"
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Philipp S. Angermeyer"
+          ],
           "notes": ""
         }
       ]
@@ -20453,7 +20802,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Ruth E King"
+          ],
           "notes": ""
         }
       ]
@@ -20509,7 +20860,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Chandan R. Narayan"
+          ],
           "notes": ""
         }
       ]
@@ -20537,7 +20890,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Khaled Barkaoui"
+          ],
           "notes": ""
         }
       ]
@@ -20565,7 +20920,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Ibtissem Knouzi"
+          ],
           "notes": ""
         }
       ]
@@ -20593,7 +20950,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "James Corcoran"
+          ],
           "notes": ""
         }
       ]
@@ -20677,7 +21036,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Geoff Lawrence"
+          ],
           "notes": ""
         }
       ]
@@ -20705,7 +21066,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Ruth E King"
+          ],
           "notes": ""
         }
       ]
@@ -20733,7 +21096,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Philipp S. Angermeyer"
+          ],
           "notes": ""
         }
       ]
@@ -20761,7 +21126,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Eve Haque"
+          ],
           "notes": ""
         }
       ]
@@ -20789,7 +21156,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Antonella Valeo"
+          ],
           "notes": ""
         }
       ]
@@ -20817,7 +21186,9 @@
               "room": ""
             }
           ],
-          "instructors": [],
+          "instructors": [
+            "Thomas Kettig"
+          ],
           "notes": ""
         }
       ]
@@ -21518,7 +21889,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "(Backup)"
         }
       ]
     },
@@ -21776,15 +22147,15 @@
           "catalogNumber": "N70N01",
           "schedule": [
             {
-              "day": "M",
-              "time": "11:30",
+              "day": "T",
+              "time": "14:30",
               "duration": "80",
               "campus": "Keele",
               "room": ""
             },
             {
-              "day": "W",
-              "time": "11:30",
+              "day": "R",
+              "time": "14:30",
               "duration": "80",
               "campus": "Keele",
               "room": ""
@@ -21913,23 +22284,8 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "M",
-          "catalogNumber": "H10G01",
-          "schedule": [
-            {
-              "day": "T",
-              "time": "14:30",
-              "duration": "80",
-              "campus": "Keele",
-              "room": ""
-            },
-            {
-              "day": "R",
-              "time": "14:30",
-              "duration": "80",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -22720,7 +23076,7 @@
               "time": "13:30",
               "duration": "180",
               "campus": "Keele",
-              "room": ""
+              "room": "BRG 213"
             }
           ],
           "instructors": [],
@@ -22748,7 +23104,7 @@
               "time": "14:00",
               "duration": "180",
               "campus": "Keele",
-              "room": ""
+              "room": "BRG 213"
             }
           ],
           "instructors": [],
@@ -22776,7 +23132,7 @@
               "time": "10:30",
               "duration": "180",
               "campus": "Keele",
-              "room": ""
+              "room": "BRG 213"
             }
           ],
           "instructors": [],
@@ -22860,7 +23216,7 @@
               "time": "13:30",
               "duration": "180",
               "campus": "Keele",
-              "room": ""
+              "room": "BRG 213"
             }
           ],
           "instructors": [],
@@ -23189,16 +23545,8 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "E09G01",
-          "schedule": [
-            {
-              "day": "M",
-              "time": "14:00",
-              "duration": "180",
-              "campus": "Keele",
-              "room": "BRG 213"
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -23245,14 +23593,34 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "K62U01",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "GS",
+      "department": "MSES",
+      "term": "W",
+      "courseTitle": "Two-Phase Flow and Heat Transfer",
+      "courseId": "6109",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "D48X01",
           "schedule": [
             {
-              "day": "R",
-              "time": "15:30",
-              "duration": "180",
+              "day": "M",
+              "time": "14:30",
+              "duration": "170",
               "campus": "Keele",
-              "room": "BRG 213"
+              "room": "BRG 217"
             }
           ],
           "instructors": [],
@@ -23273,16 +23641,8 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "Z03A01",
-          "schedule": [
-            {
-              "day": "W",
-              "time": "13:30",
-              "duration": "180",
-              "campus": "Keele",
-              "room": "BRG 213"
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -27902,7 +28262,7 @@
               "time": "14:30",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "R S432"
             }
           ],
           "instructors": [],
@@ -29083,7 +29443,7 @@
               "time": "18:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A214"
             }
           ],
           "instructors": [],
@@ -29111,7 +29471,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 170"
             }
           ],
           "instructors": [],
@@ -29139,7 +29499,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A214"
             }
           ],
           "instructors": [],
@@ -29167,7 +29527,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A108"
             }
           ],
           "instructors": [],
@@ -29195,7 +29555,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A110"
             }
           ],
           "instructors": [],
@@ -29279,7 +29639,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A220"
             }
           ],
           "instructors": [],
@@ -29307,7 +29667,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A220"
             }
           ],
           "instructors": [],
@@ -29335,7 +29695,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A220"
             }
           ],
           "instructors": [],
@@ -29363,7 +29723,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A220"
             }
           ],
           "instructors": [],
@@ -32218,7 +32578,27 @@
           "type": "SEMR",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "G81A01",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "GS",
+      "department": "PSYC",
+      "term": "W",
+      "courseTitle": "Introduction to Qualitative Research",
+      "courseId": "6474",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "B23T01",
           "schedule": [
             {
               "day": "F",
@@ -32306,7 +32686,7 @@
           "schedule": [
             {
               "day": "T",
-              "time": "11:30",
+              "time": "12:30",
               "duration": "170",
               "campus": "Keele",
               "room": "BSB 204"
@@ -33425,7 +33805,7 @@
           "catalogNumber": "H99H01",
           "schedule": [
             {
-              "day": "R",
+              "day": "W",
               "time": "11:30",
               "duration": "170",
               "campus": "Keele",
@@ -33478,16 +33858,8 @@
           "type": "SEMR",
           "meetNumber": "01",
           "section": "M",
-          "catalogNumber": "B46Q01",
-          "schedule": [
-            {
-              "day": "W",
-              "time": "11:30",
-              "duration": "170",
-              "campus": "Keele",
-              "room": "VH 1154"
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -33566,6 +33938,34 @@
           "schedule": [
             {
               "day": "W",
+              "time": "11:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "GS",
+      "department": "SLST",
+      "term": "W",
+      "courseTitle": "Colonialism, Race and the Law: Sociological Implications",
+      "courseId": "6065",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "U82P01 (GS SOCI) H76K01 (GS SLST) Z29B01 (GS SPTH)",
+          "schedule": [
+            {
+              "day": "R",
               "time": "11:30",
               "duration": "170",
               "campus": "Keele",
@@ -33860,6 +34260,34 @@
     {
       "faculty": "GS",
       "department": "SOCI",
+      "term": "F",
+      "courseTitle": "Interviewing Methods",
+      "courseId": "6095",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "B08N01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "11:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "GS",
+      "department": "SOCI",
       "term": "Y",
       "courseTitle": "Quantitative Analysis",
       "courseId": "6112",
@@ -33943,16 +34371,8 @@
           "type": "SEMR",
           "meetNumber": "01",
           "section": "N",
-          "catalogNumber": "M55M01 (GS SOCI) G02V01 (GS CMCT)",
-          "schedule": [
-            {
-              "day": "W",
-              "time": "11:30",
-              "duration": "170",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -34055,7 +34475,35 @@
           "type": "SEMR",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "P81P01 (GS GEOG) T51K01 (GS ENVS) M98T01 (GS SOCI)",
+          "catalogNumber": "X76V01 (GS GEOG) C23H01 (GS ENVS) P29M01 (GS SOCI) S70P01 (GS SPTH)",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "11:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "GS",
+      "department": "SOCI",
+      "term": "W",
+      "courseTitle": "Colonialism, Race and the Law: Sociological Implications",
+      "courseId": "6893",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "U82P01 (GS SOCI) H76K01 (GS SLST) Z29B01 (GS SPTH)",
           "schedule": [
             {
               "day": "R",
@@ -35092,6 +35540,34 @@
       "faculty": "GS",
       "department": "SOWK",
       "term": "W",
+      "courseTitle": "Critical International Social Work",
+      "courseId": "5930",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "Z28E01",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "19:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "R S801"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "GS",
+      "department": "SOWK",
+      "term": "W",
       "courseTitle": "Critical Perspectives in Child Welfare",
       "courseId": "5942",
       "credits": "3.00",
@@ -35784,6 +36260,34 @@
       "faculty": "GS",
       "department": "SPTH",
       "term": "W",
+      "courseTitle": "Colonialism, Race and the Law: Sociological Implications",
+      "courseId": "6146",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "U82P01 (GS SOCI) H76K01 (GS SLST) Z29B01 (GS SPTH)",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "11:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "GS",
+      "department": "SPTH",
+      "term": "W",
       "courseTitle": "Black Feminisms",
       "courseId": "6154",
       "credits": "3.00",
@@ -35885,6 +36389,34 @@
               "duration": "170",
               "campus": "Keele",
               "room": "VH 1152"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "GS",
+      "department": "SPTH",
+      "term": "F",
+      "courseTitle": "Economic Geographies: Capital, Labour and Space",
+      "courseId": "6192",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "X76V01 (GS GEOG) C23H01 (GS ENVS) P29M01 (GS SOCI) S70P01 (GS SPTH)",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "11:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
             }
           ],
           "instructors": [],
@@ -36350,6 +36882,26 @@
       "faculty": "GS",
       "department": "SPTH",
       "term": "W",
+      "courseTitle": "Issues in Contemporary Theory",
+      "courseId": "6672",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "GS",
+      "department": "SPTH",
+      "term": "W",
       "courseTitle": "Diasporas: Transnational Communities and Limits of Citizenship",
       "courseId": "6674",
       "credits": "3.00",
@@ -36746,6 +37298,62 @@
     },
     {
       "faculty": "GS",
+      "department": "STS",
+      "term": "F",
+      "courseTitle": "Critical Making and Doing: Justice-Centered Praxis",
+      "courseId": "6315",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "K30Z01",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "11:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "GS",
+      "department": "THEA",
+      "term": "F",
+      "courseTitle": "Graduate One Directing",
+      "courseId": "5041",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "STDO",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "H82G01",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "8:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "ACE 209"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "GS",
       "department": "THEA",
       "term": "F",
       "courseTitle": "Solo Performance Creation; Devising for Solo Performance in any Medium",
@@ -36813,16 +37421,8 @@
           "type": "SEMR",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "D31Q01",
-          "schedule": [
-            {
-              "day": "R",
-              "time": "11:30",
-              "duration": "170",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }

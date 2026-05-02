@@ -1,10 +1,12 @@
 """Run all course timetable scrapers."""
 
-import sys
+import argparse
 import importlib.util
-from pathlib import Path
-from typing import Dict, Any, List, Tuple
+import os
+import sys
 from datetime import datetime
+from pathlib import Path
+from typing import Any, Dict, List, Tuple
 
 scrapers_dir = Path(__file__).parent
 fall_winter_dir = scrapers_dir / "fall-winter-2025-2026"
@@ -66,8 +68,8 @@ def run_scraper(name: str, scraper_module, description: str) -> Dict[str, Any]:
         scraping_dir = scraper_path.parents[2]
         scraper_name = scraper_path.stem
         term_dir = None
-        if "fall-winter-2025-2026" in scraper_path.parts: # update for new sessions
-            term_dir = "fall-winter-2025-2026"
+        if any(part.startswith("fall-winter-") for part in scraper_path.parts):
+            term_dir = os.environ.get("FALL_WINTER_TERM", "fall-winter-2026-2027")
         elif "summer-2026" in scraper_path.parts:
             term_dir = "summer-2026"
 
@@ -76,11 +78,10 @@ def run_scraper(name: str, scraper_module, description: str) -> Dict[str, Any]:
         if term_dir:
             candidate_paths.append(scraping_dir / "data" / term_dir / f"{scraper_name}.json")
         else:
-            candidate_paths.extend([ # update for new sessions
+            candidate_paths.extend([
                 scraping_dir / "data" / f"{scraper_name}.json",
-                scraping_dir / "data" / "fall-winter-2025-2026" / f"{scraper_name}.json",
+                scraping_dir / "data" / os.environ.get("FALL_WINTER_TERM", "fall-winter-2026-2027") / f"{scraper_name}.json",
                 scraping_dir / "data" / "summer-2026" / f"{scraper_name}.json"
-                
             ])
 
         for data_path in candidate_paths:
@@ -101,10 +102,21 @@ def run_scraper(name: str, scraper_module, description: str) -> Dict[str, Any]:
 
 def main():
     """Run all scrapers and provide a summary."""
+    parser = argparse.ArgumentParser(description="Run York timetable scrapers")
+    parser.add_argument(
+        "--fall-winter-term",
+        default=os.environ.get("FALL_WINTER_TERM", "fall-winter-2026-2027"),
+        metavar="FOLDER",
+        help="page_source/data subfolder for fall-winter scrapers",
+    )
+    args = parser.parse_args()
+    os.environ["FALL_WINTER_TERM"] = args.fall_winter_term
+
     print("\n" + "="*70)
     print("YORK UNIVERSITY COURSE TIMETABLE SCRAPERS")
     print("="*70)
-    print(f"Started at: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+    print(f"Started at: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"Fall/winter term folder: {args.fall_winter_term}\n")
     
     scrapers = _load_scrapers(fall_winter_dir)
     scrapers += _load_scrapers(summer_dir)

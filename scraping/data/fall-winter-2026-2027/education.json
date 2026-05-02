@@ -3613,7 +3613,7 @@
               "time": "13:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "SC 216"
+              "room": "VH 3005"
             }
           ],
           "instructors": [],
@@ -3629,7 +3629,7 @@
               "time": "13:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "SC 212"
+              "room": "VH 2005"
             }
           ],
           "instructors": [],
@@ -3661,7 +3661,7 @@
               "time": "13:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "MC 213"
+              "room": "MC 211"
             }
           ],
           "instructors": [],
@@ -3694,7 +3694,7 @@
               "time": "13:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "SC 211"
+              "room": "VH 2009"
             }
           ],
           "instructors": [],
@@ -3710,7 +3710,7 @@
               "time": "13:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "CC 106"
+              "room": "MC 212"
             }
           ],
           "instructors": [],
@@ -5416,7 +5416,7 @@
             }
           ],
           "instructors": [],
-          "notes": "(Backup)"
+          "notes": ""
         },
         {
           "type": "LECT",
@@ -5461,7 +5461,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "(Backup)"
         },
         {
           "type": "LECT",
@@ -5647,7 +5647,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "(Backup)"
         },
         {
           "type": "BLEN",
@@ -5811,7 +5811,7 @@
             }
           ],
           "instructors": [],
-          "notes": "(Backup)"
+          "notes": ""
         },
         {
           "type": "BLEN",
@@ -8374,7 +8374,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "(Backup)"
         }
       ]
     },
@@ -9908,6 +9908,23 @@
           ],
           "instructors": [],
           "notes": "(Backup)"
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "G",
+          "catalogNumber": "A15S01",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "12:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
         }
       ]
     },

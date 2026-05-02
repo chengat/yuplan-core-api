@@ -1424,7 +1424,7 @@
               "time": "19:00",
               "duration": "170",
               "campus": "Keele",
-              "room": "CLH J"
+              "room": "SLH A"
             }
           ],
           "instructors": [],
@@ -1441,7 +1441,7 @@
               "time": "16:00",
               "duration": "170",
               "campus": "Keele",
-              "room": "VH 1152A"
+              "room": "SLH A"
             }
           ],
           "instructors": [],
@@ -1967,7 +1967,7 @@
               "time": "14:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "CLH C"
+              "room": "VH D"
             }
           ],
           "instructors": [],
@@ -2082,9 +2082,9 @@
           "catalogNumber": "F64N01",
           "schedule": [
             {
-              "day": "R",
-              "time": "19:00",
-              "duration": "170",
+              "day": "",
+              "time": "",
+              "duration": "0",
               "campus": "Keele",
               "room": ""
             }
@@ -2099,9 +2099,9 @@
           "catalogNumber": "W11V01",
           "schedule": [
             {
-              "day": "F",
-              "time": "9:00",
-              "duration": "170",
+              "day": "",
+              "time": "",
+              "duration": "0",
               "campus": "Keele",
               "room": ""
             }
@@ -3447,7 +3447,7 @@
               "time": "11:30",
               "duration": "170",
               "campus": "Markham",
-              "room": "MK 4100"
+              "room": ""
             }
           ],
           "instructors": [],
@@ -3502,6 +3502,79 @@
               "day": "",
               "time": "0:00",
               "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "AP",
+      "department": "ADMS",
+      "term": "F",
+      "courseTitle": "Professional Communication in the Canadian Context",
+      "courseId": "3015",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ONCA",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "E48T01",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "19:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "ONCA",
+          "meetNumber": "01",
+          "section": "B",
+          "catalogNumber": "U95E01",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "19:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "AP",
+      "department": "ADMS",
+      "term": "F",
+      "courseTitle": "Fundamentals of Canadian Business Law and Ethics",
+      "courseId": "3060",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ONCA",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "Z42N01",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "19:00",
+              "duration": "170",
               "campus": "Keele",
               "room": ""
             }
@@ -4199,7 +4272,7 @@
           "schedule": [
             {
               "day": "M",
-              "time": "8:30",
+              "time": "17:30",
               "duration": "170",
               "campus": "Markham",
               "room": "MK 4040"
@@ -4247,7 +4320,7 @@
               "time": "19:00",
               "duration": "170",
               "campus": "Keele",
-              "room": "CLH K"
+              "room": "HNE B15"
             }
           ],
           "instructors": [],
@@ -4484,7 +4557,7 @@
               "time": "19:00",
               "duration": "170",
               "campus": "Keele",
-              "room": "DB 0014"
+              "room": "R S203"
             }
           ],
           "instructors": [],
@@ -4945,7 +5018,7 @@
               "time": "14:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "CLH J"
+              "room": "ACE 005"
             }
           ],
           "instructors": [],
@@ -5960,7 +6033,7 @@
               "time": "14:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "DB 0010"
+              "room": "ACE 003"
             }
           ],
           "instructors": [],
@@ -6641,7 +6714,7 @@
               "time": "16:00",
               "duration": "170",
               "campus": "Keele",
-              "room": "ACW 005"
+              "room": "R S203"
             }
           ],
           "instructors": [],
@@ -6873,8 +6946,8 @@
           "catalogNumber": "A92N01 (AP ENTP) F56A01 (AP ADMS)",
           "schedule": [
             {
-              "day": "M",
-              "time": "16:00",
+              "day": "T",
+              "time": "11:30",
               "duration": "170",
               "campus": "Keele",
               "room": ""
@@ -7404,7 +7477,7 @@
               "time": "19:00",
               "duration": "170",
               "campus": "Keele",
-              "room": "DB 1005"
+              "room": "HNE 030"
             }
           ],
           "instructors": [],
@@ -7785,7 +7858,7 @@
               "time": "11:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "DB 1005"
+              "room": "HNE 033"
             }
           ],
           "instructors": [],
@@ -7813,7 +7886,7 @@
               "time": "13:00",
               "duration": "170",
               "campus": "Keele",
-              "room": "ACW 205"
+              "room": ""
             }
           ],
           "instructors": [],
@@ -8037,7 +8110,7 @@
               "time": "19:00",
               "duration": "170",
               "campus": "Keele",
-              "room": "CLH M"
+              "room": "R S105"
             }
           ],
           "instructors": [],
@@ -8191,10 +8264,10 @@
           "schedule": [
             {
               "day": "M",
-              "time": "9:00",
+              "time": "8:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "R S105"
+              "room": "R S117D"
             }
           ],
           "instructors": [],
@@ -8531,7 +8604,7 @@
               "time": "16:00",
               "duration": "170",
               "campus": "Keele",
-              "room": "ACE 003"
+              "room": "R S105"
             }
           ],
           "instructors": [],
@@ -8694,7 +8767,7 @@
               "time": "16:00",
               "duration": "170",
               "campus": "Keele",
-              "room": "DB 0007"
+              "room": "HNE 033"
             }
           ],
           "instructors": [],
@@ -8711,7 +8784,7 @@
               "time": "11:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "ACE 007"
+              "room": "HNE 030"
             }
           ],
           "instructors": [],
@@ -9261,7 +9334,7 @@
               "time": "11:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "DB 0007"
+              "room": "R S105"
             }
           ],
           "instructors": [],
@@ -9278,7 +9351,7 @@
               "time": "11:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "DB 1004"
+              "room": "HNE 032"
             }
           ],
           "instructors": [],
@@ -9407,7 +9480,7 @@
               "time": "19:00",
               "duration": "170",
               "campus": "Keele",
-              "room": "DB 0005"
+              "room": "HNE 030"
             }
           ],
           "instructors": [],
@@ -9435,7 +9508,7 @@
               "time": "19:00",
               "duration": "170",
               "campus": "Keele",
-              "room": "DB 0007"
+              "room": "R S105"
             }
           ],
           "instructors": [],
@@ -9559,7 +9632,7 @@
               "time": "14:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "DB 1004"
+              "room": "HNE 032"
             }
           ],
           "instructors": [],
@@ -9576,7 +9649,7 @@
               "time": "11:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "DB 1004"
+              "room": "HNE 033"
             }
           ],
           "instructors": [],
@@ -10003,7 +10076,7 @@
               "time": "19:00",
               "duration": "170",
               "campus": "Keele",
-              "room": "CB 129"
+              "room": "R S117D"
             }
           ],
           "instructors": [],
@@ -10144,7 +10217,7 @@
               "time": "19:00",
               "duration": "170",
               "campus": "Keele",
-              "room": "CLH J"
+              "room": "HNE 030"
             }
           ],
           "instructors": [],
@@ -10290,7 +10363,7 @@
               "time": "16:00",
               "duration": "170",
               "campus": "Keele",
-              "room": "CLH M"
+              "room": "HNE 031"
             }
           ],
           "instructors": [],
@@ -11250,6 +11323,66 @@
     },
     {
       "faculty": "AP",
+      "department": "ANCW",
+      "term": "Y",
+      "courseTitle": "Roman Literature and Culture",
+      "courseId": "2105",
+      "credits": "6.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "11:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "FC 106"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "01",
+          "catalogNumber": "P09H02 (AP HUMA) X56Q02 (AP ANCW)",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "12:30",
+              "duration": "110",
+              "campus": "Keele",
+              "room": "VC 116"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "02",
+          "catalogNumber": "P09H03 (AP HUMA) X56Q03 (AP ANCW)",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "12:30",
+              "duration": "110",
+              "campus": "Keele",
+              "room": "FC 109"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "AP",
       "department": "ANTH",
       "term": "Y",
       "courseTitle": "Making Sense of a Changing World: Anthropology Today",
@@ -11449,7 +11582,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "All Exams will be in person."
         },
         {
           "type": "ONCA",
@@ -11633,11 +11766,11 @@
               "time": "14:30",
               "duration": "110",
               "campus": "Keele",
-              "room": ""
+              "room": "VC 135"
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "Some in person classes, some online. Please refer to course syllabus."
         },
         {
           "type": "TUTR",
@@ -11905,12 +12038,44 @@
             }
           ],
           "instructors": [],
-          "notes": "(Backup)"
+          "notes": ""
         },
         {
           "type": "TUTR",
           "meetNumber": "06",
           "catalogNumber": "W08W07",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "17:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "07",
+          "catalogNumber": "W08W08",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "14:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "(Backup)"
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "08",
+          "catalogNumber": "W08W09",
           "schedule": [
             {
               "day": "W",
@@ -11969,11 +12134,11 @@
           "catalogNumber": "",
           "schedule": [
             {
-              "day": "W",
+              "day": "R",
               "time": "11:30",
               "duration": "110",
               "campus": "Keele",
-              "room": "HNE 038"
+              "room": ""
             }
           ],
           "instructors": [],
@@ -11985,7 +12150,7 @@
           "catalogNumber": "W32S02",
           "schedule": [
             {
-              "day": "W",
+              "day": "R",
               "time": "13:30",
               "duration": "50",
               "campus": "Keele",
@@ -12001,7 +12166,7 @@
           "catalogNumber": "W32S03",
           "schedule": [
             {
-              "day": "W",
+              "day": "R",
               "time": "14:30",
               "duration": "50",
               "campus": "Keele",
@@ -12017,7 +12182,7 @@
           "catalogNumber": "W32S04",
           "schedule": [
             {
-              "day": "W",
+              "day": "R",
               "time": "13:30",
               "duration": "50",
               "campus": "Keele",
@@ -12033,7 +12198,7 @@
           "catalogNumber": "W32S05",
           "schedule": [
             {
-              "day": "W",
+              "day": "R",
               "time": "14:30",
               "duration": "50",
               "campus": "Keele",
@@ -12260,6 +12425,98 @@
     {
       "faculty": "AP",
       "department": "ANTH",
+      "term": "W",
+      "courseTitle": "Sex, Gender and the Body: Cross-Cultural Approaches to the Body, Gender, Sexuality and Kinship",
+      "courseId": "2170",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "14:30",
+              "duration": "110",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "01",
+          "catalogNumber": "F28C02",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "16:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "02",
+          "catalogNumber": "F28C03",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "17:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "03",
+          "catalogNumber": "F28C04",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "16:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "04",
+          "catalogNumber": "F28C05",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "17:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "AP",
+      "department": "ANTH",
       "term": "Y",
       "courseTitle": "Sex, Gender and the Body: Cross-Cultural Approaches to the Body, Gender, Sexuality and Kinship",
       "courseId": "2170",
@@ -12270,16 +12527,8 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "J26N01",
-          "schedule": [
-            {
-              "day": "R",
-              "time": "11:30",
-              "duration": "170",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -12462,16 +12711,8 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "C73W01",
-          "schedule": [
-            {
-              "day": "M",
-              "time": "11:30",
-              "duration": "170",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -12497,7 +12738,7 @@
               "time": "14:30",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "R S117B"
             }
           ],
           "instructors": [],
@@ -12633,7 +12874,7 @@
           "catalogNumber": "C44H01",
           "schedule": [
             {
-              "day": "W",
+              "day": "R",
               "time": "14:30",
               "duration": "170",
               "campus": "Keele",
@@ -12861,11 +13102,11 @@
               "time": "11:30",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "R S117E"
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "Work-intergrated learning course."
         }
       ]
     },
@@ -12969,8 +13210,8 @@
           "catalogNumber": "Q73T01",
           "schedule": [
             {
-              "day": "M",
-              "time": "11:30",
+              "day": "W",
+              "time": "17:30",
               "duration": "170",
               "campus": "Keele",
               "room": ""
@@ -13213,7 +13454,7 @@
               "time": "10:30",
               "duration": "110",
               "campus": "Keele",
-              "room": "LAS B"
+              "room": "VC 135"
             }
           ],
           "instructors": [],
@@ -13943,16 +14184,8 @@
           "type": "ONLN",
           "meetNumber": "01",
           "section": "C",
-          "catalogNumber": "J15G01 (AP HUMA) P68U01 (AP CCY )",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "duration": "0",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "All spaces reserved for CCY Year 4 majors & minors only."
         }
@@ -14000,6 +14233,23 @@
           ],
           "instructors": [],
           "notes": "All spaces reserved for CCY Year 4 majors & minors only."
+        },
+        {
+          "type": "BLEN",
+          "meetNumber": "01",
+          "section": "C",
+          "catalogNumber": "K22B01 (AP HUMA) D69K01 (AP CCY )",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "11:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
         }
       ]
     },
@@ -14033,16 +14283,8 @@
           "type": "SEMR",
           "meetNumber": "01",
           "section": "B",
-          "catalogNumber": "M22V01 (AP HUMA) Q78S01 (AP CCY )",
-          "schedule": [
-            {
-              "day": "W",
-              "time": "14:30",
-              "duration": "170",
-              "campus": "Keele",
-              "room": "FC 105"
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "All spaces reserved for CCY Year 4 majors & minors only."
         }
@@ -14064,11 +14306,11 @@
           "catalogNumber": "M65W01",
           "schedule": [
             {
-              "day": "M",
+              "day": "W",
               "time": "11:30",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "R S117E"
             }
           ],
           "instructors": [],
@@ -14541,66 +14783,6 @@
     {
       "faculty": "AP",
       "department": "CLST",
-      "term": "Y",
-      "courseTitle": "Roman Literature and Culture",
-      "courseId": "2105",
-      "credits": "6.00",
-      "languageOfInstruction": "EN",
-      "sections": [
-        {
-          "type": "LECT",
-          "meetNumber": "01",
-          "section": "A",
-          "catalogNumber": "",
-          "schedule": [
-            {
-              "day": "W",
-              "time": "11:30",
-              "duration": "50",
-              "campus": "Keele",
-              "room": "FC 106"
-            }
-          ],
-          "instructors": [],
-          "notes": ""
-        },
-        {
-          "type": "TUTR",
-          "meetNumber": "01",
-          "catalogNumber": "T04E02 (AP HUMA) T61Z02 (AP CLST)",
-          "schedule": [
-            {
-              "day": "W",
-              "time": "12:30",
-              "duration": "110",
-              "campus": "Keele",
-              "room": "VC 116"
-            }
-          ],
-          "instructors": [],
-          "notes": ""
-        },
-        {
-          "type": "TUTR",
-          "meetNumber": "02",
-          "catalogNumber": "T04E03 (AP HUMA) T61Z03 (AP CLST)",
-          "schedule": [
-            {
-              "day": "W",
-              "time": "12:30",
-              "duration": "110",
-              "campus": "Keele",
-              "room": "FC 109"
-            }
-          ],
-          "instructors": [],
-          "notes": ""
-        }
-      ]
-    },
-    {
-      "faculty": "AP",
-      "department": "CLST",
       "term": "F",
       "courseTitle": "Sex, Swords, and Sandals: Classical Foundations of English Literature",
       "courseId": "2900",
@@ -14618,7 +14800,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A212"
             }
           ],
           "instructors": [],
@@ -15114,64 +15296,32 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "",
-          "schedule": [
-            {
-              "day": "T",
-              "time": "11:30",
-              "duration": "110",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "catalogNumber": "F69H02 (AP HUMA) D14G02 (AP CLTR)",
-          "schedule": [
-            {
-              "day": "T",
-              "time": "13:30",
-              "duration": "50",
-              "campus": "Keele",
-              "room": "MC 101"
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "catalogNumber": "F69H03 (AP HUMA) D14G03 (AP CLTR)",
-          "schedule": [
-            {
-              "day": "T",
-              "time": "13:30",
-              "duration": "50",
-              "campus": "Keele",
-              "room": "FC 109"
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "catalogNumber": "F69H04 (AP HUMA) D14G04 (AP CLTR)",
-          "schedule": [
-            {
-              "day": "T",
-              "time": "14:30",
-              "duration": "50",
-              "campus": "Keele",
-              "room": "MC 109"
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -15215,15 +15365,63 @@
       "languageOfInstruction": "EN",
       "sections": [
         {
-          "type": "SEMR",
+          "type": "LECT",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "U34E01 (AP CLTR) E88E01 (AP HUMA)",
+          "catalogNumber": "",
           "schedule": [
             {
               "day": "W",
-              "time": "16:00",
-              "duration": "170",
+              "time": "16:30",
+              "duration": "110",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "01",
+          "catalogNumber": "U34E02 (AP CLTR) E88E02 (AP HUMA)",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "19:00",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "02",
+          "catalogNumber": "U34E03 (AP CLTR) E88E03 (AP HUMA)",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "19:00",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "03",
+          "catalogNumber": "U34E04 (AP CLTR) E88E04 (AP HUMA)",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "20:00",
+              "duration": "50",
               "campus": "Keele",
               "room": ""
             }
@@ -15442,16 +15640,8 @@
           "type": "SEMR",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "K77P01 (AP CLTR) J67U01 (AP HUMA)",
-          "schedule": [
-            {
-              "day": "W",
-              "time": "11:30",
-              "duration": "170",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "All spaces in this course are reserved for Department of Humanities majors/minors in their 4th year."
         }
@@ -15798,11 +15988,11 @@
           "catalogNumber": "Y22Y01",
           "schedule": [
             {
-              "day": "W",
+              "day": "M",
               "time": "13:00",
               "duration": "170",
               "campus": "Markham",
-              "room": "MK 2055"
+              "room": ""
             }
           ],
           "instructors": [],
@@ -15954,7 +16144,7 @@
               "time": "9:30",
               "duration": "110",
               "campus": "Keele",
-              "room": ""
+              "room": "VH A"
             }
           ],
           "instructors": [],
@@ -16234,7 +16424,7 @@
               "time": "9:30",
               "duration": "110",
               "campus": "Keele",
-              "room": ""
+              "room": "VC 135"
             }
           ],
           "instructors": [],
@@ -16544,7 +16734,7 @@
               "time": "14:30",
               "duration": "110",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH F"
             }
           ],
           "instructors": [],
@@ -18190,16 +18380,8 @@
           "type": "SEMR",
           "meetNumber": "01",
           "section": "M",
-          "catalogNumber": "J34N01",
-          "schedule": [
-            {
-              "day": "T",
-              "time": "14:30",
-              "duration": "170",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -18806,32 +18988,16 @@
         {
           "type": "TUTR",
           "meetNumber": "07",
-          "catalogNumber": "G23V08 (AP PHIL) A57G08 (AP COGS)",
-          "schedule": [
-            {
-              "day": "W",
-              "time": "9:30",
-              "duration": "50",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "(Backup)"
         },
         {
           "type": "TUTR",
           "meetNumber": "08",
-          "catalogNumber": "G23V09 (AP PHIL) A57G09 (AP COGS)",
-          "schedule": [
-            {
-              "day": "W",
-              "time": "11:30",
-              "duration": "50",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "(Backup)"
         }
@@ -18889,7 +19055,7 @@
               "time": "10:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "R S123"
+              "room": "MC 101"
             }
           ],
           "instructors": [],
@@ -18905,7 +19071,7 @@
               "time": "9:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "R S136"
+              "room": "ACE 012"
             }
           ],
           "instructors": [],
@@ -18921,7 +19087,7 @@
               "time": "10:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "R S130"
+              "room": "ACE 012"
             }
           ],
           "instructors": [],
@@ -20118,7 +20284,7 @@
               "time": "12:30",
               "duration": "110",
               "campus": "Keele",
-              "room": "ACW 005"
+              "room": "ACW 004"
             }
           ],
           "instructors": [],
@@ -20242,7 +20408,7 @@
               "time": "11:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "ACW 209"
+              "room": "MC 211"
             }
           ],
           "instructors": [],
@@ -20727,16 +20893,8 @@
           "type": "ONCA",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "S85A01 (AP SOSC) A63U01 (AP CRIM)",
-          "schedule": [
-            {
-              "day": "R",
-              "time": "12:30",
-              "duration": "170",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -20778,7 +20936,7 @@
               "time": "12:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "SC 224"
+              "room": "VC 107A"
             }
           ],
           "instructors": [],
@@ -20810,7 +20968,7 @@
               "time": "14:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "ACW 008"
+              "room": "VC 102"
             }
           ],
           "instructors": [],
@@ -21554,7 +21712,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "This course will meet in person in the location assigned."
         },
         {
           "type": "TUTR",
@@ -21608,16 +21766,8 @@
           "type": "SEMR",
           "meetNumber": "01",
           "section": "B",
-          "catalogNumber": "J68F01",
-          "schedule": [
-            {
-              "day": "W",
-              "time": "11:30",
-              "duration": "170",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -21647,7 +21797,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "This course will meet in person in the location assigned."
         },
         {
           "type": "SEMR",
@@ -21664,7 +21814,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "This course will meet in person in the location assigned."
         },
         {
           "type": "SEMR",
@@ -21681,7 +21831,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "This course will meet in person in the location assigned."
         },
         {
           "type": "ONLN",
@@ -21698,7 +21848,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "This course will be delivered remotely with synchronous class sessions: the delivery will be on the Day(s) and Start Time listed here."
         }
       ]
     },
@@ -21718,15 +21868,15 @@
           "catalogNumber": "V10D01",
           "schedule": [
             {
-              "day": "M",
-              "time": "11:30",
+              "day": "T",
+              "time": "14:30",
               "duration": "170",
               "campus": "Keele",
               "room": ""
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "This course will meet in person in the location assigned."
         }
       ]
     },
@@ -21754,7 +21904,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "This course will meet in person in the location assigned."
         }
       ]
     },
@@ -21782,7 +21932,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "This course will meet in person in the location assigned."
         }
       ]
     },
@@ -21810,7 +21960,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "This course will meet in person in the location assigned."
         }
       ]
     },
@@ -21838,7 +21988,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "This course will meet in person in the location assigned."
         }
       ]
     },
@@ -21858,7 +22008,7 @@
           "catalogNumber": "M32A01",
           "schedule": [
             {
-              "day": "T",
+              "day": "M",
               "time": "11:30",
               "duration": "170",
               "campus": "Keele",
@@ -21866,7 +22016,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "This course will be delivered remotely with synchronous class sessions: the delivery will be on the Day(s) and Start Time listed here."
         }
       ]
     },
@@ -21894,7 +22044,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "This course will meet in person in the location assigned."
         }
       ]
     },
@@ -22481,7 +22631,7 @@
               "time": "11:30",
               "duration": "110",
               "campus": "Keele",
-              "room": "SC 216"
+              "room": "VC 102"
             },
             {
               "day": "",
@@ -22505,7 +22655,7 @@
               "time": "11:30",
               "duration": "110",
               "campus": "Keele",
-              "room": "SC 212"
+              "room": "VH 1154"
             },
             {
               "day": "",
@@ -22538,7 +22688,7 @@
             {
               "day": "T",
               "time": "11:30",
-              "duration": "50",
+              "duration": "80",
               "campus": "Keele",
               "room": ""
             }
@@ -22569,8 +22719,8 @@
           "schedule": [
             {
               "day": "T",
-              "time": "12:30",
-              "duration": "50",
+              "time": "13:00",
+              "duration": "80",
               "campus": "Keele",
               "room": ""
             }
@@ -22581,16 +22731,8 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "catalogNumber": "V56F04",
-          "schedule": [
-            {
-              "day": "T",
-              "time": "13:30",
-              "duration": "50",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
@@ -22603,7 +22745,7 @@
             {
               "day": "R",
               "time": "8:30",
-              "duration": "50",
+              "duration": "80",
               "campus": "Keele",
               "room": ""
             }
@@ -22634,8 +22776,8 @@
           "schedule": [
             {
               "day": "R",
-              "time": "9:30",
-              "duration": "50",
+              "time": "10:00",
+              "duration": "80",
               "campus": "Keele",
               "room": ""
             }
@@ -22646,16 +22788,8 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "catalogNumber": "P03Z04",
-          "schedule": [
-            {
-              "day": "R",
-              "time": "10:30",
-              "duration": "50",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
@@ -22668,7 +22802,7 @@
             {
               "day": "T",
               "time": "10:00",
-              "duration": "50",
+              "duration": "80",
               "campus": "Keele",
               "room": ""
             }
@@ -22699,8 +22833,8 @@
           "schedule": [
             {
               "day": "T",
-              "time": "11:00",
-              "duration": "50",
+              "time": "11:30",
+              "duration": "80",
               "campus": "Keele",
               "room": ""
             }
@@ -22711,16 +22845,8 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "catalogNumber": "X50A04",
-          "schedule": [
-            {
-              "day": "T",
-              "time": "12:00",
-              "duration": "50",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
@@ -22733,7 +22859,7 @@
             {
               "day": "W",
               "time": "11:30",
-              "duration": "50",
+              "duration": "80",
               "campus": "Keele",
               "room": ""
             }
@@ -22764,8 +22890,8 @@
           "schedule": [
             {
               "day": "W",
-              "time": "12:30",
-              "duration": "50",
+              "time": "13:00",
+              "duration": "80",
               "campus": "Keele",
               "room": ""
             }
@@ -22776,16 +22902,8 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "catalogNumber": "B97J04",
-          "schedule": [
-            {
-              "day": "W",
-              "time": "13:30",
-              "duration": "50",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
@@ -22798,7 +22916,7 @@
             {
               "day": "R",
               "time": "11:30",
-              "duration": "50",
+              "duration": "80",
               "campus": "Keele",
               "room": ""
             }
@@ -22829,8 +22947,8 @@
           "schedule": [
             {
               "day": "R",
-              "time": "12:30",
-              "duration": "50",
+              "time": "13:30",
+              "duration": "80",
               "campus": "Keele",
               "room": ""
             }
@@ -22841,16 +22959,8 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "catalogNumber": "S44R04",
-          "schedule": [
-            {
-              "day": "R",
-              "time": "13:30",
-              "duration": "50",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
@@ -22863,7 +22973,7 @@
             {
               "day": "M",
               "time": "11:30",
-              "duration": "50",
+              "duration": "80",
               "campus": "Keele",
               "room": ""
             }
@@ -22894,8 +23004,8 @@
           "schedule": [
             {
               "day": "M",
-              "time": "12:30",
-              "duration": "50",
+              "time": "13:00",
+              "duration": "80",
               "campus": "Keele",
               "room": ""
             }
@@ -22906,16 +23016,8 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "catalogNumber": "Y91D04",
-          "schedule": [
-            {
-              "day": "M",
-              "time": "13:30",
-              "duration": "50",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
@@ -22928,7 +23030,7 @@
             {
               "day": "F",
               "time": "11:30",
-              "duration": "50",
+              "duration": "80",
               "campus": "Keele",
               "room": ""
             }
@@ -22959,8 +23061,8 @@
           "schedule": [
             {
               "day": "F",
-              "time": "12:30",
-              "duration": "50",
+              "time": "13:00",
+              "duration": "80",
               "campus": "Keele",
               "room": ""
             }
@@ -22971,16 +23073,8 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "catalogNumber": "F38M04",
-          "schedule": [
-            {
-              "day": "F",
-              "time": "13:30",
-              "duration": "50",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
@@ -22993,7 +23087,7 @@
             {
               "day": "W",
               "time": "19:00",
-              "duration": "50",
+              "duration": "80",
               "campus": "Keele",
               "room": ""
             }
@@ -23024,8 +23118,8 @@
           "schedule": [
             {
               "day": "W",
-              "time": "20:00",
-              "duration": "50",
+              "time": "20:30",
+              "duration": "80",
               "campus": "Keele",
               "room": ""
             }
@@ -23036,16 +23130,8 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "catalogNumber": "V85U04",
-          "schedule": [
-            {
-              "day": "W",
-              "time": "21:00",
-              "duration": "50",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
@@ -23106,14 +23192,14 @@
           "schedule": [
             {
               "day": "M",
-              "time": "10:00",
-              "duration": "50",
+              "time": "14:30",
+              "duration": "80",
               "campus": "Keele",
               "room": ""
             }
           ],
           "instructors": [],
-          "notes": "(Backup)"
+          "notes": ""
         },
         {
           "type": "BLEN",
@@ -23129,7 +23215,7 @@
             }
           ],
           "instructors": [],
-          "notes": "(Backup)"
+          "notes": ""
         },
         {
           "type": "TUTR",
@@ -23138,30 +23224,71 @@
           "schedule": [
             {
               "day": "M",
-              "time": "11:00",
-              "duration": "50",
+              "time": "16:00",
+              "duration": "80",
               "campus": "Keele",
               "room": ""
             }
           ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "03",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "(Backup)"
         },
         {
           "type": "TUTR",
-          "meetNumber": "03",
-          "catalogNumber": "P32G04",
+          "meetNumber": "01",
+          "section": "K",
+          "catalogNumber": "F35S02",
           "schedule": [
             {
-              "day": "M",
-              "time": "12:00",
-              "duration": "50",
+              "day": "R",
+              "time": "14:30",
+              "duration": "80",
               "campus": "Keele",
               "room": ""
             }
           ],
           "instructors": [],
-          "notes": "(Backup)"
+          "notes": ""
+        },
+        {
+          "type": "BLEN",
+          "meetNumber": "01",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "02",
+          "catalogNumber": "F35S03",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "16:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
         }
       ]
     },
@@ -23183,7 +23310,7 @@
             {
               "day": "M",
               "time": "11:30",
-              "duration": "50",
+              "duration": "80",
               "campus": "Keele",
               "room": "DB 0006"
             }
@@ -23214,8 +23341,8 @@
           "schedule": [
             {
               "day": "M",
-              "time": "12:30",
-              "duration": "50",
+              "time": "13:00",
+              "duration": "80",
               "campus": "Keele",
               "room": "DB 0006"
             }
@@ -23226,16 +23353,8 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "catalogNumber": "X79P04",
-          "schedule": [
-            {
-              "day": "M",
-              "time": "13:30",
-              "duration": "50",
-              "campus": "Keele",
-              "room": "DB 0006"
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
@@ -23248,7 +23367,7 @@
             {
               "day": "T",
               "time": "10:00",
-              "duration": "50",
+              "duration": "80",
               "campus": "Keele",
               "room": ""
             }
@@ -23279,8 +23398,8 @@
           "schedule": [
             {
               "day": "T",
-              "time": "11:00",
-              "duration": "50",
+              "time": "11:30",
+              "duration": "80",
               "campus": "Keele",
               "room": ""
             }
@@ -23291,16 +23410,8 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "catalogNumber": "C26B04",
-          "schedule": [
-            {
-              "day": "T",
-              "time": "12:00",
-              "duration": "50",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
@@ -23313,7 +23424,7 @@
             {
               "day": "R",
               "time": "11:30",
-              "duration": "50",
+              "duration": "80",
               "campus": "Keele",
               "room": ""
             }
@@ -23344,8 +23455,8 @@
           "schedule": [
             {
               "day": "R",
-              "time": "12:30",
-              "duration": "50",
+              "time": "13:00",
+              "duration": "80",
               "campus": "Keele",
               "room": ""
             }
@@ -23356,16 +23467,8 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "catalogNumber": "S73J04",
-          "schedule": [
-            {
-              "day": "R",
-              "time": "13:30",
-              "duration": "50",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
@@ -23377,14 +23480,14 @@
           "schedule": [
             {
               "day": "W",
-              "time": "16:00",
-              "duration": "50",
+              "time": "14:30",
+              "duration": "80",
               "campus": "Keele",
               "room": ""
             }
           ],
           "instructors": [],
-          "notes": "(Backup)"
+          "notes": ""
         },
         {
           "type": "BLEN",
@@ -23400,7 +23503,7 @@
             }
           ],
           "instructors": [],
-          "notes": "(Backup)"
+          "notes": ""
         },
         {
           "type": "TUTR",
@@ -23409,28 +23512,20 @@
           "schedule": [
             {
               "day": "W",
-              "time": "17:00",
-              "duration": "50",
+              "time": "16:00",
+              "duration": "80",
               "campus": "Keele",
               "room": ""
             }
           ],
           "instructors": [],
-          "notes": "(Backup)"
+          "notes": ""
         },
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "catalogNumber": "M20S04",
-          "schedule": [
-            {
-              "day": "W",
-              "time": "18:00",
-              "duration": "50",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "(Backup)"
         }
@@ -23454,7 +23549,7 @@
             {
               "day": "R",
               "time": "8:30",
-              "duration": "50",
+              "duration": "80",
               "campus": "Keele",
               "room": ""
             }
@@ -23485,8 +23580,8 @@
           "schedule": [
             {
               "day": "R",
-              "time": "9:30",
-              "duration": "50",
+              "time": "10:00",
+              "duration": "80",
               "campus": "Keele",
               "room": ""
             }
@@ -23497,16 +23592,8 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "catalogNumber": "P10H04",
-          "schedule": [
-            {
-              "day": "R",
-              "time": "10:30",
-              "duration": "50",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
@@ -23519,7 +23606,7 @@
             {
               "day": "W",
               "time": "11:30",
-              "duration": "50",
+              "duration": "80",
               "campus": "Keele",
               "room": "R N102"
             }
@@ -23550,8 +23637,8 @@
           "schedule": [
             {
               "day": "W",
-              "time": "12:30",
-              "duration": "50",
+              "time": "13:00",
+              "duration": "80",
               "campus": "Keele",
               "room": "R N102"
             }
@@ -23562,16 +23649,8 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "catalogNumber": "X57Q04",
-          "schedule": [
-            {
-              "day": "W",
-              "time": "13:30",
-              "duration": "50",
-              "campus": "Keele",
-              "room": "R N102"
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
@@ -23584,7 +23663,7 @@
             {
               "day": "F",
               "time": "11:30",
-              "duration": "50",
+              "duration": "80",
               "campus": "Keele",
               "room": ""
             }
@@ -23615,8 +23694,8 @@
           "schedule": [
             {
               "day": "F",
-              "time": "12:30",
-              "duration": "50",
+              "time": "13:00",
+              "duration": "80",
               "campus": "Keele",
               "room": ""
             }
@@ -23627,16 +23706,8 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "catalogNumber": "C04C04",
-          "schedule": [
-            {
-              "day": "F",
-              "time": "13:30",
-              "duration": "50",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "(Backup)"
         }
@@ -23660,7 +23731,7 @@
             {
               "day": "T",
               "time": "8:30",
-              "duration": "50",
+              "duration": "80",
               "campus": "Keele",
               "room": ""
             }
@@ -23691,8 +23762,8 @@
           "schedule": [
             {
               "day": "T",
-              "time": "9:30",
-              "duration": "50",
+              "time": "10:00",
+              "duration": "80",
               "campus": "Keele",
               "room": ""
             }
@@ -23703,16 +23774,8 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "catalogNumber": "S51K04",
-          "schedule": [
-            {
-              "day": "T",
-              "time": "10:30",
-              "duration": "50",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
@@ -23725,7 +23788,7 @@
             {
               "day": "R",
               "time": "8:30",
-              "duration": "50",
+              "duration": "80",
               "campus": "Keele",
               "room": ""
             }
@@ -23756,8 +23819,8 @@
           "schedule": [
             {
               "day": "R",
-              "time": "9:30",
-              "duration": "50",
+              "time": "10:00",
+              "duration": "80",
               "campus": "Keele",
               "room": ""
             }
@@ -23768,16 +23831,8 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "catalogNumber": "Y98T04",
-          "schedule": [
-            {
-              "day": "R",
-              "time": "10:30",
-              "duration": "50",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
@@ -23790,7 +23845,7 @@
             {
               "day": "T",
               "time": "11:30",
-              "duration": "50",
+              "duration": "80",
               "campus": "Keele",
               "room": ""
             }
@@ -23821,8 +23876,8 @@
           "schedule": [
             {
               "day": "T",
-              "time": "12:30",
-              "duration": "50",
+              "time": "13:00",
+              "duration": "80",
               "campus": "Keele",
               "room": ""
             }
@@ -23833,16 +23888,8 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "catalogNumber": "F45F04",
-          "schedule": [
-            {
-              "day": "T",
-              "time": "13:30",
-              "duration": "50",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
@@ -23855,7 +23902,7 @@
             {
               "day": "M",
               "time": "10:00",
-              "duration": "50",
+              "duration": "80",
               "campus": "Keele",
               "room": ""
             }
@@ -23886,8 +23933,8 @@
           "schedule": [
             {
               "day": "M",
-              "time": "11:00",
-              "duration": "50",
+              "time": "11:30",
+              "duration": "80",
               "campus": "Keele",
               "room": ""
             }
@@ -23898,16 +23945,8 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "catalogNumber": "V92N04",
-          "schedule": [
-            {
-              "day": "M",
-              "time": "12:00",
-              "duration": "50",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
@@ -23985,7 +24024,7 @@
             {
               "day": "R",
               "time": "11:30",
-              "duration": "50",
+              "duration": "80",
               "campus": "Keele",
               "room": "DB 0014"
             }
@@ -24016,8 +24055,8 @@
           "schedule": [
             {
               "day": "R",
-              "time": "12:30",
-              "duration": "50",
+              "time": "13:00",
+              "duration": "80",
               "campus": "Keele",
               "room": "DB 0014"
             }
@@ -24028,16 +24067,8 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "catalogNumber": "X86X04",
-          "schedule": [
-            {
-              "day": "R",
-              "time": "13:30",
-              "duration": "50",
-              "campus": "Keele",
-              "room": "DB 0014"
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
@@ -24050,7 +24081,7 @@
             {
               "day": "T",
               "time": "19:00",
-              "duration": "50",
+              "duration": "80",
               "campus": "Keele",
               "room": ""
             }
@@ -24081,8 +24112,8 @@
           "schedule": [
             {
               "day": "T",
-              "time": "20:00",
-              "duration": "50",
+              "time": "20:30",
+              "duration": "80",
               "campus": "Keele",
               "room": ""
             }
@@ -24093,16 +24124,8 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "catalogNumber": "C33R04",
-          "schedule": [
-            {
-              "day": "T",
-              "time": "21:00",
-              "duration": "50",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
@@ -24164,13 +24187,13 @@
             {
               "day": "F",
               "time": "11:30",
-              "duration": "50",
+              "duration": "80",
               "campus": "Keele",
               "room": ""
             }
           ],
           "instructors": [],
-          "notes": "(Backup)"
+          "notes": ""
         },
         {
           "type": "BLEN",
@@ -24186,7 +24209,7 @@
             }
           ],
           "instructors": [],
-          "notes": "(Backup)"
+          "notes": ""
         },
         {
           "type": "TUTR",
@@ -24195,8 +24218,49 @@
           "schedule": [
             {
               "day": "F",
-              "time": "12:30",
-              "duration": "50",
+              "time": "13:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "03",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
+          "notes": "(Backup)"
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "01",
+          "section": "V",
+          "catalogNumber": "V82D02",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "11:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "(Backup)"
+        },
+        {
+          "type": "BLEN",
+          "meetNumber": "01",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "duration": "0",
               "campus": "Keele",
               "room": ""
             }
@@ -24206,13 +24270,13 @@
         },
         {
           "type": "TUTR",
-          "meetNumber": "03",
-          "catalogNumber": "S80C04",
+          "meetNumber": "02",
+          "catalogNumber": "V82D03",
           "schedule": [
             {
-              "day": "F",
-              "time": "13:30",
-              "duration": "50",
+              "day": "M",
+              "time": "13:00",
+              "duration": "80",
               "campus": "Keele",
               "room": ""
             }
@@ -24477,14 +24541,14 @@
               "time": "16:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "DB 0014"
             },
             {
               "day": "W",
               "time": "16:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "DB 0014"
             }
           ],
           "instructors": [],
@@ -24660,14 +24724,14 @@
               "time": "10:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "ACW 004"
             },
             {
               "day": "R",
               "time": "10:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "ACW 004"
             }
           ],
           "instructors": [],
@@ -25011,7 +25075,7 @@
               "time": "16:00",
               "duration": "170",
               "campus": "Keele",
-              "room": "DB 0016"
+              "room": "DB 0006"
             }
           ],
           "instructors": [],
@@ -25183,7 +25247,7 @@
               "time": "11:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "SLH F"
+              "room": "CLH H"
             }
           ],
           "instructors": [],
@@ -25355,14 +25419,14 @@
               "time": "13:00",
               "duration": "80",
               "campus": "Keele",
-              "room": "DB 0010"
+              "room": "DB 0014"
             },
             {
               "day": "W",
               "time": "13:00",
               "duration": "80",
               "campus": "Keele",
-              "room": "DB 0010"
+              "room": "DB 0014"
             }
           ],
           "instructors": [],
@@ -25644,14 +25708,14 @@
               "time": "13:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "ACW 106"
             },
             {
               "day": "W",
               "time": "13:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "ACW 106"
             }
           ],
           "instructors": [],
@@ -25915,7 +25979,7 @@
           "schedule": [
             {
               "day": "M",
-              "time": "8:30",
+              "time": "17:30",
               "duration": "170",
               "campus": "Markham",
               "room": "MK 4040"
@@ -25963,7 +26027,7 @@
               "time": "19:00",
               "duration": "170",
               "campus": "Keele",
-              "room": "CLH K"
+              "room": "HNE B15"
             }
           ],
           "instructors": [],
@@ -26241,7 +26305,7 @@
               "time": "14:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "CLH B"
+              "room": "ACW 005"
             }
           ],
           "instructors": [],
@@ -26456,18 +26520,11 @@
           "catalogNumber": "G76C01",
           "schedule": [
             {
-              "day": "M",
-              "time": "11:30",
-              "duration": "80",
-              "campus": "Keele",
-              "room": ""
-            },
-            {
               "day": "W",
               "time": "11:30",
-              "duration": "80",
+              "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "R S117B"
             }
           ],
           "instructors": [],
@@ -26495,7 +26552,7 @@
               "time": "11:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "CLH H"
+              "room": "CLH J"
             }
           ],
           "instructors": [],
@@ -27063,7 +27120,7 @@
               "time": "14:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "CLH C"
+              "room": "SLH A"
             }
           ],
           "instructors": [],
@@ -28190,7 +28247,7 @@
               "time": "11:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "ACW 106"
+              "room": "HNE 032"
             }
           ],
           "instructors": [],
@@ -28505,7 +28562,7 @@
               "time": "13:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "VH A"
             }
           ],
           "instructors": [],
@@ -30496,16 +30553,8 @@
           "type": "SEMR",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "W03D01",
-          "schedule": [
-            {
-              "day": "T",
-              "time": "11:30",
-              "duration": "170",
-              "campus": "Keele",
-              "room": "VC 106"
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "This course will meet in person at the location assigned."
         }
@@ -30872,16 +30921,8 @@
           "type": "SEMR",
           "meetNumber": "01",
           "section": "M",
-          "catalogNumber": "N45F01 (AP INDG) K54T01 (AP HUMA) E01F01 (AP EN )",
-          "schedule": [
-            {
-              "day": "M",
-              "time": "19:00",
-              "duration": "170",
-              "campus": "Keele",
-              "room": "VC 118"
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -31540,16 +31581,8 @@
           "type": "SEMR",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "M96X01",
-          "schedule": [
-            {
-              "day": "T",
-              "time": "14:30",
-              "duration": "170",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "This course will meet in person at the location assigned."
         }
@@ -31956,7 +31989,7 @@
               "time": "11:30",
               "duration": "170",
               "campus": "Markham",
-              "room": "MK 4100"
+              "room": ""
             }
           ],
           "instructors": [],
@@ -31980,8 +32013,8 @@
           "catalogNumber": "A92N01 (AP ENTP) F56A01 (AP ADMS)",
           "schedule": [
             {
-              "day": "M",
-              "time": "16:00",
+              "day": "T",
+              "time": "11:30",
               "duration": "170",
               "campus": "Keele",
               "room": ""
@@ -32603,14 +32636,14 @@
               "time": "11:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "BC 214"
+              "room": "VH 3005"
             },
             {
               "day": "W",
               "time": "11:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "BC 214"
+              "room": "VH 3005"
             }
           ],
           "instructors": [],
@@ -33229,7 +33262,7 @@
             }
           ],
           "instructors": [],
-          "notes": "This course will be taught in the ONCA format throughout the Fall term with online synchronous class sessions on the days and times listed here.Â There will be some in-person evaluations indicated on the syllabus. Please note that enrolment is by permission only and students must complete aÂ French placement test before enrolling in this course. Â"
+          "notes": "This course will be taught in the ONCA format throughout the Fall term with online synchronous class sessions on the days and times listed here.There will be some in-person evaluations indicated on the syllabus. Please note that enrolment is by permission only and students must complete a French placement test before enrolling in this course."
         }
       ]
     },
@@ -33264,7 +33297,7 @@
             }
           ],
           "instructors": [],
-          "notes": "This course will be taught in-person throughout the Winter term on the days and times listed here.Â Please note that enrolment is by permission only and students must complete aÂ French placement test before enrolling in this course. Â"
+          "notes": "This course will be taught in-person throughout the Winter term on the days and times listed here. Please note that enrolment is by permission only and students must complete a French placement test before enrolling in this course."
         },
         {
           "type": "ONCA",
@@ -33288,7 +33321,7 @@
             }
           ],
           "instructors": [],
-          "notes": "This course will be taught in the ONCA format throughout the Winter term with online synchronous class sessions on the days and times listed here.Â There will be some in-person evaluations indicated on the syllabus. Please note that enrolment is by permission only and students must complete aÂ French placement test before enrolling in this course. Â"
+          "notes": "This course will be taught in the ONCA format throughout the Winter term with online synchronous class sessions on the days and times listed here. There will be some in-person evaluations indicated on the syllabus. Please note that enrolment is by permission only and students must complete a French placement test before enrolling in this course."
         }
       ]
     },
@@ -33323,7 +33356,7 @@
             }
           ],
           "instructors": [],
-          "notes": "This course will be taught in-person throughout the Fall term on the days and times listed here.Â Please note that if you have not completed the prerequisite course or have never taken a course with the Department of French Studies you must first complete aÂ French placement test before enrolling in this course."
+          "notes": "This course will be taught in-person throughout the Fall term on the days and times listed here. Please note that if you have not completed the prerequisite course or have never taken a course with the Department of French Studies you must first complete a French placement test before enrolling in this course."
         },
         {
           "type": "ONCA",
@@ -33347,7 +33380,7 @@
             }
           ],
           "instructors": [],
-          "notes": "This course will be taught in the ONCA format throughout the Fall term with online synchronous class sessions on the days and times listed here.Â There will be some in-person evaluations indicated on the syllabus. Please note that if you have not completed the prerequisite course or have never taken a course with the Department of French Studies you must first complete aÂ French placement test before enrolling in this course."
+          "notes": "This course will be taught in the ONCA format throughout the Fall term with online synchronous class sessions on the days and times listed here. There will be some in-person evaluations indicated on the syllabus. Please note that if you have not completed the prerequisite course or have never taken a course with the Department of French Studies you must first complete a French placement test before enrolling in this course."
         }
       ]
     },
@@ -33382,7 +33415,7 @@
             }
           ],
           "instructors": [],
-          "notes": "This course will be taught in-person throughout the Winter term on the days and times listed here.Â Please note that if you have not completed the prerequisite course or have never taken a course with the Department of French Studies you must first complete aÂ French placement test before enrolling in this course."
+          "notes": "This course will be taught in-person throughout the Winter term on the days and times listed here. Please note that if you have not completed the prerequisite course or have never taken a course with the Department of French Studies you must first complete a French placement test before enrolling in this course."
         },
         {
           "type": "ONCA",
@@ -33406,7 +33439,7 @@
             }
           ],
           "instructors": [],
-          "notes": "This course will be taught in the ONCA format throughout the Winter term with online synchronous class sessions on the days and at the time listed here.Â There will be some in-person evaluations indicated on the syllabus. Please note that if you have not completed the prerequisite course or have never taken a course with the Department of French Studies you must first complete aÂ French placement test before enrolling in this course."
+          "notes": "This course will be taught in the ONCA format throughout the Winter term with online synchronous class sessions on the days and at the time listed here. There will be some in-person evaluations indicated on the syllabus. Please note that if you have not completed the prerequisite course or have never taken a course with the Department of French Studies you must first complete a French placement test before enrolling in this course."
         }
       ]
     },
@@ -33441,7 +33474,7 @@
             }
           ],
           "instructors": [],
-          "notes": "This course will be taught in-person throughout the Fall term on the days and at the time listed here.Â Please note that if you have not completed the prerequisite course or have never taken a course with the Department of French Studies you must first complete aÂ French placement test before enrolling in this course."
+          "notes": "This course will be taught in-person throughout the Fall term on the days and at the time listed here. Please note that if you have not completed the prerequisite course or have never taken a course with the Department of French Studies you must first complete a French placement test before enrolling in this course."
         },
         {
           "type": "ONCA",
@@ -33465,7 +33498,7 @@
             }
           ],
           "instructors": [],
-          "notes": "This course will be taught in the ONCA format throughout the Fall term with online synchronous class sessions on the days and at the time listed here.Â There will be some in-person evaluations indicated on the syllabus. Please note that if you have not completed the prerequisite course or have never taken a course with the Department of French Studies you must first complete aÂ French placement test before enrolling in this course."
+          "notes": "This course will be taught in the ONCA format throughout the Fall term with online synchronous class sessions on the days and at the time listed here. There will be some in-person evaluations indicated on the syllabus. Please note that if you have not completed the prerequisite course or have never taken a course with the Department of French Studies you must first complete a French placement test before enrolling in this course."
         }
       ]
     },
@@ -33500,7 +33533,7 @@
             }
           ],
           "instructors": [],
-          "notes": "This course will be taught in-person throughout the Winter term on the days and at the time listed here.Â Please note that if you have not completed the prerequisite course or have never taken a course with the Department of French Studies you must first complete aÂ French placement test before enrolling in this course."
+          "notes": "This course will be taught in-person throughout the Winter term on the days and at the time listed here. Please note that if you have not completed the prerequisite course or have never taken a course with the Department of French Studies you must first complete a French placement test before enrolling in this course."
         },
         {
           "type": "ONCA",
@@ -33524,7 +33557,7 @@
             }
           ],
           "instructors": [],
-          "notes": "This course will be taught in the ONCA format throughout the Winter term with online synchronous class sessions on the days and at the time listed here.Â There will be some in-person evaluations indicated on the syllabus. Please note that if you have not completed the prerequisite course or have never taken a course with the Department of French Studies you must first complete aÂ French placement test before enrolling in this course.Â"
+          "notes": "This course will be taught in the ONCA format throughout the Winter term with online synchronous class sessions on the days and at the time listed here. There will be some in-person evaluations indicated on the syllabus. Please note that if you have not completed the prerequisite course or have never taken a course with the Department of French Studies you must first complete a French placement test before enrolling in this course."
         }
       ]
     },
@@ -33559,7 +33592,7 @@
             }
           ],
           "instructors": [],
-          "notes": "This course will be taught in-person throughout the Fall term on the days and at the time listed here.Â Please note that if you have not completed the prerequisite course or have never taken a course with the Department of French Studies you must first complete aÂ French placement test before enrolling in this course."
+          "notes": "This course will be taught in-person throughout the Fall term on the days and at the time listed here. Please note that if you have not completed the prerequisite course or have never taken a course with the Department of French Studies you must first complete a French placement test before enrolling in this course."
         },
         {
           "type": "ONCA",
@@ -33583,7 +33616,7 @@
             }
           ],
           "instructors": [],
-          "notes": "This course will be taught in the ONCA format throughout the Fall term with online synchronous class sessions on the days and times listed here.Â There will be some in-person evaluations indicated on the syllabus. Please note that if you have not completed the prerequisite course or have never taken a course with the Department of French Studies you must first complete aÂ French placement test before enrolling in this course."
+          "notes": "This course will be taught in the ONCA format throughout the Fall term with online synchronous class sessions on the days and times listed here. There will be some in-person evaluations indicated on the syllabus. Please note that if you have not completed the prerequisite course or have never taken a course with the Department of French Studies you must first complete a French placement test before enrolling in this course."
         }
       ]
     },
@@ -33618,7 +33651,7 @@
             }
           ],
           "instructors": [],
-          "notes": "This course will be taught in the ONCA format throughout the Winter term with online synchronous class sessions on the days and times listed here.Â There will be some in-person evaluations indicated on the syllabus. Please note that if you have not completed the prerequisite course or have never taken a course with the Department of French Studies you must first complete aÂ French placement test before enrolling in this course."
+          "notes": "This course will be taught in-person throughout the Winter term on the days and at the time listed here. Please note that if you have not completed the prerequisite course or have never taken a course with the Department of French Studies you must first complete a French placement test before enrolling into this course."
         },
         {
           "type": "ONCA",
@@ -33642,7 +33675,7 @@
             }
           ],
           "instructors": [],
-          "notes": "This course will be taught in the ONCA format throughout the Winter term with online synchronous class sessions on the days and times listed here.Â There will be some in-person evaluations indicated on the syllabus. Please note that if you have not completed the prerequisite course or have never taken a course with the Department of French Studies you must first complete aÂ French placement test before enrolling in this course."
+          "notes": "This course will be taught in the ONCA format throughout the Winter term with online synchronous class sessions on the days and times listed here. There will be some in-person evaluations indicated on the syllabus. Please note that if you have not completed the prerequisite course or have never taken a course with the Department of French Studies you must first complete a French placement test before enrolling in this course."
         }
       ]
     },
@@ -33801,7 +33834,7 @@
             }
           ],
           "instructors": [],
-          "notes": "This course will be taught in-person throughout the Fall term on the days and times listed here.Â Please note that if you have not completed the prerequisite course or have never taken a course with the Department of French Studies you must first complete aÂ French placement test before enrolling in this course."
+          "notes": "This course will be taught in-person throughout the Fall term on the days and times listed here. Please note that if you have not completed the prerequisite course or have never taken a course with the Department of French Studies you must first complete a French placement test before enrolling in this course."
         }
       ]
     },
@@ -33836,7 +33869,7 @@
             }
           ],
           "instructors": [],
-          "notes": "This course will be taught in-person throughout the Winter term on the days and times listed here.Â Please note that if you have not completed the prerequisite course or have never taken a course with the Department of French Studies you must first complete aÂ French placement test before enrolling in this course."
+          "notes": "This course will be taught in-person throughout the Winter term on the days and times listed here. Please note that if you have not completed the prerequisite course or have never taken a course with the Department of French Studies you must first complete a French placement test before enrolling in this course."
         }
       ]
     },
@@ -33871,7 +33904,7 @@
             }
           ],
           "instructors": [],
-          "notes": "This course will be taught in-person throughout the Fall term on the days and times listed here.Â Please note that if you have not completed the prerequisite course or have never taken a course with the Department of French Studies you must first complete aÂ French placement test before enrolling in this course."
+          "notes": "This course will be taught in-person throughout the Fall term on the days and times listed here. Please note that if you have not completed the prerequisite course or have never taken a course with the Department of French Studies you must first complete a French placement test before enrolling in this course."
         }
       ]
     },
@@ -33906,7 +33939,7 @@
             }
           ],
           "instructors": [],
-          "notes": "This course will be taught in-person throughout the Winter term on the days and times listed here.Â Please note that if you have not completed the prerequisite course or have never taken a course with the Department of French Studies you must first complete aÂ French placement test before enrolling in this course."
+          "notes": "This course will be taught in-person throughout the Winter term on the days and times listed here. Please note that if you have not completed the prerequisite course or have never taken a course with the Department of French Studies you must first complete a French placement test before enrolling in this course."
         }
       ]
     },
@@ -33976,7 +34009,7 @@
             }
           ],
           "instructors": [],
-          "notes": "This course will be taughtÂ in-personÂ throughout the Winter term on the assigned days and time listed here.Â"
+          "notes": "This course will be taught in-person throughout the Winter term on the assigned days and time listed here."
         }
       ]
     },
@@ -34213,7 +34246,7 @@
           "catalogNumber": "F22P01",
           "schedule": [
             {
-              "day": "T",
+              "day": "W",
               "time": "14:30",
               "duration": "170",
               "campus": "Keele",
@@ -34266,7 +34299,27 @@
           "type": "BLEN",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "Q03X01",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
+          "notes": "This course will be taught in the blended course format (with both online and in person components) throughout the Fall term on the assigned day, time and location indicated on the syllabus and/or the eClass course website."
+        }
+      ]
+    },
+    {
+      "faculty": "AP",
+      "department": "FR",
+      "term": "F",
+      "courseTitle": "Rhetoric and Semiotics",
+      "courseId": "4145",
+      "credits": "3.00",
+      "languageOfInstruction": "FR",
+      "sections": [
+        {
+          "type": "BLEN",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "X64G01",
           "schedule": [
             {
               "day": "W",
@@ -34277,7 +34330,7 @@
             }
           ],
           "instructors": [],
-          "notes": "This course will be taught in the blended course format (with both online and in person components) throughout the Fall term on the assigned day, time and location indicated on the syllabus and/or the eClass course website."
+          "notes": ""
         }
       ]
     },
@@ -36350,6 +36403,34 @@
     {
       "faculty": "AP",
       "department": "GLBL",
+      "term": "Y",
+      "courseTitle": "Political Economy of Capital Accumulation",
+      "courseId": "4292",
+      "credits": "6.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "F29W01 (AP POLS) Y82N01 (AP GLBL)",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "11:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "ACE 006"
+            }
+          ],
+          "instructors": [],
+          "notes": "This course will meet in person in the location assigned. The Seminar will be in person on the Day(s) and Start Time listed here."
+        }
+      ]
+    },
+    {
+      "faculty": "AP",
+      "department": "GLBL",
       "term": "W",
       "courseTitle": "Global Governance & Politics in Comparative Perspective",
       "courseId": "4440",
@@ -36455,7 +36536,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "Once you've enrolled in the course, the location will be posted on the course's e-class site as soon as it's active. If you need this information sooner, please contact the department directly, and they'll be happy to help."
         },
         {
           "type": "TUTR",
@@ -36639,7 +36720,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A102"
             }
           ],
           "instructors": [],
@@ -36671,7 +36752,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "Once you've enrolled in the course, the location will be posted on the course's e-class site as soon as it's active. If you need this information sooner, please contact the department directly, and they'll be happy to help."
         },
         {
           "type": "TUTR",
@@ -36871,7 +36952,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "Once you've enrolled in the course, the location will be posted on the course's e-class site as soon as it's active. If you need this information sooner, please contact the department directly, and they'll be happy to help."
         }
       ]
     },
@@ -36899,7 +36980,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "Once you've enrolled in the course, the location will be posted on the course's e-class site as soon as it's active. If you need this information sooner, please contact the department directly, and they'll be happy to help."
         }
       ]
     },
@@ -36927,7 +37008,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "Once you've enrolled in the course, the location will be posted on the course's e-class site as soon as it's active. If you need this information sooner, please contact the department directly, and they'll be happy to help."
         }
       ]
     },
@@ -36983,7 +37064,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "Once you've enrolled in the course, the location will be posted on the course's e-class site as soon as it's active. If you need this information sooner, please contact the department directly, and they'll be happy to help."
         }
       ]
     },
@@ -37011,7 +37092,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "Once you've enrolled in the course, the location will be posted on the course's e-class site as soon as it's active. If you need this information sooner, please contact the department directly, and they'll be happy to help."
         }
       ]
     },
@@ -37039,7 +37120,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "Once you've enrolled in the course, the location will be posted on the course's e-class site as soon as it's active. If you need this information sooner, please contact the department directly, and they'll be happy to help."
         }
       ]
     },
@@ -37063,7 +37144,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH B213"
             }
           ],
           "instructors": [],
@@ -37095,7 +37176,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "Once you've enrolled in the course, the location will be posted on the course's e-class site as soon as it's active. If you need this information sooner, please contact the department directly, and they'll be happy to help."
         }
       ]
     },
@@ -37112,16 +37193,8 @@
           "type": "SEMR",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "F81T01 (AP INDG) R78D01 (AP GSWS)",
-          "schedule": [
-            {
-              "day": "M",
-              "time": "11:30",
-              "duration": "170",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -37151,7 +37224,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "Once you've enrolled in the course, the location will be posted on the course's e-class site as soon as it's active. If you need this information sooner, please contact the department directly, and they'll be happy to help."
         }
       ]
     },
@@ -37175,7 +37248,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A104"
             }
           ],
           "instructors": [],
@@ -37207,7 +37280,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "Once you've enrolled in the course, the location will be posted on the course's e-class site as soon as it's active. If you need this information sooner, please contact the department directly, and they'll be happy to help."
         }
       ]
     },
@@ -37235,7 +37308,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "Once you've enrolled in the course, the location will be posted on the course's e-class site as soon as it's active. If you need this information sooner, please contact the department directly, and they'll be happy to help."
         }
       ]
     },
@@ -37263,7 +37336,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "Once you've enrolled in the course, the location will be posted on the course's e-class site as soon as it's active. If you need this information sooner, please contact the department directly, and they'll be happy to help."
         }
       ]
     },
@@ -37572,14 +37645,14 @@
               "time": "11:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "ACW 109"
             },
             {
               "day": "R",
               "time": "11:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "ACW 109"
             }
           ],
           "instructors": [],
@@ -38673,6 +38746,98 @@
       "faculty": "AP",
       "department": "HIST",
       "term": "Y",
+      "courseTitle": "United States History",
+      "courseId": "2600",
+      "credits": "6.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "TUTR",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "G96E02",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "ONLN",
+          "meetNumber": "01",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "02",
+          "catalogNumber": "G96E03",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "03",
+          "catalogNumber": "G96E04",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "04",
+          "catalogNumber": "G96E05",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "AP",
+      "department": "HIST",
+      "term": "Y",
       "courseTitle": "History of East Asia",
       "courseId": "2710",
       "credits": "6.00",
@@ -38773,12 +38938,21 @@
           "type": "ONLN",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "P85Z01",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "B",
+          "catalogNumber": "A95B01",
           "schedule": [
             {
-              "day": "",
-              "time": "0:00",
-              "duration": "0",
+              "day": "T",
+              "time": "11:30",
+              "duration": "170",
               "campus": "Keele",
               "room": ""
             }
@@ -38893,80 +39067,40 @@
           "type": "TUTR",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "N02S02 (AP HIST) H07Y02 (AP INDG)",
-          "schedule": [
-            {
-              "day": "",
-              "time": "0:00",
-              "duration": "0",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
         {
           "type": "ONLN",
           "meetNumber": "01",
-          "catalogNumber": "",
-          "schedule": [
-            {
-              "day": "",
-              "time": "0:00",
-              "duration": "0",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "catalogNumber": "N02S03 (AP HIST) H07Y03 (AP INDG)",
-          "schedule": [
-            {
-              "day": "",
-              "time": "0:00",
-              "duration": "0",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "catalogNumber": "N02S04 (AP HIST) H07Y04 (AP INDG)",
-          "schedule": [
-            {
-              "day": "",
-              "time": "0:00",
-              "duration": "0",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
         {
           "type": "TUTR",
           "meetNumber": "04",
-          "catalogNumber": "N02S05 (AP HIST) H07Y05 (AP INDG)",
-          "schedule": [
-            {
-              "day": "",
-              "time": "0:00",
-              "duration": "0",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -39400,16 +39534,8 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "M",
-          "catalogNumber": "S68K01",
-          "schedule": [
-            {
-              "day": "T",
-              "time": "11:30",
-              "duration": "170",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -39484,16 +39610,8 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "M",
-          "catalogNumber": "J32A01",
-          "schedule": [
-            {
-              "day": "T",
-              "time": "14:30",
-              "duration": "170",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -39512,16 +39630,8 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "C79J01",
-          "schedule": [
-            {
-              "day": "R",
-              "time": "14:30",
-              "duration": "170",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -39967,6 +40077,34 @@
       "faculty": "AP",
       "department": "HIST",
       "term": "Y",
+      "courseTitle": "Re-Framing the Past: Films as History",
+      "courseId": "4082",
+      "credits": "6.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "A43N01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "AP",
+      "department": "HIST",
+      "term": "Y",
       "courseTitle": "Problems in Roman History",
       "courseId": "4130",
       "credits": "6.00",
@@ -40004,16 +40142,8 @@
           "type": "SEMR",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "Z98P01",
-          "schedule": [
-            {
-              "day": "T",
-              "time": "14:30",
-              "duration": "170",
-              "campus": "Keele",
-              "room": "FC 114"
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -42856,10 +42986,10 @@
           "schedule": [
             {
               "day": "M",
-              "time": "9:00",
+              "time": "8:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "R S105"
+              "room": "R S117D"
             }
           ],
           "instructors": [],
@@ -42887,7 +43017,7 @@
               "time": "14:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "SLH C"
+              "room": "HNE 032"
             }
           ],
           "instructors": [],
@@ -44224,7 +44354,7 @@
     {
       "faculty": "AP",
       "department": "HUMA",
-      "term": "Y",
+      "term": "W",
       "courseTitle": "The Roots of Modern Canada",
       "courseId": "1740",
       "credits": "6.00",
@@ -44233,9 +44363,16 @@
         {
           "type": "LECT",
           "meetNumber": "01",
-          "section": "A",
+          "section": "M",
           "catalogNumber": "",
           "schedule": [
+            {
+              "day": "M",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            },
             {
               "day": "W",
               "time": "10:30",
@@ -44245,13 +44382,20 @@
             }
           ],
           "instructors": [],
-          "notes": "Spaces reserved for newly admitted students. Please contact the Department of Humanities for more information."
+          "notes": ""
         },
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "catalogNumber": "W45H02",
+          "catalogNumber": "Y08D02",
           "schedule": [
+            {
+              "day": "M",
+              "time": "12:30",
+              "duration": "110",
+              "campus": "Keele",
+              "room": ""
+            },
             {
               "day": "W",
               "time": "12:30",
@@ -44266,8 +44410,15 @@
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "catalogNumber": "W45H03",
+          "catalogNumber": "Y08D03",
           "schedule": [
+            {
+              "day": "M",
+              "time": "14:30",
+              "duration": "110",
+              "campus": "Keele",
+              "room": ""
+            },
             {
               "day": "W",
               "time": "14:30",
@@ -44282,14 +44433,21 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "catalogNumber": "W45H04",
+          "catalogNumber": "Y08D04",
           "schedule": [
             {
-              "day": "W",
-              "time": "16:30",
+              "day": "T",
+              "time": "8:30",
               "duration": "110",
               "campus": "Keele",
-              "room": "MC 101"
+              "room": ""
+            },
+            {
+              "day": "R",
+              "time": "8:30",
+              "duration": "110",
+              "campus": "Keele",
+              "room": ""
             }
           ],
           "instructors": [],
@@ -44298,14 +44456,21 @@
         {
           "type": "TUTR",
           "meetNumber": "04",
-          "catalogNumber": "W45H05",
+          "catalogNumber": "Y08D05",
           "schedule": [
             {
-              "day": "R",
-              "time": "8:30",
+              "day": "T",
+              "time": "10:30",
               "duration": "110",
               "campus": "Keele",
-              "room": "FC 109"
+              "room": ""
+            },
+            {
+              "day": "R",
+              "time": "10:30",
+              "duration": "110",
+              "campus": "Keele",
+              "room": ""
             }
           ],
           "instructors": [],
@@ -44314,14 +44479,21 @@
         {
           "type": "TUTR",
           "meetNumber": "05",
-          "catalogNumber": "W45H06",
+          "catalogNumber": "Y08D06",
           "schedule": [
             {
-              "day": "R",
-              "time": "10:30",
+              "day": "T",
+              "time": "12:30",
               "duration": "110",
               "campus": "Keele",
-              "room": "MC 109"
+              "room": ""
+            },
+            {
+              "day": "R",
+              "time": "12:30",
+              "duration": "110",
+              "campus": "Keele",
+              "room": ""
             }
           ],
           "instructors": [],
@@ -44330,14 +44502,21 @@
         {
           "type": "TUTR",
           "meetNumber": "06",
-          "catalogNumber": "W45H07",
+          "catalogNumber": "Y08D07",
           "schedule": [
             {
-              "day": "R",
-              "time": "12:30",
+              "day": "T",
+              "time": "14:30",
               "duration": "110",
               "campus": "Keele",
-              "room": "MC 101"
+              "room": ""
+            },
+            {
+              "day": "R",
+              "time": "14:30",
+              "duration": "110",
+              "campus": "Keele",
+              "room": ""
             }
           ],
           "instructors": [],
@@ -44346,16 +44525,99 @@
         {
           "type": "TUTR",
           "meetNumber": "07",
-          "catalogNumber": "W45H08",
+          "catalogNumber": "Y08D08",
           "schedule": [
             {
-              "day": "R",
-              "time": "14:30",
+              "day": "M",
+              "time": "8:30",
               "duration": "110",
               "campus": "Keele",
-              "room": "VC 116"
+              "room": ""
+            },
+            {
+              "day": "W",
+              "time": "8:30",
+              "duration": "110",
+              "campus": "Keele",
+              "room": ""
             }
           ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "AP",
+      "department": "HUMA",
+      "term": "Y",
+      "courseTitle": "The Roots of Modern Canada",
+      "courseId": "1740",
+      "credits": "6.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
+          "notes": "Spaces reserved for newly admitted students. Please contact the Department of Humanities for more information."
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "01",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "02",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "03",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "04",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "05",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "06",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "07",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -44381,14 +44643,14 @@
               "time": "11:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "BC 214"
+              "room": "VH 3005"
             },
             {
               "day": "W",
               "time": "11:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "BC 214"
+              "room": "VH 3005"
             }
           ],
           "instructors": [],
@@ -44868,8 +45130,8 @@
           "catalogNumber": "",
           "schedule": [
             {
-              "day": "R",
-              "time": "16:30",
+              "day": "M",
+              "time": "10:30",
               "duration": "110",
               "campus": "Keele",
               "room": ""
@@ -44885,10 +45147,10 @@
           "schedule": [
             {
               "day": "M",
-              "time": "10:30",
+              "time": "14:30",
               "duration": "110",
               "campus": "Keele",
-              "room": "VC 108"
+              "room": ""
             }
           ],
           "instructors": [],
@@ -44901,10 +45163,10 @@
           "schedule": [
             {
               "day": "M",
-              "time": "8:30",
+              "time": "14:30",
               "duration": "110",
               "campus": "Keele",
-              "room": "FC 109"
+              "room": ""
             }
           ],
           "instructors": [],
@@ -44921,6 +45183,22 @@
               "duration": "110",
               "campus": "Keele",
               "room": "MC 101"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "04",
+          "catalogNumber": "V87A05",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "16:30",
+              "duration": "110",
+              "campus": "Keele",
+              "room": ""
             }
           ],
           "instructors": [],
@@ -45072,7 +45350,7 @@
               "time": "12:30",
               "duration": "110",
               "campus": "Keele",
-              "room": "CLH C"
+              "room": "SLH F"
             }
           ],
           "instructors": [],
@@ -45461,7 +45739,7 @@
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "catalogNumber": "T04E02 (AP HUMA) T61Z02 (AP CLST)",
+          "catalogNumber": "P09H02 (AP HUMA) X56Q02 (AP ANCW)",
           "schedule": [
             {
               "day": "W",
@@ -45477,7 +45755,7 @@
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "catalogNumber": "T04E03 (AP HUMA) T61Z03 (AP CLST)",
+          "catalogNumber": "P09H03 (AP HUMA) X56Q03 (AP ANCW)",
           "schedule": [
             {
               "day": "W",
@@ -45752,7 +46030,7 @@
               "time": "12:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "R S128"
+              "room": "MC 101"
             }
           ],
           "instructors": [],
@@ -45773,64 +46051,32 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "",
-          "schedule": [
-            {
-              "day": "T",
-              "time": "11:30",
-              "duration": "110",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
         {
           "type": "TUTR",
           "meetNumber": "01",
-          "catalogNumber": "F69H02 (AP HUMA) D14G02 (AP CLTR)",
-          "schedule": [
-            {
-              "day": "T",
-              "time": "13:30",
-              "duration": "50",
-              "campus": "Keele",
-              "room": "MC 101"
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "catalogNumber": "F69H03 (AP HUMA) D14G03 (AP CLTR)",
-          "schedule": [
-            {
-              "day": "T",
-              "time": "13:30",
-              "duration": "50",
-              "campus": "Keele",
-              "room": "FC 109"
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "catalogNumber": "F69H04 (AP HUMA) D14G04 (AP CLTR)",
-          "schedule": [
-            {
-              "day": "T",
-              "time": "14:30",
-              "duration": "50",
-              "campus": "Keele",
-              "room": "MC 109"
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -46513,15 +46759,63 @@
       "languageOfInstruction": "EN",
       "sections": [
         {
-          "type": "SEMR",
+          "type": "LECT",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "U34E01 (AP CLTR) E88E01 (AP HUMA)",
+          "catalogNumber": "",
           "schedule": [
             {
               "day": "W",
-              "time": "16:00",
-              "duration": "170",
+              "time": "16:30",
+              "duration": "110",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "01",
+          "catalogNumber": "U34E02 (AP CLTR) E88E02 (AP HUMA)",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "19:00",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "02",
+          "catalogNumber": "U34E03 (AP CLTR) E88E03 (AP HUMA)",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "19:00",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "03",
+          "catalogNumber": "U34E04 (AP CLTR) E88E04 (AP HUMA)",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "20:00",
+              "duration": "50",
               "campus": "Keele",
               "room": ""
             }
@@ -46684,16 +46978,8 @@
           "type": "SEMR",
           "meetNumber": "01",
           "section": "M",
-          "catalogNumber": "N45F01 (AP INDG) K54T01 (AP HUMA) E01F01 (AP EN )",
-          "schedule": [
-            {
-              "day": "M",
-              "time": "19:00",
-              "duration": "170",
-              "campus": "Keele",
-              "room": "VC 118"
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -47704,16 +47990,8 @@
           "type": "ONLN",
           "meetNumber": "01",
           "section": "C",
-          "catalogNumber": "J15G01 (AP HUMA) P68U01 (AP CCY )",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "duration": "0",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "All spaces reserved for CCY Year 4 majors & minors only."
         }
@@ -47761,6 +48039,23 @@
           ],
           "instructors": [],
           "notes": "All spaces reserved for CCY Year 4 majors & minors only."
+        },
+        {
+          "type": "BLEN",
+          "meetNumber": "01",
+          "section": "C",
+          "catalogNumber": "K22B01 (AP HUMA) D69K01 (AP CCY )",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "11:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
         }
       ]
     },
@@ -47794,16 +48089,8 @@
           "type": "SEMR",
           "meetNumber": "01",
           "section": "B",
-          "catalogNumber": "M22V01 (AP HUMA) Q78S01 (AP CCY )",
-          "schedule": [
-            {
-              "day": "W",
-              "time": "14:30",
-              "duration": "170",
-              "campus": "Keele",
-              "room": "FC 105"
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "All spaces reserved for CCY Year 4 majors & minors only."
         }
@@ -47906,16 +48193,8 @@
           "type": "SEMR",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "K77P01 (AP CLTR) J67U01 (AP HUMA)",
-          "schedule": [
-            {
-              "day": "W",
-              "time": "11:30",
-              "duration": "170",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "All spaces in this course are reserved for Department of Humanities majors/minors in their 4th year."
         }
@@ -48594,80 +48873,40 @@
           "type": "TUTR",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "N02S02 (AP HIST) H07Y02 (AP INDG)",
-          "schedule": [
-            {
-              "day": "",
-              "time": "0:00",
-              "duration": "0",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
         {
           "type": "ONLN",
           "meetNumber": "01",
-          "catalogNumber": "",
-          "schedule": [
-            {
-              "day": "",
-              "time": "0:00",
-              "duration": "0",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "catalogNumber": "N02S03 (AP HIST) H07Y03 (AP INDG)",
-          "schedule": [
-            {
-              "day": "",
-              "time": "0:00",
-              "duration": "0",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "catalogNumber": "N02S04 (AP HIST) H07Y04 (AP INDG)",
-          "schedule": [
-            {
-              "day": "",
-              "time": "0:00",
-              "duration": "0",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
         {
           "type": "TUTR",
           "meetNumber": "04",
-          "catalogNumber": "N02S05 (AP HIST) H07Y05 (AP INDG)",
-          "schedule": [
-            {
-              "day": "",
-              "time": "0:00",
-              "duration": "0",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -48714,16 +48953,8 @@
           "type": "SEMR",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "F81T01 (AP INDG) R78D01 (AP GSWS)",
-          "schedule": [
-            {
-              "day": "M",
-              "time": "11:30",
-              "duration": "170",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -48770,16 +49001,8 @@
           "type": "SEMR",
           "meetNumber": "01",
           "section": "M",
-          "catalogNumber": "N45F01 (AP INDG) K54T01 (AP HUMA) E01F01 (AP EN )",
-          "schedule": [
-            {
-              "day": "M",
-              "time": "19:00",
-              "duration": "170",
-              "campus": "Keele",
-              "room": "VC 118"
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -49277,14 +49500,14 @@
               "time": "9:30",
               "duration": "110",
               "campus": "Keele",
-              "room": "R S129"
+              "room": "R S507"
             },
             {
               "day": "W",
               "time": "9:30",
               "duration": "110",
               "campus": "Keele",
-              "room": "R S129"
+              "room": "R S507"
             }
           ],
           "instructors": [],
@@ -50822,7 +51045,27 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "Z28U01",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "AP",
+      "department": "ITEC",
+      "term": "F",
+      "courseTitle": "Data and Information Management",
+      "courseId": "3221",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "S29X01",
           "schedule": [
             {
               "day": "R",
@@ -52178,7 +52421,7 @@
               "time": "12:30",
               "duration": "110",
               "campus": "Keele",
-              "room": "CLH C"
+              "room": "SLH F"
             }
           ],
           "instructors": [],
@@ -54322,14 +54565,14 @@
               "time": "11:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "R S174"
             },
             {
               "day": "R",
               "time": "11:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "R S174"
             }
           ],
           "instructors": [],
@@ -54883,7 +55126,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "Once you've enrolled in the course, the location will be posted on the course's e-class site as soon as it's active. If you need this information sooner, please contact the department directly, and they'll be happy to help."
         }
       ]
     },
@@ -55951,32 +56194,16 @@
         {
           "type": "TUTR",
           "meetNumber": "07",
-          "catalogNumber": "Q17P08",
-          "schedule": [
-            {
-              "day": "W",
-              "time": "10:30",
-              "duration": "50",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "(Backup)"
         },
         {
           "type": "TUTR",
           "meetNumber": "08",
-          "catalogNumber": "Q17P09",
-          "schedule": [
-            {
-              "day": "W",
-              "time": "11:30",
-              "duration": "50",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "(Backup)"
         },
@@ -56103,32 +56330,16 @@
         {
           "type": "TUTR",
           "meetNumber": "07",
-          "catalogNumber": "J64B08",
-          "schedule": [
-            {
-              "day": "R",
-              "time": "9:30",
-              "duration": "50",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "(Backup)"
         },
         {
           "type": "TUTR",
           "meetNumber": "08",
-          "catalogNumber": "J64B09",
-          "schedule": [
-            {
-              "day": "R",
-              "time": "11:30",
-              "duration": "50",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "(Backup)"
         }
@@ -56234,32 +56445,16 @@
         {
           "type": "TUTR",
           "meetNumber": "05",
-          "catalogNumber": "G52N06",
-          "schedule": [
-            {
-              "day": "T",
-              "time": "10:30",
-              "duration": "50",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "(Backup)"
         },
         {
           "type": "TUTR",
           "meetNumber": "06",
-          "catalogNumber": "G52N07",
-          "schedule": [
-            {
-              "day": "T",
-              "time": "11:30",
-              "duration": "50",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "(Backup)"
         },
@@ -56354,32 +56549,16 @@
         {
           "type": "TUTR",
           "meetNumber": "05",
-          "catalogNumber": "W99V06",
-          "schedule": [
-            {
-              "day": "T",
-              "time": "20:00",
-              "duration": "50",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "(Backup)"
         },
         {
           "type": "TUTR",
           "meetNumber": "06",
-          "catalogNumber": "W99V07",
-          "schedule": [
-            {
-              "day": "R",
-              "time": "20:00",
-              "duration": "50",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "(Backup)"
         }
@@ -56485,32 +56664,16 @@
         {
           "type": "TUTR",
           "meetNumber": "05",
-          "catalogNumber": "Q46H06",
-          "schedule": [
-            {
-              "day": "T",
-              "time": "20:00",
-              "duration": "50",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "(Backup)"
         },
         {
           "type": "TUTR",
           "meetNumber": "06",
-          "catalogNumber": "Q46H07",
-          "schedule": [
-            {
-              "day": "R",
-              "time": "20:00",
-              "duration": "50",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "(Backup)"
         },
@@ -56564,7 +56727,7 @@
               "time": "12:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "SC 222"
+              "room": "VC 102"
             }
           ],
           "instructors": [],
@@ -56580,7 +56743,7 @@
               "time": "10:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "ACW 008"
+              "room": "ACE 012"
             }
           ],
           "instructors": [],
@@ -56729,32 +56892,16 @@
         {
           "type": "TUTR",
           "meetNumber": "07",
-          "catalogNumber": "P88A08",
-          "schedule": [
-            {
-              "day": "R",
-              "time": "10:30",
-              "duration": "50",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "(Backup)"
         },
         {
           "type": "TUTR",
           "meetNumber": "08",
-          "catalogNumber": "P88A09",
-          "schedule": [
-            {
-              "day": "R",
-              "time": "11:30",
-              "duration": "50",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "(Backup)"
         }
@@ -57065,32 +57212,16 @@
         {
           "type": "TUTR",
           "meetNumber": "05",
-          "catalogNumber": "H32T06",
-          "schedule": [
-            {
-              "day": "M",
-              "time": "10:30",
-              "duration": "50",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "(Backup)"
         },
         {
           "type": "TUTR",
           "meetNumber": "06",
-          "catalogNumber": "H32T07",
-          "schedule": [
-            {
-              "day": "M",
-              "time": "11:30",
-              "duration": "50",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "(Backup)"
         },
@@ -57298,32 +57429,16 @@
         {
           "type": "TUTR",
           "meetNumber": "05",
-          "catalogNumber": "R26N06",
-          "schedule": [
-            {
-              "day": "T",
-              "time": "20:00",
-              "duration": "50",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "(Backup)"
         },
         {
           "type": "TUTR",
           "meetNumber": "06",
-          "catalogNumber": "R26N07",
-          "schedule": [
-            {
-              "day": "T",
-              "time": "20:00",
-              "duration": "50",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "(Backup)"
         }
@@ -57461,32 +57576,16 @@
         {
           "type": "TUTR",
           "meetNumber": "07",
-          "catalogNumber": "K73W08",
-          "schedule": [
-            {
-              "day": "W",
-              "time": "9:30",
-              "duration": "50",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "(Backup)"
         },
         {
           "type": "TUTR",
           "meetNumber": "08",
-          "catalogNumber": "K73W09",
-          "schedule": [
-            {
-              "day": "W",
-              "time": "10:30",
-              "duration": "50",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "(Backup)"
         },
@@ -57501,7 +57600,7 @@
               "time": "9:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "ACW 008"
+              "room": "MC 212"
             }
           ],
           "instructors": [],
@@ -57581,7 +57680,7 @@
               "time": "9:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "ACW 302"
+              "room": "MC 211"
             }
           ],
           "instructors": [],
@@ -57606,32 +57705,16 @@
         {
           "type": "TUTR",
           "meetNumber": "07",
-          "catalogNumber": "E20X08",
-          "schedule": [
-            {
-              "day": "R",
-              "time": "9:30",
-              "duration": "50",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "(Backup)"
         },
         {
           "type": "TUTR",
           "meetNumber": "08",
-          "catalogNumber": "E20X09",
-          "schedule": [
-            {
-              "day": "R",
-              "time": "10:30",
-              "duration": "50",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "(Backup)"
         }
@@ -57927,32 +58010,16 @@
         {
           "type": "TUTR",
           "meetNumber": "05",
-          "catalogNumber": "N05E06",
-          "schedule": [
-            {
-              "day": "T",
-              "time": "10:30",
-              "duration": "50",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "(Backup)"
         },
         {
           "type": "TUTR",
           "meetNumber": "06",
-          "catalogNumber": "N05E07",
-          "schedule": [
-            {
-              "day": "T",
-              "time": "11:30",
-              "duration": "50",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "(Backup)"
         }
@@ -58086,32 +58153,16 @@
         {
           "type": "TUTR",
           "meetNumber": "05",
-          "catalogNumber": "J06R06",
-          "schedule": [
-            {
-              "day": "M",
-              "time": "12:30",
-              "duration": "50",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "(Backup)"
         },
         {
           "type": "TUTR",
           "meetNumber": "06",
-          "catalogNumber": "J06R07",
-          "schedule": [
-            {
-              "day": "M",
-              "time": "13:30",
-              "duration": "50",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "(Backup)"
         }
@@ -58185,7 +58236,7 @@
               "time": "12:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "SC 214"
+              "room": "MC 111"
             }
           ],
           "instructors": [],
@@ -58210,32 +58261,16 @@
         {
           "type": "TUTR",
           "meetNumber": "05",
-          "catalogNumber": "C53D06",
-          "schedule": [
-            {
-              "day": "M",
-              "time": "12:30",
-              "duration": "50",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "(Backup)"
         },
         {
           "type": "TUTR",
           "meetNumber": "06",
-          "catalogNumber": "C53D07",
-          "schedule": [
-            {
-              "day": "M",
-              "time": "13:30",
-              "duration": "50",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "(Backup)"
         }
@@ -58316,7 +58351,7 @@
               "time": "10:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "ACW 302"
+              "room": "ACE 010"
             }
           ],
           "instructors": [],
@@ -58341,32 +58376,16 @@
         {
           "type": "TUTR",
           "meetNumber": "05",
-          "catalogNumber": "Z14C06",
-          "schedule": [
-            {
-              "day": "M",
-              "time": "10:30",
-              "duration": "50",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "(Backup)"
         },
         {
           "type": "TUTR",
           "meetNumber": "06",
-          "catalogNumber": "Z14C07",
-          "schedule": [
-            {
-              "day": "W",
-              "time": "10:30",
-              "duration": "50",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "(Backup)"
         }
@@ -58535,32 +58554,16 @@
         {
           "type": "TUTR",
           "meetNumber": "05",
-          "catalogNumber": "T87K06",
-          "schedule": [
-            {
-              "day": "W",
-              "time": "14:30",
-              "duration": "50",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "(Backup)"
         },
         {
           "type": "TUTR",
           "meetNumber": "06",
-          "catalogNumber": "T87K07",
-          "schedule": [
-            {
-              "day": "W",
-              "time": "14:30",
-              "duration": "50",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "(Backup)"
         }
@@ -58650,7 +58653,7 @@
               "time": "15:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "FC 106"
+              "room": "VC 102"
             }
           ],
           "instructors": [],
@@ -58853,32 +58856,16 @@
         {
           "type": "TUTR",
           "meetNumber": "07",
-          "catalogNumber": "G23V08 (AP PHIL) A57G08 (AP COGS)",
-          "schedule": [
-            {
-              "day": "W",
-              "time": "9:30",
-              "duration": "50",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "(Backup)"
         },
         {
           "type": "TUTR",
           "meetNumber": "08",
-          "catalogNumber": "G23V09 (AP PHIL) A57G09 (AP COGS)",
-          "schedule": [
-            {
-              "day": "W",
-              "time": "11:30",
-              "duration": "50",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "(Backup)"
         }
@@ -58936,7 +58923,7 @@
               "time": "10:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "R S123"
+              "room": "MC 101"
             }
           ],
           "instructors": [],
@@ -58952,7 +58939,7 @@
               "time": "9:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "R S136"
+              "room": "ACE 012"
             }
           ],
           "instructors": [],
@@ -58968,7 +58955,7 @@
               "time": "10:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "R S130"
+              "room": "ACE 012"
             }
           ],
           "instructors": [],
@@ -59168,32 +59155,16 @@
         {
           "type": "TUTR",
           "meetNumber": "05",
-          "catalogNumber": "Q97V06",
-          "schedule": [
-            {
-              "day": "W",
-              "time": "14:30",
-              "duration": "50",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "(Backup)"
         },
         {
           "type": "TUTR",
           "meetNumber": "06",
-          "catalogNumber": "Q97V07",
-          "schedule": [
-            {
-              "day": "W",
-              "time": "15:30",
-              "duration": "50",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "(Backup)"
         }
@@ -59480,32 +59451,16 @@
         {
           "type": "TUTR",
           "meetNumber": "07",
-          "catalogNumber": "M76M08",
-          "schedule": [
-            {
-              "day": "",
-              "time": "0:00",
-              "duration": "0",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "(Backup)"
         },
         {
           "type": "TUTR",
           "meetNumber": "08",
-          "catalogNumber": "M76M09",
-          "schedule": [
-            {
-              "day": "",
-              "time": "0:00",
-              "duration": "0",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "(Backup)"
         }
@@ -61926,7 +61881,7 @@
             }
           ],
           "instructors": [],
-          "notes": "This course will be delivered in a blended format. The Lecture will be online synchronous on Mondays at 11:30 AM. Tutorials will be in person on the Day(s) and Start Time listed here."
+          "notes": "This course will be delivered in a blended format. The lecture will be online asynchronous. The tutorials will be in person in the location assigned and, on the Day(s) and Start Time listed here."
         },
         {
           "type": "BLEN",
@@ -61934,9 +61889,9 @@
           "catalogNumber": "",
           "schedule": [
             {
-              "day": "M",
-              "time": "11:30",
-              "duration": "110",
+              "day": "",
+              "time": "",
+              "duration": "0",
               "campus": "Keele",
               "room": ""
             }
@@ -62240,7 +62195,7 @@
               "time": "14:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "ACE 009"
+              "room": "DB 0007"
             }
           ],
           "instructors": [],
@@ -62285,7 +62240,7 @@
               "time": "18:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A104"
             }
           ],
           "instructors": [],
@@ -62403,7 +62358,7 @@
               "time": "18:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A102"
             }
           ],
           "instructors": [],
@@ -63105,7 +63060,7 @@
               "time": "14:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "BC 323"
+              "room": "R N201"
             }
           ],
           "instructors": [],
@@ -63517,6 +63472,34 @@
               "duration": "170",
               "campus": "Keele",
               "room": "VH 3003"
+            }
+          ],
+          "instructors": [],
+          "notes": "This course will meet in person in the location assigned. The Seminar will be in person on the Day(s) and Start Time listed here."
+        }
+      ]
+    },
+    {
+      "faculty": "AP",
+      "department": "POLS",
+      "term": "Y",
+      "courseTitle": "Political Economy of Capital Accumulation",
+      "courseId": "4292",
+      "credits": "6.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "F29W01 (AP POLS) Y82N01 (AP GLBL)",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "11:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "ACE 006"
             }
           ],
           "instructors": [],
@@ -64623,7 +64606,7 @@
               "time": "18:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A104"
             }
           ],
           "instructors": [],
@@ -64741,7 +64724,7 @@
               "time": "18:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A102"
             }
           ],
           "instructors": [],
@@ -65499,11 +65482,11 @@
           "catalogNumber": "Q32H01",
           "schedule": [
             {
-              "day": "W",
-              "time": "16:00",
+              "day": "T",
+              "time": "19:00",
               "duration": "170",
               "campus": "Keele",
-              "room": "MC 212"
+              "room": ""
             }
           ],
           "instructors": [],
@@ -65611,11 +65594,11 @@
           "catalogNumber": "T73K01",
           "schedule": [
             {
-              "day": "M",
+              "day": "W",
               "time": "16:00",
               "duration": "170",
               "campus": "Keele",
-              "room": "FC 105"
+              "room": ""
             }
           ],
           "instructors": [],
@@ -65655,7 +65638,7 @@
           "catalogNumber": "",
           "schedule": [
             {
-              "day": "W",
+              "day": "M",
               "time": "13:00",
               "duration": "80",
               "campus": "Keele",
@@ -66862,7 +66845,7 @@
               "time": "12:30",
               "duration": "110",
               "campus": "Keele",
-              "room": "CLH C"
+              "room": "SLH F"
             }
           ],
           "instructors": [],
@@ -67044,7 +67027,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A102"
             }
           ],
           "instructors": [],
@@ -67928,7 +67911,7 @@
               "time": "12:30",
               "duration": "110",
               "campus": "Keele",
-              "room": ""
+              "room": "VC 135"
             }
           ],
           "instructors": [],
@@ -68613,8 +68596,8 @@
           "catalogNumber": "W18F01",
           "schedule": [
             {
-              "day": "R",
-              "time": "14:30",
+              "day": "T",
+              "time": "11:30",
               "duration": "170",
               "campus": "Keele",
               "room": ""
@@ -68631,7 +68614,7 @@
           "schedule": [
             {
               "day": "R",
-              "time": "11:30",
+              "time": "14:30",
               "duration": "170",
               "campus": "Keele",
               "room": ""
@@ -69515,7 +69498,7 @@
               "time": "8:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "ACW 209"
+              "room": "VH 2009"
             }
           ],
           "instructors": [],
@@ -72720,7 +72703,7 @@
               "time": "12:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "FC 106"
+              "room": "MC 211"
             }
           ],
           "instructors": [],
@@ -74613,7 +74596,7 @@
               "time": "12:30",
               "duration": "110",
               "campus": "Keele",
-              "room": "LAS B"
+              "room": "SLH D"
             }
           ],
           "instructors": [],
@@ -74813,7 +74796,7 @@
               "time": "14:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "MC 112"
+              "room": "MC 111"
             }
           ],
           "instructors": [],
@@ -77629,7 +77612,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "This course examines the intersectional impacts of Social Determinants of Health from infancy to adolescence. Students explore how geography, poverty, food security, war, trauma, sexuality, gender, mental health, homelessness, divorce, school, disability and media play an integral role in the lived experiences of children and their health outcomes as adults."
         }
       ]
     },
@@ -78064,7 +78047,7 @@
     {
       "faculty": "AP",
       "department": "SOSC",
-      "term": "Y",
+      "term": "F",
       "courseTitle": "Canadian Charter of Rights and Freedoms",
       "courseId": "3360",
       "credits": "6.00",
@@ -78074,21 +78057,21 @@
           "type": "TUTR",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "V89V02",
+          "catalogNumber": "Q68W02",
           "schedule": [
             {
               "day": "M",
               "time": "8:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "MC 109"
+              "room": ""
             },
             {
               "day": "W",
               "time": "8:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "MC 109"
+              "room": ""
             }
           ],
           "instructors": [],
@@ -78101,7 +78084,7 @@
           "schedule": [
             {
               "day": "",
-              "time": "0:00",
+              "time": "",
               "duration": "0",
               "campus": "Keele",
               "room": ""
@@ -78113,7 +78096,7 @@
         {
           "type": "TUTR",
           "meetNumber": "02",
-          "catalogNumber": "V89V03",
+          "catalogNumber": "Q68W03",
           "schedule": [
             {
               "day": "M",
@@ -78136,7 +78119,7 @@
         {
           "type": "TUTR",
           "meetNumber": "03",
-          "catalogNumber": "V89V04",
+          "catalogNumber": "Q68W04",
           "schedule": [
             {
               "day": "M",
@@ -78159,7 +78142,7 @@
         {
           "type": "TUTR",
           "meetNumber": "04",
-          "catalogNumber": "V89V05",
+          "catalogNumber": "Q68W05",
           "schedule": [
             {
               "day": "M",
@@ -78182,7 +78165,7 @@
         {
           "type": "TUTR",
           "meetNumber": "05",
-          "catalogNumber": "V89V06",
+          "catalogNumber": "Q68W06",
           "schedule": [
             {
               "day": "M",
@@ -78205,7 +78188,7 @@
         {
           "type": "TUTR",
           "meetNumber": "06",
-          "catalogNumber": "V89V07",
+          "catalogNumber": "Q68W07",
           "schedule": [
             {
               "day": "M",
@@ -78228,7 +78211,7 @@
         {
           "type": "TUTR",
           "meetNumber": "07",
-          "catalogNumber": "V89V08",
+          "catalogNumber": "Q68W08",
           "schedule": [
             {
               "day": "M",
@@ -78251,7 +78234,7 @@
         {
           "type": "TUTR",
           "meetNumber": "08",
-          "catalogNumber": "V89V09",
+          "catalogNumber": "Q68W09",
           "schedule": [
             {
               "day": "M",
@@ -78268,6 +78251,90 @@
               "room": ""
             }
           ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "AP",
+      "department": "SOSC",
+      "term": "Y",
+      "courseTitle": "Canadian Charter of Rights and Freedoms",
+      "courseId": "3360",
+      "credits": "6.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "TUTR",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "BLEN",
+          "meetNumber": "01",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "02",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "03",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "04",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "05",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "06",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "07",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "08",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -78668,6 +78735,34 @@
     {
       "faculty": "AP",
       "department": "SOSC",
+      "term": "F",
+      "courseTitle": "Legal Pluralism",
+      "courseId": "3376",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "K15X01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "11:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "AP",
+      "department": "SOSC",
       "term": "W",
       "courseTitle": "Legal Pluralism",
       "courseId": "3376",
@@ -78678,16 +78773,8 @@
           "type": "SEMR",
           "meetNumber": "01",
           "section": "M",
-          "catalogNumber": "J85V01",
-          "schedule": [
-            {
-              "day": "W",
-              "time": "11:30",
-              "duration": "170",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -79141,7 +79228,7 @@
               "time": "12:30",
               "duration": "110",
               "campus": "Keele",
-              "room": "ACW 005"
+              "room": "ACW 004"
             }
           ],
           "instructors": [],
@@ -79265,7 +79352,7 @@
               "time": "11:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "ACW 209"
+              "room": "MC 211"
             }
           ],
           "instructors": [],
@@ -79750,16 +79837,8 @@
           "type": "ONCA",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "S85A01 (AP SOSC) A63U01 (AP CRIM)",
-          "schedule": [
-            {
-              "day": "R",
-              "time": "12:30",
-              "duration": "170",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -79801,7 +79880,7 @@
               "time": "12:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "SC 224"
+              "room": "VC 107A"
             }
           ],
           "instructors": [],
@@ -79833,7 +79912,7 @@
               "time": "14:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "ACW 008"
+              "room": "VC 102"
             }
           ],
           "instructors": [],
@@ -80241,7 +80320,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "Once you've enrolled in the course, the location will be posted on the course's e-class site as soon as it's active. If you need this information sooner, please contact the department directly, and they'll be happy to help."
         }
       ]
     },
@@ -80321,7 +80400,7 @@
               "time": "14:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "HNE B17"
+              "room": "MC 213"
             }
           ],
           "instructors": [],
@@ -80569,6 +80648,34 @@
       "faculty": "AP",
       "department": "SOSC",
       "term": "Y",
+      "courseTitle": "Topics in Social Science Research",
+      "courseId": "4000",
+      "credits": "6.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "U15V01",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "8:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "AP",
+      "department": "SOSC",
+      "term": "Y",
       "courseTitle": "Critical Issues for Tourism in a Changing Climate",
       "courseId": "4001",
       "credits": "6.00",
@@ -80578,16 +80685,8 @@
           "type": "SEMR",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "F42N01",
-          "schedule": [
-            {
-              "day": "R",
-              "time": "8:30",
-              "duration": "170",
-              "campus": "Keele",
-              "room": "FC 114"
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -80849,7 +80948,7 @@
               "time": "14:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "R N120"
+              "room": "MC 212"
             }
           ],
           "instructors": [],
@@ -81346,16 +81445,8 @@
           "type": "SEMR",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "A64R01",
-          "schedule": [
-            {
-              "day": "T",
-              "time": "11:30",
-              "duration": "170",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
@@ -81380,10 +81471,19 @@
           "type": "ONLN",
           "meetNumber": "01",
           "section": "C",
-          "catalogNumber": "K58Y01",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "D",
+          "catalogNumber": "G08X01",
           "schedule": [
             {
-              "day": "W",
+              "day": "R",
               "time": "14:30",
               "duration": "170",
               "campus": "Keele",
@@ -81576,16 +81676,8 @@
           "type": "SEMR",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "P58G01",
-          "schedule": [
-            {
-              "day": "R",
-              "time": "14:30",
-              "duration": "170",
-              "campus": "Keele",
-              "room": "VH 3004"
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -81612,6 +81704,34 @@
               "duration": "170",
               "campus": "Keele",
               "room": "FC 117"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "AP",
+      "department": "SOSC",
+      "term": "Y",
+      "courseTitle": "Law and Society Honours Seminar: Sentencing and Punishment",
+      "courseId": "4368",
+      "credits": "6.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "SEMR",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "N48V01",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
             }
           ],
           "instructors": [],
@@ -81828,7 +81948,16 @@
           "type": "SEMR",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "Y96B01",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "ONCA",
+          "meetNumber": "01",
+          "section": "B",
+          "catalogNumber": "P08K01",
           "schedule": [
             {
               "day": "M",
@@ -84892,7 +85021,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "There will NOT be weekly classes, but some synchronous online or in-person meetings a few times during the term will be required. Additional information will be provided by your course instructor (by email or on the course eClass website)."
         }
       ]
     },
@@ -84920,7 +85049,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "There will NOT be weekly classes, but some synchronous online or in-person meetings a few times during the term will be required. Additional information will be provided by your course instructor (by email or on the course eClass website)."
         }
       ]
     },
@@ -85905,7 +86034,7 @@
   ],
   "metadata": {
     "title": "View Active Course Timetables by Faculty",
-    "lastUpdated": "Fri, 10 Apr 2026 at 03:32:04 AM",
+    "lastUpdated": "Sat, 2 May 2026 at 03:32:17 AM",
     "source": "York University"
   }
 }

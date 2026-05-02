@@ -105,16 +105,8 @@
           "type": "ONLN",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "F08X01",
-          "schedule": [
-            {
-              "day": "",
-              "time": "0:00",
-              "duration": "0",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -133,11 +125,31 @@
           "type": "ONLN",
           "meetNumber": "01",
           "section": "M",
-          "catalogNumber": "V55Q01",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SC",
+      "department": "BC",
+      "term": "Y",
+      "courseTitle": "Introduction to Peer Leadership",
+      "courseId": "3000",
+      "credits": "0.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "ONLN",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "N49S01",
           "schedule": [
             {
               "day": "",
-              "time": "0:00",
+              "time": "",
               "duration": "0",
               "campus": "Keele",
               "room": ""
@@ -196,14 +208,14 @@
               "time": "10:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH L"
             },
             {
               "day": "R",
               "time": "10:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH L"
             }
           ],
           "instructors": [],
@@ -220,14 +232,14 @@
               "time": "11:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "LAS B"
             },
             {
               "day": "W",
               "time": "11:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "LAS B"
             }
           ],
           "instructors": [],
@@ -520,14 +532,14 @@
               "time": "11:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "LAS B"
             },
             {
               "day": "R",
               "time": "11:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "LAS B"
             }
           ],
           "instructors": [],
@@ -544,14 +556,14 @@
               "time": "13:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "ACW 206"
             },
             {
               "day": "R",
               "time": "13:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "ACW 206"
             }
           ],
           "instructors": [],
@@ -4583,14 +4595,14 @@
               "time": "10:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH L"
             },
             {
               "day": "R",
               "time": "10:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH L"
             }
           ],
           "instructors": [],
@@ -4607,14 +4619,14 @@
               "time": "11:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "LAS B"
             },
             {
               "day": "W",
               "time": "11:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "LAS B"
             }
           ],
           "instructors": [],
@@ -5302,14 +5314,14 @@
               "time": "13:00",
               "duration": "80",
               "campus": "Keele",
-              "room": "CLH L"
+              "room": "CLH I"
             },
             {
               "day": "R",
               "time": "13:00",
               "duration": "80",
               "campus": "Keele",
-              "room": "CLH L"
+              "room": "CLH I"
             }
           ],
           "instructors": [],
@@ -5361,14 +5373,14 @@
               "time": "13:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH L"
             },
             {
               "day": "R",
               "time": "13:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH L"
             }
           ],
           "instructors": [],
@@ -6823,7 +6835,7 @@
               "time": "14:30",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "LAS B"
             }
           ],
           "instructors": [],
@@ -6840,7 +6852,7 @@
               "time": "11:30",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "LAS C"
             }
           ],
           "instructors": [],
@@ -7919,14 +7931,14 @@
               "time": "11:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "LAS B"
             },
             {
               "day": "R",
               "time": "11:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "LAS B"
             }
           ],
           "instructors": [],
@@ -7943,14 +7955,14 @@
               "time": "13:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "ACW 206"
             },
             {
               "day": "R",
               "time": "13:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "ACW 206"
             }
           ],
           "instructors": [],
@@ -8609,7 +8621,7 @@
               "time": "14:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "PSE 321"
+              "room": "BC 214"
             }
           ],
           "instructors": [],
@@ -9480,14 +9492,14 @@
               "time": "11:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "BC 215"
             },
             {
               "day": "R",
               "time": "11:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "BC 215"
             }
           ],
           "instructors": [],
@@ -9515,14 +9527,14 @@
               "time": "14:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "ACW 006"
             },
             {
               "day": "R",
               "time": "14:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "ACW 006"
             }
           ],
           "instructors": [],
@@ -9620,14 +9632,14 @@
               "time": "17:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "R S201"
             },
             {
               "day": "W",
               "time": "17:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "R S201"
             }
           ],
           "instructors": [],
@@ -10705,14 +10717,14 @@
               "time": "11:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "CB 115"
             },
             {
               "day": "F",
               "time": "11:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "CB 115"
             }
           ],
           "instructors": [],
@@ -11614,7 +11626,7 @@
               "time": "10:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "LAS A"
+              "room": "ACE 102"
             }
           ],
           "instructors": [],
@@ -14287,21 +14299,21 @@
               "time": "11:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH I"
             },
             {
               "day": "W",
               "time": "11:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH I"
             },
             {
               "day": "F",
               "time": "11:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH I"
             }
           ],
           "instructors": [],
@@ -15378,14 +15390,14 @@
               "time": "13:00",
               "duration": "80",
               "campus": "Keele",
-              "room": "LAS C"
+              "room": "LAS B"
             },
             {
               "day": "R",
               "time": "13:00",
               "duration": "80",
               "campus": "Keele",
-              "room": "LAS C"
+              "room": "LAS B"
             }
           ],
           "instructors": [],
@@ -15401,7 +15413,7 @@
               "time": "11:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "VC 135"
+              "room": ""
             }
           ],
           "instructors": [],
@@ -16290,7 +16302,7 @@
               "time": "10:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "SLH D"
+              "room": "LAS C"
             }
           ],
           "instructors": [],
@@ -16625,14 +16637,14 @@
               "time": "13:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "LAS A"
             },
             {
               "day": "F",
               "time": "13:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "LAS A"
             }
           ],
           "instructors": [],
@@ -17346,7 +17358,7 @@
               "time": "13:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "CLH G"
+              "room": ""
             }
           ],
           "instructors": [],
@@ -17862,7 +17874,7 @@
               "time": "13:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "R S205"
+              "room": "SC 214"
             }
           ],
           "instructors": [],
@@ -18052,21 +18064,21 @@
               "time": "11:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "ACW 004"
             },
             {
               "day": "W",
               "time": "11:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "ACW 004"
             },
             {
               "day": "F",
               "time": "11:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "ACW 004"
             }
           ],
           "instructors": [],
@@ -18152,21 +18164,21 @@
               "time": "12:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "CB 115"
+              "room": "HNE 031"
             },
             {
               "day": "W",
               "time": "12:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "CB 115"
+              "room": "HNE 031"
             },
             {
               "day": "F",
               "time": "12:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "CB 115"
+              "room": "HNE 031"
             }
           ],
           "instructors": [],
@@ -19188,62 +19200,6 @@
       "faculty": "SC",
       "department": "COOP",
       "term": "F",
-      "courseTitle": "Introductory Professional Communications",
-      "courseId": "2000",
-      "credits": "2.00",
-      "languageOfInstruction": "EN",
-      "sections": [
-        {
-          "type": "SEMR",
-          "meetNumber": "01",
-          "section": "A",
-          "catalogNumber": "S42A01",
-          "schedule": [
-            {
-              "day": "R",
-              "time": "15:00",
-              "duration": "110",
-              "campus": "Keele",
-              "room": "DB 0010"
-            }
-          ],
-          "instructors": [],
-          "notes": ""
-        }
-      ]
-    },
-    {
-      "faculty": "SC",
-      "department": "COOP",
-      "term": "W",
-      "courseTitle": "Introductory Professional Communications",
-      "courseId": "2000",
-      "credits": "2.00",
-      "languageOfInstruction": "EN",
-      "sections": [
-        {
-          "type": "SEMR",
-          "meetNumber": "01",
-          "section": "M",
-          "catalogNumber": "Y89J01",
-          "schedule": [
-            {
-              "day": "R",
-              "time": "16:30",
-              "duration": "110",
-              "campus": "Keele",
-              "room": "DB 0014"
-            }
-          ],
-          "instructors": [],
-          "notes": ""
-        }
-      ]
-    },
-    {
-      "faculty": "SC",
-      "department": "COOP",
-      "term": "F",
       "courseTitle": "Co-op Work Term",
       "courseId": "2001",
       "credits": "0.00",
@@ -19897,7 +19853,7 @@
               "time": "14:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "PSE 321"
+              "room": "BC 214"
             }
           ],
           "instructors": [],
@@ -20284,14 +20240,14 @@
               "time": "9:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "LAS B"
+              "room": "CLH D"
             },
             {
               "day": "R",
               "time": "9:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "LAS B"
+              "room": "CLH D"
             }
           ],
           "instructors": [],
@@ -20391,7 +20347,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "(Backup)"
         }
       ]
     },
@@ -20522,7 +20478,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "(Backup)"
         }
       ]
     },
@@ -20615,39 +20571,16 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "",
-          "schedule": [
-            {
-              "day": "M",
-              "time": "10:30",
-              "duration": "50",
-              "campus": "Keele",
-              "room": "R N143"
-            },
-            {
-              "day": "W",
-              "time": "10:30",
-              "duration": "50",
-              "campus": "Keele",
-              "room": "R N143"
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
         {
           "type": "LAB",
           "meetNumber": "01",
-          "catalogNumber": "E55G02 (EU GEOG) U86Y02 (SC GEOG)",
-          "schedule": [
-            {
-              "day": "M",
-              "time": "14:30",
-              "duration": "170",
-              "campus": "Keele",
-              "room": "R N143"
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -20917,7 +20850,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "(Backup)"
         }
       ]
     },
@@ -21345,14 +21278,14 @@
               "time": "10:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "LAS A"
             },
             {
               "day": "R",
               "time": "10:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "LAS A"
             }
           ],
           "instructors": [],
@@ -21369,14 +21302,14 @@
               "time": "10:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "LAS C"
             },
             {
               "day": "R",
               "time": "10:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "LAS C"
             }
           ],
           "instructors": [],
@@ -21393,14 +21326,14 @@
               "time": "14:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "ACW 109"
             },
             {
               "day": "R",
               "time": "14:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "ACW 109"
             }
           ],
           "instructors": [],
@@ -21417,14 +21350,14 @@
               "time": "14:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH I"
             },
             {
               "day": "R",
               "time": "14:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH I"
             }
           ],
           "instructors": [],
@@ -21797,21 +21730,21 @@
               "time": "8:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "ACW 206"
             },
             {
               "day": "W",
               "time": "8:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "ACW 206"
             },
             {
               "day": "F",
               "time": "8:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "ACW 206"
             }
           ],
           "instructors": [],
@@ -21828,21 +21761,21 @@
               "time": "14:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "LAS A"
             },
             {
               "day": "W",
               "time": "14:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "LAS A"
             },
             {
               "day": "F",
               "time": "14:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "LAS A"
             }
           ],
           "instructors": [],
@@ -21859,21 +21792,21 @@
               "time": "8:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "VH A"
             },
             {
               "day": "W",
               "time": "8:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "VH A"
             },
             {
               "day": "F",
               "time": "8:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "VH A"
             }
           ],
           "instructors": [],
@@ -21890,21 +21823,21 @@
               "time": "14:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "LAS B"
             },
             {
               "day": "W",
               "time": "14:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "LAS B"
             },
             {
               "day": "F",
               "time": "14:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "LAS B"
             }
           ],
           "instructors": [],
@@ -22495,21 +22428,21 @@
               "time": "9:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "LAS A"
             },
             {
               "day": "W",
               "time": "9:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "LAS A"
             },
             {
               "day": "F",
               "time": "9:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "LAS A"
             }
           ],
           "instructors": [],
@@ -22526,21 +22459,21 @@
               "time": "9:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "LAS C"
             },
             {
               "day": "W",
               "time": "9:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "LAS C"
             },
             {
               "day": "F",
               "time": "9:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "LAS C"
             }
           ],
           "instructors": [],
@@ -22557,21 +22490,21 @@
               "time": "13:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "LAS B"
             },
             {
               "day": "W",
               "time": "13:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "LAS B"
             },
             {
               "day": "F",
               "time": "13:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "LAS B"
             }
           ],
           "instructors": [],
@@ -22588,21 +22521,21 @@
               "time": "13:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "VH B"
             },
             {
               "day": "W",
               "time": "13:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "VH B"
             },
             {
               "day": "F",
               "time": "13:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "VH B"
             }
           ],
           "instructors": [],
@@ -22740,21 +22673,21 @@
               "time": "13:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "LAS C"
+              "room": ""
             },
             {
               "day": "W",
               "time": "13:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "LAS C"
+              "room": ""
             },
             {
               "day": "F",
               "time": "13:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "LAS C"
+              "room": ""
             }
           ],
           "instructors": [],
@@ -22771,21 +22704,21 @@
               "time": "14:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "LAS C"
             },
             {
               "day": "W",
               "time": "14:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "LAS C"
             },
             {
               "day": "F",
               "time": "14:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "LAS C"
             }
           ],
           "instructors": [],
@@ -23324,28 +23257,28 @@
               "time": "9:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "SC 302"
             },
             {
               "day": "T",
               "time": "13:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "SC 302"
             },
             {
               "day": "R",
               "time": "9:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "SC 302"
             },
             {
               "day": "F",
               "time": "10:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "SC 302"
             }
           ],
           "instructors": [],
@@ -24572,610 +24505,4376 @@
       "department": "MATH",
       "term": "F",
       "courseTitle": "Differential Calculus with Applications",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "1300",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "8:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "CB 121"
+            },
+            {
+              "day": "R",
+              "time": "8:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "CB 121"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "01",
+          "catalogNumber": "Y00U02",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "CLH G"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "B",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "19:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "ACW 109"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "01",
+          "catalogNumber": "E47G02",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "18:00",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "ACW 109"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "C",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "9:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "W",
+              "time": "9:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "F",
+              "time": "9:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "01",
+          "catalogNumber": "U94Z02",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "12:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "D",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "11:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "R",
+              "time": "11:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "01",
+          "catalogNumber": "Z41A02",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "16:00",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "E",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "8:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "R",
+              "time": "8:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "(Backup)"
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "01",
+          "catalogNumber": "H88J02",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "(Backup)"
+        }
+      ]
     },
     {
       "faculty": "SC",
       "department": "MATH",
       "term": "W",
       "courseTitle": "Differential Calculus with Applications",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "1300",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "11:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "SLH D"
+            },
+            {
+              "day": "R",
+              "time": "11:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "SLH D"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "01",
+          "catalogNumber": "B35S02",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "16:00",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "LAS B"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SC",
       "department": "MATH",
       "term": "F",
       "courseTitle": "Integral Calculus with Applications",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "1310",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "10:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "R",
+              "time": "10:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "01",
+          "catalogNumber": "U65W02",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "11:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SC",
       "department": "MATH",
       "term": "W",
       "courseTitle": "Integral Calculus with Applications",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "1310",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "9:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "W",
+              "time": "9:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "F",
+              "time": "9:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "01",
+          "catalogNumber": "Z12X02",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "12:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "N",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "19:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "CLH A"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "01",
+          "catalogNumber": "H59R02",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "18:00",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "CLH G"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "O",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "11:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "VH A"
+            },
+            {
+              "day": "R",
+              "time": "11:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "VH A"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "01",
+          "catalogNumber": "B06D02",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "16:00",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "ACW 109"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "P",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "8:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "W",
+              "time": "8:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "F",
+              "time": "8:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "(Backup)"
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "01",
+          "catalogNumber": "R53Y02",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "(Backup)"
+        }
+      ]
     },
     {
       "faculty": "SC",
       "department": "MATH",
       "term": "F",
       "courseTitle": "Mathematics I for the Biological and Health Sciences",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "1506",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "CB 121"
+            },
+            {
+              "day": "W",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "CB 121"
+            },
+            {
+              "day": "F",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "CB 121"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "01",
+          "catalogNumber": "S04C02",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "9:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "CB 115"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "02",
+          "catalogNumber": "S04C03",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "9:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "B",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "11:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "CLH G"
+            },
+            {
+              "day": "W",
+              "time": "11:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "CLH D"
+            },
+            {
+              "day": "F",
+              "time": "11:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "CLH D"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "01",
+          "catalogNumber": "Y51Y02",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "9:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "02",
+          "catalogNumber": "Y51Y03",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "16:00",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "SLH B"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "C",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "14:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "CLH E"
+            },
+            {
+              "day": "R",
+              "time": "14:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "CLH E"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "01",
+          "catalogNumber": "E98U02",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "13:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "02",
+          "catalogNumber": "E98U03",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "16:00",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "D",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "17:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "CB 121"
+            },
+            {
+              "day": "R",
+              "time": "17:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "CB 121"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "01",
+          "catalogNumber": "V45F02",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "13:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "02",
+          "catalogNumber": "V45F03",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "16:00",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "ACW 106"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "E",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "19:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "CB 121"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "01",
+          "catalogNumber": "Z92Z02",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "18:00",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "R S201"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "02",
+          "catalogNumber": "Z92Z03",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "18:00",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "F",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "9:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "VH A"
+            },
+            {
+              "day": "W",
+              "time": "9:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "VH A"
+            },
+            {
+              "day": "F",
+              "time": "9:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "VH A"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "01",
+          "catalogNumber": "X39A02",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "12:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "02",
+          "catalogNumber": "X39A03",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "14:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "G",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "W",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "F",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "01",
+          "catalogNumber": "B86J02",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "9:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "02",
+          "catalogNumber": "B86J03",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "9:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "H",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "W",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "F",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "(Backup)"
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "01",
+          "catalogNumber": "S33R02",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "9:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "(Backup)"
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "02",
+          "catalogNumber": "S33R03",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "9:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "(Backup)"
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "I",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "9:00",
+              "duration": "80",
+              "campus": "Markham",
+              "room": "MK 4050"
+            },
+            {
+              "day": "W",
+              "time": "9:00",
+              "duration": "80",
+              "campus": "Markham",
+              "room": "MK 4050"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "01",
+          "catalogNumber": "V83S02",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Markham",
+              "room": "MK 4050"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SC",
       "department": "MATH",
       "term": "W",
       "courseTitle": "Mathematics I for the Biological and Health Sciences",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "1506",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "CLH F"
+            },
+            {
+              "day": "W",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "CLH F"
+            },
+            {
+              "day": "F",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "CLH F"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "01",
+          "catalogNumber": "Y80D02",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "9:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "02",
+          "catalogNumber": "Y80D03",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "9:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "N",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "W",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "F",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "(Backup)"
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "01",
+          "catalogNumber": "F27M02",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "9:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "(Backup)"
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "02",
+          "catalogNumber": "F27M03",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "9:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "(Backup)"
+        }
+      ]
     },
     {
       "faculty": "SC",
       "department": "MATH",
       "term": "F",
       "courseTitle": "Mathematics II for the Biological and Health Sciences",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "1507",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "V74U01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "W",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "F",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "B",
+          "catalogNumber": "P21G01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "W",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "F",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "(Backup)"
+        }
+      ]
     },
     {
       "faculty": "SC",
       "department": "MATH",
       "term": "W",
       "courseTitle": "Mathematics II for the Biological and Health Sciences",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "1507",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "X68P01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "W",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "F",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "N",
+          "catalogNumber": "C15B01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "11:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "W",
+              "time": "11:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "F",
+              "time": "11:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "O",
+          "catalogNumber": "S62J01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "14:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "CB 121"
+            },
+            {
+              "day": "R",
+              "time": "14:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "CB 121"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "P",
+          "catalogNumber": "M09S01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "9:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "VC 135"
+            },
+            {
+              "day": "W",
+              "time": "9:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "VC 135"
+            },
+            {
+              "day": "F",
+              "time": "9:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "VC 135"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "Q",
+          "catalogNumber": "F56E01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "19:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "CB 121"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "R",
+          "catalogNumber": "W03M01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "W",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "F",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "(Backup)"
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "S",
+          "catalogNumber": "P30E01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Markham",
+              "room": "MK 5070"
+            },
+            {
+              "day": "W",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Markham",
+              "room": "MK 5070"
+            },
+            {
+              "day": "F",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Markham",
+              "room": "MK 5070"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SC",
       "department": "MATH",
       "term": "Y",
       "courseTitle": "Fundamentals of Mathematics",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "1510",
+      "credits": "6.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "H66K01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "CLH E"
+            },
+            {
+              "day": "W",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "CLH E"
+            },
+            {
+              "day": "F",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "CLH E"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "B",
+          "catalogNumber": "B13T01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "19:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "LAS B"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "C",
+          "catalogNumber": "R60E01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "17:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "R",
+              "time": "17:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "(Backup)"
+        }
+      ]
     },
     {
       "faculty": "SC",
       "department": "MATH",
       "term": "F",
       "courseTitle": "General Mathematics for Software Development",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "1516",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "11:00",
+              "duration": "80",
+              "campus": "Markham",
+              "room": ""
+            },
+            {
+              "day": "W",
+              "time": "11:00",
+              "duration": "80",
+              "campus": "Markham",
+              "room": "MK 2055"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "01",
+          "catalogNumber": "B23Z02",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "15:00",
+              "duration": "80",
+              "campus": "Markham",
+              "room": "MK 4055"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "02",
+          "catalogNumber": "B23Z03",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "16:30",
+              "duration": "80",
+              "campus": "Markham",
+              "room": "MK 4055"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "01",
+          "section": "B",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "12:00",
+              "duration": "50",
+              "campus": "Markham",
+              "room": "MK 5070"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "BLEN",
+          "meetNumber": "01",
+          "catalogNumber": "R70W01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "10:30",
+              "duration": "80",
+              "campus": "Markham",
+              "room": "MK 5070"
+            },
+            {
+              "day": "R",
+              "time": "10:30",
+              "duration": "80",
+              "campus": "Markham",
+              "room": "MK 5070"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SC",
       "department": "MATH",
       "term": "F",
       "courseTitle": "Introduction to Calculus, with Vectors",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "1520",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "M02C01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "11:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "R",
+              "time": "11:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "B",
+          "catalogNumber": "F49Y01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "11:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "R",
+              "time": "11:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "(Backup)"
+        }
+      ]
     },
     {
       "faculty": "SC",
       "department": "MATH",
       "term": "W",
       "courseTitle": "Introduction to Calculus, with Vectors",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "1520",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "V96T01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "11:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "CB 121"
+            },
+            {
+              "day": "R",
+              "time": "11:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "CB 121"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SC",
       "department": "MATH",
       "term": "F",
       "courseTitle": "Statistics for Business and Society",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "1532",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "J77N01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "10:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "R",
+              "time": "10:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SC",
       "department": "MATH",
       "term": "W",
       "courseTitle": "Statistics for Business and Society",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "1532",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "D24W01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "10:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "R",
+              "time": "10:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "N",
+          "catalogNumber": "T71H01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "10:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "R",
+              "time": "10:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "(Backup)"
+        }
+      ]
     },
     {
       "faculty": "SC",
       "department": "MATH",
       "term": "F",
       "courseTitle": "Business Mathematics I",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "1581",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "D02A01",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "19:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "CB 121"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "B",
+          "catalogNumber": "T49X01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "12:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "W",
+              "time": "12:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "F",
+              "time": "12:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "C",
+          "catalogNumber": "M96R01",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "19:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "(Backup)"
+        }
+      ]
     },
     {
       "faculty": "SC",
       "department": "MATH",
       "term": "W",
       "courseTitle": "Business Mathematics I",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "1581",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "G43D01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "8:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "W",
+              "time": "8:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "F",
+              "time": "8:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SC",
       "department": "MATH",
       "term": "W",
       "courseTitle": "Real Analysis l",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "2001",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "H63H01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "16:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "R",
+              "time": "16:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SC",
       "department": "MATH",
       "term": "F",
       "courseTitle": "Applied Multivariate and Vector Calculus",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "2015",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "P28W01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "LAS A"
+            },
+            {
+              "day": "W",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "LAS A"
+            },
+            {
+              "day": "F",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "LAS A"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "B",
+          "catalogNumber": "X75X01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "W",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "F",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "C",
+          "catalogNumber": "C22R01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "12:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "VH B"
+            },
+            {
+              "day": "W",
+              "time": "12:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "VH B"
+            },
+            {
+              "day": "F",
+              "time": "12:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "VH B"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "D",
+          "catalogNumber": "S69C01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "W",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "F",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "(Backup)"
+        }
+      ]
     },
     {
       "faculty": "SC",
       "department": "MATH",
       "term": "W",
       "courseTitle": "Applied Multivariate and Vector Calculus",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "2015",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "M16Y01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "W",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "F",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "N",
+          "catalogNumber": "F63U01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "CB 121"
+            },
+            {
+              "day": "W",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "CB 121"
+            },
+            {
+              "day": "F",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "CB 121"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SC",
       "department": "MATH",
       "term": "W",
       "courseTitle": "Linear Algebra II",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "2022",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "P43F01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "14:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "CLH E"
+            },
+            {
+              "day": "R",
+              "time": "14:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "CLH E"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "N",
+          "catalogNumber": "X90Z01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "11:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "ACW 006"
+            },
+            {
+              "day": "R",
+              "time": "11:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "ACW 006"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SC",
       "department": "MATH",
       "term": "F",
       "courseTitle": "Elementary Probability",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "2030",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "C37A01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "19:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "VH A"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "B",
+          "catalogNumber": "S84X01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "11:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "W",
+              "time": "11:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "F",
+              "time": "11:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "C",
+          "catalogNumber": "M31R01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "11:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "W",
+              "time": "11:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "F",
+              "time": "11:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "D",
+          "catalogNumber": "E35C01",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "11:30",
+              "duration": "170",
+              "campus": "Markham",
+              "room": "MK 6015"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SC",
       "department": "MATH",
       "term": "W",
       "courseTitle": "Elementary Probability",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "2030",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "F78D01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "8:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "CB 121"
+            },
+            {
+              "day": "W",
+              "time": "8:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "CB 121"
+            },
+            {
+              "day": "F",
+              "time": "8:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "CB 121"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "N",
+          "catalogNumber": "W25Y01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "19:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "CLH G"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SC",
       "department": "MATH",
       "term": "F",
       "courseTitle": "Symbolic Computation Laboratory I",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "2041",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "N18Q01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "11:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "R S110"
+            },
+            {
+              "day": "R",
+              "time": "11:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "R S110"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SC",
       "department": "MATH",
       "term": "W",
       "courseTitle": "Principles and Techniques of Data Science",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "2130",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "W90Y01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "13:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "ACW 004"
+            },
+            {
+              "day": "R",
+              "time": "13:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "ACW 004"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SC",
       "department": "MATH",
       "term": "W",
       "courseTitle": "Introduction to Statistics II",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "2131",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "Y73K01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "11:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "W",
+              "time": "11:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "F",
+              "time": "11:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "N",
+          "catalogNumber": "F20T01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "11:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "R",
+              "time": "11:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SC",
       "department": "MATH",
       "term": "W",
       "courseTitle": "Differential Equations",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "2270",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "V67E01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "14:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "W",
+              "time": "14:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "F",
+              "time": "14:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SC",
       "department": "MATH",
       "term": "F",
       "courseTitle": "Differential Equations for Scientists and Engineers",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "2271",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "P14N01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "12:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "W",
+              "time": "12:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "F",
+              "time": "12:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "B",
+          "catalogNumber": "X61W01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "12:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "W",
+              "time": "12:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "F",
+              "time": "12:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "(Backup)"
+        }
+      ]
     },
     {
       "faculty": "SC",
       "department": "MATH",
       "term": "W",
       "courseTitle": "Differential Equations for Scientists and Engineers",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "2271",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "C08X01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "LAS B"
+            },
+            {
+              "day": "W",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "LAS B"
+            },
+            {
+              "day": "F",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "LAS B"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "N",
+          "catalogNumber": "S55Q01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "VH B"
+            },
+            {
+              "day": "W",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "VH B"
+            },
+            {
+              "day": "F",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "VH B"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SC",
       "department": "MATH",
       "term": "F",
       "courseTitle": "The Mathematical Theory of Interest",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "2280",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "X10X01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "13:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "ACW 006"
+            },
+            {
+              "day": "W",
+              "time": "13:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "ACW 006"
+            },
+            {
+              "day": "F",
+              "time": "13:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "ACW 006"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "B",
+          "catalogNumber": "H76F01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Markham",
+              "room": "MK 4040"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SC",
       "department": "MATH",
       "term": "W",
       "courseTitle": "Models for Financial Economics",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "2281",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "U58G01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "SLH C"
+            },
+            {
+              "day": "W",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "SLH C"
+            },
+            {
+              "day": "F",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "SLH C"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "N",
+          "catalogNumber": "Z29T01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Markham",
+              "room": "MK 4040"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SC",
       "department": "MATH",
       "term": "F",
       "courseTitle": "Introduction to Applied Statistics",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "2565",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "Y22T01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "12:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "W",
+              "time": "12:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "F",
+              "time": "12:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "B",
+          "catalogNumber": "E69F01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "9:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "W",
+              "time": "9:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "F",
+              "time": "9:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SC",
       "department": "MATH",
       "term": "W",
       "courseTitle": "Introduction to Applied Statistics",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "2565",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "V16N01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "10:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "R",
+              "time": "10:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "N",
+          "catalogNumber": "Z63W01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "9:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "W",
+              "time": "9:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "F",
+              "time": "9:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "(Backup)"
+        }
+      ]
     },
     {
       "faculty": "SC",
       "department": "MATH",
       "term": "F",
       "courseTitle": "Introductory Probability and Statistics",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "2930",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "8:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "CB 121"
+            },
+            {
+              "day": "W",
+              "time": "8:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "CB 121"
+            },
+            {
+              "day": "F",
+              "time": "8:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "CB 121"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "01",
+          "catalogNumber": "H74A02",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "16:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "HNE 030"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "02",
+          "catalogNumber": "H74A03",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "18:00",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "HNE 030"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "03",
+          "catalogNumber": "H74A04",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "17:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "B",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "16:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "R",
+              "time": "16:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "01",
+          "catalogNumber": "B21J02",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "11:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "R N120"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "02",
+          "catalogNumber": "B21J03",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "17:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "03",
+          "catalogNumber": "B21J04",
+          "schedule": [
+            {
+              "day": "F",
+              "time": "11:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "R S174"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "C",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "8:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "W",
+              "time": "8:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "F",
+              "time": "8:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "(Backup)"
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "01",
+          "catalogNumber": "R68R02",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "16:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "(Backup)"
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "02",
+          "catalogNumber": "R68R03",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "18:00",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "(Backup)"
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "03",
+          "catalogNumber": "R68R04",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "17:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": "(Backup)"
+        }
+      ]
     },
     {
       "faculty": "SC",
       "department": "MATH",
       "term": "W",
       "courseTitle": "Introductory Probability and Statistics",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "2930",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "8:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "W",
+              "time": "8:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "F",
+              "time": "8:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "01",
+          "catalogNumber": "Y15D02",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "9:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "02",
+          "catalogNumber": "Y15D03",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "17:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "03",
+          "catalogNumber": "Y15D04",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "8:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "N",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "14:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "W",
+              "time": "14:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "F",
+              "time": "14:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "01",
+          "catalogNumber": "E62M02",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "18:00",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "ACW 204"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "02",
+          "catalogNumber": "E62M03",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "16:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "VH 3006"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "LAB",
+          "meetNumber": "03",
+          "catalogNumber": "E62M04",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "11:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "HNE 030"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SC",
       "department": "MATH",
       "term": "F",
       "courseTitle": "Real Analysis II",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "3001",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "B10Q01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "16:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "R",
+              "time": "16:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SC",
       "department": "MATH",
       "term": "F",
       "courseTitle": "Algebra I",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "3021",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "R97J01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "9:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "HNE 032"
+            },
+            {
+              "day": "W",
+              "time": "9:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "HNE 032"
+            },
+            {
+              "day": "F",
+              "time": "9:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "HNE 032"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SC",
       "department": "MATH",
       "term": "W",
       "courseTitle": "Algebra II",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "3022",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "Y44S01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "9:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "DB 1016"
+            },
+            {
+              "day": "W",
+              "time": "9:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "DB 1016"
+            },
+            {
+              "day": "F",
+              "time": "9:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "DB 1016"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SC",
       "department": "MATH",
       "term": "F",
       "courseTitle": "Geometries and Education",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "3054",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "V52V01",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "18:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SC",
       "department": "MATH",
       "term": "F",
       "courseTitle": "Computational Mathematics",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "3090",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "BLEN",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "G65C01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "11:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "W",
+              "time": "11:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "F",
+              "time": "11:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SC",
       "department": "MATH",
       "term": "F",
       "courseTitle": "Mathematical Statistics I",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "3131",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "S48A01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "11:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "CB 115"
+            },
+            {
+              "day": "R",
+              "time": "11:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "CB 115"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SC",
       "department": "MATH",
       "term": "W",
       "courseTitle": "Mathematical Statistics II",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "3132",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "S26B01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "11:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "SLH C"
+            },
+            {
+              "day": "R",
+              "time": "11:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "SLH C"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SC",
       "department": "MATH",
       "term": "F",
       "courseTitle": "Introduction to Number Theory",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "3141",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "M82X01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "10:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "ACE 003"
+            },
+            {
+              "day": "R",
+              "time": "10:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "ACE 003"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SC",
       "department": "MATH",
       "term": "F",
       "courseTitle": "Linear Optimization",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "3171",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "B50B01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "14:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "ACE 002"
+            },
+            {
+              "day": "R",
+              "time": "14:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "ACE 002"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SC",
       "department": "MATH",
       "term": "F",
       "courseTitle": "Numerical Methods I",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "3241",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "E91E01 (SC MATH) R89T01 (LE EECS)",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "13:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "R S203"
+            },
+            {
+              "day": "R",
+              "time": "13:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "R S203"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SC",
       "department": "MATH",
       "term": "W",
       "courseTitle": "Numerical Methods II",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "3242",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "X03P01 (SC MATH) B42Y01 (LE EECS)",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "HNE B15"
+            },
+            {
+              "day": "W",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "HNE B15"
+            },
+            {
+              "day": "F",
+              "time": "10:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "HNE B15"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SC",
       "department": "MATH",
       "term": "W",
       "courseTitle": "Introduction to Graph Theory",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "3260",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "X32H01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "14:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "R",
+              "time": "14:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SC",
       "department": "MATH",
       "term": "F",
       "courseTitle": "Partial Differential Equations",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "3271",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "B79Q01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "14:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "W",
+              "time": "14:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "F",
+              "time": "14:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SC",
       "department": "MATH",
       "term": "F",
       "courseTitle": "Mathematics of Life Contingencies I",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "3280",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "13:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "W",
+              "time": "13:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "F",
+              "time": "13:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "01",
+          "catalogNumber": "Z27Z02",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "16:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "HNE 033"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SC",
       "department": "MATH",
       "term": "W",
       "courseTitle": "Mathematics of Life Contingencies II",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "3281",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "13:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "ACW 204"
+            },
+            {
+              "day": "W",
+              "time": "13:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "ACW 204"
+            },
+            {
+              "day": "F",
+              "time": "13:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "ACW 204"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "01",
+          "catalogNumber": "T35W02",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "16:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "HNE 030"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SC",
       "department": "MATH",
       "term": "F",
       "courseTitle": "Mathematical Finance",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "3282",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "Y17X01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "11:30",
+              "duration": "170",
+              "campus": "Markham",
+              "room": "MK 4040"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SC",
       "department": "MATH",
       "term": "F",
       "courseTitle": "Regression Analysis",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "3330",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "9:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "CLH K"
+            },
+            {
+              "day": "W",
+              "time": "9:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "CLH K"
+            },
+            {
+              "day": "F",
+              "time": "9:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "CLH K"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "TUTR",
+          "meetNumber": "01",
+          "catalogNumber": "H37S02",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "15:30",
+              "duration": "50",
+              "campus": "Keele",
+              "room": "DB 0006"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SC",
       "department": "MATH",
       "term": "W",
       "courseTitle": "Data analytics: A Hands-on Approach",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "3333",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "Z05P01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "10:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "CLH E"
+            },
+            {
+              "day": "R",
+              "time": "10:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "CLH E"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SC",
       "department": "MATH",
       "term": "W",
       "courseTitle": "Complex Variables",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "3410",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "W54D01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "13:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "HNE 030"
+            },
+            {
+              "day": "R",
+              "time": "13:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "HNE 030"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SC",
       "department": "MATH",
       "term": "W",
       "courseTitle": "Sample Survey Design",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "3430",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "Z85V01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "14:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "R",
+              "time": "14:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SC",
       "department": "MATH",
       "term": "F",
       "courseTitle": "Mathematic and Statistics Internship Work Term",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "3901",
+      "credits": "0.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "INSP",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "G72S01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SC",
       "department": "MATH",
       "term": "W",
       "courseTitle": "Mathematic and Statistics Internship Work Term",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "3901",
+      "credits": "0.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "INSP",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "A19E01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SC",
       "department": "MATH",
       "term": "F",
       "courseTitle": "Mathematic and Statistics Internship Work Term",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "3902",
+      "credits": "0.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "INSP",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "Q66M01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SC",
       "department": "MATH",
       "term": "W",
       "courseTitle": "Mathematic and Statistics Internship Work Term",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "3902",
+      "credits": "0.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "INSP",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "K13V01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SC",
       "department": "MATH",
       "term": "F",
       "courseTitle": "Mathematic and Statistics Internship Work Term",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "3903",
+      "credits": "0.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "INSP",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "D60H01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SC",
       "department": "MATH",
       "term": "W",
       "courseTitle": "Mathematic and Statistics Internship Work Term",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "3903",
+      "credits": "0.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "INSP",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "U07P01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SC",
       "department": "MATH",
       "term": "F",
       "courseTitle": "Mathematic and Statistics Internship Work Term",
-      "courseId": "",
-      "credits": "",
-      "languageOfInstruction": "",
-      "sections": []
+      "courseId": "3904",
+      "credits": "0.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "INSP",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "N54B01",
+          "schedule": [
+            {
+              "day": "",
+              "time": "0:00",
+              "duration": "0",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
     },
     {
       "faculty": "SC",
@@ -25926,7 +29625,7 @@
               "time": "10:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "CB 115"
+              "room": ""
             }
           ],
           "instructors": [],
@@ -26516,7 +30215,7 @@
               "time": "11:30",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "VH A"
             }
           ],
           "instructors": [],
@@ -26572,7 +30271,7 @@
               "time": "8:30",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "SLH D"
             }
           ],
           "instructors": [],
@@ -26656,14 +30355,14 @@
               "time": "13:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "LAS C"
             },
             {
               "day": "F",
               "time": "13:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "LAS C"
             }
           ],
           "instructors": [],
@@ -27174,14 +30873,14 @@
               "time": "17:30",
               "duration": "80",
               "campus": "Keele",
-              "room": "LAS C"
+              "room": "VH A"
             },
             {
               "day": "R",
               "time": "17:30",
               "duration": "80",
               "campus": "Keele",
-              "room": "LAS C"
+              "room": "VH A"
             }
           ],
           "instructors": [],
@@ -27279,14 +30978,14 @@
               "time": "13:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "VH B"
             },
             {
               "day": "R",
               "time": "13:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "VH B"
             }
           ],
           "instructors": [],
@@ -27314,7 +31013,7 @@
               "time": "19:00",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "LAS B"
             }
           ],
           "instructors": [],
@@ -27342,14 +31041,14 @@
               "time": "14:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "LAS B"
             },
             {
               "day": "R",
               "time": "14:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "LAS B"
             }
           ],
           "instructors": [],
@@ -27689,21 +31388,21 @@
               "time": "10:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH D"
             },
             {
               "day": "W",
               "time": "10:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH D"
             },
             {
               "day": "F",
               "time": "10:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH D"
             }
           ],
           "instructors": [],
@@ -28050,7 +31749,7 @@
               "time": "11:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH I"
             },
             {
               "day": "",
@@ -28109,11 +31808,11 @@
           "catalogNumber": "P69Y01",
           "schedule": [
             {
-              "day": "R",
-              "time": "11:30",
+              "day": "T",
+              "time": "16:00",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "LAS C"
             }
           ],
           "instructors": [],
@@ -28158,7 +31857,7 @@
               "time": "11:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "CLH E"
+              "room": "CLH C"
             }
           ],
           "instructors": [],
@@ -28378,10 +32077,10 @@
           "schedule": [
             {
               "day": "R",
-              "time": "11:30",
+              "time": "16:00",
               "duration": "170",
               "campus": "Keele",
-              "room": ""
+              "room": "ACW 109"
             }
           ],
           "instructors": [],
@@ -29028,7 +32727,7 @@
               "time": "16:00",
               "duration": "170",
               "campus": "Keele",
-              "room": "LAS C"
+              "room": "LAS B"
             },
             {
               "day": "",
@@ -29276,6 +32975,41 @@
     {
       "faculty": "SC",
       "department": "NRSC",
+      "term": "F",
+      "courseTitle": "Fundamental Molecular and Cellular Neuroscience",
+      "courseId": "2000",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "N42C01 (HH NRSC) G89Y01 (SC NRSC)",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "8:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "R N120"
+            },
+            {
+              "day": "R",
+              "time": "8:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "R N120"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SC",
+      "department": "NRSC",
       "term": "W",
       "courseTitle": "Systems, Behavioral, and Cognitive Neuroscience",
       "courseId": "2100",
@@ -29336,6 +33070,34 @@
               "duration": "80",
               "campus": "Keele",
               "room": "ACW 004"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SC",
+      "department": "NRSC",
+      "term": "Y",
+      "courseTitle": "Neuroscience Individual Research Project",
+      "courseId": "4000",
+      "credits": "6.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "A36U01 (HH NRSC) Q83F01 (SC NRSC)",
+          "schedule": [
+            {
+              "day": "F",
+              "time": "10:00",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
             }
           ],
           "instructors": [],
@@ -29598,7 +33360,7 @@
               "time": "13:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "CLH G"
+              "room": "VH D"
             }
           ],
           "instructors": [],
@@ -29729,7 +33491,7 @@
               "time": "14:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "LSB 106"
+              "room": "DB 0014"
             }
           ],
           "instructors": [],
@@ -31882,21 +35644,21 @@
               "time": "8:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "LAS C"
             },
             {
               "day": "W",
               "time": "8:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "LAS C"
             },
             {
               "day": "F",
               "time": "8:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "LAS C"
             }
           ],
           "instructors": [],
@@ -32745,14 +36507,14 @@
               "time": "11:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH L"
             },
             {
               "day": "R",
               "time": "11:30",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH L"
             }
           ],
           "instructors": [],
@@ -32824,21 +36586,21 @@
               "time": "13:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "ACW 005"
             },
             {
               "day": "W",
               "time": "13:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "ACW 005"
             },
             {
               "day": "F",
               "time": "13:30",
               "duration": "50",
               "campus": "Keele",
-              "room": ""
+              "room": "ACW 005"
             }
           ],
           "instructors": [],
@@ -33686,6 +37448,41 @@
               "duration": "50",
               "campus": "Keele",
               "room": "CC 208"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "SC",
+      "department": "PHYS",
+      "term": "W",
+      "courseTitle": "Physics of the Space Environment",
+      "courseId": "3280",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "B88T01 (SC PHYS) S35E01 (LE ESSE)",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "11:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "R",
+              "time": "11:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
             }
           ],
           "instructors": [],
@@ -35268,7 +39065,7 @@
               "time": "19:00",
               "duration": "170",
               "campus": "Keele",
-              "room": "CB 115"
+              "room": "BC 215"
             }
           ],
           "instructors": [],
@@ -35373,11 +39170,20 @@
           "type": "BLEN",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "R23E01",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
+          "notes": ""
+        },
+        {
+          "type": "ONLN",
+          "meetNumber": "01",
+          "section": "B",
+          "catalogNumber": "D62R01",
           "schedule": [
             {
               "day": "M",
-              "time": "11:30",
+              "time": "18:00",
               "duration": "170",
               "campus": "Keele",
               "room": ""

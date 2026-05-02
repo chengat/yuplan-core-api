@@ -1599,7 +1599,7 @@
               "time": "16:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "CC 108"
+              "room": "CC 109"
             }
           ],
           "instructors": [],
@@ -1767,7 +1767,7 @@
               "time": "14:30",
               "duration": "110",
               "campus": "Keele",
-              "room": ""
+              "room": "CLH L"
             }
           ],
           "instructors": [],
@@ -1783,7 +1783,7 @@
               "time": "16:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "HNE 032"
+              "room": "CC 109"
             }
           ],
           "instructors": [],
@@ -2103,7 +2103,7 @@
               "time": "14:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "DB 0014"
+              "room": "ACW 004"
             }
           ],
           "instructors": [],
@@ -6577,7 +6577,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "(Backup)"
         },
         {
           "type": "LAB",
@@ -6593,7 +6593,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "(Backup)"
         },
         {
           "type": "STDO",
@@ -6617,7 +6617,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "(Backup)"
         },
         {
           "type": "LAB",
@@ -6633,7 +6633,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "(Backup)"
         },
         {
           "type": "LAB",
@@ -6649,7 +6649,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "(Backup)"
         },
         {
           "type": "STDO",
@@ -9494,23 +9494,8 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "B",
-          "catalogNumber": "J58S01",
-          "schedule": [
-            {
-              "day": "T",
-              "time": "13:00",
-              "duration": "80",
-              "campus": "Keele",
-              "room": "VH D"
-            },
-            {
-              "day": "R",
-              "time": "13:00",
-              "duration": "80",
-              "campus": "Keele",
-              "room": "VH D"
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -10298,7 +10283,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "(Backup)"
         },
         {
           "type": "LAB",
@@ -10314,7 +10299,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "(Backup)"
         },
         {
           "type": "LAB",
@@ -10330,7 +10315,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "(Backup)"
         },
         {
           "type": "LAB",
@@ -10346,7 +10331,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "(Backup)"
         },
         {
           "type": "LAB",
@@ -10362,7 +10347,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "(Backup)"
         },
         {
           "type": "LAB",
@@ -10378,7 +10363,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "(Backup)"
         },
         {
           "type": "LAB",
@@ -10394,7 +10379,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "(Backup)"
         },
         {
           "type": "STDO",
@@ -10418,7 +10403,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "(Backup)"
         },
         {
           "type": "LAB",
@@ -10434,7 +10419,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "(Backup)"
         }
       ]
     },
@@ -12053,55 +12038,24 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "",
-          "schedule": [
-            {
-              "day": "M",
-              "time": "9:30",
-              "duration": "110",
-              "campus": "Keele",
-              "room": ""
-            },
-            {
-              "day": "W",
-              "time": "9:30",
-              "duration": "110",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
         {
           "type": "LAB",
           "meetNumber": "01",
-          "catalogNumber": "N50M02",
-          "schedule": [
-            {
-              "day": "F",
-              "time": "12:30",
-              "duration": "110",
-              "campus": "Keele",
-              "room": "CB 125A"
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
         {
           "type": "LAB",
           "meetNumber": "02",
-          "catalogNumber": "N50M03",
-          "schedule": [
-            {
-              "day": "F",
-              "time": "14:30",
-              "duration": "110",
-              "campus": "Keele",
-              "room": "CB 125A"
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": "(Backup)"
         }
@@ -12124,7 +12078,7 @@
           "schedule": [
             {
               "day": "R",
-              "time": "11:30",
+              "time": "12:30",
               "duration": "110",
               "campus": "Keele",
               "room": ""
@@ -15130,6 +15084,41 @@
     {
       "faculty": "HH",
       "department": "KINE",
+      "term": "F",
+      "courseTitle": "Public Health Nutrition and Food Policy",
+      "courseId": "4170",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "F42Y01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "10:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            },
+            {
+              "day": "W",
+              "time": "10:00",
+              "duration": "80",
+              "campus": "Keele",
+              "room": ""
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "HH",
+      "department": "KINE",
       "term": "W",
       "courseTitle": "Public Health Nutrition and Food Policy",
       "courseId": "4170",
@@ -15677,7 +15666,7 @@
           "schedule": [
             {
               "day": "R",
-              "time": "12:30",
+              "time": "10:00",
               "duration": "110",
               "campus": "Keele",
               "room": ""
@@ -16784,23 +16773,8 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "T02V01",
-          "schedule": [
-            {
-              "day": "T",
-              "time": "10:00",
-              "duration": "80",
-              "campus": "Keele",
-              "room": ""
-            },
-            {
-              "day": "R",
-              "time": "10:00",
-              "duration": "80",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -17153,23 +17127,8 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "C",
-          "catalogNumber": "B60V01",
-          "schedule": [
-            {
-              "day": "M",
-              "time": "11:30",
-              "duration": "80",
-              "campus": "Keele",
-              "room": ""
-            },
-            {
-              "day": "W",
-              "time": "11:30",
-              "duration": "80",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -17300,6 +17259,41 @@
     {
       "faculty": "HH",
       "department": "NRSC",
+      "term": "F",
+      "courseTitle": "Fundamental Molecular and Cellular Neuroscience",
+      "courseId": "2000",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "N42C01 (HH NRSC) G89Y01 (SC NRSC)",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "8:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "R N120"
+            },
+            {
+              "day": "R",
+              "time": "8:30",
+              "duration": "80",
+              "campus": "Keele",
+              "room": "R N120"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "HH",
+      "department": "NRSC",
       "term": "W",
       "courseTitle": "Systems, Behavioral, and Cognitive Neuroscience",
       "courseId": "2100",
@@ -17395,6 +17389,34 @@
               "duration": "80",
               "campus": "Keele",
               "room": "ACW 004"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "HH",
+      "department": "NRSC",
+      "term": "Y",
+      "courseTitle": "Neuroscience Individual Research Project",
+      "courseId": "4000",
+      "credits": "6.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "A36U01 (HH NRSC) Q83F01 (SC NRSC)",
+          "schedule": [
+            {
+              "day": "F",
+              "time": "10:00",
+              "duration": "50",
+              "campus": "Keele",
+              "room": ""
             }
           ],
           "instructors": [],
@@ -28030,7 +28052,7 @@
               "time": "8:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "SLH A"
+              "room": "SLH F"
             }
           ],
           "instructors": [],
@@ -28380,7 +28402,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "(Backup)"
         }
       ]
     },
@@ -29215,7 +29237,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "FEMALE ONLY"
         },
         {
           "type": "PRAC",
@@ -29274,7 +29296,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "FEMALE ONLY"
         },
         {
           "type": "PRAC",
@@ -29357,7 +29379,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "FEMALE ONLY"
         },
         {
           "type": "PRAC",
@@ -31919,7 +31941,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "Tests on Sundays."
         }
       ]
     },
@@ -31978,7 +32000,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "Tests on Sundays."
         }
       ]
     },
@@ -32047,7 +32069,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "Tests on Tuesday evening from 7-10 p.m."
         },
         {
           "type": "LECT",
@@ -32502,7 +32524,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "Test will be in the evenings or weekends."
         },
         {
           "type": "LECT",
@@ -32543,7 +32565,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "Test will be in the evenings or weekends."
         },
         {
           "type": "LECT",
@@ -32697,7 +32719,7 @@
               "time": "14:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "ACE 102"
+              "room": "ACW 206"
             }
           ],
           "instructors": [],
@@ -33067,7 +33089,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "Test will be in the evenings or weekends."
         }
       ]
     },
@@ -33129,7 +33151,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "Tests on weekends."
         }
       ]
     },
@@ -33191,7 +33213,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "Tests in the evenings."
         }
       ]
     },
@@ -33277,7 +33299,7 @@
               "time": "14:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "VC 135"
+              "room": "ACW 206"
             }
           ],
           "instructors": [],
@@ -33528,7 +33550,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "Tests on weekends."
         }
       ]
     },
@@ -33638,8 +33660,8 @@
           "catalogNumber": "R83S01",
           "schedule": [
             {
-              "day": "T",
-              "time": "8:30",
+              "day": "R",
+              "time": "17:30",
               "duration": "170",
               "campus": "Keele",
               "room": ""
@@ -34028,7 +34050,7 @@
             }
           ],
           "instructors": [],
-          "notes": "This course is previously known as Abnormal Psychology"
+          "notes": "This course is previously known as Abnormal Psychology. | Tests on Tuesday evenings from 6-9 p.m."
         }
       ]
     },
@@ -34683,7 +34705,7 @@
               "time": "14:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "LAS B"
+              "room": "VH B"
             }
           ],
           "instructors": [],
@@ -34850,7 +34872,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "Tests on Sundays."
         }
       ]
     },
@@ -34878,7 +34900,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "Tests on Sundays."
         }
       ]
     },
@@ -35976,7 +35998,7 @@
               "time": "14:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "HNE 038"
+              "room": "CLH H"
             }
           ],
           "instructors": [],
@@ -36303,7 +36325,7 @@
               "time": "14:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "LSB 107"
+              "room": "DB 0015"
             }
           ],
           "instructors": [],
@@ -36380,7 +36402,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "Students must fill in an application and be accepted to take this course by the course instructor before permission to enrol will be granted."
         }
       ]
     },

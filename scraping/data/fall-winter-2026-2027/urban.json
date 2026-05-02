@@ -500,7 +500,7 @@
               "time": "14:30",
               "duration": "110",
               "campus": "Keele",
-              "room": ""
+              "room": "SLH D"
             }
           ],
           "instructors": [],
@@ -1982,47 +1982,15 @@
       "languageOfInstruction": "EN",
       "sections": [
         {
-          "type": "LECT",
+          "type": "SEMR",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "",
-          "schedule": [
-            {
-              "day": "F",
-              "time": "11:30",
-              "duration": "110",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
-          "instructors": [],
-          "notes": ""
-        },
-        {
-          "type": "TUTR",
-          "meetNumber": "01",
-          "catalogNumber": "H23T02",
-          "schedule": [
-            {
-              "day": "F",
-              "time": "13:30",
-              "duration": "50",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
-          "instructors": [],
-          "notes": ""
-        },
-        {
-          "type": "TUTR",
-          "meetNumber": "02",
-          "catalogNumber": "H23T03",
+          "catalogNumber": "C68C01",
           "schedule": [
             {
               "day": "F",
               "time": "14:30",
-              "duration": "50",
+              "duration": "170",
               "campus": "Keele",
               "room": ""
             }
@@ -2704,16 +2672,8 @@
           "type": "SEMR",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "R46F01",
-          "schedule": [
-            {
-              "day": "T",
-              "time": "14:30",
-              "duration": "170",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -3462,7 +3422,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "(Backup)"
         },
         {
           "type": "TUTR",
@@ -3478,7 +3438,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "(Backup)"
         }
       ]
     },
@@ -3502,14 +3462,14 @@
               "time": "9:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "LAS B"
+              "room": "CLH D"
             },
             {
               "day": "R",
               "time": "9:30",
               "duration": "50",
               "campus": "Keele",
-              "room": "LAS B"
+              "room": "CLH D"
             }
           ],
           "instructors": [],
@@ -3609,7 +3569,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "(Backup)"
         }
       ]
     },
@@ -3740,7 +3700,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "(Backup)"
         }
       ]
     },
@@ -3948,14 +3908,14 @@
               "time": "10:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "SLH A"
             },
             {
               "day": "R",
               "time": "10:00",
               "duration": "80",
               "campus": "Keele",
-              "room": ""
+              "room": "SLH A"
             }
           ],
           "instructors": [],
@@ -4208,39 +4168,16 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "",
-          "schedule": [
-            {
-              "day": "M",
-              "time": "10:30",
-              "duration": "50",
-              "campus": "Keele",
-              "room": "R N143"
-            },
-            {
-              "day": "W",
-              "time": "10:30",
-              "duration": "50",
-              "campus": "Keele",
-              "room": "R N143"
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         },
         {
           "type": "LAB",
           "meetNumber": "01",
-          "catalogNumber": "E55G02 (EU GEOG) U86Y02 (SC GEOG)",
-          "schedule": [
-            {
-              "day": "M",
-              "time": "14:30",
-              "duration": "170",
-              "campus": "Keele",
-              "room": "R N143"
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -4622,7 +4559,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "(Backup)"
         }
       ]
     },
@@ -4738,7 +4675,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "(Backup)"
         }
       ]
     },

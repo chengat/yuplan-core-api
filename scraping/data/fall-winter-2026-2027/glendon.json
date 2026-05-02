@@ -20,7 +20,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A201"
             }
           ],
           "instructors": [],
@@ -32,11 +32,11 @@
           "catalogNumber": "M97B02",
           "schedule": [
             {
-              "day": "W",
-              "time": "9:00",
+              "day": "F",
+              "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": "YH 343"
+              "room": ""
             }
           ],
           "instructors": [],
@@ -48,11 +48,11 @@
           "catalogNumber": "M97B03",
           "schedule": [
             {
-              "day": "W",
-              "time": "9:00",
+              "day": "F",
+              "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": "YH 343"
+              "room": ""
             }
           ],
           "instructors": [],
@@ -80,7 +80,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH B215"
             }
           ],
           "instructors": [],
@@ -152,7 +152,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 170"
             }
           ],
           "instructors": [],
@@ -180,7 +180,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH B215"
             }
           ],
           "instructors": [],
@@ -224,7 +224,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A218"
             }
           ],
           "instructors": [],
@@ -252,7 +252,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A214"
             }
           ],
           "instructors": [],
@@ -308,7 +308,7 @@
               "time": "18:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A218"
             }
           ],
           "instructors": [],
@@ -336,7 +336,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 170"
             }
           ],
           "instructors": [],
@@ -364,7 +364,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH B213"
             }
           ],
           "instructors": [],
@@ -532,7 +532,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A108"
             }
           ],
           "instructors": [],
@@ -560,7 +560,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 045"
             }
           ],
           "instructors": [],
@@ -616,7 +616,7 @@
               "time": "18:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 170"
             }
           ],
           "instructors": [],
@@ -644,7 +644,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A218"
             }
           ],
           "instructors": [],
@@ -756,7 +756,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 045"
             }
           ],
           "instructors": [],
@@ -784,7 +784,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH B213"
             }
           ],
           "instructors": [],
@@ -812,7 +812,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A214"
             }
           ],
           "instructors": [],
@@ -830,7 +830,7 @@
       "languageOfInstruction": "EN",
       "sections": [
         {
-          "type": "LAB",
+          "type": "ONCA",
           "meetNumber": "01",
           "section": "M",
           "catalogNumber": "W11M01 (GL ILST) Q87B01 (GL BUEC)",
@@ -840,11 +840,11 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": "YH 220"
+              "room": ""
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "This course is offered in English and is delivered online with synchronous sessions, except for a midterm and a final exam in person during the official exam period. Classes will take place on the day(s) and time listed. Additional details will be provided by the instructor via email or on eClass. Students without the required prerequisite(s) should contact the course director."
         }
       ]
     },
@@ -858,7 +858,7 @@
       "languageOfInstruction": "EN",
       "sections": [
         {
-          "type": "LECT",
+          "type": "ONCA",
           "meetNumber": "01",
           "section": "M",
           "catalogNumber": "P58V01 (GL ILST) K34K01 (GL BUEC)",
@@ -872,7 +872,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "This course is offered in English and is delivered online with synchronous sessions, except for a midterm and a final exam in person during the official exam period. Classes will take place on the day(s) and time listed. Additional details will be provided by the instructor via email or on eClass. Students without the required prerequisite(s) should contact the course director."
         }
       ]
     },
@@ -896,7 +896,7 @@
               "time": "13:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A201"
             }
           ],
           "instructors": [],
@@ -924,7 +924,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A204"
             }
           ],
           "instructors": [],
@@ -952,7 +952,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A202"
             }
           ],
           "instructors": [],
@@ -1012,7 +1012,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "This course will be delivered remotely/online with synchronous class sessions: the delivery will be on the Day(s) and Start Time listed here. Additional information will be provided by your course instructor (by email or on the course eClass website)."
         }
       ]
     },
@@ -1040,7 +1040,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "This course will be delivered remotely/online with synchronous class sessions: the delivery will be on the Day(s) and Start Time listed here. Additional information will be provided by your course instructor (by email or on the course eClass website)."
         }
       ]
     },
@@ -1064,7 +1064,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH B211"
             }
           ],
           "instructors": [],
@@ -1092,7 +1092,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A212"
             }
           ],
           "instructors": [],
@@ -1120,7 +1120,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 245"
             }
           ],
           "instructors": [],
@@ -1148,7 +1148,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A212"
             }
           ],
           "instructors": [],
@@ -1176,7 +1176,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 247"
             }
           ],
           "instructors": [],
@@ -1204,7 +1204,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A202"
             }
           ],
           "instructors": [],
@@ -1232,7 +1232,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH B215"
             }
           ],
           "instructors": [],
@@ -1260,7 +1260,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 245"
             }
           ],
           "instructors": [],
@@ -1288,7 +1288,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A302"
             }
           ],
           "instructors": [],
@@ -1368,7 +1368,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "There will NOT be weekly classes, but some synchronous online or in-person meetings a few times during the session will be required. / Il n'y aura PAS de cours hebdomadaires. Quelques cours en ligne (synchrones) ou en personne seront nécessaires quelques fois pendant la session."
         }
       ]
     },
@@ -1396,7 +1396,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "There will NOT be weekly classes, but some synchronous online or in-person meetings a few times during the session will be required. / Il n'y aura PAS de cours hebdomadaires. Quelques cours en ligne (synchrones) ou en personne seront nécessaires quelques fois pendant la session."
         }
       ]
     },
@@ -1424,7 +1424,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "There will NOT be weekly classes, but some synchronous online or in-person meetings a few times during the session will be required. / Il n'y aura PAS de cours hebdomadaires. Quelques cours en ligne (synchrones) ou en personne seront nécessaires quelques fois pendant la session."
         }
       ]
     },
@@ -1448,7 +1448,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH B211"
             }
           ],
           "instructors": [],
@@ -1476,7 +1476,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH B215"
             }
           ],
           "instructors": [],
@@ -1532,7 +1532,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 172"
             }
           ],
           "instructors": [],
@@ -1560,7 +1560,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 227"
             }
           ],
           "instructors": [],
@@ -1588,7 +1588,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH B211"
             }
           ],
           "instructors": [],
@@ -1616,7 +1616,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A202"
             }
           ],
           "instructors": [],
@@ -1672,7 +1672,7 @@
               "time": "18:30",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A212"
             }
           ],
           "instructors": [],
@@ -1728,7 +1728,7 @@
               "time": "18:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH B215"
             }
           ],
           "instructors": [],
@@ -1784,7 +1784,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 245"
             }
           ],
           "instructors": [],
@@ -1840,7 +1840,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 045"
             }
           ],
           "instructors": [],
@@ -1924,7 +1924,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A214"
             }
           ],
           "instructors": [],
@@ -2232,7 +2232,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A102"
             }
           ],
           "instructors": [],
@@ -2402,7 +2402,7 @@
               "time": "13:00",
               "duration": "110",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A101"
             }
           ],
           "instructors": [],
@@ -2419,7 +2419,7 @@
               "time": "13:00",
               "duration": "110",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A201"
             }
           ],
           "instructors": [],
@@ -2436,7 +2436,7 @@
               "time": "13:00",
               "duration": "110",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 247"
             }
           ],
           "instructors": [],
@@ -2453,7 +2453,7 @@
               "time": "15:00",
               "duration": "110",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A101"
             }
           ],
           "instructors": [],
@@ -2470,7 +2470,7 @@
               "time": "15:00",
               "duration": "110",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 247"
             }
           ],
           "instructors": [],
@@ -2535,7 +2535,7 @@
               "time": "10:00",
               "duration": "110",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A102"
             }
           ],
           "instructors": [],
@@ -2552,7 +2552,7 @@
               "time": "13:00",
               "duration": "110",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A102"
             }
           ],
           "instructors": [],
@@ -2580,7 +2580,7 @@
               "time": "13:00",
               "duration": "50",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 204"
             }
           ],
           "instructors": [],
@@ -2596,7 +2596,7 @@
               "time": "14:00",
               "duration": "50",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A302"
             }
           ],
           "instructors": [],
@@ -2612,7 +2612,7 @@
               "time": "14:00",
               "duration": "50",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A204"
             }
           ],
           "instructors": [],
@@ -2628,7 +2628,7 @@
               "time": "15:00",
               "duration": "50",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A214"
             }
           ],
           "instructors": [],
@@ -2661,7 +2661,7 @@
               "time": "18:00",
               "duration": "50",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 204"
             }
           ],
           "instructors": [],
@@ -2677,7 +2677,7 @@
               "time": "17:00",
               "duration": "50",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A214"
             }
           ],
           "instructors": [],
@@ -2693,7 +2693,7 @@
               "time": "17:00",
               "duration": "50",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH B213"
             }
           ],
           "instructors": [],
@@ -2709,7 +2709,7 @@
               "time": "19:00",
               "duration": "50",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH B215"
             }
           ],
           "instructors": [],
@@ -2753,7 +2753,7 @@
               "time": "10:00",
               "duration": "50",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 204"
             }
           ],
           "instructors": [],
@@ -2769,7 +2769,7 @@
               "time": "11:00",
               "duration": "50",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 204"
             }
           ],
           "instructors": [],
@@ -2785,7 +2785,7 @@
               "time": "13:00",
               "duration": "50",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A216"
             }
           ],
           "instructors": [],
@@ -2829,7 +2829,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A301"
             }
           ],
           "instructors": [],
@@ -2857,7 +2857,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A301"
             }
           ],
           "instructors": [],
@@ -2930,7 +2930,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A204"
             }
           ],
           "instructors": [],
@@ -2978,7 +2978,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 227"
             }
           ],
           "instructors": [],
@@ -3006,7 +3006,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A202"
             }
           ],
           "instructors": [],
@@ -3044,7 +3044,7 @@
               "time": "18:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A102"
             }
           ],
           "instructors": [],
@@ -3096,11 +3096,11 @@
           "catalogNumber": "G50G01 (GL LIN ) B92P01 (GL SOSC) S39A01 (GL SOCI) Y86J01 (GL CORE)",
           "schedule": [
             {
-              "day": "T",
-              "time": "15:00",
+              "day": "R",
+              "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A214"
             }
           ],
           "instructors": [],
@@ -3163,7 +3163,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A218"
             }
           ],
           "instructors": [],
@@ -3191,7 +3191,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A212"
             }
           ],
           "instructors": [],
@@ -3219,7 +3219,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH B211"
             }
           ],
           "instructors": [],
@@ -3247,7 +3247,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 245"
             }
           ],
           "instructors": [],
@@ -3275,7 +3275,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A104"
             }
           ],
           "instructors": [],
@@ -3303,7 +3303,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 245"
             }
           ],
           "instructors": [],
@@ -3443,7 +3443,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 170"
             }
           ],
           "instructors": [],
@@ -3471,7 +3471,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 170"
             }
           ],
           "instructors": [],
@@ -3499,7 +3499,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A214"
             }
           ],
           "instructors": [],
@@ -3547,7 +3547,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A104"
             }
           ],
           "instructors": [],
@@ -3627,7 +3627,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "This course will be offered in a Hyflex format concurrent in both in-person and virtual synchronously on the day/time listed here."
         }
       ]
     },
@@ -3689,7 +3689,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH B211"
             }
           ],
           "instructors": [],
@@ -3717,7 +3717,7 @@
               "time": "18:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": "YH 190"
+              "room": "YH 170"
             }
           ],
           "instructors": [],
@@ -3745,7 +3745,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH B215"
             }
           ],
           "instructors": [],
@@ -3801,7 +3801,7 @@
               "time": "18:30",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A212"
             }
           ],
           "instructors": [],
@@ -3857,7 +3857,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A218"
             }
           ],
           "instructors": [],
@@ -3885,7 +3885,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A202"
             }
           ],
           "instructors": [],
@@ -3941,7 +3941,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH B213"
             }
           ],
           "instructors": [],
@@ -3969,7 +3969,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 247"
             }
           ],
           "instructors": [],
@@ -4025,7 +4025,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 170"
             }
           ],
           "instructors": [],
@@ -4053,7 +4053,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": "YH 190"
+              "room": "YH 172"
             }
           ],
           "instructors": [],
@@ -4221,7 +4221,7 @@
               "time": "18:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": "YH 190"
+              "room": "YH 170"
             }
           ],
           "instructors": [],
@@ -4249,7 +4249,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH B215"
             }
           ],
           "instructors": [],
@@ -4277,7 +4277,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A202"
             }
           ],
           "instructors": [],
@@ -4305,7 +4305,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH B213"
             }
           ],
           "instructors": [],
@@ -4333,7 +4333,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 247"
             }
           ],
           "instructors": [],
@@ -4389,7 +4389,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 170"
             }
           ],
           "instructors": [],
@@ -4417,7 +4417,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": "YH 190"
+              "room": "YH 172"
             }
           ],
           "instructors": [],
@@ -4550,14 +4550,14 @@
               "time": "9:00",
               "duration": "80",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 227"
             },
             {
               "day": "R",
               "time": "9:00",
               "duration": "80",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 227"
             }
           ],
           "instructors": [],
@@ -4613,7 +4613,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A302"
             }
           ],
           "instructors": [],
@@ -4641,7 +4641,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A202"
             }
           ],
           "instructors": [],
@@ -4669,7 +4669,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A212"
             }
           ],
           "instructors": [],
@@ -4697,7 +4697,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A102"
             }
           ],
           "instructors": [],
@@ -4753,7 +4753,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 227"
             }
           ],
           "instructors": [],
@@ -4819,7 +4819,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A304"
             }
           ],
           "instructors": [],
@@ -4875,7 +4875,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A202"
             }
           ],
           "instructors": [],
@@ -4903,7 +4903,7 @@
               "time": "18:30",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 245"
             }
           ],
           "instructors": [],
@@ -4959,7 +4959,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 227"
             }
           ],
           "instructors": [],
@@ -5022,7 +5022,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 227"
             }
           ],
           "instructors": [],
@@ -5098,7 +5098,7 @@
               "time": "18:30",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A214"
             }
           ],
           "instructors": [],
@@ -5126,7 +5126,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 227"
             }
           ],
           "instructors": [],
@@ -5154,7 +5154,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH B215"
             }
           ],
           "instructors": [],
@@ -5182,7 +5182,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH B211"
             }
           ],
           "instructors": [],
@@ -5210,7 +5210,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A204"
             }
           ],
           "instructors": [],
@@ -5238,7 +5238,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A302"
             }
           ],
           "instructors": [],
@@ -5266,7 +5266,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A302"
             }
           ],
           "instructors": [],
@@ -5294,7 +5294,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 172"
             }
           ],
           "instructors": [],
@@ -5350,7 +5350,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A212"
             }
           ],
           "instructors": [],
@@ -5378,7 +5378,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 170"
             }
           ],
           "instructors": [],
@@ -5406,7 +5406,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 245"
             }
           ],
           "instructors": [],
@@ -5434,7 +5434,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A218"
             }
           ],
           "instructors": [],
@@ -5462,7 +5462,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A304"
             }
           ],
           "instructors": [],
@@ -5490,7 +5490,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH B211"
             }
           ],
           "instructors": [],
@@ -5518,7 +5518,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A214"
             }
           ],
           "instructors": [],
@@ -5546,7 +5546,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH B213"
             }
           ],
           "instructors": [],
@@ -5574,7 +5574,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 247"
             }
           ],
           "instructors": [],
@@ -5630,7 +5630,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 245"
             }
           ],
           "instructors": [],
@@ -5658,7 +5658,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 170"
             }
           ],
           "instructors": [],
@@ -5686,7 +5686,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A110"
             }
           ],
           "instructors": [],
@@ -5714,7 +5714,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A108"
             }
           ],
           "instructors": [],
@@ -5826,7 +5826,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH B215"
             }
           ],
           "instructors": [],
@@ -6203,7 +6203,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 245"
             }
           ],
           "instructors": [],
@@ -6220,7 +6220,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A202"
             }
           ],
           "instructors": [],
@@ -6282,7 +6282,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 245"
             }
           ],
           "instructors": [],
@@ -6355,7 +6355,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 170"
             }
           ],
           "instructors": [],
@@ -6490,7 +6490,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A218"
             }
           ],
           "instructors": [],
@@ -6518,7 +6518,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 170"
             }
           ],
           "instructors": [],
@@ -6574,7 +6574,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A202"
             }
           ],
           "instructors": [],
@@ -6602,7 +6602,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A202"
             }
           ],
           "instructors": [],
@@ -6630,7 +6630,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A202"
             }
           ],
           "instructors": [],
@@ -6658,7 +6658,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A202"
             }
           ],
           "instructors": [],
@@ -6686,7 +6686,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A204"
             }
           ],
           "instructors": [],
@@ -6849,7 +6849,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH B215"
             }
           ],
           "instructors": [],
@@ -6877,7 +6877,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A202"
             }
           ],
           "instructors": [],
@@ -6961,7 +6961,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A202"
             }
           ],
           "instructors": [],
@@ -7045,7 +7045,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A204"
             }
           ],
           "instructors": [],
@@ -8303,7 +8303,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A102"
             }
           ],
           "instructors": [],
@@ -8335,7 +8335,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "Once you've enrolled in the course, the location will be posted on the course's e-class site as soon as it's active. If you need this information sooner, please contact the department directly, and they'll be happy to help."
         },
         {
           "type": "TUTR",
@@ -8487,7 +8487,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "Once you've enrolled in the course, the location will be posted on the course's e-class site as soon as it's active. If you need this information sooner, please contact the department directly, and they'll be happy to help."
         }
       ]
     },
@@ -8515,7 +8515,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "Once you've enrolled in the course, the location will be posted on the course's e-class site as soon as it's active. If you need this information sooner, please contact the department directly, and they'll be happy to help."
         }
       ]
     },
@@ -8571,7 +8571,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "Once you've enrolled in the course, the location will be posted on the course's e-class site as soon as it's active. If you need this information sooner, please contact the department directly, and they'll be happy to help."
         }
       ]
     },
@@ -8627,7 +8627,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "Once you've enrolled in the course, the location will be posted on the course's e-class site as soon as it's active. If you need this information sooner, please contact the department directly, and they'll be happy to help."
         }
       ]
     },
@@ -8675,7 +8675,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "Once you've enrolled in the course, the location will be posted on the course's e-class site as soon as it's active. If you need this information sooner, please contact the department directly, and they'll be happy to help."
         }
       ]
     },
@@ -8703,7 +8703,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "Once you've enrolled in the course, the location will be posted on the course's e-class site as soon as it's active. If you need this information sooner, please contact the department directly, and they'll be happy to help."
         }
       ]
     },
@@ -8727,7 +8727,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH B213"
             }
           ],
           "instructors": [],
@@ -8755,7 +8755,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 170"
             }
           ],
           "instructors": [],
@@ -8787,7 +8787,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "Once you've enrolled in the course, the location will be posted on the course's e-class site as soon as it's active. If you need this information sooner, please contact the department directly, and they'll be happy to help."
         }
       ]
     },
@@ -8831,7 +8831,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A104"
             }
           ],
           "instructors": [],
@@ -8863,7 +8863,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "Once you've enrolled in the course, the location will be posted on the course's e-class site as soon as it's active. If you need this information sooner, please contact the department directly, and they'll be happy to help."
         }
       ]
     },
@@ -8891,7 +8891,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "Once you've enrolled in the course, the location will be posted on the course's e-class site as soon as it's active. If you need this information sooner, please contact the department directly, and they'll be happy to help."
         }
       ]
     },
@@ -9051,7 +9051,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "There will NOT be weekly classes, but some synchronous online or in-person meetings a few times during the session will be required. / Il n'y aura PAS de cours hebdomadaires. Quelques cours en ligne (synchrones) ou en personne seront nécessaires quelques fois pendant la session."
         }
       ]
     },
@@ -9079,7 +9079,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "There will NOT be weekly classes, but some synchronous online or in-person meetings a few times during the session will be required. / Il n'y aura PAS de cours hebdomadaires. Quelques cours en ligne (synchrones) ou en personne seront nécessaires quelques fois pendant la session."
         }
       ]
     },
@@ -9107,7 +9107,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "There will NOT be weekly classes, but some synchronous online or in-person meetings a few times during the session will be required. / Il n'y aura PAS de cours hebdomadaires. Quelques cours en ligne (synchrones) ou en personne seront nécessaires quelques fois pendant la session."
         }
       ]
     },
@@ -9131,7 +9131,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A301"
             }
           ],
           "instructors": [],
@@ -9159,7 +9159,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A218"
             }
           ],
           "instructors": [],
@@ -9207,7 +9207,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 227"
             }
           ],
           "instructors": [],
@@ -9235,7 +9235,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 247"
             }
           ],
           "instructors": [],
@@ -9301,7 +9301,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A212"
             }
           ],
           "instructors": [],
@@ -9329,11 +9329,11 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 227"
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "This is a hybrid course: It involves a combination of in-person (on campus) and online (synchronous and asynchronous) classes. Please refer to the official course outline for more specific details regarding this combination."
         }
       ]
     },
@@ -9357,7 +9357,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A204"
             }
           ],
           "instructors": [],
@@ -9385,7 +9385,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A302"
             }
           ],
           "instructors": [],
@@ -9417,7 +9417,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "By permission of the department/par permission du département."
         }
       ]
     },
@@ -9445,7 +9445,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "By permission of the department/par permission du département."
         }
       ]
     },
@@ -9501,7 +9501,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "This course will be offered in a Hyflex format concurrent in both in-person and virtual synchronously on the day/time listed here."
         }
       ]
     },
@@ -9525,7 +9525,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 245"
             }
           ],
           "instructors": [],
@@ -9553,7 +9553,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A110"
             }
           ],
           "instructors": [],
@@ -9581,7 +9581,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A102"
             }
           ],
           "instructors": [],
@@ -9721,7 +9721,7 @@
               "time": "13:00",
               "duration": "50",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 204"
             }
           ],
           "instructors": [],
@@ -9737,7 +9737,7 @@
               "time": "14:00",
               "duration": "50",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A302"
             }
           ],
           "instructors": [],
@@ -9753,7 +9753,7 @@
               "time": "14:00",
               "duration": "50",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A204"
             }
           ],
           "instructors": [],
@@ -9769,7 +9769,7 @@
               "time": "15:00",
               "duration": "50",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A214"
             }
           ],
           "instructors": [],
@@ -9802,7 +9802,7 @@
               "time": "18:00",
               "duration": "50",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 204"
             }
           ],
           "instructors": [],
@@ -9818,7 +9818,7 @@
               "time": "17:00",
               "duration": "50",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A214"
             }
           ],
           "instructors": [],
@@ -9834,7 +9834,7 @@
               "time": "17:00",
               "duration": "50",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH B213"
             }
           ],
           "instructors": [],
@@ -9850,7 +9850,7 @@
               "time": "19:00",
               "duration": "50",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH B215"
             }
           ],
           "instructors": [],
@@ -9894,7 +9894,7 @@
               "time": "10:00",
               "duration": "50",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 204"
             }
           ],
           "instructors": [],
@@ -9910,7 +9910,7 @@
               "time": "11:00",
               "duration": "50",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 204"
             }
           ],
           "instructors": [],
@@ -9926,7 +9926,7 @@
               "time": "13:00",
               "duration": "50",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A216"
             }
           ],
           "instructors": [],
@@ -9970,7 +9970,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A301"
             }
           ],
           "instructors": [],
@@ -9998,7 +9998,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A301"
             }
           ],
           "instructors": [],
@@ -10026,7 +10026,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A204"
             }
           ],
           "instructors": [],
@@ -10054,7 +10054,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A302"
             }
           ],
           "instructors": [],
@@ -10082,7 +10082,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 247"
             }
           ],
           "instructors": [],
@@ -10110,7 +10110,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A101"
             }
           ],
           "instructors": [],
@@ -10148,7 +10148,7 @@
               "time": "18:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A102"
             }
           ],
           "instructors": [],
@@ -10218,7 +10218,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "This course will be delivered remotely/online with synchronous class sessions: the delivery will be on the Day(s) and Start Time listed here. Additional information will be provided by your course instructor (by email or on the course eClass website)."
         }
       ]
     },
@@ -10246,7 +10246,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "This course will be delivered remotely/online with synchronous class sessions: the delivery will be on the Day(s) and Start Time listed here. Additional information will be provided by your course instructor (by email or on the course eClass website)."
         }
       ]
     },
@@ -10270,7 +10270,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 247"
             }
           ],
           "instructors": [],
@@ -10298,7 +10298,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 245"
             }
           ],
           "instructors": [],
@@ -10346,7 +10346,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A102"
             }
           ],
           "instructors": [],
@@ -10402,7 +10402,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A212"
             }
           ],
           "instructors": [],
@@ -10430,7 +10430,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A218"
             }
           ],
           "instructors": [],
@@ -10458,7 +10458,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH B211"
             }
           ],
           "instructors": [],
@@ -10486,7 +10486,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 245"
             }
           ],
           "instructors": [],
@@ -10542,7 +10542,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 247"
             }
           ],
           "instructors": [],
@@ -10646,7 +10646,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A204"
             }
           ],
           "instructors": [],
@@ -10674,7 +10674,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A302"
             }
           ],
           "instructors": [],
@@ -10702,7 +10702,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 170"
             }
           ],
           "instructors": [],
@@ -10730,7 +10730,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": "YH 190"
+              "room": "YH 172"
             }
           ],
           "instructors": [],
@@ -10898,7 +10898,7 @@
               "time": "18:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 170"
             }
           ],
           "instructors": [],
@@ -10926,7 +10926,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 045"
             }
           ],
           "instructors": [],
@@ -10954,7 +10954,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A301"
             }
           ],
           "instructors": [],
@@ -10982,7 +10982,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A302"
             }
           ],
           "instructors": [],
@@ -11010,7 +11010,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A110"
             }
           ],
           "instructors": [],
@@ -11038,7 +11038,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 227"
             }
           ],
           "instructors": [],
@@ -11066,7 +11066,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH B213"
             }
           ],
           "instructors": [],
@@ -11094,7 +11094,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A214"
             }
           ],
           "instructors": [],
@@ -11122,7 +11122,7 @@
               "time": "18:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 247"
             }
           ],
           "instructors": [],
@@ -11150,7 +11150,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A302"
             }
           ],
           "instructors": [],
@@ -11178,7 +11178,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 247"
             }
           ],
           "instructors": [],
@@ -11206,7 +11206,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 245"
             }
           ],
           "instructors": [],
@@ -11234,7 +11234,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 247"
             }
           ],
           "instructors": [],
@@ -11262,7 +11262,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 247"
             }
           ],
           "instructors": [],
@@ -11290,7 +11290,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A104"
             }
           ],
           "instructors": [],
@@ -11318,7 +11318,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A202"
             }
           ],
           "instructors": [],
@@ -11346,7 +11346,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A202"
             }
           ],
           "instructors": [],
@@ -11374,7 +11374,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH B211"
             }
           ],
           "instructors": [],
@@ -11402,7 +11402,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH B211"
             }
           ],
           "instructors": [],
@@ -11450,7 +11450,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 045"
             }
           ],
           "instructors": [],
@@ -11478,7 +11478,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 045"
             }
           ],
           "instructors": [],
@@ -11506,7 +11506,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A202"
             }
           ],
           "instructors": [],
@@ -11534,7 +11534,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 170"
             }
           ],
           "instructors": [],
@@ -11562,11 +11562,11 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 227"
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "This is a hybrid course: It involves a combination of in-person (on campus) and online (synchronous and asynchronous) classes. Please refer to the official course outline for more specific details regarding this combination."
         }
       ]
     },
@@ -11580,7 +11580,7 @@
       "languageOfInstruction": "EN",
       "sections": [
         {
-          "type": "LAB",
+          "type": "ONCA",
           "meetNumber": "01",
           "section": "M",
           "catalogNumber": "W11M01 (GL ILST) Q87B01 (GL BUEC)",
@@ -11590,11 +11590,11 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": "YH 220"
+              "room": ""
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "This course is offered in English and is delivered online with synchronous sessions, except for a midterm and a final exam in person during the official exam period. Classes will take place on the day(s) and time listed. Additional details will be provided by the instructor via email or on eClass. Students without the required prerequisite(s) should contact the course director."
         }
       ]
     },
@@ -11608,7 +11608,7 @@
       "languageOfInstruction": "EN",
       "sections": [
         {
-          "type": "LECT",
+          "type": "ONCA",
           "meetNumber": "01",
           "section": "M",
           "catalogNumber": "P58V01 (GL ILST) K34K01 (GL BUEC)",
@@ -11622,7 +11622,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "This course is offered in English and is delivered online with synchronous sessions, except for a midterm and a final exam in person during the official exam period. Classes will take place on the day(s) and time listed. Additional details will be provided by the instructor via email or on eClass. Students without the required prerequisite(s) should contact the course director."
         }
       ]
     },
@@ -11646,7 +11646,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A302"
             }
           ],
           "instructors": [],
@@ -11674,7 +11674,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A202"
             }
           ],
           "instructors": [],
@@ -11758,7 +11758,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 170"
             }
           ],
           "instructors": [],
@@ -11834,7 +11834,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A214"
             }
           ],
           "instructors": [],
@@ -11862,7 +11862,7 @@
               "time": "13:00",
               "duration": "110",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A218"
             }
           ],
           "instructors": [],
@@ -11890,7 +11890,7 @@
               "time": "13:00",
               "duration": "110",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A220"
             }
           ],
           "instructors": [],
@@ -11918,7 +11918,7 @@
               "time": "13:00",
               "duration": "110",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 349"
             }
           ],
           "instructors": [],
@@ -11946,7 +11946,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH B215"
             }
           ],
           "instructors": [],
@@ -12030,7 +12030,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A108"
             }
           ],
           "instructors": [],
@@ -12078,7 +12078,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A104"
             }
           ],
           "instructors": [],
@@ -12106,7 +12106,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 170"
             }
           ],
           "instructors": [],
@@ -12134,7 +12134,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A304"
             }
           ],
           "instructors": [],
@@ -12162,7 +12162,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 245"
             }
           ],
           "instructors": [],
@@ -12222,7 +12222,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "This course will be offered in a Hyflex format concurrent in both in-person and virtual synchronously on the day/time listed here."
         }
       ]
     },
@@ -12246,7 +12246,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH B211"
             }
           ],
           "instructors": [],
@@ -12284,7 +12284,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A201"
             }
           ],
           "instructors": [],
@@ -12378,7 +12378,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A218"
             }
           ],
           "instructors": [],
@@ -12448,7 +12448,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 247"
             }
           ],
           "instructors": [],
@@ -12577,7 +12577,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 245"
             }
           ],
           "instructors": [],
@@ -12646,11 +12646,11 @@
           "catalogNumber": "G50G01 (GL LIN ) B92P01 (GL SOSC) S39A01 (GL SOCI) Y86J01 (GL CORE)",
           "schedule": [
             {
-              "day": "T",
-              "time": "15:00",
+              "day": "R",
+              "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A214"
             }
           ],
           "instructors": [],
@@ -12682,7 +12682,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "This course will be delivered remotely/online with synchronous class sessions: the delivery will be on the Day(s) and Start Time listed here. Additional information will be provided by your course instructor (by email or on the course eClass website)."
         }
       ]
     },
@@ -12710,7 +12710,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "This course will be delivered remotely/online with synchronous class sessions: the delivery will be on the Day(s) and Start Time listed here. Additional information will be provided by your course instructor (by email or on the course eClass website)."
         }
       ]
     },
@@ -12769,7 +12769,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A218"
             }
           ],
           "instructors": [],
@@ -12797,7 +12797,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A108"
             }
           ],
           "instructors": [],
@@ -12825,7 +12825,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 170"
             }
           ],
           "instructors": [],
@@ -12857,7 +12857,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "This course will be delivered remotely/online with synchronous class sessions: the delivery will be on the Day(s) and Start Time listed here. Additional information will be provided by your course instructor (by email or on the course eClass website)."
         }
       ]
     },
@@ -12881,7 +12881,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 045"
             }
           ],
           "instructors": [],
@@ -12909,7 +12909,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A202"
             }
           ],
           "instructors": [],
@@ -12937,7 +12937,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A214"
             }
           ],
           "instructors": [],
@@ -12965,7 +12965,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A202"
             }
           ],
           "instructors": [],
@@ -12993,7 +12993,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A204"
             }
           ],
           "instructors": [],
@@ -13025,7 +13025,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "This course will be delivered remotely/online with synchronous class sessions: the delivery will be on the Day(s) and Start Time listed here. Additional information will be provided by your course instructor (by email or on the course eClass website)."
         }
       ]
     },
@@ -13053,7 +13053,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "This course will be delivered remotely/online with synchronous class sessions: the delivery will be on the Day(s) and Start Time listed here. Additional information will be provided by your course instructor (by email or on the course eClass website)."
         }
       ]
     },
@@ -13077,7 +13077,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH B206"
             }
           ],
           "instructors": [],
@@ -13105,7 +13105,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A108"
             }
           ],
           "instructors": [],
@@ -13133,7 +13133,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A204"
             }
           ],
           "instructors": [],
@@ -13189,7 +13189,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH B206"
             }
           ],
           "instructors": [],
@@ -13469,14 +13469,14 @@
               "time": "16:00",
               "duration": "110",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 247"
             },
             {
               "day": "R",
               "time": "16:00",
               "duration": "110",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 247"
             }
           ],
           "instructors": [],
@@ -13539,14 +13539,14 @@
               "time": "16:00",
               "duration": "110",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 247"
             },
             {
               "day": "R",
               "time": "16:00",
               "duration": "110",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 247"
             }
           ],
           "instructors": [],
@@ -13637,14 +13637,14 @@
               "time": "13:00",
               "duration": "110",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH B213"
             },
             {
               "day": "W",
               "time": "13:00",
               "duration": "110",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH B213"
             }
           ],
           "instructors": [],
@@ -14059,14 +14059,14 @@
               "time": "16:00",
               "duration": "110",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 247"
             },
             {
               "day": "R",
               "time": "16:00",
               "duration": "110",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 247"
             }
           ],
           "instructors": [],
@@ -14129,14 +14129,14 @@
               "time": "16:00",
               "duration": "110",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 247"
             },
             {
               "day": "R",
               "time": "16:00",
               "duration": "110",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 247"
             }
           ],
           "instructors": [],
@@ -14262,7 +14262,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 245"
             }
           ],
           "instructors": [],
@@ -14290,7 +14290,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH B206"
             }
           ],
           "instructors": [],
@@ -14339,16 +14339,8 @@
           "type": "HYFX",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "Y81K01 (GL PSYC) C07V01 (GL NATS)",
-          "schedule": [
-            {
-              "day": "M",
-              "time": "18:00",
-              "duration": "170",
-              "campus": "Glendon",
-              "room": "YH A101"
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -14481,6 +14473,34 @@
     {
       "faculty": "GL",
       "department": "NATS",
+      "term": "F",
+      "courseTitle": "Human-Insect Interactions",
+      "courseId": "4205",
+      "credits": "3.00",
+      "languageOfInstruction": "EN",
+      "sections": [
+        {
+          "type": "LECT",
+          "meetNumber": "01",
+          "section": "A",
+          "catalogNumber": "X28V01",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "12:00",
+              "duration": "170",
+              "campus": "Glendon",
+              "room": "YH A110"
+            }
+          ],
+          "instructors": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "faculty": "GL",
+      "department": "NATS",
       "term": "W",
       "courseTitle": "Stories, Minds and Brains",
       "courseId": "4615",
@@ -14526,7 +14546,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A212"
             }
           ],
           "instructors": [],
@@ -14610,7 +14630,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 247"
             }
           ],
           "instructors": [],
@@ -14638,7 +14658,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A101"
             }
           ],
           "instructors": [],
@@ -14676,7 +14696,7 @@
               "time": "18:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A102"
             }
           ],
           "instructors": [],
@@ -14714,7 +14734,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 227"
             }
           ],
           "instructors": [],
@@ -14777,7 +14797,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 245"
             }
           ],
           "instructors": [],
@@ -14805,7 +14825,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A218"
             }
           ],
           "instructors": [],
@@ -14833,7 +14853,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A104"
             }
           ],
           "instructors": [],
@@ -14861,7 +14881,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 245"
             }
           ],
           "instructors": [],
@@ -14889,7 +14909,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 245"
             }
           ],
           "instructors": [],
@@ -14937,7 +14957,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 045"
             }
           ],
           "instructors": [],
@@ -14965,7 +14985,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 170"
             }
           ],
           "instructors": [],
@@ -14993,7 +15013,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 227"
             }
           ],
           "instructors": [],
@@ -15097,7 +15117,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A204"
             }
           ],
           "instructors": [],
@@ -15125,7 +15145,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A302"
             }
           ],
           "instructors": [],
@@ -15153,7 +15173,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH B206"
             }
           ],
           "instructors": [],
@@ -15181,7 +15201,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH B206"
             }
           ],
           "instructors": [],
@@ -15209,7 +15229,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A304"
             }
           ],
           "instructors": [],
@@ -15237,7 +15257,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH B206"
             }
           ],
           "instructors": [],
@@ -15301,7 +15321,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A101"
             }
           ],
           "instructors": [],
@@ -15329,7 +15349,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A304"
             }
           ],
           "instructors": [],
@@ -15427,7 +15447,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 227"
             }
           ],
           "instructors": [],
@@ -15455,7 +15475,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A104"
             }
           ],
           "instructors": [],
@@ -15500,7 +15520,7 @@
               "time": "18:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A104"
             }
           ],
           "instructors": [],
@@ -15618,7 +15638,7 @@
               "time": "18:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A102"
             }
           ],
           "instructors": [],
@@ -15673,7 +15693,7 @@
               "time": "18:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A202"
             }
           ],
           "instructors": [],
@@ -15701,7 +15721,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 170"
             }
           ],
           "instructors": [],
@@ -15729,7 +15749,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A101"
             }
           ],
           "instructors": [],
@@ -15757,7 +15777,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 045"
             }
           ],
           "instructors": [],
@@ -15785,7 +15805,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 245"
             }
           ],
           "instructors": [],
@@ -15813,7 +15833,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A212"
             }
           ],
           "instructors": [],
@@ -15841,7 +15861,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 045"
             }
           ],
           "instructors": [],
@@ -15869,7 +15889,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A202"
             }
           ],
           "instructors": [],
@@ -15897,7 +15917,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A212"
             }
           ],
           "instructors": [],
@@ -15925,7 +15945,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A302"
             }
           ],
           "instructors": [],
@@ -15953,7 +15973,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A202"
             }
           ],
           "instructors": [],
@@ -15981,7 +16001,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A204"
             }
           ],
           "instructors": [],
@@ -16009,7 +16029,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A302"
             }
           ],
           "instructors": [],
@@ -16065,7 +16085,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH B215"
             }
           ],
           "instructors": [],
@@ -16093,7 +16113,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 170"
             }
           ],
           "instructors": [],
@@ -16121,7 +16141,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A102"
             }
           ],
           "instructors": [],
@@ -16149,7 +16169,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A108"
             }
           ],
           "instructors": [],
@@ -16177,7 +16197,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A302"
             }
           ],
           "instructors": [],
@@ -16225,7 +16245,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 170"
             }
           ],
           "instructors": [],
@@ -16253,7 +16273,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A304"
             }
           ],
           "instructors": [],
@@ -16281,7 +16301,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 245"
             }
           ],
           "instructors": [],
@@ -16337,7 +16357,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A214"
             }
           ],
           "instructors": [],
@@ -16365,7 +16385,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A214"
             }
           ],
           "instructors": [],
@@ -16393,7 +16413,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A201"
             }
           ],
           "instructors": [],
@@ -16459,7 +16479,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A218"
             }
           ],
           "instructors": [],
@@ -16487,14 +16507,14 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 247"
             },
             {
               "day": "W",
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 247"
             }
           ],
           "instructors": [],
@@ -16550,7 +16570,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A102"
             }
           ],
           "instructors": [],
@@ -16670,7 +16690,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A204"
             }
           ],
           "instructors": [],
@@ -16978,7 +16998,7 @@
               "time": "12:00",
               "duration": "110",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 129"
             }
           ],
           "instructors": [],
@@ -17098,7 +17118,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A101"
             }
           ],
           "instructors": [],
@@ -17175,16 +17195,8 @@
           "type": "HYFX",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "Y81K01 (GL PSYC) C07V01 (GL NATS)",
-          "schedule": [
-            {
-              "day": "M",
-              "time": "18:00",
-              "duration": "170",
-              "campus": "Glendon",
-              "room": "YH A101"
-            }
-          ],
+          "catalogNumber": "Cancelled",
+          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -17614,7 +17626,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH B206"
             }
           ],
           "instructors": [],
@@ -17866,7 +17878,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A220"
             }
           ],
           "instructors": [],
@@ -17978,7 +17990,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A102"
             }
           ],
           "instructors": [],
@@ -18006,7 +18018,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH B213"
             }
           ],
           "instructors": [],
@@ -18156,11 +18168,11 @@
           "catalogNumber": "G50G01 (GL LIN ) B92P01 (GL SOSC) S39A01 (GL SOCI) Y86J01 (GL CORE)",
           "schedule": [
             {
-              "day": "T",
-              "time": "15:00",
+              "day": "R",
+              "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A214"
             }
           ],
           "instructors": [],
@@ -18188,7 +18200,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A204"
             }
           ],
           "instructors": [],
@@ -18236,7 +18248,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A102"
             }
           ],
           "instructors": [],
@@ -18292,7 +18304,7 @@
               "time": "18:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 170"
             }
           ],
           "instructors": [],
@@ -18320,7 +18332,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 170"
             }
           ],
           "instructors": [],
@@ -18348,7 +18360,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH B215"
             }
           ],
           "instructors": [],
@@ -18376,7 +18388,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 170"
             }
           ],
           "instructors": [],
@@ -18424,7 +18436,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A104"
             }
           ],
           "instructors": [],
@@ -18528,7 +18540,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A212"
             }
           ],
           "instructors": [],
@@ -18706,7 +18718,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A102"
             }
           ],
           "instructors": [],
@@ -18734,7 +18746,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 247"
             }
           ],
           "instructors": [],
@@ -18762,7 +18774,7 @@
               "time": "13:00",
               "duration": "110",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A101"
             }
           ],
           "instructors": [],
@@ -18779,7 +18791,7 @@
               "time": "13:00",
               "duration": "110",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A201"
             }
           ],
           "instructors": [],
@@ -18796,7 +18808,7 @@
               "time": "13:00",
               "duration": "110",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 247"
             }
           ],
           "instructors": [],
@@ -18813,7 +18825,7 @@
               "time": "15:00",
               "duration": "110",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A101"
             }
           ],
           "instructors": [],
@@ -18830,7 +18842,7 @@
               "time": "15:00",
               "duration": "110",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 247"
             }
           ],
           "instructors": [],
@@ -18895,7 +18907,7 @@
               "time": "10:00",
               "duration": "110",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A102"
             }
           ],
           "instructors": [],
@@ -18912,7 +18924,7 @@
               "time": "13:00",
               "duration": "110",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A102"
             }
           ],
           "instructors": [],
@@ -18940,7 +18952,7 @@
               "time": "13:00",
               "duration": "50",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 204"
             }
           ],
           "instructors": [],
@@ -18956,7 +18968,7 @@
               "time": "14:00",
               "duration": "50",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A302"
             }
           ],
           "instructors": [],
@@ -18972,7 +18984,7 @@
               "time": "14:00",
               "duration": "50",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A204"
             }
           ],
           "instructors": [],
@@ -18988,7 +19000,7 @@
               "time": "15:00",
               "duration": "50",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A214"
             }
           ],
           "instructors": [],
@@ -19021,7 +19033,7 @@
               "time": "18:00",
               "duration": "50",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 204"
             }
           ],
           "instructors": [],
@@ -19037,7 +19049,7 @@
               "time": "17:00",
               "duration": "50",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A214"
             }
           ],
           "instructors": [],
@@ -19053,7 +19065,7 @@
               "time": "17:00",
               "duration": "50",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH B213"
             }
           ],
           "instructors": [],
@@ -19069,7 +19081,7 @@
               "time": "19:00",
               "duration": "50",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH B215"
             }
           ],
           "instructors": [],
@@ -19113,7 +19125,7 @@
               "time": "10:00",
               "duration": "50",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 204"
             }
           ],
           "instructors": [],
@@ -19129,7 +19141,7 @@
               "time": "11:00",
               "duration": "50",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 204"
             }
           ],
           "instructors": [],
@@ -19145,7 +19157,7 @@
               "time": "13:00",
               "duration": "50",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A216"
             }
           ],
           "instructors": [],
@@ -19189,7 +19201,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A301"
             }
           ],
           "instructors": [],
@@ -19217,7 +19229,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A302"
             }
           ],
           "instructors": [],
@@ -19245,7 +19257,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A202"
             }
           ],
           "instructors": [],
@@ -19301,7 +19313,7 @@
               "time": "18:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 247"
             }
           ],
           "instructors": [],
@@ -19329,7 +19341,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A302"
             }
           ],
           "instructors": [],
@@ -19385,7 +19397,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 227"
             }
           ],
           "instructors": [],
@@ -19409,11 +19421,11 @@
           "catalogNumber": "G50G01 (GL LIN ) B92P01 (GL SOSC) S39A01 (GL SOCI) Y86J01 (GL CORE)",
           "schedule": [
             {
-              "day": "T",
-              "time": "15:00",
+              "day": "R",
+              "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A214"
             }
           ],
           "instructors": [],
@@ -19445,7 +19457,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "This course will be delivered remotely/online with synchronous class sessions: the delivery will be on the Day(s) and Start Time listed here. Additional information will be provided by your course instructor (by email or on the course eClass website)."
         }
       ]
     },
@@ -19473,7 +19485,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "This course will be delivered remotely/online with synchronous class sessions: the delivery will be on the Day(s) and Start Time listed here. Additional information will be provided by your course instructor (by email or on the course eClass website)."
         }
       ]
     },
@@ -19497,7 +19509,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A204"
             }
           ],
           "instructors": [],
@@ -19525,7 +19537,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 247"
             }
           ],
           "instructors": [],
@@ -19553,7 +19565,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 247"
             }
           ],
           "instructors": [],
@@ -19581,7 +19593,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 247"
             }
           ],
           "instructors": [],
@@ -19637,7 +19649,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH B211"
             }
           ],
           "instructors": [],
@@ -19665,7 +19677,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 245"
             }
           ],
           "instructors": [],
@@ -19693,7 +19705,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A218"
             }
           ],
           "instructors": [],
@@ -19721,7 +19733,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A104"
             }
           ],
           "instructors": [],
@@ -19781,7 +19793,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "Once you've enrolled in the course, the location will be posted on the course's e-class site as soon as it's active. If you need this information sooner, please contact the department directly, and they'll be happy to help."
         }
       ]
     },
@@ -19805,7 +19817,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A214"
             }
           ],
           "instructors": [],
@@ -19833,7 +19845,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 170"
             }
           ],
           "instructors": [],
@@ -19861,7 +19873,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 227"
             }
           ],
           "instructors": [],
@@ -19889,7 +19901,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A212"
             }
           ],
           "instructors": [],
@@ -19917,7 +19929,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 170"
             }
           ],
           "instructors": [],
@@ -20057,7 +20069,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A214"
             }
           ],
           "instructors": [],
@@ -20085,7 +20097,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A214"
             }
           ],
           "instructors": [],
@@ -20197,18 +20209,18 @@
               "time": "18:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": "YH 170"
+              "room": "YH 245"
             },
             {
               "day": "W",
               "time": "18:00",
               "duration": "110",
               "campus": "Glendon",
-              "room": "YH 170"
+              "room": "YH 245"
             }
           ],
           "instructors": [],
-          "notes": "Students who have not yet taken a Spanish language course at York must complete a placement test . Once completed, each student will be advised as to which course to enrol in according to their level. This course will be offered in a blended format. While blended formats give students more flexibility to take the courses, each one is different in the portion of in-person instruction. The exact dates of in-person and online learning will be outlined in the syllabus. All evaluations (quizzes, compositions, tests, and exams) will take place in person and at Glendon Campus. This course is open to majors and to non-majors."
+          "notes": "Students who have not yet taken a Spanish language course at York must complete a placement test . Once completed, each student will be advised as to which course to enrol in according to their level. This section will be delivered in person at Glendon Campus. This course is open to majors and to non-majors."
         },
         {
           "type": "BLEN",
@@ -20232,7 +20244,7 @@
             }
           ],
           "instructors": [],
-          "notes": "Check course prerequisites before enrolling. Students who have not yet taken a Spanish language course at York must complete a placement test . Once completed, each student will be advised as to which course to enrol in according to their level. This section will be delivered in person. | | (Backup)"
+          "notes": "Check course prerequisites before enrolling. Students who have not yet taken a Spanish language course at York must complete a placement test . Once completed, each student will be advised as to which course to enrol in according to their level. This course will be offered in a Blended format. While Blended formats give students more flexibility to take the courses, each one is different in the portion of in-person instruction. The exact dates of in-person and online learning will be outlined in the syllabus. All evaluations (quizzes, compositions, tests, and exams) will take place in person and at Glendon Campus. | | (Backup)"
         }
       ]
     },
@@ -20267,7 +20279,7 @@
             }
           ],
           "instructors": [],
-          "notes": "Check course prerequisites before enrolling. Students who have not yet taken a Spanish language course at York must complete a placement test . Once completed, each student will be advised as to which course to enrol in according to their level. This section will be delivered in person."
+          "notes": "Check course prerequisites before enrolling. Students who have not yet taken a Spanish language course at York must complete a placement test . Once completed, each student will be advised as to which course to enrol in according to their level. This section will be delivered in person at Glendon Campus. This course is open to majors and to non-majors."
         }
       ]
     },
@@ -20326,14 +20338,14 @@
               "time": "18:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 245"
             },
             {
               "day": "W",
               "time": "18:00",
               "duration": "110",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 245"
             }
           ],
           "instructors": [],
@@ -20350,14 +20362,14 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A214"
             },
             {
               "day": "R",
               "time": "16:00",
               "duration": "110",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A214"
             }
           ],
           "instructors": [],
@@ -20385,7 +20397,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A102"
             }
           ],
           "instructors": [],
@@ -20546,18 +20558,38 @@
           "type": "BLEN",
           "meetNumber": "01",
           "section": "A",
-          "catalogNumber": "W54N01",
+          "catalogNumber": "Cancelled",
+          "schedule": [],
+          "instructors": [],
+          "notes": "Check course prerequisites before enrolling. This course will be offered in a blended format. While blended formats give students more flexibility to take the courses, each one is different in the portion of in-person instruction. For specifics about this course, contact the course director. This course is open to majors and to non-majors. Students not majoring in Spanish or pursuing a certificate in Spanish-EnglishÂ Translation or in Spanish for Business and Professional Communication may submit course work in English, French, or Spanish."
+        }
+      ]
+    },
+    {
+      "faculty": "GL",
+      "department": "SP",
+      "term": "W",
+      "courseTitle": "Music and Popular Culture in Latin America and the Caribbean",
+      "courseId": "3414",
+      "credits": "3.00",
+      "languageOfInstruction": "SP",
+      "sections": [
+        {
+          "type": "BLEN",
+          "meetNumber": "01",
+          "section": "M",
+          "catalogNumber": "V68R01",
           "schedule": [
             {
-              "day": "R",
+              "day": "T",
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 045"
             }
           ],
           "instructors": [],
-          "notes": "Check course prerequisites before enrolling. This course will be offered in a blended format. While blended formats give students more flexibility to take the courses, each one is different in the portion of in-person instruction. For specifics about this course, contact the course director. This course is open to majors and to non-majors. Students not majoring in Spanish or pursuing a certificate in Spanish-EnglishÂ Translation or in Spanish for Business and Professional Communication may submit course work in English, French, or Spanish."
+          "notes": ""
         }
       ]
     },
@@ -20749,7 +20781,7 @@
               "time": "15:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH 245"
             }
           ],
           "instructors": [],
@@ -20781,7 +20813,7 @@
             }
           ],
           "instructors": [],
-          "notes": ""
+          "notes": "Once you've enrolled in the course, the location will be posted on the course's e-class site as soon as it's active. If you need this information sooner, please contact the department directly, and they'll be happy to help."
         }
       ]
     },
@@ -20805,7 +20837,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH B206"
             }
           ],
           "instructors": [],
@@ -20833,7 +20865,7 @@
               "time": "9:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH B206"
             }
           ],
           "instructors": [],
@@ -20861,7 +20893,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A110"
             }
           ],
           "instructors": [],
@@ -20889,7 +20921,7 @@
               "time": "12:00",
               "duration": "170",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A301"
             }
           ],
           "instructors": [],
@@ -21785,7 +21817,7 @@
               "time": "13:00",
               "duration": "80",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A212"
             }
           ],
           "instructors": [],
@@ -21813,7 +21845,7 @@
               "time": "13:00",
               "duration": "80",
               "campus": "Glendon",
-              "room": ""
+              "room": "YH A212"
             }
           ],
           "instructors": [],
@@ -21824,7 +21856,7 @@
   ],
   "metadata": {
     "title": "View Active Course Timetables by Faculty",
-    "lastUpdated": "Fri, 10 Apr 2026 at 03:33:18 AM",
+    "lastUpdated": "Sat, 2 May 2026 at 03:33:12 AM",
     "source": "York University"
   }
 }
