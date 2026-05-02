@@ -32,6 +32,15 @@
         "schulich": "SB",
         "science": "SC"
       }
+    },
+    "summer-2026": {
+      "year_prefix": "SU2025",
+      "_year_prefix_note": "York summer 2026 static files are under SU2025*.html naming.",
+      "stem_to_faculty_code": {
+        "ap-ed-es-fa-gl-hh-le-sc": "UG",
+        "graduate_studies": "GS",
+        "schulich": "SB"
+      }
     }
   }
 }
