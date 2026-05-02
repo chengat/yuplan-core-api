@@ -30,9 +30,7 @@
               "room": "SSB E118"
             }
           ],
-          "instructors": [
-            "Michael Ridgley"
-          ],
+          "instructors": [],
           "notes": ""
         },
         {
@@ -55,9 +53,7 @@
               "room": "SSB E118"
             }
           ],
-          "instructors": [
-            "Michael Ridgley"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -92,9 +88,7 @@
               "room": "SSB E118"
             }
           ],
-          "instructors": [
-            "Shuk Hung Jessica Wong"
-          ],
+          "instructors": [],
           "notes": ""
         },
         {
@@ -117,9 +111,7 @@
               "room": "SSB E118"
             }
           ],
-          "instructors": [
-            "Shuk Hung Jessica Wong"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -154,9 +146,7 @@
               "room": "SSB E112"
             }
           ],
-          "instructors": [
-            "Shaista Shabbag"
-          ],
+          "instructors": [],
           "notes": ""
         },
         {
@@ -172,39 +162,7 @@
               "room": "SSB E112"
             }
           ],
-          "instructors": [
-            "Ahmed Aftab"
-          ],
-          "notes": ""
-        }
-      ]
-    },
-    {
-      "faculty": "SB",
-      "department": "ACTG",
-      "term": "SU",
-      "courseTitle": "Advanced Financial Reporting",
-      "courseId": "4150",
-      "credits": "3.00",
-      "languageOfInstruction": "EN",
-      "sections": [
-        {
-          "type": "LECT",
-          "meetNumber": "01",
-          "section": "A",
-          "catalogNumber": "Q88N01",
-          "schedule": [
-            {
-              "day": "M",
-              "time": "18:00",
-              "duration": "170",
-              "campus": "Keele",
-              "room": "SSB E115"
-            }
-          ],
-          "instructors": [
-            "Irene Plavcic"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -222,16 +180,39 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "M",
-          "catalogNumber": "Cancelled",
-          "schedule": [],
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "13:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB E118"
+            },
+            {
+              "day": "W",
+              "time": "13:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB E118"
+            }
+          ],
           "instructors": [],
           "notes": ""
         },
         {
           "type": "LAB",
           "meetNumber": "01",
-          "catalogNumber": "Cancelled",
-          "schedule": [],
+          "catalogNumber": "R45T02",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "17:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB E112"
+            }
+          ],
           "instructors": [],
           "notes": ""
         },
@@ -256,9 +237,7 @@
               "room": "SSB E112"
             }
           ],
-          "instructors": [
-            "Viswanath Shanker U Trivedi"
-          ],
+          "instructors": [],
           "notes": ""
         },
         {
@@ -274,9 +253,7 @@
               "room": "SSB E112"
             }
           ],
-          "instructors": [
-            "Marisa Morriello"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -304,9 +281,7 @@
               "room": "SSB N107"
             }
           ],
-          "instructors": [
-            "Supinder Babra"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -334,9 +309,7 @@
               "room": "SSB W132"
             }
           ],
-          "instructors": [
-            "Moe Romero"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -354,16 +327,39 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "M",
-          "catalogNumber": "Cancelled",
-          "schedule": [],
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "T",
+              "time": "13:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB N106"
+            },
+            {
+              "day": "R",
+              "time": "13:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB N106"
+            }
+          ],
           "instructors": [],
           "notes": ""
         },
         {
           "type": "LAB",
           "meetNumber": "01",
-          "catalogNumber": "Cancelled",
-          "schedule": [],
+          "catalogNumber": "E39Z02",
+          "schedule": [
+            {
+              "day": "R",
+              "time": "17:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB E111"
+            }
+          ],
           "instructors": [],
           "notes": ""
         },
@@ -388,9 +384,7 @@
               "room": "SSB N106"
             }
           ],
-          "instructors": [
-            "Sylvia H. Hsu"
-          ],
+          "instructors": [],
           "notes": ""
         },
         {
@@ -400,15 +394,13 @@
           "schedule": [
             {
               "day": "R",
-              "time": "13:00",
+              "time": "10:00",
               "duration": "170",
               "campus": "Keele",
               "room": "SSB E111"
             }
           ],
-          "instructors": [
-            "Babar Khan"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -426,16 +418,39 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "M",
-          "catalogNumber": "Cancelled",
-          "schedule": [],
+          "catalogNumber": "",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "13:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB E115"
+            },
+            {
+              "day": "W",
+              "time": "13:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB E115"
+            }
+          ],
           "instructors": [],
           "notes": ""
         },
         {
           "type": "LAB",
           "meetNumber": "01",
-          "catalogNumber": "Cancelled",
-          "schedule": [],
+          "catalogNumber": "U57H02",
+          "schedule": [
+            {
+              "day": "W",
+              "time": "17:00",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB E112"
+            }
+          ],
           "instructors": [],
           "notes": ""
         },
@@ -460,9 +475,7 @@
               "room": "SSB E112"
             }
           ],
-          "instructors": [
-            "Shaista Shabbag"
-          ],
+          "instructors": [],
           "notes": ""
         },
         {
@@ -478,9 +491,7 @@
               "room": "SSB E112"
             }
           ],
-          "instructors": [
-            "Ahmed Aftab"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -508,9 +519,7 @@
               "room": "SSB N108"
             }
           ],
-          "instructors": [
-            "Irene Plavcic"
-          ],
+          "instructors": [],
           "notes": ""
         },
         {
@@ -527,9 +536,7 @@
               "room": "SSB N108"
             }
           ],
-          "instructors": [
-            "Irene Plavcic"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -557,9 +564,7 @@
               "room": "SSB E111"
             }
           ],
-          "instructors": [
-            "Marisa Morriello"
-          ],
+          "instructors": [],
           "notes": ""
         },
         {
@@ -576,9 +581,7 @@
               "room": "SSB E111"
             }
           ],
-          "instructors": [
-            "Marisa Morriello"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -623,9 +626,7 @@
               "room": ""
             }
           ],
-          "instructors": [
-            "Marcella Agustina"
-          ],
+          "instructors": [],
           "notes": ""
         },
         {
@@ -649,9 +650,7 @@
               "room": ""
             }
           ],
-          "instructors": [
-            "Marcella Agustina"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -679,9 +678,7 @@
               "room": ""
             }
           ],
-          "instructors": [
-            "Marisa Morriello"
-          ],
+          "instructors": [],
           "notes": ""
         },
         {
@@ -698,9 +695,7 @@
               "room": ""
             }
           ],
-          "instructors": [
-            "Marcella Agustina"
-          ],
+          "instructors": [],
           "notes": ""
         },
         {
@@ -724,9 +719,7 @@
               "room": ""
             }
           ],
-          "instructors": [
-            "Marisa Morriello"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -761,9 +754,7 @@
               "room": ""
             }
           ],
-          "instructors": [
-            "Joelle Pokrajac"
-          ],
+          "instructors": [],
           "notes": ""
         },
         {
@@ -787,9 +778,7 @@
               "room": ""
             }
           ],
-          "instructors": [
-            "Marisa Morriello"
-          ],
+          "instructors": [],
           "notes": ""
         },
         {
@@ -820,9 +809,7 @@
               "room": ""
             }
           ],
-          "instructors": [
-            "Joelle Pokrajac"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -850,9 +837,7 @@
               "room": "SSB N107"
             }
           ],
-          "instructors": [
-            "Marc Colasanti"
-          ],
+          "instructors": [],
           "notes": ""
         },
         {
@@ -869,9 +854,7 @@
               "room": "SSB N107"
             }
           ],
-          "instructors": [
-            "Marc Colasanti"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -899,9 +882,7 @@
               "room": "SSB N108"
             }
           ],
-          "instructors": [
-            "Joelle Pokrajac"
-          ],
+          "instructors": [],
           "notes": ""
         },
         {
@@ -918,9 +899,7 @@
               "room": "SSB N108"
             }
           ],
-          "instructors": [
-            "Joelle Pokrajac"
-          ],
+          "instructors": [],
           "notes": ""
         },
         {
@@ -937,9 +916,7 @@
               "room": "SSB N108"
             }
           ],
-          "instructors": [
-            "Babar Khan"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -967,9 +944,7 @@
               "room": "SSB N106"
             }
           ],
-          "instructors": [
-            "Alex Garber"
-          ],
+          "instructors": [],
           "notes": ""
         },
         {
@@ -986,9 +961,7 @@
               "room": "SSB N106"
             }
           ],
-          "instructors": [
-            "Alex Garber"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -1016,9 +989,7 @@
               "room": ""
             }
           ],
-          "instructors": [
-            "Joelle Pokrajac"
-          ],
+          "instructors": [],
           "notes": ""
         },
         {
@@ -1035,9 +1006,7 @@
               "room": ""
             }
           ],
-          "instructors": [
-            "Andrea Stupino"
-          ],
+          "instructors": [],
           "notes": ""
         },
         {
@@ -1054,9 +1023,7 @@
               "room": ""
             }
           ],
-          "instructors": [
-            "Joelle Pokrajac"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -1331,62 +1298,6 @@
             {
               "day": "",
               "time": "0:00",
-              "duration": "0",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
-          "instructors": [],
-          "notes": ""
-        }
-      ]
-    },
-    {
-      "faculty": "SB",
-      "department": "EMBA",
-      "term": "ES",
-      "courseTitle": "Sustainable Finance",
-      "courseId": "6027",
-      "credits": "2.00",
-      "languageOfInstruction": "EN",
-      "sections": [
-        {
-          "type": "LECT",
-          "meetNumber": "01",
-          "section": "M",
-          "catalogNumber": "U71U01",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "duration": "0",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
-          "instructors": [],
-          "notes": ""
-        }
-      ]
-    },
-    {
-      "faculty": "SB",
-      "department": "EMBA",
-      "term": "ES",
-      "courseTitle": "Sustainable Functions: Driving Organizational Success",
-      "courseId": "6028",
-      "credits": "2.00",
-      "languageOfInstruction": "EN",
-      "sections": [
-        {
-          "type": "LECT",
-          "meetNumber": "01",
-          "section": "M",
-          "catalogNumber": "Z18G01",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
               "duration": "0",
               "campus": "Keele",
               "room": ""
@@ -1700,9 +1611,7 @@
               "room": "SSB W136"
             }
           ],
-          "instructors": [
-            "Dan Tzotzis"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -1730,67 +1639,7 @@
               "room": "SSB N105"
             }
           ],
-          "instructors": [
-            "Roshni Wijayasinha"
-          ],
-          "notes": ""
-        }
-      ]
-    },
-    {
-      "faculty": "SB",
-      "department": "ENTR",
-      "term": "K",
-      "courseTitle": "Designing Startup Communities: Inside Toronto's Innovation Ecosystem",
-      "courseId": "6630",
-      "credits": "3.00",
-      "languageOfInstruction": "EN",
-      "sections": [
-        {
-          "type": "LECT",
-          "meetNumber": "01",
-          "section": "M",
-          "catalogNumber": "E15Y01",
-          "schedule": [
-            {
-              "day": "M",
-              "time": "9:00",
-              "duration": "470",
-              "campus": "Off Campus",
-              "room": ""
-            },
-            {
-              "day": "T",
-              "time": "9:00",
-              "duration": "470",
-              "campus": "Off Campus",
-              "room": ""
-            },
-            {
-              "day": "W",
-              "time": "9:00",
-              "duration": "470",
-              "campus": "Off Campus",
-              "room": ""
-            },
-            {
-              "day": "R",
-              "time": "9:00",
-              "duration": "470",
-              "campus": "Off Campus",
-              "room": ""
-            },
-            {
-              "day": "F",
-              "time": "9:00",
-              "duration": "470",
-              "campus": "Off Campus",
-              "room": ""
-            }
-          ],
-          "instructors": [
-            "Marie Chevrier"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -1864,8 +1713,44 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "M",
-          "catalogNumber": "Cancelled",
-          "schedule": [],
+          "catalogNumber": "V73V01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "9:00",
+              "duration": "470",
+              "campus": "Off Campus",
+              "room": ""
+            },
+            {
+              "day": "T",
+              "time": "9:00",
+              "duration": "470",
+              "campus": "Off Campus",
+              "room": ""
+            },
+            {
+              "day": "W",
+              "time": "9:00",
+              "duration": "470",
+              "campus": "Off Campus",
+              "room": ""
+            },
+            {
+              "day": "R",
+              "time": "9:00",
+              "duration": "470",
+              "campus": "Off Campus",
+              "room": ""
+            },
+            {
+              "day": "F",
+              "time": "9:00",
+              "duration": "470",
+              "campus": "Off Campus",
+              "room": ""
+            }
+          ],
           "instructors": [],
           "notes": ""
         }
@@ -2535,12 +2420,10 @@
               "time": "19:00",
               "duration": "170",
               "campus": "Keele",
-              "room": "SSB S236"
+              "room": "SSB W136"
             }
           ],
-          "instructors": [
-            "Suhail Hafiz"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -2565,12 +2448,10 @@
               "time": "14:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "SSB S236"
+              "room": "SSB W136"
             }
           ],
-          "instructors": [
-            "Tony K.P. Lau"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -2595,12 +2476,10 @@
               "time": "14:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "SSB S236"
+              "room": "SSB N105"
             }
           ],
-          "instructors": [
-            "Gregory King Yan Pau"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -2681,12 +2560,10 @@
               "time": "18:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "SSB S236"
+              "room": "SSB E115"
             }
           ],
-          "instructors": [
-            "Joe Lu"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -2711,12 +2588,10 @@
               "time": "19:00",
               "duration": "170",
               "campus": "Keele",
-              "room": "SSB S236"
+              "room": "SSB S124"
             }
           ],
-          "instructors": [
-            "Andrew Aziz"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -2772,9 +2647,7 @@
               "room": ""
             }
           ],
-          "instructors": [
-            "Farrokh Zandi"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -2858,9 +2731,7 @@
               "room": "SSB N105"
             }
           ],
-          "instructors": [
-            "Akram Khaleghei Ghosheh"
-          ],
+          "instructors": [],
           "notes": ""
         },
         {
@@ -2877,9 +2748,7 @@
               "room": "SSB E115"
             }
           ],
-          "instructors": [
-            "Omohiefe Ogolo"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -2907,9 +2776,7 @@
               "room": "SSB W133"
             }
           ],
-          "instructors": [
-            "David Markwell"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -2937,9 +2804,7 @@
               "room": "SSB S236"
             }
           ],
-          "instructors": [
-            "Faisal Habib"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -2964,12 +2829,10 @@
               "time": "18:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "SSB S236"
+              "room": "SSB E115"
             }
           ],
-          "instructors": [
-            "Joe Lu"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -2994,12 +2857,10 @@
               "time": "14:30",
               "duration": "170",
               "campus": "Keele",
-              "room": "SSB S236"
+              "room": "SSB W133"
             }
           ],
-          "instructors": [
-            "Andrew Aziz"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -3024,12 +2885,10 @@
               "time": "19:00",
               "duration": "170",
               "campus": "Keele",
-              "room": "SSB S236"
+              "room": "SSB E115"
             }
           ],
-          "instructors": [
-            "Bill Chau"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -3052,36 +2911,6 @@
             {
               "day": "",
               "time": "0:00",
-              "duration": "0",
-              "campus": "Keele",
-              "room": ""
-            }
-          ],
-          "instructors": [
-            "Farrokh Zandi"
-          ],
-          "notes": ""
-        }
-      ]
-    },
-    {
-      "faculty": "SB",
-      "department": "MGMT",
-      "term": "Z3",
-      "courseTitle": "Extended Work Placement",
-      "courseId": "4860",
-      "credits": "6.00",
-      "languageOfInstruction": "EN",
-      "sections": [
-        {
-          "type": "FDEX",
-          "meetNumber": "01",
-          "section": "B",
-          "catalogNumber": "W48A01",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
               "duration": "0",
               "campus": "Keele",
               "room": ""
@@ -3144,7 +2973,7 @@
             }
           ],
           "instructors": [],
-          "notes": "Section A is part of the Cross-Campus Capstone Classroom (C4) Launchpad program. From June 1 to June 12 (with Capstone Day on June 19), students will work in interdisciplinary teams on a project sprint focused on real-world social impact. To apply, visit https://www.yorku.ca/c4/apply-for-c4/ . | $40.00 - Course Materials"
+          "notes": ""
         }
       ]
     },
@@ -3234,11 +3063,7 @@
               "room": ""
             }
           ],
-          "instructors": [
-            "Maria Patricia Del R Jose",
-            "John (Jack) Fraser",
-            "Matthew Lombardi"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -3273,9 +3098,7 @@
               "room": "SSB W257"
             }
           ],
-          "instructors": [
-            "Peter MacDonald"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -3303,9 +3126,7 @@
               "room": "SSB N107"
             }
           ],
-          "instructors": [
-            "Joe Fayt"
-          ],
+          "instructors": [],
           "notes": ""
         },
         {
@@ -3322,9 +3143,7 @@
               "room": "SSB N107"
             }
           ],
-          "instructors": [
-            "Joe Fayt"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -3408,9 +3227,7 @@
               "room": ""
             }
           ],
-          "instructors": [
-            "Ashwin W Joshi"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -3501,9 +3318,7 @@
               "room": ""
             }
           ],
-          "instructors": [
-            "Amin Mawani"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -3531,9 +3346,7 @@
               "room": ""
             }
           ],
-          "instructors": [
-            "Kostas Tsambourlianos"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -3561,9 +3374,7 @@
               "room": "SSB W132"
             }
           ],
-          "instructors": [
-            "Mehreen Zaman"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -3588,13 +3399,10 @@
               "time": "18:00",
               "duration": "170",
               "campus": "Keele",
-              "room": "SSB W132"
+              "room": "MB G102"
             }
           ],
-          "instructors": [
-            "Aditya Pai",
-            "Saeid Babaei"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -3620,36 +3428,6 @@
               "duration": "170",
               "campus": "Keele",
               "room": "SSB W132"
-            }
-          ],
-          "instructors": [
-            "Joel Montesanti"
-          ],
-          "notes": ""
-        }
-      ]
-    },
-    {
-      "faculty": "SB",
-      "department": "MKTG",
-      "term": "SU",
-      "courseTitle": "Guided Study - Future of Marketing Institute Placement",
-      "courseId": "4905",
-      "credits": "3.00",
-      "languageOfInstruction": "EN",
-      "sections": [
-        {
-          "type": "ISTY",
-          "meetNumber": "01",
-          "section": "A",
-          "catalogNumber": "F22G01",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "duration": "0",
-              "campus": "Keele",
-              "room": ""
             }
           ],
           "instructors": [],
@@ -3708,9 +3486,7 @@
               "room": ""
             }
           ],
-          "instructors": [
-            "Steve Pulver"
-          ],
+          "instructors": [],
           "notes": ""
         },
         {
@@ -3727,9 +3503,7 @@
               "room": ""
             }
           ],
-          "instructors": [
-            "Steve Pulver"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -3751,15 +3525,13 @@
           "schedule": [
             {
               "day": "R",
-              "time": "15:30",
+              "time": "18:30",
               "duration": "170",
               "campus": "Off Campus",
               "room": ""
             }
           ],
-          "instructors": [
-            "James Gordon"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -3787,9 +3559,7 @@
               "room": "SSB N107"
             }
           ],
-          "instructors": [
-            "Peter Drummond"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -3817,28 +3587,6 @@
               "room": "SSB W133"
             }
           ],
-          "instructors": [
-            "Martin Waxman"
-          ],
-          "notes": ""
-        }
-      ]
-    },
-    {
-      "faculty": "SB",
-      "department": "MKTG",
-      "term": "S",
-      "courseTitle": "Service Marketing",
-      "courseId": "6300",
-      "credits": "3.00",
-      "languageOfInstruction": "EN",
-      "sections": [
-        {
-          "type": "LECT",
-          "meetNumber": "01",
-          "section": "S",
-          "catalogNumber": "Cancelled",
-          "schedule": [],
           "instructors": [],
           "notes": ""
         }
@@ -3867,9 +3615,7 @@
               "room": "SSB N108"
             }
           ],
-          "instructors": [
-            "Charles Hendriks"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -3897,9 +3643,7 @@
               "room": "SSB N107"
             }
           ],
-          "instructors": [
-            "Grant Packard"
-          ],
+          "instructors": [],
           "notes": ""
         },
         {
@@ -3916,9 +3660,7 @@
               "room": "SSB N107"
             }
           ],
-          "instructors": [
-            "Grant Packard"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -4002,9 +3744,7 @@
               "room": ""
             }
           ],
-          "instructors": [
-            "Ashley Konson"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -4060,9 +3800,7 @@
               "room": "SSB N106"
             }
           ],
-          "instructors": [
-            "Evghenii Furman"
-          ],
+          "instructors": [],
           "notes": ""
         },
         {
@@ -4079,9 +3817,7 @@
               "room": "SSB E111"
             }
           ],
-          "instructors": [
-            "Evghenii Furman"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -4109,9 +3845,7 @@
               "room": "SSB N105"
             }
           ],
-          "instructors": [
-            "Jorge Alejandro Preciado Lopez"
-          ],
+          "instructors": [],
           "notes": ""
         },
         {
@@ -4128,9 +3862,7 @@
               "room": "SSB N105"
             }
           ],
-          "instructors": [
-            "Jorge Alejandro Preciado Lopez"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -4158,10 +3890,7 @@
               "room": "SSB N108"
             }
           ],
-          "instructors": [
-            "Anthony Ferreira",
-            "Mark Federman"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -4189,9 +3918,7 @@
               "room": "SSB W136"
             }
           ],
-          "instructors": [
-            "Zaman Forootan"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -4209,28 +3936,17 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "M",
-          "catalogNumber": "Cancelled",
-          "schedule": [],
-          "instructors": [],
-          "notes": ""
-        },
-        {
-          "type": "LECT",
-          "meetNumber": "01",
-          "section": "S",
-          "catalogNumber": "X57W01",
+          "catalogNumber": "N17R01",
           "schedule": [
             {
-              "day": "M",
-              "time": "19:00",
+              "day": "T",
+              "time": "10:00",
               "duration": "170",
               "campus": "Keele",
-              "room": "SSB N109"
+              "room": "SSB W133"
             }
           ],
-          "instructors": [
-            "Alex Garber"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -4258,10 +3974,7 @@
               "room": ""
             }
           ],
-          "instructors": [
-            "Steve Pulver",
-            "Jane-Michele Clark"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -4289,9 +4002,7 @@
               "room": ""
             }
           ],
-          "instructors": [
-            "Huiqing Tian"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -4319,9 +4030,7 @@
               "room": ""
             }
           ],
-          "instructors": [
-            "Ortac Onder"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -4356,9 +4065,7 @@
               "room": "SSB W132"
             }
           ],
-          "instructors": [
-            "Henry M Kim"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -4403,9 +4110,7 @@
               "room": "SSB W133"
             }
           ],
-          "instructors": [
-            "David Elsner"
-          ],
+          "instructors": [],
           "notes": ""
         },
         {
@@ -4422,9 +4127,7 @@
               "room": "SSB E118"
             }
           ],
-          "instructors": [
-            "Vibhuti Dhingra"
-          ],
+          "instructors": [],
           "notes": ""
         },
         {
@@ -4441,9 +4144,7 @@
               "room": "SSB N106"
             }
           ],
-          "instructors": [
-            "David Elsner"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -4527,9 +4228,7 @@
               "room": ""
             }
           ],
-          "instructors": [
-            "Divinus Oppong-Tawiah"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -4557,9 +4256,7 @@
               "room": ""
             }
           ],
-          "instructors": [
-            "Thomas Medcof"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -4587,9 +4284,7 @@
               "room": "SSB W133"
             }
           ],
-          "instructors": [
-            "Stephen Friedman"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -4607,8 +4302,16 @@
           "type": "LECT",
           "meetNumber": "01",
           "section": "M",
-          "catalogNumber": "Cancelled",
-          "schedule": [],
+          "catalogNumber": "U06Q01",
+          "schedule": [
+            {
+              "day": "M",
+              "time": "14:30",
+              "duration": "170",
+              "campus": "Keele",
+              "room": "SSB E112"
+            }
+          ],
           "instructors": [],
           "notes": ""
         },
@@ -4619,16 +4322,14 @@
           "catalogNumber": "N53C01",
           "schedule": [
             {
-              "day": "T",
+              "day": "M",
               "time": "19:00",
               "duration": "170",
               "campus": "Keele",
-              "room": "SSB E111"
+              "room": "SSB E112"
             }
           ],
-          "instructors": [
-            "Haniyeh Yousofpourfard"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -4712,10 +4413,7 @@
               "room": "SSB W136"
             }
           ],
-          "instructors": [
-            "Jim Clayton",
-            "Wissam Alhussaini"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -4759,9 +4457,7 @@
               "room": "SSB N106"
             }
           ],
-          "instructors": [
-            "Joseph Ogilvie"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -4789,9 +4485,7 @@
               "room": ""
             }
           ],
-          "instructors": [
-            "Kamran Soleimanzadeh"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -4903,9 +4597,7 @@
               "room": ""
             }
           ],
-          "instructors": [
-            "Wissam Alhussaini"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -4933,9 +4625,7 @@
               "room": ""
             }
           ],
-          "instructors": [
-            "Wissam Alhussaini"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -5019,9 +4709,7 @@
               "room": "SSB W133"
             }
           ],
-          "instructors": [
-            "Hope Shamonda"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
@@ -5077,9 +4765,7 @@
               "room": "SSB S124"
             }
           ],
-          "instructors": [
-            "Michael Mendelson"
-          ],
+          "instructors": [],
           "notes": ""
         }
       ]
