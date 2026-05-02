@@ -26,8 +26,16 @@ def repo_root() -> Path:
     return Path(__file__).resolve().parents[1]
 
 
+def _redacted_cmd_for_log(cmd: list[str]) -> list[str]:
+    redacted = list(cmd)
+    for i, token in enumerate(redacted[:-1]):
+        if token == "--cookie":
+            redacted[i + 1] = "<redacted>"
+    return redacted
+
+
 def run_step(cmd: list[str], *, cwd: Path) -> None:
-    print("\n+ " + " ".join(cmd), flush=True)
+    print("\n+ " + " ".join(_redacted_cmd_for_log(cmd)), flush=True)
     subprocess.run(cmd, cwd=cwd, check=True)
 
 
