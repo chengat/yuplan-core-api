@@ -435,7 +435,14 @@ if __name__ == '__main__':
         default=["fall-winter-2026-2027", "summer-2026"],
         metavar="DIR",
         help="Subdirs of scraping/data, or absolute paths to folders of *.json "
-        "(default: fall-winter-2026-2027 summer-2026). Pass only one dir to exclude summer.",
+        "(default: fall-winter-2026-2027 summer-2026). The full db/seed.sql is rebuilt from "
+        "only these folders — omitting a term drops that term's courses from the SQL entirely.",
+    )
+    parser.add_argument(
+        "--allow-partial-seed",
+        action="store_true",
+        help="Allow a single term dir (dangerous: seed.sql will not include other terms; "
+        "applying it effectively removes those courses from the DB).",
     )
     parser.add_argument(
         "-o",
@@ -450,7 +457,17 @@ if __name__ == '__main__':
     )
     args = parser.parse_args()
 
-    json_files = _collect_json_paths(repo_root, data_root, list(args.term_dirs))
+    term_list = list(args.term_dirs)
+    if len(term_list) == 1 and not args.allow_partial_seed:
+        print(
+            "Refusing to generate seed from a single term dir (seed.sql would omit all other terms).\n"
+            "Pass every term you need (e.g. fall-winter-2026-2027 summer-2026) or add "
+            "--allow-partial-seed if you really want a partial export.",
+            file=sys.stderr,
+        )
+        sys.exit(2)
+
+    json_files = _collect_json_paths(repo_root, data_root, term_list)
 
     if not json_files:
         print("No JSON files found (check term_dirs paths).", file=sys.stderr)

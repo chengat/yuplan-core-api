@@ -6,8 +6,10 @@ import unittest
 import json
 import tempfile
 import os
+import subprocess
+import sys
 import uuid
-import runpy
+from pathlib import Path
 from unittest.mock import patch, mock_open
 from generate_seed import (
     escape_sql_string,
@@ -1127,11 +1129,35 @@ class TestGenerateSeedMain(unittest.TestCase):
     """Test __main__ block behavior"""
 
     def test_main_exits_when_no_json_files(self):
-        with patch('glob.glob', return_value=[]), \
-             patch('builtins.print'):
-            with self.assertRaises(SystemExit) as ctx:
-                runpy.run_module('generate_seed', run_name='__main__')
-            self.assertEqual(ctx.exception.code, 1)
+        repo = Path(__file__).resolve().parents[1]
+        script = repo / "scripts" / "generate_seed.py"
+        with tempfile.TemporaryDirectory() as empty_a, tempfile.TemporaryDirectory() as empty_b:
+            r = subprocess.run(
+                [
+                    sys.executable,
+                    str(script),
+                    empty_a,
+                    empty_b,
+                    "-o",
+                    str(Path(empty_a) / "out.sql"),
+                ],
+                cwd=str(repo),
+                capture_output=True,
+                text=True,
+            )
+        self.assertEqual(r.returncode, 1)
+
+    def test_main_rejects_single_term_without_flag(self):
+        repo = Path(__file__).resolve().parents[1]
+        script = repo / "scripts" / "generate_seed.py"
+        with tempfile.TemporaryDirectory() as td:
+            r = subprocess.run(
+                [sys.executable, str(script), td],
+                cwd=str(repo),
+                capture_output=True,
+                text=True,
+            )
+        self.assertEqual(r.returncode, 2)
 
 
 if __name__ == '__main__':

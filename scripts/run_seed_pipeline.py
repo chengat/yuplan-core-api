@@ -6,6 +6,10 @@ Environment:
   DATABASE_URL          Used by seed.sh when you pass --apply-db (or API does, if DATABASE_URL was set at startup).
   YORK_SIS_COOKIE       Optional fallback for SIS fetch; API usually sends cookie in POST JSON instead.
   SEED_PIPELINE_APPLY_DB  CLI: "1"/"true" or --apply-db to run seed.sh after generating db/seed.sql.
+  PAGE_SOURCE_ALLOW_DEGRADED_OVERWRITE  If "1"/"true", allow fetch to overwrite with smaller/empty HTML (default: keep prior page_source).
+  PAGE_SOURCE_REGRESSION_RATIO  Min fraction of prior <tr> the new file must reach (default 0.55); below that, prior is kept unless the new HTML looks cancellation-heavy.
+  PAGE_SOURCE_REGRESSION_MIN_PRIOR  Only apply ratio when prior has at least this many <tr> (default 70).
+  PAGE_SOURCE_FAIL_ON_GUARD_SKIP  If "1"/"true", fetch exits 3 when any file was skipped by the guard (for automation / human review).
 
 CLI (from repository root):
   python3 scripts/run_seed_pipeline.py
@@ -105,12 +109,12 @@ def main() -> int:
                 file=sys.stderr,
             )
 
-        def fetch_cmd(term: str) -> list[str]:
+        def fetch_cmd(term_csv: str) -> list[str]:
             cmd = [
                 py,
                 fetch,
                 "--term",
-                term,
+                term_csv,
                 "--delay",
                 str(args.fetch_delay),
                 "--timeout",
@@ -126,9 +130,10 @@ def main() -> int:
                 cmd.append("--dry-run")
             return cmd
 
-        run_step(fetch_cmd(args.fw_term), cwd=root)
+        fetch_terms = args.fw_term
         if not args.skip_summer_fetch:
-            run_step(fetch_cmd(args.summer_term), cwd=root)
+            fetch_terms = f"{args.fw_term},{args.summer_term}"
+        run_step(fetch_cmd(fetch_terms), cwd=root)
 
     run_step(
         [py, scrape, "--fall-winter-term", args.fw_term],
