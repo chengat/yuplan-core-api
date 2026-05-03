@@ -109,12 +109,12 @@ def main() -> int:
                 file=sys.stderr,
             )
 
-        def fetch_cmd(term: str) -> list[str]:
+        def fetch_cmd(term_csv: str) -> list[str]:
             cmd = [
                 py,
                 fetch,
                 "--term",
-                term,
+                term_csv,
                 "--delay",
                 str(args.fetch_delay),
                 "--timeout",
@@ -130,9 +130,10 @@ def main() -> int:
                 cmd.append("--dry-run")
             return cmd
 
-        run_step(fetch_cmd(args.fw_term), cwd=root)
+        fetch_terms = args.fw_term
         if not args.skip_summer_fetch:
-            run_step(fetch_cmd(args.summer_term), cwd=root)
+            fetch_terms = f"{args.fw_term},{args.summer_term}"
+        run_step(fetch_cmd(fetch_terms), cwd=root)
 
     run_step(
         [py, scrape, "--fall-winter-term", args.fw_term],

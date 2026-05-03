@@ -6,6 +6,7 @@ scraping/page_source/catalog_resource_map.json.
 Usage:
   python scripts/fetch_page_sources.py --term fall-winter-2026-2027
   python scripts/fetch_page_sources.py --term summer-2026
+  python scripts/fetch_page_sources.py --term fall-winter-2026-2027,summer-2026
   python scraping/scrapers/scrape.py --fall-winter-term fall-winter-2026-2027
   python scripts/run_seed_pipeline.py
   python scripts/fetch_page_sources.py --term fall-winter-2025-2026 --only schulich,science
@@ -209,6 +210,96 @@ def _maybe_keep_prior_page_source(
     return True, ""
 
 
+def _parse_term_list(term_arg: str) -> list[str]:
+    """Split --term by comma; trim; drop empties."""
+    return [part.strip() for part in term_arg.split(",") if part.strip()]
+
+
+def _fetch_files_for_term(
+    *,
+    root: Path,
+    args: argparse.Namespace,
+    data: dict,
+    term_key: str,
+    fetch_count: list[int],
+) -> tuple[int, int]:
+    """Download all stems for one catalog term. Returns (errors, guard_skips)."""
+    terms = data.get("terms") or {}
+    term_cfg = terms[term_key]
+    base_url = data.get("base_url", "").rstrip("/") + "/"
+    year_prefix = term_cfg.get("year_prefix")
+    stems = term_cfg.get("stem_to_faculty_code") or {}
+    if not year_prefix or not stems:
+        print(f"Term {term_key!r} missing year_prefix or stem_to_faculty_code", file=sys.stderr)
+        return 1, 0
+
+    only = {s.strip() for s in args.only.split(",") if s.strip()}
+    dest_dir = args.out_dir / term_key
+    if not args.dry_run:
+        dest_dir.mkdir(parents=True, exist_ok=True)
+
+    errors = 0
+    guard_skips = 0
+    for stem, code in sorted(stems.items(), key=lambda x: x[0]):
+        if only and stem not in only:
+            continue
+        filename = f"{year_prefix}{code}.html"
+        url = base_url + filename
+        out_path = dest_dir / f"{stem}.html"
+
+        if args.dry_run:
+            print(f"{term_key}/{stem}: {url} -> {out_path.relative_to(root)}")
+            continue
+
+        if fetch_count[0] > 0 and args.delay > 0:
+            time.sleep(args.delay)
+        fetch_count[0] += 1
+
+        try:
+            body = fetch_url(
+                url,
+                timeout=args.timeout,
+                referer=(args.referer or ""),
+                cookie=(args.cookie or ""),
+            )
+        except urllib.error.HTTPError as e:
+            print(f"HTTP {e.code} {term_key}/{stem}: {url}", file=sys.stderr)
+            errors += 1
+            continue
+        except urllib.error.URLError as e:
+            print(f"URL error {term_key}/{stem}: {e.reason!r} ({url})", file=sys.stderr)
+            errors += 1
+            continue
+        except Exception as e:
+            print(f"Error {term_key}/{stem}: {e} ({url})", file=sys.stderr)
+            errors += 1
+            continue
+
+        if looks_like_passport_block(body):
+            print(
+                f"{term_key}/{stem}: got Passport York / SSO page instead of timetable "
+                f"(need --cookie from logged-in browser?). {url}",
+                file=sys.stderr,
+            )
+            errors += 1
+            continue
+
+        to_write = html_bytes_for_disk(body)
+        write_ok, guard_msg = _maybe_keep_prior_page_source(
+            stem=f"{term_key}/{stem}", out_path=out_path, incoming_disk_bytes=to_write
+        )
+        if not write_ok:
+            guard_skips += 1
+            print(guard_msg, file=sys.stderr)
+            print(f"Skipped write (prior kept) -> {out_path.relative_to(root)}")
+            continue
+
+        out_path.write_bytes(to_write)
+        print(f"Wrote {len(to_write)} bytes -> {out_path.relative_to(root)}")
+
+    return errors, guard_skips
+
+
 def fetch_url(
     url: str,
     *,
@@ -242,7 +333,9 @@ def main() -> int:
     p.add_argument(
         "--term",
         required=True,
-        help="Term folder key, e.g. fall-winter-2026-2027",
+        metavar="KEY[,KEY...]",
+        help="Term folder key(s) from catalog_resource_map.json, comma-separated to fetch several in one run "
+        "(e.g. fall-winter-2026-2027,summer-2026).",
     )
     p.add_argument("--map", type=Path, default=default_map, help="Path to catalog_resource_map.json")
     p.add_argument(
@@ -289,83 +382,35 @@ def main() -> int:
         return 1
 
     data = load_map(args.map)
-    base_url = data.get("base_url", "").rstrip("/") + "/"
     terms = data.get("terms") or {}
-    if args.term not in terms:
-        print(f"Unknown term {args.term!r}. Known: {', '.join(sorted(terms))}", file=sys.stderr)
+    term_list = _parse_term_list(args.term)
+    if not term_list:
+        print(
+            "No terms in --term (example: fall-winter-2026-2027 or fall-winter-2026-2027,summer-2026)",
+            file=sys.stderr,
+        )
         return 1
-
-    term_cfg = terms[args.term]
-    year_prefix = term_cfg.get("year_prefix")
-    stems = term_cfg.get("stem_to_faculty_code") or {}
-    if not year_prefix or not stems:
-        print(f"Term {args.term!r} missing year_prefix or stem_to_faculty_code", file=sys.stderr)
-        return 1
-
-    only = {s.strip() for s in args.only.split(",") if s.strip()}
-
-    dest_dir = args.out_dir / args.term
-    if not args.dry_run:
-        dest_dir.mkdir(parents=True, exist_ok=True)
+    for tk in term_list:
+        if tk not in terms:
+            print(
+                f"Unknown term {tk!r}. Known: {', '.join(sorted(terms))}",
+                file=sys.stderr,
+            )
+            return 1
 
     errors = 0
     guard_skips = 0
-    fetch_index = 0
-    for stem, code in sorted(stems.items(), key=lambda x: x[0]):
-        if only and stem not in only:
-            continue
-        filename = f"{year_prefix}{code}.html"
-        url = base_url + filename
-        out_path = dest_dir / f"{stem}.html"
-
-        if args.dry_run:
-            print(f"{stem}: {url} -> {out_path.relative_to(root)}")
-            continue
-
-        if fetch_index > 0 and args.delay > 0:
-            time.sleep(args.delay)
-        fetch_index += 1
-
-        try:
-            body = fetch_url(
-                url,
-                timeout=args.timeout,
-                referer=(args.referer or ""),
-                cookie=(args.cookie or ""),
-            )
-        except urllib.error.HTTPError as e:
-            print(f"HTTP {e.code} {stem}: {url}", file=sys.stderr)
-            errors += 1
-            continue
-        except urllib.error.URLError as e:
-            print(f"URL error {stem}: {e.reason!r} ({url})", file=sys.stderr)
-            errors += 1
-            continue
-        except Exception as e:
-            print(f"Error {stem}: {e} ({url})", file=sys.stderr)
-            errors += 1
-            continue
-
-        if looks_like_passport_block(body):
-            print(
-                f"{stem}: got Passport York / SSO page instead of timetable (need --cookie from logged-in browser?). {url}",
-                file=sys.stderr,
-            )
-            errors += 1
-            continue
-
-        to_write = html_bytes_for_disk(body)
-        write_ok, guard_msg = _maybe_keep_prior_page_source(
-            stem=stem, out_path=out_path, incoming_disk_bytes=to_write
+    fetch_count = [0]
+    for tk in term_list:
+        e, g = _fetch_files_for_term(
+            root=root,
+            args=args,
+            data=data,
+            term_key=tk,
+            fetch_count=fetch_count,
         )
-        if not write_ok:
-            guard_skips += 1
-            print(guard_msg, file=sys.stderr)
-            print(f"Skipped write (prior kept) -> {out_path.relative_to(root)}")
-            continue
-
-        out_path.write_bytes(to_write)
-        print(f"Wrote {len(to_write)} bytes -> {out_path.relative_to(root)}")
+        errors += e
+        guard_skips += g
 
     if guard_skips:
         print(
